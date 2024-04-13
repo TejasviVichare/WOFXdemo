@@ -1,0 +1,31 @@
+.timersegment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+   
+    width: 110px;
+   border-radius: 2px;
+   
+}
+.time{
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.lebel{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.wofxadvantagecard{
+    box-shadow: rgba(0,0,0,.45) 0 25px 20px -20px;
+   
+    border-bottom: 2px solid #e73e42;
+    border-top: 2px solid #fecc00;
+    border-left: 2px solid #fecc00;
+    border-right: 2px solid #e73e42;
+}
