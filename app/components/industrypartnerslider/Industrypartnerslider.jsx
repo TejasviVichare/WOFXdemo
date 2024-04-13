@@ -26,6 +26,7 @@ function Industrypartnerslider() {
     };
   return (
        <>
+       <div className='mx-auto   w-full max-w-screen-2xl '>
        <div className='px-10'>
         <center>
         <Slider {...settings}>
@@ -36,6 +37,7 @@ function Industrypartnerslider() {
             ))}
             </Slider>
         </center>
+       </div>
        </div>
        </>
   )

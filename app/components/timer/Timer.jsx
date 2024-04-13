@@ -1,7 +1,6 @@
 'use client'
 import { useEffect, useState } from "react";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "./Timer.module.css";
 
 const Home = () => {
@@ -13,20 +12,15 @@ const Home = () => {
 
   useEffect(() => {
     const target = new Date("12/12/2024 23:59:59");
-
-
     const interval = setInterval(() => {
       const now = new Date();
       const difference = target.getTime() - now.getTime();
-
       const d = Math.floor(difference / (1000 * 60 * 60 * 24));
       setDays(d);
-
       const h = Math.floor(
         (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
       );
       setHours(h);
-
       const m = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
       setMinutes(m);
 

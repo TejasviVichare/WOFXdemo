@@ -17,42 +17,24 @@ export default function Home() {
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <Wofxadvantage />
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-  
 
-    <center><h1 className="text-2xl font-extrabold">Testimonial</h1></center>
-  
-    <div className="flex justify-around gap-20 flex-col md:flex-row md:gap-5">
-    <Buyertestimonial />
-    <Exhibitortestinomial />
-    </div>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <center><h1 className="text-2xl font-extrabold">Featured Brands 2023</h1></center>
+    <center><h1 className="text-2xl font-extrabold">Past Featured Brands </h1></center>
     <p>&nbsp;</p>
     <CountrySlider />
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <center><h1 className="text-2xl font-extrabold">Featured Brands 2023</h1></center>
+    <center><h1 className="text-2xl font-extrabold">Industry Bodies Endorse WOFX </h1></center>
     <p>&nbsp;</p>
     <Industribody />
     <p>&nbsp;</p>
     <Industrypartnerslider />
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <center><h1 className="text-2xl font-extrabold">Featured Brands 2023</h1></center>
-    <p>&nbsp;</p>
+ 
+    <center><h1 className="text-2xl font-extrabold">International Pavilion organizations </h1></center>
     <InternationPavilion />
     <p>&nbsp;</p>
     </>

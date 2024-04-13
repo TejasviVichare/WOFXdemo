@@ -15,6 +15,7 @@ import Slider from 'react-infinite-logo-slider'
 function CountrySlider() {
     return (
         <>
+        <div className='mx-auto   w-full max-w-screen-2xl '>
           <div className='px-14'>
           <Slider
                 duration={20}
@@ -43,6 +44,7 @@ function CountrySlider() {
                     <Image src={g} width={140} height={100} alt='a' />
                 </Slider.Slide>
             </Slider>
+          </div>
           </div>
         </>
     )

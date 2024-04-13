@@ -1,9 +1,8 @@
 'use client'
-
 import React, { useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 
-const Videocomponent = () => {
+const Videocomponent = ( {videosrc}) => {
     const [isClient, setIsClient] = useState(false);
     useEffect(() => {
         setIsClient(true);
@@ -12,8 +11,7 @@ const Videocomponent = () => {
     if (!isClient) {
         return null; 
     }
-
-    let videosrc = "https://drive.google.com/file/d/1Lg88ru2zgObn4RuSd6dDztTKyaSUIUvc/view";
+    
 
     return (
         <div className="bgvideo mx-auto  w-full max-w-screen-2xl">
@@ -21,7 +19,7 @@ const Videocomponent = () => {
                 url={videosrc}
                 playing={true}
                 muted={true}
-                controls={true}
+                controls={false}
                 loop={true}
                 light={false}
                 config={{

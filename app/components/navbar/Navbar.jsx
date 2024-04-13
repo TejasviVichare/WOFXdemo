@@ -5,21 +5,17 @@ import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faBars } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../../public/assests/logo-23.png'
-import navItems from '../../../public/content/navItem.js'
+import navItems from '../../contents/navItem.js'
 
 export default function Navbar() {
   const [isSideMenuOpen, setSideMenu] = useState(false);
   const [hoveredItem, setHoveredItem] = useState(null);
-  
-  
   function openSideMenu() {
     setSideMenu(true);
   }
-
   function closeSideMenu() {
     setSideMenu(false);
   }
-
   return (
     <div id="mainHeader" className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1 py-1 text-sm">
       <section className=" items-center gap-8">
@@ -44,22 +40,21 @@ export default function Navbar() {
             onMouseEnter={() => setHoveredItem(i)}
             onMouseLeave={() => setHoveredItem(null)}
           >
-            <p className="flex cursor-pointer font-semibold text-sm items-center gap-2 text-slate-300 group-hover:text-white">
+            <p className="flex cursor-pointer tracking-wider font-semibold text-sm items-center gap-2 text-slate-300 group-hover:text-white">
               <span>{d.label}</span>
               {d.children && (
-                <span className="rotate-180 flex items-center justify-center text-xs">
+                <span className="rotate-180  items-center  justify-center text-xs hidden">
                   <FontAwesomeIcon icon={faAngleDown} />
                 </span>
               )}
             </p>
             {d.children && hoveredItem === i && (
-              <div className="absolute right-0 bg-slate font-semibold top-10 w-auto flex-col gap-1 py-3 transition-all">
+              <div id="navItem" className="absolute right-0 bg-slate font-semibold top-10 w-auto flex-col gap-1 py-3 transition-all">
                 {d.children.map((ch, j) => (
                   <Link
                     key={j}
-                    style={{ borderBottom: "1px solid rgba(255,255,255, 0.3)" }}
                     href={ch.link ?? "#"}
-                    className="flex cursor-pointer font-semibold text-sm items-center py-1 pl-1 pr-8 text-neutral-300 hover:text-white"
+                    className="flex cursor-pointer font-semibold text-sm items-center py-3 pl-4 pr-8 text-neutral-300 hover:text-white"
                   >
                     <span className="whitespace-nowrap pl-3">{ch.label}</span>
                   </Link>
