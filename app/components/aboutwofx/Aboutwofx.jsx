@@ -9,7 +9,7 @@ function Aboutwofx() {
       <div className='mx-auto   w-full max-w-screen-2xl '>
         <div className="grid grid-cols-1 border  md:grid-cols-2 py-6 md:py-12 px-6 md:px-10 gap-10">
           <div>
-            <p className="text-justify"><strong>WOFX - World Furniture Expo</strong> is India's premier international B2B trade show dedicated to the furniture + design industry wherein the entire furniture + design industry from India and across the globe can converge, connect and collaborate. WOFX is your gateway into the vast Indian furniture & design market. </p>
+            <p className="text-justify"><strong>WOFX - World Furniture Expo</strong> is India &apos; s premier international B2B trade show dedicated to the furniture + design industry wherein the entire furniture + design industry from India and across the globe can converge, connect and collaborate. WOFX is your gateway into the vast Indian furniture & design market. </p>
             <div id="atWofx" className="flex justify-evenly flex-wrap mt-8">
               <div><p style={{ background: "#65C4E1" }}>Accelerate Brand Presence</p></div>
               <div><p style={{ background: "#E63E42" }}>Access Leading Buyers</p></div>

@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from './components/navbar/Navbar.jsx'
 import Footer from './components/footer/Footer.jsx'
 import PreHeader from "./components/navbar/Preheader";
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,9 +16,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
         <head>
-        <script type="text/javascript"
+        <Script type="text/javascript"
           src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-        </script>
+        </Script>
       </head>
       <body>
         <div className={inter.className}>
