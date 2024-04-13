@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
         <head>
-        <Script type="text/javascript"
+        <Script id="script" type="text/javascript"
           src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
         </Script>
       </head>
