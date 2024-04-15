@@ -176,3 +176,15 @@
   color: #fff !important;
   border-radius: 4px;
 }
+#businessLounchCard{
+  border-left: 2px solid #e8bd2b;
+  border-top: 2px solid #e8bd2b;
+  width:23%;
+}
+#businessLounchCard > div:first-child > img {
+  border: 2px solid #e8bd2b;
+}
+.wingdings{
+  color: #5cc6d0;
+  line-height: 28px;
+}

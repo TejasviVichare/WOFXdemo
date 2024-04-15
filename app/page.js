@@ -2,12 +2,11 @@
 import Suspencevideo from "./components/video/Suspencevideo.jsx";
 import Aboutwofx from "./components/aboutwofx/Aboutwofx.jsx";
 import Wofxadvantage from "./components/wofxadvantage/Wofxadvantage.jsx";
-import Buyertestimonial from "./components/buyertestimonial/Buyertestimonial.jsx";
-import Exhibitortestinomial from "./components/exhibitortestimonial/Exhibitortestinomial.jsx";
 import CountrySlider from "./components/countryslider/CountrySlider.jsx";
 import Industribody from "./components/industribodies/Industribody.jsx";
 import Industrypartnerslider from "./components/industrypartnerslider/Industrypartnerslider.jsx";
 import InternationPavilion from "./components/Internationpavilion/InternationPavilion.jsx";
+import Buyer_lounges from "./components/buyer-lounges/Buyer_lounges.jsx";
 
 export default function Home() {
   return (
@@ -15,8 +14,10 @@ export default function Home() {
     <Suspencevideo />
     <Aboutwofx />
     <p>&nbsp;</p>
-    <p>&nbsp;</p>
     <Wofxadvantage />
+    <p>&nbsp;</p>
+    <Buyer_lounges />
+
 
     <p>&nbsp;</p>
     <p>&nbsp;</p>
