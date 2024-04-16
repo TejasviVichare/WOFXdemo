@@ -10,11 +10,11 @@ const navItems = [
       children: [
         {
           label: "About Wofx",
-          link: "#",
+          link: "/about-us",
         },
         {
           label: "Factsheet",
-          link: "#",
+          link: "/factsheet",
         },
         {
           label: "Brochure",
@@ -22,16 +22,16 @@ const navItems = [
         },
         {
           label: "Venue",
-          link: "#",
+          link: "/venue",
         },
         {
           label: "Organiser",
-          link: "#",
+          link: "/organisers",
         },
         
         {
           label: "Photo Gallery",
-          link: "#",
+          link: "/wofx-gallery",
         },
         {
           label: "Post Show Report",
@@ -45,11 +45,11 @@ const navItems = [
       children: [
         {
           label: "The WOFX Advantage",
-          link: "#",
+          link: "/why-exhibit",
         },
         {
           label: "Exhibitor Profile",
-          link: "#",
+          link: "/exhibitor-profile",
         },
         {
           label: "Show Directory",
@@ -57,7 +57,7 @@ const navItems = [
         },
         {
           label: "Sneak Preview",
-          link: "#",
+          link: "/preview-2023",
         },
         {
           label: "International Exhibitor Preview",
@@ -65,11 +65,11 @@ const navItems = [
         },
         {
           label: "Enquiry Form",
-          link: "#",
+          link: "/exhibitor_enquiry",
         },
         {
           label: "Testimonials",
-          link: "#",
+          link: "/exhibitor-review",
         },
         {
           label: "Bee2Bee Manual",
@@ -84,11 +84,11 @@ const navItems = [
       children: [
         {
           label: "Experience WOFX",
-          link: "#",
+          link: "/why-visit",
         },
         {
           label: "Buyers Profile",
-          link: "#",
+          link: "/buyer-profile",
         },
         {
           label: "Registration Form",
@@ -96,11 +96,11 @@ const navItems = [
         },
         {
           label: "Business Matching Form",
-          link: "#",
+          link: "/Business-matching",
         },
         {
           label: "Testimonials",
-          link: "#",
+          link: "/buyer-feedback",
         },
         {
           label: "Bee2Bee Manual",
@@ -118,16 +118,12 @@ const navItems = [
         },
         {
           label: "Media Enquiry Form",
-          link: "#",
+          link: "/media-register",
         },
         {
           label: "Supporting Media",
-          link: "#",
-        },
-        {
-          label: "Supporting Media",
-          link: "#",
-        },
+          link: "/supporting-media",
+        }
       ],
     },
     {
@@ -136,21 +132,21 @@ const navItems = [
       children: [
         {
           label: "India Growth Story",
-          link: "#",
+          link: "/india-overview",
         },
         {
           label: "India Furniture Market",
-          link: "#",
+          link: "/furniture-market",
         },
         {
           label: "India Design & Décor Market",
-          link: "#",
+          link: "/india-design-décor-market",
         },
       ],
     },
     {
       label: "Contact",
-      link: "#",
+      link: "/contact-us",
     },
   ];
 

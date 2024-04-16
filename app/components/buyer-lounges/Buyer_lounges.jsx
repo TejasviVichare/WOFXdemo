@@ -3,10 +3,6 @@ import blLogo1 from '../../../public/assests/blLogo1.png'
 import blLogo2 from '../../../public/assests/blLogo2.png'
 import blLogo3 from '../../../public/assests/blLogo3.png'
 import blLogo4 from '../../../public/assests/blLogo4.png'
-import photo1 from '../../../public/assests/photo.png'
-import photo2 from '../../../public/assests/photo-1.png'
-import photo3 from '../../../public/assests/photo-2.png'
-import photo4 from '../../../public/assests/photo-3.png'
 
 
 function Buyer_lounges() {
