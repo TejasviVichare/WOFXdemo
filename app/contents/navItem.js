@@ -2,7 +2,7 @@
 const navItems = [
     {
       label: "Home",
-      link: "#",
+      link: "/",
     },
     {
       label: "Fair Info",
