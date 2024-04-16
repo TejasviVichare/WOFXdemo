@@ -10,8 +10,8 @@ function page() {
         <div className="mt-20  flex justify-center">
           <section class="hero">
             <div class="left-side-under-hero">
-              <h1 className="text-xl md:text-3xl py-2 font-medium">India Growth Story</h1>
-              <h2 className="text-lg md:text-xl py-1 font-medium">The India Advantage</h2>
+              <h1 className="text-xl md:text-3xl py-2 font-medium">Indian Furniture Market</h1>
+
 
 
               <p>The Indian furniture market shows enormous promise for global furniture suppliers and brands. Growing at 10.9% p.a., India is the 4th largest furniture consuming country and 14th largest furniture market globally.</p>
@@ -32,7 +32,7 @@ function page() {
 
             </div>
             <div class="right-side-under-hero">
-              <Image src={INDIAGROWTHSTORY} alt="" loading="lazy" />
+              <Image src={INDIAFURNITUREMARKET} alt="" loading="lazy" />
             </div>
           </section>
         </div>

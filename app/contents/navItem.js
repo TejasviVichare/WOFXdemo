@@ -140,7 +140,7 @@ const navItems = [
         },
         {
           label: "India Design & Décor Market",
-          link: "/india-design-décor-market",
+          link: "/india-design-decor-market",
         },
       ],
     },
