@@ -24,7 +24,7 @@ export default function Navbar() {
             src={logo}
             alt="logo"
             width={300}
-
+            height={80}
             priority={true}
             className="logo"
           />

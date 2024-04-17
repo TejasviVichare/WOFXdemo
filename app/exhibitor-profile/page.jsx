@@ -1,8 +1,77 @@
+import Image from "next/image"
 
+const exhibitorProfileContent = [
+  {
+    img:'/assests/exhibitorProfile/1.png',
+    text:"Home"
+  },
+ 
+  {
+    img:'/assests/exhibitorProfile/2.png',
+    text:"Office"
+  },
+  {
+    img:'/assests/exhibitorProfile/3.png',
+    text:"Outdoor"
+  },
+  {
+    img:'/assests/exhibitorProfile/4.png',
+    text:"Modular"
+  },
+  {
+    img:'/assests/exhibitorProfile/5.png',
+    text:"Kids"
+  },
+ 
+  {
+    img:'/assests/exhibitorProfile/7.png',
+    text:"Plastic"
+  },
+  {
+    img:'/assests/exhibitorProfile/8.png',
+    text:"Public"
+  },
+  {
+    img:'/assests/exhibitorProfile/9.png',
+    text:"School/College"
+  },
+  {
+    img:'/assests/exhibitorProfile/10.png',
+    text:"Institutional"
+  },
+  {
+    img:'/assests/exhibitorProfile/furniture-fitting.png',
+    text:"Furniture Fittings"
+  },
+  {
+    img:'/assests/exhibitorProfile/decor.png',
+    text:"Décor"
+  },
+  {
+    img:'/assests/exhibitorProfile/mattresses.png',
+    text:"Mattresses"
+  },
+]
 
 function page() {
   return (
-    <div>page</div>
+    <div className='mx-auto   w-full max-w-screen-2xl '>
+    <div className="mt-16  pb-24">
+      <h1 className="text-xl md:text-3xl py-2 font-semibold text-center py-6">Exhibitor Profile</h1>
+       <div className="flex justify-center">
+       <div className=" flex flex-wrap w-4/5  justify-center gap-6">
+        {exhibitorProfileContent?.map((item, i)=>(
+          <div style={{background:"#fbf9f6"}} className=" px-2 py-2">
+            <div  key={i} className="relative  exhibitorProfileCard">
+               <center><Image src={item.img} width={140} height={140} alt={i} /></center>
+               <div className="flex justify-center"><p style={{background:"#fbf9f6"}} className="absolute  w-4/5 text-center px-6 py-1 text-sm -bottom-2">{item.text}</p></div>
+            </div>
+          </div>
+        ))}
+       </div>
+       </div>
+      </div>
+      </div>
   )
 }
 

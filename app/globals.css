@@ -22,8 +22,10 @@
 }
 
 .logo {
-  width: auto;
-  height: auto;
+  width: 340px;
+  height: 80px;
+  object-fit: contain;
+
 }
 
 .bgvideo video {
@@ -349,4 +351,11 @@
 
 .paraBrings {
   line-height: 1.8;
+
+}
+.exhibitorProfileCard{
+  background: #fbf9f6;
+  border: 1px solid #c2b280;
+  border-radius: 1px;
+
 }
