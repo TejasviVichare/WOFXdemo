@@ -117,7 +117,7 @@ function page() {
                   height={120}
                 />
               </div>
-              <div className="text-xl m-1">Zuhair E'layan</div>
+              <div className="text-xl m-1">Zuhair E&apos;layan</div>
               <div className="text-lg font-bold leading-6 m-1 mb-3">
                 General Manager, <br /> Regal Furniture Global
               </div>
@@ -224,7 +224,7 @@ function page() {
                 Though my visit was brief, I found the international pavilion at
                 the fair particularly useful. Connecting with fabric vendors and
                 talented outdoor furniture designers and suppliers was a great
-                investment of my time, and I'm excited to explore potential
+                investment of my time, and I&apos;m excited to explore potential
                 collaborations.
               </div>
             </div>

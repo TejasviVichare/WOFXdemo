@@ -81,9 +81,9 @@ function page() {
                 Trezure Lifestyle Private Limited, India
               </div>
               <div className="text-gray-600 text-[14px]">
-                Very pleased with WOFX's B2B concept! The exclusive focus on
-                industry professionals like Dealers, Distributors, Architects &
-                Designers enabled deep engagement and fostered valuable
+                Very pleased with WOFX&apos;s B2B concept! The exclusive focus
+                on industry professionals like Dealers, Distributors, Architects
+                & Designers enabled deep engagement and fostered valuable
                 connections which was a resounding success for our company.
                 Kudos to the organizers for such a well-executed and
                 strategically planned event.
@@ -138,7 +138,7 @@ function page() {
                 Indocasa Furniture Italy
               </div>
               <div className="text-gray-600 text-[14px]">
-                We are exhibiting at the WOFX for the first time and we're
+                We are exhibiting at the WOFX for the first time and we&apos;re
                 connecting with a lot of potential buyers and our Indian
                 customers. It is a great opportunity for us to showcase our
                 latest collection which has grabbed attention from hotels,
@@ -198,13 +198,13 @@ function page() {
                 Comforts International (Assiento) India
               </div>
               <div className="text-gray-600 text-[14px]">
-                Launching our new products at WOFX was the right move. We've met
-                enthusiastic buyers from Mumbai and Gujarat to Tamil Nadu,
-                proving the show's immense reach across the country. Unlike
-                other exhibitions, the high-quality B2B crowd at WOFX exceeded
-                our expectations. Architects and institutional buyers loved our
-                unique chairs, making our participation a resounding success and
-                a truly rewarding experience.
+                Launching our new products at WOFX was the right move.
+                We&apos;ve met enthusiastic buyers from Mumbai and Gujarat to
+                Tamil Nadu, proving the show&apos;s immense reach across the
+                country. Unlike other exhibitions, the high-quality B2B crowd at
+                WOFX exceeded our expectations. Architects and institutional
+                buyers loved our unique chairs, making our participation a
+                resounding success and a truly rewarding experience.
               </div>
             </div>
             <div
@@ -254,11 +254,11 @@ function page() {
               <div className="text-gray-600 text-[14px]">
                 I am delighted to have the opportunity to participate in WOFX
                 once again. The response from all the visitors has been truly
-                amazing, and we are thrilled with the positive engagement we've
-                experienced. What's even more promising is the quality of leads
-                we have received, which show significant potential for
-                meaningful partnerships and collaborations. We look forward to
-                taking part in the next edition as well.
+                amazing, and we are thrilled with the positive engagement
+                we&apos;ve experienced. What&apos;s even more promising is the
+                quality of leads we have received, which show significant
+                potential for meaningful partnerships and collaborations. We
+                look forward to taking part in the next edition as well.
               </div>
             </div>
           </div>
