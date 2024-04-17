@@ -61,8 +61,8 @@ function page() {
        <div className="flex justify-center">
        <div className=" flex flex-wrap w-4/5  justify-center gap-6">
         {exhibitorProfileContent?.map((item, i)=>(
-          <div style={{background:"#fbf9f6"}} className=" px-2 py-2">
-            <div  key={i} className="relative  exhibitorProfileCard">
+          <div key={i} style={{background:"#fbf9f6"}} className=" px-2 py-2">
+            <div   className="relative  exhibitorProfileCard">
                <center><Image src={item.img} width={140} height={140} alt={i} /></center>
                <div className="flex justify-center"><p style={{background:"#fbf9f6"}} className="absolute  w-4/5 text-center px-6 py-1 text-sm -bottom-2">{item.text}</p></div>
             </div>
