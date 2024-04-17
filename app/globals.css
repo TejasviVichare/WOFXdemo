@@ -361,3 +361,30 @@
 .thematiczone p{
   font-size: 14px;
 }
+.enquiryForm{
+  font-size: 14px;
+}
+.enquiryForm .form-group {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.enquiryForm input {
+  border: 1px solid rgb(44, 44, 44);
+  border-radius: 2px;
+}
+
+.form-control{
+  width: 100% !important;
+}
+.col-sm-5{
+  width: 316px;
+}
+@media screen and(max-width:600px) {
+  .col-sm-5{
+    width: 100% !important;
+  }
+}
