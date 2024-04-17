@@ -48,6 +48,10 @@ const navItems = [
           link: "/why-exhibit",
         },
         {
+          label: "Thematic Zones @ WOFX",
+          link: "/thematic-zones",
+        },
+        {
           label: "Exhibitor Profile",
           link: "/exhibitor-profile",
         },
@@ -73,7 +77,7 @@ const navItems = [
         },
         {
           label: "Bee2Bee Manual",
-          link: "#",
+          link: "/coming-soon",
         },
         
       ],
@@ -104,7 +108,7 @@ const navItems = [
         },
         {
           label: "Bee2Bee Manual",
-          link: "#",
+          link: "/coming-soon",
         },
       ],
     },
