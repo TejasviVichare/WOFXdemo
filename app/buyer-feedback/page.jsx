@@ -1,9 +1,5 @@
-
-
 function page() {
-  return (
-    <div>page</div>
-  )
+  return <div>page this the buyer feedback page </div>;
 }
 
-export default page
+export default page;
