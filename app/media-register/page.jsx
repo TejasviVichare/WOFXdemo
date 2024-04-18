@@ -9,7 +9,7 @@ import Loader from '../components/loader/Loader';
 const MyForm = () => {
   const [errors, setErrors] = useState({});
   const [showHideLoader, setshowHideLoader] = useState(false)
-
+  const [isMediaCategoryOthersChecked, setisMediaCategoryOthersChecked] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     designation: '',
@@ -27,6 +27,10 @@ const MyForm = () => {
     website: '',
     agree: false,
   });
+
+  const handleOthersMediaCategoryChange = (event) => {
+    setNOBOthersChecked(event.target.checked);
+  };
 
   const validateForm = () => {
     let isValid = true;
@@ -967,7 +971,23 @@ const MyForm = () => {
                   <label className="checkbox col-sm-12"><input type="checkbox" name="media_cat[]" className='exhibit_country' value='TV' onChange={handleChange} />&nbsp;  TV</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="media_cat[]" className='exhibit_country' value='Trade media' onChange={handleChange} />&nbsp;  Trade media</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="media_cat[]" className='exhibit_country' value='Online' onChange={handleChange} />&nbsp;   Online</label>
-                  <label className="checkbox col-sm-12"><input type="checkbox" name="media_cat[]" className='exhibit_country' value='Others' onChange={handleChange} />&nbsp;   Others</label>
+                  <label className="checkbox col-sm-12">
+                    <input
+                      type="checkbox"
+                      name="mpc[]"
+                      className='exhibit_country'
+                      value='Others'
+                      onChange={handleOthersMediaCategoryChange}
+                      checked={isMediaCategoryOthersChecked}
+                    />
+                    &nbsp;Others (please mention)
+                    {
+                      isMediaCategoryOthersChecked ? (
+                        <input className='mt-2 h-8' name='media_cat_other' type="text" placeholder='others nature of business' onChange={handleChange} />
+                      ) : null
+                    }
+
+                  </label>
                 </div>
                 <p>{errors.media_cat && <span className="text-red-500">This field is required.</span>}</p>
 
