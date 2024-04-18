@@ -2,23 +2,32 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import Swal from 'sweetalert2';
-// import Loader from '../components/loader/Loader';
+import Loader from '../components/loader/Loader';
 
 
 const MyForm = () => {
   const [errors, setErrors] = useState({});
   const [showHideLoader, setshowHideLoader] = useState(false)
+  const [isMPCOthersChecked, setisMPCOthersChecked] = useState(false);
+  const [isNOBOthersChecked, setNOBOthersChecked] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     designation: '',
     company_name: '',
-    mpc:[], 
-    nob: [], 
-    product_cat_other: '',
+    mpc: [],
+    nob: [],
+    other_nob: '',
+    other_mpc: '',
     mobile: '',
     email: '',
-    agree: false,
   });
+
+  const handleMPCChange = (event) => {
+    setisMPCOthersChecked(event.target.checked);
+  };
+  const handleNOBChange = (event) => {
+    setNOBOthersChecked(event.target.checked);
+  };
 
   const validateForm = () => {
     let isValid = true;
@@ -72,8 +81,6 @@ const MyForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const isValid = validateForm();
-    console.log(formData)
-    console.log(isValid)
     if (isValid) {
       setshowHideLoader(true);
       try {
@@ -86,14 +93,23 @@ const MyForm = () => {
             },
           }
         );
-        setshowHideLoader(false);
-        Swal.fire({
-          text:
-            'Thank you for showing interest in participating at the Intex 2024 Shows. We shall contact you soon with more details.',
-          icon: 'success',
-        }).then((result) => {
-          window.location.reload();
-        });
+        if (response.data.status === "Failed") {
+          setshowHideLoader(false);
+          Swal.fire({
+            text: response.data.message,
+            icon: 'warning',
+            confirmButtonText: 'Close',
+          });
+        }
+        else {
+          setshowHideLoader(false);
+          Swal.fire({
+            text: response.data.message,
+            icon: 'success',
+          }).then((result) => {
+             window.location.reload();
+          });
+        }
       } catch (error) {
         setshowHideLoader(false);
         Swal.fire({
@@ -110,15 +126,16 @@ const MyForm = () => {
 
 
 
-  // if (showHideLoader) {
-  //   return (
-  //     <>
-  //       <Loader />
-  //     </>
-  //   )
-  // }
+  if (showHideLoader) {
+    return (
+      <>
+        <Loader />
+      </>
+    )
+  }
 
 
+  console.log(formData)
 
 
 
@@ -130,7 +147,6 @@ const MyForm = () => {
             <h1 className='text-center text-2xl font-semibold'>Exhibitor Enquiry Form</h1>
             <form name='company' className="enquiryForm mt-5 py-3" onSubmit={handleSubmit}>
               <div>
-
                 <div className='flex flex-wrap md:flex-nowrap gap-2 mt-5'>
                   <div className='w-full'>
                     <input type="text" name='name' className="w-full h-12 px-2" placeholder="Name*" onChange={handleChange} />
@@ -140,12 +156,9 @@ const MyForm = () => {
                     <input type="text" name='designation' className="w-full h-12 px-2" placeholder="Designation*" onChange={handleChange} />
                     <br />{errors.designation && <span className="text-red-500">This field is required.</span>}
                   </div>
-               
                 </div>
-
-
                 <div className='flex flex-wrap md:flex-nowrap gap-4 mt-5'>
-                <div className='w-full'>
+                  <div className='w-full'>
                     <input type="text" name='mobile' className="w-full h-12 px-2"
                       placeholder="Contact Number*" minLength="10"
                       maxLength="10" onChange={handleChange} />
@@ -157,23 +170,12 @@ const MyForm = () => {
                     <br />{errors.email && <span className="text-red-500">This field is required.</span>}
                   </div>
                 </div>
-
-
-
-
                 <div className='flex flex-wrap md:flex-nowrap gap-4  mt-5'>
-                <div className='w-full'>
-                    <input type="text" name='company_name' className="w-full h-12 px-2" placeholder="Enter your company_name*" onChange={handleChange} />
+                  <div className='w-full'>
+                    <input type="text" name='company_name' className="w-full h-12 px-2" placeholder="Company Name*" onChange={handleChange} />
                     <br />{errors.company_name && <span className="text-red-500">This field is required.</span>}
                   </div>
                 </div>
-
-
-
-
-
-
-
                 <p className='text-lg mt-4'><strong>Major Exhibit Category*</strong></p>
                 <div className="grid grid-cols-1 md:grid-cols-3">
                   <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='Apparel Fabric' value='Home' id="2" onChange={handleChange} />&nbsp;  Home</label>
@@ -192,7 +194,23 @@ const MyForm = () => {
                   <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Furniture Fittings' onChange={handleChange} />&nbsp;   Furniture Fittings</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Mattresses' onChange={handleChange} />&nbsp;   Mattresses</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Lighting' onChange={handleChange} />&nbsp;   Lighting</label>
-                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Others' onChange={handleChange} />&nbsp;   Others (please mention)</label>
+                  <label className="checkbox col-sm-12">
+                    <input
+                      type="checkbox"
+                      name="mpc[]"
+                      className='exhibit_country'
+                      value='Others'
+                      onChange={handleMPCChange}
+                      checked={isMPCOthersChecked}
+                    />
+                    &nbsp;Others (please mention)
+                    {
+                      isMPCOthersChecked ? (
+                        <input className='mt-2 h-8' name='other_mpc' type="text" placeholder='others nature of business' onChange={handleChange} />
+                      ) : null
+                    }
+
+                  </label>
                 </div>
                 <p>{errors.product_cat && <span className="text-red-500">This field is required.</span>}</p>
 
@@ -211,8 +229,27 @@ const MyForm = () => {
                   <label className="checkbox col-sm-12"><input type="checkbox" name="nob[]" className='exhibit_country' value='Brand Owner' onChange={handleChange} />&nbsp;  Brand Owner</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="nob[]" className='exhibit_country' value='Designer' onChange={handleChange} />&nbsp;   Designer</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="nob[]" className='exhibit_country' value='Exporter' onChange={handleChange} />&nbsp;   Exporter</label>
-                  <label className="checkbox col-sm-12"><input type="checkbox" name="nob[]" className='exhibit_country' value='Others' onChange={handleChange} />&nbsp;   Others (please mention)</label>
-                  
+
+
+                  <label className="checkbox col-sm-12">
+                    <input
+                      type="checkbox"
+                      name="mpc[]"
+                      className='exhibit_country'
+                      value='Others'
+                      onChange={handleNOBChange}
+                      checked={isNOBOthersChecked}
+                    />
+                    &nbsp;Others (please mention)
+                    {
+                      isNOBOthersChecked ? (
+                        <input className='mt-2 h-8' name='other_nob' type="text" placeholder='others nature of business' onChange={handleChange} />
+                      ) : null
+                    }
+
+                  </label>
+
+
                 </div>
                 <p>{errors.product_cat && <span className="text-red-500">This field is required.</span>}</p>
 
@@ -221,22 +258,11 @@ const MyForm = () => {
 
 
 
-                <div className='w-full mt-7 '>
-                  <div className="form-group">
-
-                    <label className="checkbox-inline"><input type="checkbox" name='agree'
-                      value='agree' /></label>
-                    <span className=' text-sm'>I hereby agree to all the below terms & I have read and acknowledged the <a href="https://www.worldexindia.com/privacy-policy.html">privacy policy</a> of Worldex India Exhibition & Promotion Pvt Ltd.  <span id="downBtn"><i id="downarrow" className="fa fa-chevron-down"></i></span></span>
-                    <br />{errors.agree && <span className="text-red-500">This field is required.</span>}
-                  </div>
-                  <div className="mt-5">
-                    <label htmlFor="agree" className="error"></label>
-                  </div>
-                </div>
 
 
-                <div className='flex justify-center mt-5 mb-3'>
-                  <input type="submit" className='  bg-gray-800 text-white px-6 py-2 cursor-pointer hover:bg-black hover:rounded-lg' value="SUBMIT &raquo;" />
+
+                <div className='flex justify-end mt-5 mb-3'>
+                  <input type="submit" className='  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black' value="SUBMIT &raquo;" />
                 </div>
 
 
@@ -245,7 +271,8 @@ const MyForm = () => {
             </form>
           </div>
         </div>
-
+        <p className='font-bold text-lg'>For Show Information</p>
+<p className='font-semibold'><a class="contactDetail" href="mailto:haider@worldexindia.com">haider@worldexindia.com</a>&nbsp;|&nbsp;<a class="contactDetail" href="tel:+919619095955">+919619095955</a></p>
 
       </div>
     </div>
