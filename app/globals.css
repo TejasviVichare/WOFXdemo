@@ -457,3 +457,16 @@
     transform: rotate(-360deg);
   }
 }
+.wofxGallry{
+  background: #f4f4f4;
+  padding: 10px;
+  position: relative;
+}
+.wofxGallry img{
+  object-fit: cover !important;
+}
+.image-gallery-left-nav, .image-gallery-right-nav{
+  padding: 20px !important;
+  font-size: 40px;
+ 
+}

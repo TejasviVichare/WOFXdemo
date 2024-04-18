@@ -3,9 +3,13 @@ import Image from "next/image";
 function page() {
   return (
     <>
-      <div className="bg-gray-200 mb-16 w-[80%] text-center m-auto">
-        <div className=" p-8 text-4xl"> Buyer Testimonials</div>
-        <div className="pb-16  ">
+
+
+
+<div className='mx-auto   w-full max-w-screen-2xl '>
+      <div className="bg-gray-200 mt-16 rounded mb-16 w-[80%] text-center m-auto">
+        <div className="p-8 text-4xl"> Buyer Testimonials</div>
+        <div className="pb-16 ">
           <div id="row" className="md:pl-16 md:pr-16 flex flex-wrap">
             <div
               id="card"
@@ -305,6 +309,7 @@ function page() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

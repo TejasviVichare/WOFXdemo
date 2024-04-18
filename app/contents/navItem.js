@@ -18,7 +18,7 @@ const navItems = [
         },
         {
           label: "Brochure",
-          link: "#",
+          link: "/assests/pdf/brochure.pdf",
         },
         {
           label: "Venue",
@@ -35,7 +35,7 @@ const navItems = [
         },
         {
           label: "Post Show Report",
-          link: "#",
+          link: "/assests/pdf/WOFX-POST-SHOW-2023",
         },
       ],
     },
@@ -57,7 +57,7 @@ const navItems = [
         },
         {
           label: "Show Directory",
-          link: "#",
+          link: "https://online.anyflip.com/qpeq/yhff/mobile/index.html",
         },
         {
           label: "Sneak Preview",
@@ -65,7 +65,7 @@ const navItems = [
         },
         {
           label: "International Exhibitor Preview",
-          link: "#",
+          link: "/assests/pdf/WOFX-2023-BM-Catalogue.pdf",
         },
         {
           label: "Enquiry Form",
