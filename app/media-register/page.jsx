@@ -29,7 +29,7 @@ const MyForm = () => {
   });
 
   const handleOthersMediaCategoryChange = (event) => {
-    setNOBOthersChecked(event.target.checked);
+    setisMediaCategoryOthersChecked(event.target.checked);
   };
 
   const validateForm = () => {
@@ -73,7 +73,6 @@ const MyForm = () => {
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
     let newValue;
-  
     if (type === 'checkbox') {
       if (checked) {
         newValue = [...(formData[name] || []), value];
@@ -83,8 +82,6 @@ const MyForm = () => {
     } else {
       newValue = value;
     }
-  
-    // Update countrycode based on selected country
     if (name === 'country') {
       const selectedCountry = e.target.selectedOptions[0].getAttribute('data-callingcode');
       setFormData({
