@@ -4,7 +4,7 @@ import axios from "axios";
 
 import Swal from "sweetalert2";
 
-function page() {
+function Page() {
   const [errors, setErrors] = useState({});
   const [formData, setFormData] = useState({
     name: "",
@@ -322,4 +322,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
