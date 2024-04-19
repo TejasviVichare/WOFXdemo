@@ -15,11 +15,11 @@ import g from '../../../public/assests/internationalpavilion/7.webp'
 function InternationPavilion() {
   return (
     <>
-    <div className="flex px-10, justify-center gap-5">
+    <div className="flex  px-8 flex-wrap justify-center">
         {logos.map((item, index)=>(
-          <>
-          <Image src={item} width={140} priority={true} height='auto' alt={index} />
-          </>
+          <div   key={index}>
+          <Image src={item} width={180} priority={true} height='auto' alt={index} />
+          </div>
         ))}
     </div>
     

@@ -7,6 +7,12 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
+*{
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+
+}
 
 .bgvideo {
   background: black;
@@ -128,33 +134,37 @@
   transition: 1.2s;
 }
 
-.videoskeleton h1 {}
-
 .wofxHead {
-
   background-image: linear-gradient(to right, #5cc6d0, #47d0c1, #59d7a4, #83da7d, #b5d954, #cfcc3b, #e8bd2b, #ffac2a, #ff9431, #ff7d3b, #f96545, #ef4e50);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-
-#atWofx p {
-  padding: 10px;
-  font-weight: 600;
-  background: #FECC02;
-
-
-
-
-
+#glimpsessVideo{
+ border-radius: 4px;
 }
-
+#ShowSummery img{
+  width: 100%;
+}
+.showprofileCard{
+  width: 30%;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
 #atWofx div {
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.01);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-collapse: collapse;
+  padding-top: 10px;
+  width: 45%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #2ec1f1;
 }
+#atWofx span{
+  color: #2ec1f1;
+}
+.aboutWofxMain{
+  background: #f6f5f5;
+}
+
 
 #aboutwofxbut a {
   text-align: center;
@@ -162,11 +172,7 @@
   padding-bottom: 10px;
   padding-left: 4px;
   padding-right: 4px;
-  border-bottom: 1px solid #e73e42;
-  border-top: 1px solid #fecc00;
-  border-left: 1px solid #fecc00;
-  border-right: 1px solid #e73e42;
-  font-size: 17px;
+  font-size: 16px;
   border-radius: 4px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
 }
@@ -178,17 +184,58 @@
   color: #fff !important;
   border-radius: 4px;
 }
+.bussinesLounchMain{
+  background: #f6f5f5;
+}
 #businessLounchCard{
-  border-left: 2px solid #e8bd2b;
-  border-top: 2px solid #e8bd2b;
+  box-shadow: 0px 4px 0px rgb(0 0 0 / 20%)  !important;
+  background: #fbf9f6;
+  border-radius: 16px;
+  position: relative;
+  border: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   width:23%;
 }
-#businessLounchCard > div:first-child > img {
-  border: 2px solid #e8bd2b;
+.blImage{
+  border-radius: 6px;
+  background-image: linear-gradient(to right bottom, #ceeaec, #dceef5, #eaf3fa, #f6f8fd, #ffffff);  
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  padding: 6px;
 }
+.blImage img{
+  object-fit: contain;
+}
+.BLButton{
+  display: flex;
+  justify-content: center;
+
+  background-image: linear-gradient(to right bottom, #34d7e3, #22d0e9, #20c9ee, #2ec1f1, #43b8f2);  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #f4f4f4;
+   
+  border-bottom: 2px solid skyblue;
+  border-right: 2px solid skyblue;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.BLButton:hover{
+  background-image: linear-gradient(to right bottom, #34d7e3, #22d0e9, #20c9ee, #2ec1f1, #43b8f2);  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #f4f4f4;
+  border-bottom: 2px solid skyblue;
+  border-right: 2px solid skyblue;
+  border-radius: 4px;
+  font-size: 16px;
+
+}
+
 .wingdings{
   color: #5cc6d0;
-  line-height: 28px;
+  
 }
 
 .hero {

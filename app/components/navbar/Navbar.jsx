@@ -40,6 +40,7 @@ export default function Navbar() {
             onMouseEnter={() => setHoveredItem(i)}
             onMouseLeave={() => setHoveredItem(null)}
           >
+            <Link href={d.link}>
             <p className="flex cursor-pointer tracking-wider font-semibold text-sm items-center gap-2 text-slate-300 group-hover:text-white">
               <span>{d.label}</span>
               {d.children && (
@@ -48,6 +49,7 @@ export default function Navbar() {
                 </span>
               )}
             </p>
+            </Link>
             {d.children && hoveredItem === i && (
               <div id="navItem" className="absolute right-0 bg-slate font-semibold top-10 w-auto flex-col gap-1 py-3 transition-all">
                 {d.children.map((ch, j) => (
