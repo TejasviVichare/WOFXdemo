@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar.jsx'
 import Footer from './components/footer/Footer.jsx'
 import PreHeader from "./components/navbar/Preheader";
 import Script from 'next/script'
+import FixedSocial from "./components/FixedSocial/FixedSocial.jsx";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <div className={inter.className}>
+          <FixedSocial />
           <PreHeader />
           <Navbar />
           {children}

@@ -9,6 +9,7 @@ import InternationPavilion from "./components/Internationpavilion/InternationPav
 import Buyer_lounges from "./components/buyer-lounges/Buyer_lounges.jsx";
 import Show_Summery from "./components/show-summery/Show_Summery.jsx";
 
+
 export default function Home() {
   return (
     <>
@@ -16,9 +17,6 @@ export default function Home() {
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <Aboutwofx />
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
     <Show_Summery />
     <p>&nbsp;</p>
     <p>&nbsp;</p>

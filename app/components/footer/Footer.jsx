@@ -2,6 +2,9 @@ import Image from 'next/image'
 import style from './footer.module.css'
 import logo from '../../../public/assests/logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRightFromBracket, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF, faXTwitter, faInstagram, faLinkedin, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+
 
 function Footer() {
   return (
@@ -14,18 +17,18 @@ function Footer() {
               <Image src={logo} width={185} height='auto' alt="" />
               <p className='text-slate-300' style={{ paddingTop: "13px" }}>309, Parvati Premises, Sun Mill Complex, <br />
                 Lower Parel (W), Mumbai - 400 013, India </p>
-              <a className='text-slate-300' href="tel:(+91) 022-4037-6700">(+91) 022-4037-6700</a><br />
-              <a className='text-slate-300' href="mailto:contactus@worldexindia.com">contactus@worldexindia.com</a>
+              <a className='text-slate-300' href="tel:(+91) 022-4037-6700"> <FontAwesomeIcon icon={faPhone} /> (+91) 022-4037-6700</a><br />
+              <a className='text-slate-300' href="mailto:contactus@worldexindia.com"> <FontAwesomeIcon icon={faEnvelope} /> contactus@worldexindia.com</a>
             </div>
             <div className={style.nesteddiv}>
               <h3 className='text-xl text-slate-200 font-bold'>QUICK LINKS</h3>
               <p className='text-slate-300'>
-                <a href="exhibitor_enquiry.html" target="_blank">Exhibitor Enquiry Form</a><br />
-                <a href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=in&source_name="
+              <FontAwesomeIcon icon={faRightFromBracket} /> <a href="exhibitor_enquiry.html" target="_blank">Exhibitor Enquiry Form</a><br />
+              <FontAwesomeIcon icon={faRightFromBracket} /> <a href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=in&source_name="
                   target="_blank">Buyer Registration Form</a><br />
-                <a href="exhibitor-profile.html" target="_blank">Exhibitor Profile</a><br />
-                <a href="buyer-profile.html" target="_blank">Buyer Profile</a><br />
-                <a href="terms-conditions.html" target="_blank">Terms and Conditions</a>
+               <FontAwesomeIcon icon={faRightFromBracket} /> <a href="exhibitor-profile.html" target="_blank">Exhibitor Profile</a><br />
+               <FontAwesomeIcon icon={faRightFromBracket} /> <a href="buyer-profile.html" target="_blank">Buyer Profile</a><br />
+               <FontAwesomeIcon icon={faRightFromBracket} /> <a href="terms-conditions.html" target="_blank">Terms and Conditions</a>
               </p>
             </div>
             <div className={style.nesteddiv}>
@@ -48,18 +51,22 @@ function Footer() {
                   href="https://api.whatsapp.com/send?phone=919819567106&&text=Hello%2C+I+am+interested+to+receive+more+information+about+WOFX+-+World+Furniture+Expo.+Thank+You!"
                   target="_blank" title=""></a></p>
               </div>
-
-
+              <div>
+              <div className='flex  gap-1 mt-3'>
+              <a className='w-10 h-10  flex justify-center items-center hover:border hover:bg-white hover:text-black rounded' href="https://www.facebook.com/worldfurnitureexpo"><FontAwesomeIcon className='text-xl' icon={faFacebookF} /></a>
+              <a className='w-10 h-10  flex justify-center items-center hover:border hover:bg-white hover:text-black rounded' href="https://twitter.com/WORLDFURNITURE4"><FontAwesomeIcon className='text-xl' icon={faXTwitter} /></a>
+              <a className='w-10 h-10  flex justify-center items-center hover:border hover:bg-white hover:text-black rounded' href="https://www.instagram.com/wofx_worldexpo/?hl=en"><FontAwesomeIcon className='text-xl' icon={faInstagram} /></a>
+              <a className='w-10 h-10  flex justify-center items-center hover:border hover:bg-white hover:text-black rounded' href="https://www.linkedin.com/company/wofx-world-furniture-expo/"><FontAwesomeIcon className='text-xl' icon={faLinkedin} /></a>
+              <a className='w-10 h-10  flex justify-center items-center hover:border hover:bg-white hover:text-black rounded' href="https://api.whatsapp.com/send?phone=919819567106&amp;&amp;text=Hello%2C+I+am+interested+to+receive+more+information+about+WOFX+-+World+Furniture+Expo.+Thank+You!"><FontAwesomeIcon className='text-xl' icon={faWhatsapp} /></a>
+              
+              
+              
+              
+              </div>
             </div>
-
+            </div>
           </div>
-          <div className="social-footer">
-            <p><a href="https://www.facebook.com/worldfurnitureexpo" target="_blank" title=""></a></p>
-            <p className="twitter"><a href="https://twitter.com/WORLDFURNITURE4" target="_blank" title=""></a></p>
-            <p className="linkedin"><a href="https://www.linkedin.com/company/wofx-world-furniture-expo/" target="_blank" title=""></a></p>
-            <p className="instagram"><a href=" https://www.instagram.com/wofx_worldexpo/?hl=en" target="_blank" title=""></a></p>
-            <p className="whatsapp"><a href="https://api.whatsapp.com/send?phone=919819567106&&text=Hello%2C+I+am+interested+to+receive+more+information+about+WOFX+-+World+Furniture+Expo.+Thank+You!" target="_blank" title=""></a></p>
-          </div>
+          
         </div>
       </footer>
 
