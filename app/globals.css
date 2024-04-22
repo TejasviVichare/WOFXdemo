@@ -590,3 +590,15 @@
 .fixed-gplus span{
   background-color: #D73F6E;
 }
+.termandcondition ol{
+  margin-left: 20px;
+ list-style:lower-roman;
+}
+.termandcondition{
+  font-size: 15px;
+  color: rgb(117, 117, 117);
+  text-align: justify;
+}
+.termandcondition strong{
+   color: black !important;
+}

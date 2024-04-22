@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faXTwitter, faInstagram, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -8,24 +7,22 @@ function FixedSocial() {
         <div>
             <div id="fixed-social">
                 <div>
-                    <a href="https://www.linkedin.com/in/intexsouthasia/" class="fixed-facebook" target="_blank"><FontAwesomeIcon className='text-xl' icon={faFacebookF} /> <span>Facebook</span></a>
+                    <a href="https://www.facebook.com/worldfurnitureexpo" class="fixed-facebook" target="_blank"><FontAwesomeIcon className='text-xl' icon={faFacebookF} /> <span>Facebook</span></a>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/intexsouthasia/" class="xtwitter" target="_blank"><FontAwesomeIcon className='text-xl' icon={faXTwitter} /> <span>Twitter</span></a>
+                    <a href="https://twitter.com/WORLDFURNITURE4" class="xtwitter" target="_blank"><FontAwesomeIcon className='text-xl' icon={faXTwitter} /> <span>Twitter</span></a>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/intexsouthasia/" class="linkedIN" target="_blank"><FontAwesomeIcon className='text-xl' icon={faLinkedin} /> <span>LinkedIn</span></a>
+                    <a href="https://www.linkedin.com/company/wofx-world-furniture-expo/" class="linkedIN" target="_blank"><FontAwesomeIcon className='text-xl' icon={faLinkedin} /> <span>LinkedIn</span></a>
                 </div>
                 <div>
-                    <a href="/contact-us" class="fixed-gplus" target="_blank"><FontAwesomeIcon className='text-xl' icon={faInstagram} /> <span>Instagram</span></a>
+                    <a href="https://www.instagram.com/wofx_worldexpo/?hl=en" class="fixed-gplus" target="_blank"><FontAwesomeIcon className='text-xl' icon={faInstagram} /> <span>Instagram</span></a>
                 </div>
                 <div>
                     <a href="https://api.whatsapp.com/send?phone=917506028359&&text=Hello%2C+I+am+interested+to+receive+more+information+about+Intex+South+Asia+-+Bangladesh.+Thank+you..%21%21" className="fixed-twitter" target="_blank">
                         <FontAwesomeIcon className='text-xl' icon={faWhatsapp} /> <span>WhatsApp</span>
                     </a>
                 </div>
-               
-
             </div>
         </div>
     )

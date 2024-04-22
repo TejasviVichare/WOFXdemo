@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import style from './footer.module.css'
+import Link from 'next/link';
 import logo from '../../../public/assests/logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightFromBracket, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -23,12 +24,12 @@ function Footer() {
             <div className={style.nesteddiv}>
               <h3 className='text-xl text-slate-200 font-bold'>QUICK LINKS</h3>
               <p className='text-slate-300'>
-              <FontAwesomeIcon icon={faRightFromBracket} /> <a href="exhibitor_enquiry.html" target="_blank">Exhibitor Enquiry Form</a><br />
-              <FontAwesomeIcon icon={faRightFromBracket} /> <a href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=in&source_name="
-                  target="_blank">Buyer Registration Form</a><br />
-               <FontAwesomeIcon icon={faRightFromBracket} /> <a href="exhibitor-profile.html" target="_blank">Exhibitor Profile</a><br />
-               <FontAwesomeIcon icon={faRightFromBracket} /> <a href="buyer-profile.html" target="_blank">Buyer Profile</a><br />
-               <FontAwesomeIcon icon={faRightFromBracket} /> <a href="terms-conditions.html" target="_blank">Terms and Conditions</a>
+              <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="/exhibitor_enquiry" >Exhibitor Enquiry Form</Link><br />
+              <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="/buyer_reg"
+                  target="_blank">Buyer Registration Form</Link><br />
+               <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="/exhibitor-profile" >Exhibitor Profile</Link><br />
+               <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="buyer-profile" >Buyer Profile</Link><br />
+               <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="/terms-conditions" >Terms and Conditions</Link>
               </p>
             </div>
             <div className={style.nesteddiv}>
