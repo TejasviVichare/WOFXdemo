@@ -17,10 +17,10 @@ function Aboutwofx() {
               <div><p><span>&#x27A4; &nbsp;</span> Expand <strong className="text-xl">Business Network</strong></p></div>
               <div><p><span>&#x27A4; &nbsp;</span> Gain Market Insights</p></div>
             </div>
-            <div id="aboutwofxbut" className="flex flex-wrap gap-4 justify-center mt-10">
+            {/* <div id="aboutwofxbut" className="flex flex-wrap gap-4 justify-center mt-10">
              <Link className="BLButton"  href=''><div>For Booth Participation - <span>Click Here</span></div></Link>
              <Link  className="BLButton" href=''><div>For Buyer Registration - <span>Click Here</span></div></Link>
-            </div>
+            </div> */}
           </div>
           <div id="glimpsessVideo">
             <p className="text-2xl text-center">Glimpses of WOFX 2023 </p>

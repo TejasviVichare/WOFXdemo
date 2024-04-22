@@ -1,12 +1,11 @@
 import Image from "next/image"
 import summerLogo from '../../../public/assests/showSummeryLogo.png'
-import Link from "next/link"
 import NumberAnimation from "./NumberAnimation"
 
 
 function Show_Summery() {
     return (
-        <div className='mx-auto   w-full max-w-screen-2xl   pt-4 pb-8 '>
+        <div className='mx-auto   w-full max-w-screen-2xl pt-4 pb-8 '>
 
             <h1 className="text-3xl ml-36 py-4 text-red-600">SHOW SUMMARY</h1>
 

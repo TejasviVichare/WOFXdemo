@@ -96,7 +96,7 @@ const navItems = [
         },
         {
           label: "Registration Form",
-          link: "#",
+          link: "/buyer_reg",
         },
         {
           label: "Business Matching Form",
