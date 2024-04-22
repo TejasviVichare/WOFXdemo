@@ -42,7 +42,7 @@ function page() {
             >
               <div className="mb-3">
                 <Image
-                  src="/assests/buyer-feedback/pallavi.PNG"
+                  src="/assests/buyer-feedback/Pallavi.png"
                   alt="pallavi.png"
                   width={120}
                   height={120}
@@ -115,8 +115,8 @@ function page() {
               {" "}
               <div className="mb-3">
                 <Image
-                  src="/assests/buyer-feedback/zuhair.png"
-                  alt="sdjfld"
+                  src="/assests/buyer-feedback/Zuhair.png"
+                  alt="Zuhair.png"
                   width={120}
                   height={120}
                 />
