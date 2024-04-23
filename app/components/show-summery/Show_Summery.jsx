@@ -15,9 +15,7 @@ import indiastate from '../../../public/assests/icon 6.png'
 function Show_Summery() {
     return (
         <div className='mx-auto   w-full max-w-screen-2xl pt-4 pb-8 '>
-
-            <h1 className="text-3xl ml-6 md:ml-32 py-4 text-red-600">SHOW SUMMARY</h1>
-
+           
             <div className="flex justify-center">
                 <div id="ShowSummeryMobile" className="w-full px-3">
                     <div className="flex  w-full mt-4 gap-4 py-3 px-3 showsummeryDivMobile rounded">

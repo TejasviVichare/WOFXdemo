@@ -1,81 +1,62 @@
-.flip {
-    padding:8px;
-    height: 130px;
-    transform-style: preserve-3d;
-    transition: 3s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .flip img{
-    width: 280px !important;
-    height: auto;
-    max-width:210px !important;
-  }
-  
-  .flip:hover {
-    transform: rotateY(180deg);
-  }
-  /* Content */
-  .flip .content {
-    transform-style: preserve-3d;
-  }
-  
-  .flip .back, .flip .front {
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .flip .back {
-    transform: rotateY(180deg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  .flip h2,
-  .flip p {
-    transform: translateZ(90px);
-    color: #ffffff;
-    text-shadow: 0 0 1px rgb(255, 255, 255);
-    text-align: center;
-  }
-  .flip p {
-    font-size: 1em;
-    color: #ffffff;
-    line-height: 1.6em;
-  }
-  .flip a{
-    color: rgb(86, 202, 252);
-  }
-  
-  .flip::before,
-  .flip::after {
-    content: "";
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  
-    border-radius: 1px;
-    position: absolute;
-    background-image: linear-gradient(rgb(45, 45, 45), rgb(25, 29, 31));
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: rotateY(180deg)translateZ(1px);
-  }
-  
-  .flip::before {
-    transform: none;
-    background: #ffffff;
-    background-position: center center;
-    background-repeat: no-repeat;
-   
-    background-size: cover;
-    
-  }
+.card {
+  margin:30px;
+  cursor:pointer;
+  position: relative;
+  width: 300px;
+
+
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  box-shadow: 0 10px 20px black;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 250px !important;
+  height: auto;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: -100%;
+  left: -30px;
+  width: 250px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  justify-content: center;
+  transition: bottom 0.3s;
+}
+
+.card:hover .overlay {
+  bottom: 0;
+  z-index: 10000 !important;
+  display: block;
+  transition: 1.2s;
+  border-radius: 5px;
+}
+
+.overlay h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.overlay p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   height: 100%;
+   text-align: center;
+}
