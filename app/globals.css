@@ -430,6 +430,17 @@
 .col-sm-5{
   width: 316px;
 }
+#ShowSummeryMobile{
+  display: none;
+}
+#ShowSummeryMobile img{
+  object-fit: contain;
+}
+.showsummeryDivMobile{
+  background-image: linear-gradient(to right bottom, #ceeaec, #dceef5, #eaf3fa, #f6f8fd, #ffffff);  
+  border-bottom: 1px solid skyblue;
+  border-right: 1px solid skyblue;
+}
 @media screen and (max-width:600px) {
   .col-sm-5{
     width: 100% !important;
@@ -440,6 +451,21 @@
   }
   #atWofx div{
     width: 100% !important;
+  }
+  .pre-header{
+    column-gap: 4px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    height: auto !important;
+    justify-content: center !important;
+  }
+  #ShowSummery{
+    display: none;
+  }
+  #ShowSummeryMobile{
+    display:block;
   }
  
 }
