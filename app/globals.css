@@ -438,8 +438,7 @@
 }
 .showsummeryDivMobile{
   background-image: linear-gradient(to right bottom, #ceeaec, #dceef5, #eaf3fa, #f6f8fd, #ffffff);  
-  border-bottom: 1px solid skyblue;
-  border-right: 1px solid skyblue;
+
 }
 @media screen and (max-width:600px) {
   .col-sm-5{

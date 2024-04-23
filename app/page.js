@@ -17,7 +17,9 @@ export default function Home() {
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <Aboutwofx />
+    <div className="block md:hidden">
     <Show_Summery />
+    </div>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>

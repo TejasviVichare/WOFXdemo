@@ -18,28 +18,28 @@ function Show_Summery() {
 
             <div className="flex justify-center">
                 <div id="ShowSummeryMobile" className="w-full px-3">
-                    <div className="flex  w-full mt-4 gap-4 py-2 px-2 showsummeryDivMobile rounded">
+                    <div className="flex  w-full mt-4 gap-4 py-3 px-3 showsummeryDivMobile rounded">
                         <Image src={exhibitors} width={50} height={40} alt="exhibitor" />
                         <div>
                         <div className="flex w-24 h-12 items-center gap-1 text-3xl font-bold text-red-600"><div><NumberAnimation n={200} /></div> <div>+</div> </div>
                         <p className="font-semibold text-gray-500">Exhibiting Brands from</p>
                         </div>
                     </div>
-                    <div className="flex  w-full mt-4 gap-4 py-2 px-2 showsummeryDivMobile rounded ">
+                    <div className="flex  w-full mt-4 gap-4 py-3 px-3 showsummeryDivMobile rounded ">
                         <Image src={state} width={50} height={40} alt="exhibitor" />
                         <div>
                         <div className="flex w-24 h-12 items-center gap-1 text-3xl font-bold text-red-600"><div><NumberAnimation n={13} /></div> <div>+</div> </div>
                         <p className="font-semibold text-gray-500">Countries</p>
                         </div>
                     </div>
-                    <div className="flex  w-full mt-4 gap-4 py-2 px-2 showsummeryDivMobile rounded">
+                    <div className="flex  w-full mt-4 gap-4 py-3 px-3 showsummeryDivMobile rounded">
                         <Image src={buyer} width={50} height={40} alt="exhibitor" />
                         <div>
                         <div className="flex w-24 h-12 items-center gap-1 text-3xl font-bold text-red-600"><div><NumberAnimation n={200} /></div> <div>+</div> </div>
                         <p className="font-semibold text-gray-500">B2B Buyers</p>
                         </div>
                     </div>
-                    <div className="flex  w-full mt-4 gap-4 py-2 px-2 showsummeryDivMobile rounded">
+                    <div className="flex  w-full mt-4 gap-4 py-3 px-3 showsummeryDivMobile rounded">
                         <Image src={country} width={50} height={40} alt="exhibitor" />
                         <div>
                         <p className="font-semibold text-gray-500">Buyers from</p>
@@ -47,7 +47,7 @@ function Show_Summery() {
                         <p className="font-semibold text-gray-500">Countries and</p>
                         </div>
                     </div>
-                    <div className="flex  w-full mt-4 gap-4 py-2 px-2 showsummeryDivMobile rounded">
+                    <div className="flex  w-full mt-4 gap-4 py-3 px-3 showsummeryDivMobile rounded">
                         <Image src={buyer} width={50} height={50} alt="exhibitor" />
                         <div>
                         <div className="flex w-24 h-12 items-center gap-1 text-3xl font-bold text-red-600"><div><NumberAnimation n={22} /></div></div>
