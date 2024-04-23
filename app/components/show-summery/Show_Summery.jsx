@@ -5,6 +5,8 @@ import exhibitors from '../../../public/assests/icon 2.png'
 import country from '../../../public/assests/icon 5.png'
 import buyer from '../../../public/assests/icon 4.png'
 import state from '../../../public/assests/icon 3.png'
+import indiastate from '../../../public/assests/icon 6.png'
+
 
 
 
@@ -28,6 +30,7 @@ function Show_Summery() {
                     <div className="flex  w-full mt-4 gap-4 py-3 px-3 showsummeryDivMobile rounded ">
                         <Image src={state} width={50} height={40} alt="exhibitor" />
                         <div>
+                        <p className="font-semibold text-gray-500">Exhibitor from</p>
                         <div className="flex w-24 h-12 items-center gap-1 text-3xl font-bold text-red-600"><div><NumberAnimation n={13} /></div> <div>+</div> </div>
                         <p className="font-semibold text-gray-500">Countries</p>
                         </div>
@@ -35,7 +38,7 @@ function Show_Summery() {
                     <div className="flex  w-full mt-4 gap-4 py-3 px-3 showsummeryDivMobile rounded">
                         <Image src={buyer} width={50} height={40} alt="exhibitor" />
                         <div>
-                        <div className="flex w-24 h-12 items-center gap-1 text-3xl font-bold text-red-600"><div><NumberAnimation n={200} /></div> <div>+</div> </div>
+                        <div className="flex w-24 h-12 items-center gap-1 text-3xl font-bold text-red-600"><div><NumberAnimation n={12052} /></div> <div>+</div> </div>
                         <p className="font-semibold text-gray-500">B2B Buyers</p>
                         </div>
                     </div>
@@ -48,7 +51,7 @@ function Show_Summery() {
                         </div>
                     </div>
                     <div className="flex  w-full mt-4 gap-4 py-3 px-3 showsummeryDivMobile rounded">
-                        <Image src={buyer} width={50} height={50} alt="exhibitor" />
+                        <Image src={indiastate} width={50} height={50} alt="exhibitor" />
                         <div>
                         <div className="flex w-24 h-12 items-center gap-1 text-3xl font-bold text-red-600"><div><NumberAnimation n={22} /></div></div>
                         <p className="font-semibold text-gray-500">States of India</p>
