@@ -339,6 +339,9 @@
   .bgvideo {
     height: 325px !important;
   }
+  .bgvideo video{
+    height: 325px !important;
+  }
 
 
 
