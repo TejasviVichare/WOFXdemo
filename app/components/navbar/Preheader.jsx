@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function PreHeader() {
   return (
-    <div className='mx-auto border-y-rose-500 z-50  w-full max-w-screen-2xl'>
+    <div className='mx-auto border-y-rose-500   w-full max-w-screen-2xl'>
       <div className="pre-header flex-wrap" style={{ display: "flex", alignItems:"center", flexDirection: "row-reverse", columnGap: "20px", paddingTop: "2px", paddingBottom:"2px", paddingLeft: "70px", paddingRight: "70px", height: "40px" }}>
         <div className="translate">
           <GoogletTranslate />

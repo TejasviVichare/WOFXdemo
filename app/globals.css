@@ -46,7 +46,7 @@
 
 .pre-header {
   position: relative;
-  z-index: 100000;
+  z-index: 100;
   background: rgba(0, 0, 0, 0.9);
 }
 
@@ -485,6 +485,10 @@
     width: 100% !important;
     margin-top: 20px;
   }
+  #mobileNav{
+    z-index: 100000 !important;
+    position: absolute;
+  }
 
   #atWofx div {
     width: 100% !important;
@@ -508,12 +512,12 @@
     display: block;
   }
 
+
   #mainHeader {
     display: flex;
     align-items: center;
     backdrop-filter: blur(6px);
   }
-
   .logo {
     width: auto;
     height: auto;
