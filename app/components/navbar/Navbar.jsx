@@ -1,5 +1,5 @@
 'use client'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,6 +10,38 @@ import navItems from '../../contents/navItem.js'
 export default function Navbar() {
   const [isSideMenuOpen, setSideMenu] = useState(false);
   const [hoveredItem, setHoveredItem] = useState(null);
+  const [isFixed, setIsFixed] = useState(false);
+
+
+  useEffect(() => {
+    function handleScroll() {
+      if (window.scrollY > 0) {
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+  const headerStyle = {
+    position: isFixed ? 'fixed' : 'relative',
+    top: 0,
+    left: 0,
+    width: '100%',
+    color: '#fff',
+    backdropFilter: isFixed ? 'blur(12px)' : 'none',
+    zIndex: isFixed ? 100 : 'auto', 
+
+  };
+
+
   function openSideMenu() {
     setSideMenu(true);
   }
@@ -17,7 +49,7 @@ export default function Navbar() {
     setSideMenu(false);
   }
   return (
-    <div id="mainHeader" className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1 py-1 text-sm">
+    <div id="mainHeader" style={headerStyle} className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1 py-1 text-sm header__middle">
       <section className=" items-center gap-8">
         <div>
           <Image
@@ -68,7 +100,7 @@ export default function Navbar() {
       </div>
     </section>
 
-      <span onClick={openSideMenu} className="cursor-pointer text-4xl md:hidden"><FontAwesomeIcon icon={faBars} /></span>
+      <span onClick={openSideMenu} className="cursor-pointer text-white text-4xl md:hidden"><FontAwesomeIcon icon={faBars} /></span>
     </div>
   );
 }

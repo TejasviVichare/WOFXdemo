@@ -9,7 +9,7 @@ function PreHeader() {
         <div className="translate">
           <GoogletTranslate />
         </div>
-        <div>
+        <div className="mt-3 md:mt-0">
           <p className="pre-header-button" style={{ color: "rgb(203 213 225)",  fontSize: "14px", height: "100%", fontWeight: "500", textTransform: "uppercase" }}>
            LOGIN
             &nbsp;
