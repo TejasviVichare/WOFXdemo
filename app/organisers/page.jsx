@@ -40,8 +40,8 @@ function page() {
 
       </div>
       <div className="flex  gap-6 justify-center py-8">
-        <a className="bg-orange-600 px-3 py-2 text-white rounded hover:bg-black" href="">DOWNLOAD BROCHURE</a>
-        <a className="bg-orange-600 px-3 py-2 text-white rounded hover:bg-black" href="">VISIT WEBSITE</a>
+        <a className="bg-orange-600 px-3 py-2 text-white rounded hover:bg-black" href="https://www.worldexindia.com/internal/pdf/worldexindia/WORLDEX-INDIA-PROFILE.pdf">DOWNLOAD BROCHURE</a>
+        <a className="bg-orange-600 px-3 py-2 text-white rounded hover:bg-black" href="https://www.worldexindia.com/">VISIT WEBSITE</a>
       </div>
 
 

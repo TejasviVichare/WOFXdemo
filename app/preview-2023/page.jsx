@@ -4,7 +4,7 @@ import preImage2 from '../../public/assests/preview2.jpg'
 
 function page() {
   return (
-    <div className='mx-auto   w-full max-w-screen-2xl '>
+    <div className='mx-auto   w-full max-w-screen-2xl py-16'>
       <h1 className="text-center text-3xl font-semibold mt-12  py-10">Preview 2023</h1>
       <div className="flex justify-center">
         <div className="w-4/5 flex justify-center gap-8 mb-8">

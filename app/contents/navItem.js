@@ -35,7 +35,7 @@ const navItems = [
         },
         {
           label: "Post Show Report",
-          link: "/assests/pdf/WOFX-POST-SHOW-2023",
+          link: "/assests/pdf/WOFX-POST-SHOW-2023.pdf",
         },
       ],
     },

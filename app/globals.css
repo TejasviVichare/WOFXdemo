@@ -489,6 +489,9 @@
     z-index: 100000 !important;
     position: absolute;
   }
+  #contactus{
+    flex-direction: column;
+  }
 
   #atWofx div {
     width: 100% !important;

@@ -131,6 +131,106 @@ const galleryImage =  [
       original: "/assests/gallery-2024/25.jpg",
       thumbnail: "/assests/gallery-2024/25.jpg"
     }
+    ,
+    {
+      original: "/assests/gallery-2024/26.jpg",
+      thumbnail: "/assests/gallery-2024/26.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/27.jpg",
+      thumbnail: "/assests/gallery-2024/27.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/28.jpg",
+      thumbnail: "/assests/gallery-2024/28.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/29.jpg",
+      thumbnail: "/assests/gallery-2024/29.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/30.jpg",
+      thumbnail: "/assests/gallery-2024/30.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/31.jpg",
+      thumbnail: "/assests/gallery-2024/31.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/32.jpg",
+      thumbnail: "/assests/gallery-2024/32.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/33.jpg",
+      thumbnail: "/assests/gallery-2024/33.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/34.jpg",
+      thumbnail: "/assests/gallery-2024/34.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/35.jpg",
+      thumbnail: "/assests/gallery-2024/35.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/36.jpg",
+      thumbnail: "/assests/gallery-2024/36.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/37.jpg",
+      thumbnail: "/assests/gallery-2024/37.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/38.jpg",
+      thumbnail: "/assests/gallery-2024/38.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/39.jpg",
+      thumbnail: "/assests/gallery-2024/39.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/40.jpg",
+      thumbnail: "/assests/gallery-2024/40.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/41.jpg",
+      thumbnail: "/assests/gallery-2024/41.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/42.jpg",
+      thumbnail: "/assests/gallery-2024/42.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/43.jpg",
+      thumbnail: "/assests/gallery-2024/43.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/65.jpg",
+      thumbnail: "/assests/gallery-2024/65.jpg"
+    }
+    ,
+    {
+      original: "/assests/gallery-2024/66.jpg",
+      thumbnail: "/assests/gallery-2024/66.jpg"
+    }
   ];
   
   export default galleryImage;

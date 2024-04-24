@@ -14,8 +14,8 @@ function PreHeader() {
            LOGIN
             &nbsp;
             <span>
-              <Link className="px-2 py-2 rounded-sm" style={{ background: "#e73e42", color: "white" }} href="/enquiry-form">Exhibitor</Link>
-              &nbsp;&nbsp;&nbsp;&nbsp;<Link className="px-2 py-2 rounded-sm" style={{ background: "#66c3d0", color: "white" }} href="/buyer_reg">Buyer</Link>
+              <Link className="px-2 py-2 rounded-sm" style={{ background: "#e73e42", color: "white" }} href="https://portal.wofxworldexpo.com/login.php">Exhibitor</Link>
+              &nbsp;&nbsp;&nbsp;&nbsp;<Link className="px-2 py-2 rounded-sm" style={{ background: "#66c3d0", color: "white" }} href="https://portal.wofxworldexpo.com/login.php">Buyer</Link>
             </span>
           </p>
         </div>
