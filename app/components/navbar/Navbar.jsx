@@ -34,7 +34,6 @@ export default function Navbar() {
     position: isFixed ? 'fixed' : 'fixed',
     top: isFixed ? '0px' : '40px',
     transition:"0.1s",
-    left: 0,
     width: '100%',
     color: '#fff',
     backdropFilter: isFixed ? 'blur(12px)' : 'none',
@@ -50,6 +49,7 @@ export default function Navbar() {
     setSideMenu(false);
   }
   return (
+    <div className='mx-auto   w-full max-w-screen-2xl '>
     <div id="mainHeader" style={headerStyle} className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1 py-1 text-sm header__middle">
       <section className=" items-center gap-8">
         <div>
@@ -102,6 +102,7 @@ export default function Navbar() {
     </section>
 
       <span onClick={openSideMenu} className="cursor-pointer text-white text-4xl md:hidden"><FontAwesomeIcon icon={faBars} /></span>
+    </div>
     </div>
   );
 }
