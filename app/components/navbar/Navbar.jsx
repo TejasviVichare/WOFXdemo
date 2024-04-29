@@ -31,8 +31,9 @@ export default function Navbar() {
 
 
   const headerStyle = {
-    position: isFixed ? 'fixed' : 'relative',
-    top: 0,
+    position: isFixed ? 'fixed' : 'fixed',
+    top: isFixed ? '0px' : '40px',
+    transition:"0.3s",
     left: 0,
     width: '100%',
     color: '#fff',

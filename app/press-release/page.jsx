@@ -5,8 +5,6 @@ function page() {
     
     <div className='mx-auto   w-full max-w-screen-2xl  pt-12 pb-20'>
     <div>
-
-
       <h1>WOFX &ndash; World Furniture Expo 2023</h1>
       <p><strong>&bull;&nbsp; Global &amp; Pan-India Networking Opportunities at WOFX - World Furniture Expo</strong></p>
       <p><strong>&bull;&nbsp; 200+ Brands and Exhibitors from 13+ Countries Participated at WOFX 2023</strong></p>
