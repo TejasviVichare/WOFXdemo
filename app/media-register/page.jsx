@@ -117,7 +117,7 @@ const MyForm = () => {
         setshowHideLoader(false);
         Swal.fire({
           text:
-            'Thank you for showing interest in participating at the Intex 2024 Shows. We shall contact you soon with more details.',
+            'Thank you for showing interest. We shall contact you soon with more details.',
           icon: 'success',
         }).then((result) => {
           window.location.reload();

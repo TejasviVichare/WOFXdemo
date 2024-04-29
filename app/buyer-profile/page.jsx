@@ -11,7 +11,9 @@ function Buyer_lounges() {
 
     <div className='mx-auto  w-full max-w-screen-2xl   mt-32 pt-4 pb-8 '>
       <center>
-      <h1 className="text-3xl  py-6">WOFX Connect - Industry Specific Business Lounges</h1>
+      
+      <h1 style={{color:"#20c9ee"}} className="text-5xl text-center  pl-9"> Buyer Lounges</h1>
+      <p className="text-3xl text-center py-1">For Business Meetings And Networking</p>
       </center>
       <p></p>
       <div className="flex justify-between flex-wrap px-6 py-2 ">
