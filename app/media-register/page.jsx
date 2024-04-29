@@ -106,7 +106,7 @@ const MyForm = () => {
       setshowHideLoader(true);
       try {
         const response = await axios.post(
-          'https://api.intexfair.com/response_media_bangladesh_next.php',
+          'https://api.worldexindia.com/wofx/media-registration-next.php',
           new URLSearchParams(formData),
           {
             headers: {
@@ -158,13 +158,6 @@ const MyForm = () => {
             <h1 className='text-center text-2xl font-semibold'>Media Enquiry Form</h1>
             <form name='company' className="enquiryForm mt-5 py-3" onSubmit={handleSubmit}>
               <div>
-
-
-
-
-
-
-
                 <div className='flex flex-wrap md:flex-nowrap gap-2 mt-5'>
                   <div className='w-full'>
                     <input type="text" name='name' className="w-full h-12 px-2" placeholder="Name*" onChange={handleChange} />
@@ -175,10 +168,6 @@ const MyForm = () => {
                     <br />{errors.designation && <span className="text-red-500">This field is required.</span>}
                   </div>
                 </div>
-
-
-
-
                 <div className='flex flex-wrap md:flex-nowrap gap-4 mt-5'>
                   <div className='w-full'>
                     <input type="text" name='organisation' className="w-full h-12 px-2" placeholder="Organisation(Media)*" onChange={handleChange} />
@@ -189,8 +178,6 @@ const MyForm = () => {
                       placeholder="Website" onChange={handleChange} />
                   </div>
                 </div>
-
-
                 <div className='flex flex-wrap md:flex-nowrap gap-4 mt-5'>
                   <div className='w-full'>
                     <select
@@ -200,9 +187,6 @@ const MyForm = () => {
                       value={formData.country}
                       onChange={handleChange}
                     >
-
-
-
                       <option data-id="none" value="">
                         Select Country*
                       </option>
@@ -943,11 +927,6 @@ const MyForm = () => {
                       placeholder="Telephone Number" onChange={handleChange} />
                   </div>
                 </div>
-
-
-
-
-
                 <div className='flex flex-wrap md:flex-nowrap gap-4  mt-5'>
                   <div className='w-full'>
                     <input type="email" name='primary_email' className="w-full h-12 px-2"
@@ -987,8 +966,6 @@ const MyForm = () => {
                   </label>
                 </div>
                 <p>{errors.media_cat && <span className="text-red-500">This field is required.</span>}</p>
-
-
                 <div className='w-full mt-7 '>
                   <div className="form-group">
 
@@ -1006,8 +983,6 @@ const MyForm = () => {
                     <label htmlFor="agree" className="error"></label>
                   </div>
                 </div>
-
-
 
                 <div className='flex justify-end mt-5 mb-3'>
                   <input type="submit" className='  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black' value="SUBMIT &raquo;" />
