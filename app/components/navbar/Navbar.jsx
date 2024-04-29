@@ -52,14 +52,14 @@ export default function Navbar() {
     <div id="mainHeader" style={headerStyle} className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1 py-1 text-sm header__middle">
       <section className=" items-center gap-8">
         <div>
-          <Image
+        <Link href='/'>  <Image
             src={logo}
             alt="logo"
             width={300}
             height={80}
             priority={true}
             className="logo"
-          />
+          /></Link>
         </div>
       </section>
       <section className="flex items-center gap-10">

@@ -232,29 +232,29 @@ function page() {
                         </td>
                       </tr>
                       <tr>
-                        <td style={{ textAlign: "center", verticalAlign: "top" }}>
-                          <p style={{ textAlign: "centers" }}>Dealers</p>
-                          <p style={{ textAlign: "centers" }}>Distributors</p>
-                          <p style={{ textAlign: "centers" }}>Wholesalers</p>
-                          <p style={{ textAlign: "centers" }}>Importers</p>
-                          <p style={{ textAlign: "centers" }}>
+                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
+                          <page>Dealers</page>
+                          <p>Distributors</p>
+                          <p>Wholesalers</p>
+                          <p>Importers</p>
+                          <p>
                             Trading &amp; Buying Houses
                           </p>
                           <p style={{ textAlign: "centers" }}>Agents</p>
                         </td>
-                        <td style={{ textAlign: "center", verticalAlign: "top" }}>
+                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
                           <p>Retailers</p>
                           <p>E-Tailers</p>
                           <p>Large Format Retailers</p>
                           <p>Online Traders</p>
                         </td>
-                        <td style={{ textAlign: "center", verticalAlign: "top" }}>
+                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
                           <p>Franchisees</p>
                           <p>Entrepreneurs</p>
                           <p>Agents</p>
                           <p>Consultants</p>
                         </td>
-                        <td style={{ textAlign: "center", verticalAlign: "top" }}>
+                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
                           <p>Architects</p>
                           <p>Interior Designers</p>
                           <p>Real Estate Developers</p>

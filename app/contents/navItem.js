@@ -118,7 +118,7 @@ const navItems = [
       children: [
         {
           label: "Press Release",
-          link: "#",
+          link: "/press-release",
         },
         {
           label: "Media Enquiry Form",
@@ -127,7 +127,12 @@ const navItems = [
         {
           label: "Supporting Media",
           link: "/supporting-media",
+        },
+        {
+          label: "Downloads",
+          link: "/downloads",
         }
+
       ],
     },
     {
