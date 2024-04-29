@@ -56,8 +56,8 @@ const exhibitorProfileContent = [
 function page() {
   return (
     <div className='mx-auto   w-full max-w-screen-2xl '>
-    <div className="mt-16  pb-24">
-      <h1 className="text-xl md:text-3xl py-2 font-semibold text-center">Exhibitor Profile</h1>
+    <div className=" mt-40 pb-24">
+      <h1 className="text-xl md:text-3xl py-6 font-semibold text-center">Exhibitor Profile</h1>
        <div className="flex justify-center">
        <div className=" flex flex-wrap w-4/5  justify-center gap-6">
         {exhibitorProfileContent?.map((item, i)=>(

@@ -4,7 +4,7 @@ function page() {
   return (
     <div>
       <div className='mx-auto   w-full max-w-screen-2xl '>
-        <div className="mt-20  flex justify-center">
+        <div className=" mt-40 mb-4 flex justify-center">
           <div className="space">
             <center>
               <h1 className="text-2xl font-bold">VENUE</h1>

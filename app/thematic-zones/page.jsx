@@ -9,7 +9,7 @@ import designedge from '../../public/assests/design edge.png'
 function page() {
     return (
         <div className='mx-auto   w-full max-w-screen-2xl '>
-            <div className="mt-16  pb-24">
+            <div className=" mt-40 pb-24">
                 <center><span style={{ background: "#e8bd2b" }} className="text-xl py-2 px-4 md:text-3xl  font-semibold">Thematic Zones @ WOFX</span></center>
                 <div className="flex justify-center">
                     <div className="flex flex-wrap justify-center gap-4 mt-12 thematiczone">

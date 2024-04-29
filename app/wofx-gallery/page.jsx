@@ -36,8 +36,8 @@ function page() {
   }
 
   return (
-    <div className='mx-auto   w-full max-w-screen-2xl '>
-      <h1 className="text-center text-3xl font-semibold mt-8  py-10">Photo Gallery</h1>
+    <div className='mx-auto   w-full max-w-screen-2xl mt-36 '>
+      <h1 className="text-center text-3xl font-semibold mt-4  py-10">Photo Gallery</h1>
       <div className="flex justify-center">
         <div className="w-4/5 wofxGallry">
           <ImageGallery

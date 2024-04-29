@@ -11,7 +11,7 @@ function page() {
   return (
     <>
       <div className='mx-auto   w-full max-w-screen-2xl '>
-        <div className="mt-20  flex justify-center">
+        <div className=" mt-36 flex justify-center">
           <section class="hero">
             <div class="left-side-under-hero">
               <h1 className="text-xl md:text-3xl py-2 font-medium">WOFX - World Furniture Expo</h1>

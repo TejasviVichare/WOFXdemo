@@ -9,7 +9,7 @@ function page() {
   return (
     <>
       <div className='mx-auto   w-full max-w-screen-2xl '>
-      <div className="mt-20 ">
+      <div className=" mt-40">
       <center>
       <Image src={WORLDEX} width={320} height='auto' alt="orgniser Image" />
       </center>

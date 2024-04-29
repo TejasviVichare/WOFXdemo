@@ -1,11 +1,9 @@
 function page() {
   return (
     <>
-      <div>&nbsp;</div>
-      <div>&nbsp;</div>
-      <div>&nbsp;</div>
 
-      <div className='mx-auto   w-full max-w-screen-2xl  pt-12 pb-20'>
+
+      <div className='mx-auto   w-full max-w-screen-2xl mt-40 pb-20'>
         <div className="flex justify-center">
           <table align="center" className="w-[70%]  valign-top ">
             <tbody className="valign-top">
