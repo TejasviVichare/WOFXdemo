@@ -25,7 +25,7 @@ function Buyer_lounges() {
             <div><span className="wingdings">&#x1F7C2;</span> Trading & Buying Houses</div>
             <div><span className="wingdings">&#x1F7C2;</span> Agents</div>
            </div>
-           <div className="BLButton"><Link href='/'>Click Here To Regsiter</Link></div>
+           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=dd&source_name='>Click Here To Regsiter</Link></div>
         </div>
         <div id="businessLounchCard" className="relative px-3  py-5">
            <div className="blImage">
@@ -37,7 +37,7 @@ function Buyer_lounges() {
             <div><span className="wingdings">&#x1F7C2;</span> Large Format Retailers</div>
             <div><span className="wingdings">&#x1F7C2;</span> Online Traders</div>
            </div>
-           <div className="BLButton"><Link href='/'>Click Here To Regsiter</Link></div>
+           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=rc&source_name='>Click Here To Regsiter</Link></div>
         </div>
         <div id="businessLounchCard" className="relative px-3  py-5">
            <div className="blImage"><Image   src={blLogo3} width={160} height={160} alt="Dealers & Distributors" /></div>
@@ -47,7 +47,7 @@ function Buyer_lounges() {
             <div><span className="wingdings">&#x1F7C2;</span> Agents</div>
             <div><span className="wingdings">&#x1F7C2;</span> Consultant</div>
            </div>
-           <div className="BLButton"><Link href='/'>Click Here To Regsiter</Link></div>
+           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=ff&source_name='>Click Here To Regsiter</Link></div>
         </div>
         <div id="businessLounchCard" className="relative px-3  py-5">
            <div className="blImage"><Image   src={blLogo2} width={160} height={160} alt="Dealers & Distributors" /></div>
@@ -59,7 +59,7 @@ function Buyer_lounges() {
             <div><span className="wingdings">&#x1F7C2;</span> Corporate Sourcing Heads</div>
             <div><span className="wingdings">&#x1F7C2;</span> Institutional</div>
            </div>
-           <div className="BLButton"><Link href='/'>Click Here To Regsiter</Link></div>
+           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=pp&source_name='>Click Here To Regsiter</Link></div>
         </div>
       </div>
     </div>
