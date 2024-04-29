@@ -223,8 +223,8 @@ const galleryImage =  [
     }
     ,
     {
-      original: "/assests/gallery-2024/65.jpg",
-      thumbnail: "/assests/gallery-2024/65.jpg"
+      original: "/assests/gallery-2024/65.jpeg",
+      thumbnail: "/assests/gallery-2024/65.jpeg"
     }
     ,
     {
