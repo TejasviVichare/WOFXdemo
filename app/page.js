@@ -23,17 +23,14 @@ export default function Home() {
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <Show_Summery />
-
-    <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
 
     <Wofxadvantage />
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+    
+ 
     <Buyer_lounges />
     <p>&nbsp;</p>
     <p>&nbsp;</p>
@@ -47,7 +44,7 @@ export default function Home() {
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <center><h1 className="text-3xl">Industry Bodies Endorse WOFX </h1></center>
+    <center><h1 className="text-3xl">Industry Bodies Endorsing WOFX</h1></center>
     <p>&nbsp;</p>
     <Industribody />
     <p>&nbsp;</p>
@@ -56,7 +53,7 @@ export default function Home() {
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <center><h1 className="text-3xl py-6">International Pavilion organizations </h1></center>
+    <center><h1 className="text-3xl py-6">International Pavilion Organizations </h1></center>
     <InternationPavilion />
     <p>&nbsp;</p>
     </>

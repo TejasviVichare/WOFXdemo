@@ -2,7 +2,7 @@
 import a from '../../../public/assests/orgnization/1.webp'
 import b from '../../../public/assests/orgnization/2.webp'
 import c from '../../../public/assests/orgnization/4.webp'
-import d from '../../../public/assests/orgnization/9.webp'
+import d from '../../../public/assests/orgnization/14.webp'
 import Image from 'next/image'
 import style from './industribody.module.css'
 const industribody = [
@@ -10,48 +10,82 @@ const industribody = [
         img: a,
         text: 'Association of Furniture Manufacturers & Traders',
         a: 'https://www.afmt.in/',
-        heading: 'Industry Partner'
+        heading: 'Industry Partner',
+        class: "a"
     },
     {
         img: b,
         text: 'Retailers Association of India (RAI)',
         a: 'https://www.afmt.in/',
-        heading: "Industry Association Partner"
+        heading: "Industry Association Partner",
+        class: "b"
     }, {
         img: c,
-        text: 'texprocilCouncil of Architecture India',
+        text: 'Council of Architecture India',
         a: 'https://www.afmt.in/',
-        heading: 'Knowledge Partner'
+        heading: 'Knowledge Partner',
+        class: "c"
     },
     {
         img: d,
         text: 'Institute of Indian Interior Designers India',
         a: 'https://www.afmt.in/',
-        heading: ''
+        heading: '',
+        class: "d"
     }]
 
 
 function Industribody() {
     return (
         <>
-            <div className='flex justify-center  flex-wrap gap-10'>
-                {
-                    industribody?.map((item, index) => (
-                        <div  key={index}>
-                            <center>
-                                <h3>{item.heading}</h3>
-                            </center>
-                            <a   href="#" className={style.card}>
-                                <Image src={item.img}  alt="Card Background" />
-                                    <div className={style.overlay}>
-                                        <p>{item.text}</p>
-                                    </div>
-                            </a>
-
+            <div className='flex justify-center  flex-wrap '>
+                <div className=''>
+                    <center>
+                        <h3>Industry Partner</h3>
+                    </center>
+                    <a href="#" className={style.card}>
+                        <Image src={a} alt="Card Background" />
+                        <div className={style.overlay}>
+                            <p>Association of Furniture Manufacturers & Traders</p>
                         </div>
-                    ))
-                }
+                    </a>
+                </div>
+                <div className=''>
+                    <center>
+                        <h3>Industry Association Partner</h3>
+                    </center>
+                    <a href="#" className={style.card}>
+                        <Image src={b} alt="Card Background" />
+                        <div className={style.overlay}>
+                            <p>Retailers Association of India (RAI)</p>
+                        </div>
+                    </a>
+                </div>
+                <div className=' relative'>
+                    <center>
+                        <h3 className='absolute w-56 left-2 md:left-32'>Knowledge Partner</h3>
+                        <h3>&nbsp;</h3>
+                    </center>
+                    <a href="#" className={style.card}>
+                        <Image src={c} alt="Card Background" />
+                        <div className={style.overlay}>
+                            <p>Council of Architecture India</p>
+                        </div>
+                    </a>
+                </div>
+                <div className=''>
+                    <center>
+                        <h3 style={{visibility:"hidden"}}>Industry Partner</h3>
+                    </center>
+                    <a   href="#" className={style.card}>
+                        <Image src={d} alt="Card Background" />
+                        <div className={style.overlay}>
+                            <p>Institute of Indian Interior Designers India</p>
+                        </div>
+                    </a>
+                </div>
             </div>
+     
         </>
     )
 }

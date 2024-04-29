@@ -329,7 +329,7 @@ function page() {
         </div>
       </div>
       <div>&nbsp;</div>
-      <div>&nbsp;</div>
+  
       <center>
         <a
           className="hover:bg-white hover:text-black"

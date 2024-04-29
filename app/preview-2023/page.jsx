@@ -10,7 +10,7 @@ function page() {
       <div className="flex justify-center">
         <div className="w-4/5 flex justify-center gap-8 mb-8">
           {/* Assuming 'preImage1' and 'preImage2' are imported image components */}
-          <a href="/assets/pdf/WOFX-PREVIEW-1_press.pdf">
+          <a href="/assests/pdf/WOFX-PREVIEW-1_press.pdf">
             <div className="border py-4 hover:bg-slate-900">
               <Image className="post-show-img" src={preImage1} width={400} height="auto" alt="Preview 1" />
               <div className="flex justify-center my-6">
@@ -20,7 +20,7 @@ function page() {
               </div>
             </div>
           </a>
-          <a href="/assets/pdf/WOFX-PREVIEW-2_press.pdf">
+          <a href="/assests/pdf/WOFX-PREVIEW-2_press.pdf">
             <div className="border py-4 hover:bg-slate-900">
               <Image className="post-show-img" src={preImage2} width={400} height="auto" alt="Preview 2" />
               <div className="flex justify-center my-6">

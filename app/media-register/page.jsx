@@ -135,9 +135,6 @@ const MyForm = () => {
       console.log('form validating error')
     }
   };
-
-
-
   if (showHideLoader) {
     return (
       <>
@@ -145,10 +142,6 @@ const MyForm = () => {
       </>
     )
   }
-
-
-
-
 
   return (
     <div className='mx-auto   w-full max-w-screen-2xl mt-40'>
@@ -872,16 +865,11 @@ const MyForm = () => {
                         Zimbabwe
                       </option>
                       <option data-countrycode="GB" data-callingcode={44} value="UK">
-
                         UK
                       </option>
                       <option data-countrycode="US" data-callingcode={1} value="USA">
-
                         USA
                       </option>
-
-
-
                     </select>
                   </div>
                   <div className='w-full'>
@@ -889,14 +877,6 @@ const MyForm = () => {
                       placeholder="Country Code" onChange={handleChange} />
                   </div>
                 </div>
-
-
-
-
-
-
-
-
                 <div className='flex flex-wrap md:flex-nowrap gap-4 mt-5'>
                   <div className='w-full'>
                     <input type="text" name='city' className="w-full h-12 px-2" placeholder="City*" onChange={handleChange} />
@@ -907,13 +887,6 @@ const MyForm = () => {
                       placeholder="City Code" onChange={handleChange} />
                   </div>
                 </div>
-
-
-
-
-
-
-
                 <div className='flex flex-wrap md:flex-nowrap mt-5 gap-2'>
                   <div className='w-full'>
                     <input type="text" name='mobile' className="w-full h-12 px-2"
@@ -921,7 +894,6 @@ const MyForm = () => {
                       maxLength="10" onChange={handleChange} />
                     <br />{errors.mobile && <span className="text-red-500">This field is required.</span>}
                   </div>
-
                   <div className='w-full'>
                     <input type="text" name='telephone' className="w-full h-12 px-2"
                       placeholder="Telephone Number" onChange={handleChange} />
@@ -983,21 +955,15 @@ const MyForm = () => {
                     <label htmlFor="agree" className="error"></label>
                   </div>
                 </div>
-
                 <div className='flex justify-end mt-5 mb-3'>
                   <input type="submit" className='  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black' value="SUBMIT &raquo;" />
                 </div>
-
-
-
               </div>
             </form>
           </div>
         </div>
         <p className='font-bold text-lg'>For Show Information</p>
-        <p className='font-semibold'>Hasina Dhopaunkar &nbsp; | &nbsp;<a class="contactDetail" href="mailto:haider@worldexindia.com">haider@worldexindia.com</a>&nbsp;|&nbsp;<a class="contactDetail" href="tel:+919619095955">+919619095955</a></p>
-
-
+        <p className='font-semibold'>Hasina Dhopaunkar &nbsp; | &nbsp;<a class="contactDetail" href="mailto:hasina@worldexindia.com">hasina@worldexindia.com</a>&nbsp;|&nbsp;<a class="contactDetail" href="tel:+918169240529">+91 8169240529</a></p>
       </div>
     </div>
   );

@@ -8,10 +8,10 @@ import Link from "next/link"
 
 function Buyer_lounges() {
   return (
-    <div className='mx-auto border  w-full max-w-screen-2xl bussinesLounchMain  pt-4 pb-8 '>
-      <center>
-      <h1 className="text-3xl  py-6">WOFX Connect - Industry Specific Business Lounges</h1>
-      </center>
+    <div className='mx-auto  w-full max-w-screen-2xl bussinesLounchMain  pt-4 pb-8 '>
+      
+      <h1 style={{color:"#20c9ee"}} className="text-5xl text-center  pl-9"> Buyer Lounges</h1>
+      <p className="text-3xl text-center py-1">For Business Meetings And Networking</p>
       <p></p>
       <div className="flex justify-between flex-wrap px-6 py-2 ">
         <div id="businessLounchCard" className="relative px-3  py-5">

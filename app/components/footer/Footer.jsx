@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import style from './footer.module.css'
 import Link from 'next/link';
-import logo from '../../../public/assests/logo.svg'
+import logo from '../../../public/assests/WORLDEX.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightFromBracket, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faXTwitter, faInstagram, faLinkedin, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
@@ -63,7 +63,7 @@ function Footer() {
             </div>
             </div>
           </div>
-          <center style={{background:"#202020",}} className='text-slate-300 py-4'>© WOFX 2024 | All Rights Reserved.</center>
+          <center style={{background:"#000000",}} className='text-slate-300 py-4'>© WOFX 2024 | All Rights Reserved.</center>
           
         </div>
       </footer>

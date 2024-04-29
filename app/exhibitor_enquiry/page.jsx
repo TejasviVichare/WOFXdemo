@@ -271,7 +271,7 @@ const MyForm = () => {
           </div>
         </div>
         <p className='font-bold text-lg'>For Show Information</p>
-<p className='font-semibold'><a class="contactDetail" href="mailto:haider@worldexindia.com">haider@worldexindia.com</a>&nbsp;|&nbsp;<a class="contactDetail" href="tel:+919619095955">+919619095955</a></p>
+<p className='font-semibold'> Haider Mirza |  <a class="contactDetail" href="mailto:haider@worldexindia.com">haider@worldexindia.com</a>&nbsp;|&nbsp;<a class="contactDetail" href="tel:+919619095955">+919619095955</a></p>
 
       </div>
     </div>
