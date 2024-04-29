@@ -59,14 +59,11 @@ function Footer() {
               <a className='w-10 h-10  flex justify-center items-center hover:border hover:bg-white hover:text-black rounded' href="https://www.instagram.com/wofx_worldexpo/?hl=en"><FontAwesomeIcon className='text-xl' icon={faInstagram} /></a>
               <a className='w-10 h-10  flex justify-center items-center hover:border hover:bg-white hover:text-black rounded' href="https://www.linkedin.com/company/wofx-world-furniture-expo/"><FontAwesomeIcon className='text-xl' icon={faLinkedin} /></a>
               <a className='w-10 h-10  flex justify-center items-center hover:border hover:bg-white hover:text-black rounded' href="https://api.whatsapp.com/send?phone=919819567106&amp;&amp;text=Hello%2C+I+am+interested+to+receive+more+information+about+WOFX+-+World+Furniture+Expo.+Thank+You!"><FontAwesomeIcon className='text-xl' icon={faWhatsapp} /></a>
-              
-              
-              
-              
               </div>
             </div>
             </div>
           </div>
+          <center style={{background:"#202020",}} className='text-slate-300 py-4'>© WOFX 2024 | All Rights Reserved.</center>
           
         </div>
       </footer>

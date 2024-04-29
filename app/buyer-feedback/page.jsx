@@ -6,7 +6,7 @@ function page() {
 
 
 
-<div className='mx-auto   w-full max-w-screen-2xl '>
+<div className='mx-auto   w-full max-w-screen-2xl mt-40 '>
       <div className="bg-gray-200 mt-16 rounded mb-16 w-[80%] text-center m-auto">
         <div className="p-8 text-4xl"> Buyer Testimonials</div>
         <div className="pb-16 ">

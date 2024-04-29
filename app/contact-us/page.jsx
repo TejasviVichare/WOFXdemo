@@ -106,7 +106,7 @@ function Page() {
   return (
     <>
       <div className="mx-auto   w-full max-w-screen-2xl ">
-        <div className="py-4 px-4 md:px-40 md:py-12 mt-16">
+        <div className="py-4 px-4 md:px-40 md:py-12 mt-40">
           <div className="mx-auto   w-full max-w-screen-2xl">
           <div className="flex pr" id="contactus">
 

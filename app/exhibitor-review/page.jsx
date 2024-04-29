@@ -3,6 +3,8 @@ import Image from "next/image";
 function page() {
   return (
     <>
+
+<div className='mx-auto   w-full max-w-screen-2xl mt-40'>
       <div className="bg-gray-200 mb-16 w-[80%] text-center m-auto">
         <div className=" p-8 text-4xl"> Exhibitor Testimonials</div>
         <div className=" pb-16">
@@ -342,6 +344,7 @@ function page() {
           </div> */}
           </div>
         </div>
+      </div>
       </div>
     </>
   );

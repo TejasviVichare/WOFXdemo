@@ -8,7 +8,7 @@ import Link from "next/link"
 
 function Buyer_lounges() {
   return (
-    <div className='mx-auto   w-full max-w-screen-2xl bussinesLounchMain pt-16 pb-20'>
+    <div className='mx-auto   w-full max-w-screen-2xl bussinesLounchMain mt-40 pb-20'>
       <center>
       <h1 className="text-3xl  py-6">WOFX Connect - Industry Specific Business Lounges</h1>
       </center>

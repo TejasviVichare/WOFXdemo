@@ -1,13 +1,11 @@
 import Image from "next/image"
 function page() {
   return (
-    <div className='mx-auto  mt-16  w-full max-w-screen-2xl '>
+    <div className='mx-auto  mt-40  w-full max-w-screen-2xl '>
         <center>
         <h1 className="text-3xl pb-6 font-bold uppercase">SUPPORTING MEDIA</h1>
       </center>
       <div className=" flex justify-center">
-    
-
       <div className="flex w-4/5  flex-wrap gap-10 justify-center">
         <div >
           <a href="http://www.aipanorama.com/">

@@ -2,7 +2,7 @@ import React from 'react'
 
 function page() {
     return (
-        <div className='mx-auto   w-full max-w-screen-2xl  pt-12 pb-20'>
+        <div className='mx-auto   w-full max-w-screen-2xl  mt-40 pb-20'>
             <div className="flex justify-center">
 
                 <div className='w-4/5 termandcondition'>
