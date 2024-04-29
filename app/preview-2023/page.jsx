@@ -24,7 +24,7 @@ function page() {
             <div className="border py-4 hover:bg-slate-900">
               <Image className="post-show-img" src={preImage2} width={400} height="auto" alt="Preview 2" />
               <div className="flex justify-center my-6">
-                <p className="text-center py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold" href="/assests/pdf/WOFX-PREVIEW-2_press.pdf">
+                <p className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold" href="/assests/pdf/WOFX-PREVIEW-2_press.pdf">
                   Preview 2
                 </p>
               </div>

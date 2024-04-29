@@ -333,7 +333,7 @@ function page() {
       <center>
         <a
           className="hover:bg-white hover:text-black"
-          href="https://wofxworldexpo.com/assets/pdf/factsheet.pdf"
+          href="/assests/pdf/factsheet.pdf"
           target="_blank"
         >
           <button className="bg-black text-white p-2 hover:bg-gray-500 hover:text-white ">
