@@ -2,9 +2,7 @@ import Image from "next/image";
 import WORLDEXPAGE from "../../public/assests/WORLDEX PAGE 2.png";
 import WORLDEX from "../../public/assests/WORLDEX.png";
 
-import Image from "next/image"
-import WORLDEXPAGE from '../../public/assests/WORLDEX PAGE 2.png'
-import WORLDEX from '../../public/assests/Worldex-Logo.png'
+
 
 
 
