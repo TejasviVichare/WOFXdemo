@@ -89,7 +89,7 @@ function Page() {
         );
 
         Swal.fire({
-          text: "Thank you for showing interest in participating at the WOFX 2024 Shows. We shall contact you soon with more details.",
+          text: "Thank you for showing interest in WOFX 2024. We shall contact you soon with more details.",
           icon: "success",
         }).then((result) => {
           window.location.reload();

@@ -11,15 +11,7 @@ export const metadata = {
 function Buyer_lounges() {
   return (
     <div className="mx-auto  w-full max-w-screen-2xl   mt-32 pt-4 pb-8 ">
-      <center>
-        <h1 style={{ color: "#20c9ee" }} className="text-5xl text-center  pl-9">
-          {" "}
-          Buyer Lounges
-        </h1>
-        <p className="text-3xl text-center py-1">
-          For Business Meetings And Networking
-        </p>
-      </center>
+    
       <p></p>
       <div className="flex justify-center gap-5 flex-wrap px-6 py-2 ">
         <div  className="relative px-3  py-5  w-64">

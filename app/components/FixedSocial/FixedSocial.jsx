@@ -19,7 +19,7 @@ function FixedSocial() {
                     <a href="https://www.instagram.com/wofx_worldexpo/?hl=en" class="fixed-gplus" target="_blank"><FontAwesomeIcon className='text-xl' icon={faInstagram} /> <span>Instagram</span></a>
                 </div>
                 <div>
-                    <a href="https://api.whatsapp.com/send?phone=917506028359&&text=Hello%2C+I+am+interested+to+receive+more+information+about+Intex+South+Asia+-+Bangladesh.+Thank+you..%21%21" className="fixed-twitter" target="_blank">
+                    <a href="https://api.whatsapp.com/send?phone=919819567106&&text=Hello%2C+I+am+interested+to+receive+more+information+about+WOFX - World Furniture Expo 2024.+Thank+you..%21%21" className="fixed-twitter" target="_blank">
                         <FontAwesomeIcon className='text-xl' icon={faWhatsapp} /> <span>WhatsApp</span>
                     </a>
                 </div>

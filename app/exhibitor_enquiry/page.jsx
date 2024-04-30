@@ -288,10 +288,20 @@ const MyForm = () => {
                       type="checkbox"
                       name="mpc[]"
                       className="exhibit_country"
-                      value="Theatre / Auditorium"
+                      value="Handcrafted"
                       onChange={handleChange}
                     />
-                    &nbsp; Theatre / Auditorium
+                    &nbsp; Handcrafted
+                  </label>
+                  <label className="checkbox col-sm-12">
+                    <input
+                      type="checkbox"
+                      name="mpc[]"
+                      className="exhibit_country"
+                      value="School/College"
+                      onChange={handleChange}
+                    />
+                    &nbsp; School/College
                   </label>
                   <label className="checkbox col-sm-12">
                     <input
