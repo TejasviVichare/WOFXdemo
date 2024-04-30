@@ -101,7 +101,7 @@ export default function Navbar() {
       </div>
     </section>
 
-      <span onClick={openSideMenu} className="cursor-pointer text-white text-4xl md:hidden"><FontAwesomeIcon icon={faBars} /></span>
+      <span onClick={openSideMenu} className="cursor-pointer flex justify-center items-center text-white text-4xl md:hidden"><FontAwesomeIcon icon={faBars} /></span>
     </div>
     </div>
   );

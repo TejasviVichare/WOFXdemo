@@ -230,6 +230,24 @@ const MyForm = () => {
                   <strong>Major Exhibit Category*</strong>
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3">
+<<<<<<< HEAD
+=======
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='Apparel Fabric' value='Home' id="2" onChange={handleChange} />&nbsp;  Home</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Office' onChange={handleChange} /> Office</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Outdoor' onChange={handleChange} />&nbsp; Outdoor</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Plastic' onChange={handleChange} />&nbsp; Plastic</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Kid' onChange={handleChange} />&nbsp;  Kids</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Airport' onChange={handleChange} />&nbsp;  Airport</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Theatre / Auditorium' onChange={handleChange} />&nbsp;   Theatre / Auditorium</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Hospital' onChange={handleChange} />&nbsp;   Hospital</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Public' onChange={handleChange} />&nbsp;   Public</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Hotel & Restaurant' onChange={handleChange} />&nbsp;   Hotel & Restaurant</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Accessories' onChange={handleChange} />&nbsp;   Accessories</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Décor' onChange={handleChange} />&nbsp;   Décor</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Modular' onChange={handleChange} />&nbsp;   Modular</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Mattresses' onChange={handleChange} />&nbsp;   Mattresses</label>
+                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Lighting' onChange={handleChange} />&nbsp;   Lighting</label>
+>>>>>>> 205f0f972cd4f1c7ee7061a0bd3231d45c8bd8ed
                   <label className="checkbox col-sm-12">
                     <input
                       type="checkbox"

@@ -23,25 +23,25 @@ function CountrySlider() {
                 blurBorders={false}
             >
                 <Slider.Slide>
-                    <Image src={a} width={140} height={100} alt='a' />
+                    <Image src={a} width={130} height={100} alt='a' />
                 </Slider.Slide>
                 <Slider.Slide>
-                    <Image src={b} width={140} height={100} alt='a' />
+                    <Image src={b} width={130} height={100} alt='a' />
                 </Slider.Slide>
                 <Slider.Slide>
-                    <Image src={c} width={140} height={100} alt='a' />
+                    <Image src={c} width={130} height={100} alt='a' />
                 </Slider.Slide>
                 <Slider.Slide>
-                    <Image src={d} width={140} height={100} alt='a' />
+                    <Image src={d} width={130} height={100} alt='a' />
                 </Slider.Slide>
                 <Slider.Slide>
-                    <Image src={e} width={140} height={100} alt='a' />
+                    <Image src={e} width={130} height={100} alt='a' />
                 </Slider.Slide>
                 <Slider.Slide>
-                    <Image src={f} width={140} height={100} alt='a' />
+                    <Image src={f} width={130} height={100} alt='a' />
                 </Slider.Slide>
                 <Slider.Slide>
-                    <Image src={g} width={140} height={100} alt='a' />
+                    <Image src={g} width={130} height={100} alt='a' />
                 </Slider.Slide>
             </Slider>
           </div>

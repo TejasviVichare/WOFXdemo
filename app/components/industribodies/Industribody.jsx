@@ -23,7 +23,7 @@ const industribody = [
         img: c,
         text: 'Council of Architecture India',
         a: 'https://www.afmt.in/',
-        heading: 'Knowledge Partner',
+        heading: 'Knowledge Partners',
         class: "c"
     },
     {
@@ -63,7 +63,7 @@ function Industribody() {
                 </div>
                 <div className=' relative'>
                     <center>
-                        <h3 className='absolute w-56 left-2 md:left-32'>Knowledge Partner</h3>
+                        <h3 className='absolute w-56 left-2 md:left-32'>Knowledge Partners</h3>
                         <h3>&nbsp;</h3>
                     </center>
                     <a href="#" className={style.card}>
