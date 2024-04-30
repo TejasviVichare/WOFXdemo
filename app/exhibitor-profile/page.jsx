@@ -25,6 +25,10 @@ const exhibitorProfileContent = [
     img: "/assests/exhibitorProfile/5.png",
     text: "Kids",
   },
+  {
+    img: "/assests/exhibitorProfile/15.png",
+    text: "Handcrafted",
+  },
 
   {
     img: "/assests/exhibitorProfile/7.png",
@@ -69,6 +73,7 @@ function page() {
               >
                 <div className="relative  exhibitorProfileCard">
                   <center>
+                   
                     <Image src={item.img} width={140} height={140} alt={i} />
                   </center>
                   <div className="flex justify-center">

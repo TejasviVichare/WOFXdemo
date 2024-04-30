@@ -353,16 +353,7 @@ const MyForm = () => {
                     />
                     &nbsp; Modular
                   </label>
-                  <label className="checkbox col-sm-12">
-                    <input
-                      type="checkbox"
-                      name="mpc[]"
-                      className="exhibit_country"
-                      value="Furniture Fittings"
-                      onChange={handleChange}
-                    />
-                    &nbsp; Furniture Fittings
-                  </label>
+                 
                   <label className="checkbox col-sm-12">
                     <input
                       type="checkbox"
