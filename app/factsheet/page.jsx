@@ -128,7 +128,7 @@ function page() {
                 </td>
                 <td className="pt-2 pb-2">
                   <ul className="list-ul">
-                    <p>• &nbsp; Hong Kong,</p>
+                    <p>• &nbsp; Hong Kong</p>
                     <p>• &nbsp; China</p>
                     <p>• &nbsp; Singapore</p>
                     <p>• &nbsp; Turkiye</p>
@@ -160,7 +160,7 @@ function page() {
                 </td>
                 <td className="pt-2 pb-2" colSpan={2}>
                   <ul className="list-ul">
-                    <p>• &nbsp; WOW - Words of Wisdom</p>
+                    
                     <p>• &nbsp; Design Walk</p>
                     <p>• &nbsp; Design Talk</p>
                     <p>• &nbsp; Business Pulse</p>
@@ -190,11 +190,14 @@ function page() {
               <tr className="border-b-[1px] border-gray-400 leading-8  ">
                 <td style={{ verticalAlign: "top" }}>
                   <p>
-                    Buyer Lounges <br />
-                    For Business Meetings and Networking{" "}
+                    Buyer Profile <br />
+                    
                   </p>
                 </td>
-                <td colSpan={2}>
+               
+              </tr>
+              <tr>
+              <td colSpan={3}>
                   <table
                     width="100%"
                     border={1}
