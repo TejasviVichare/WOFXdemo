@@ -4,6 +4,9 @@ import axios from "axios";
 
 import Swal from "sweetalert2";
 
+export const metadata = {
+  title: "Contact us",
+};
 function Page() {
   const [errors, setErrors] = useState({});
   const [formData, setFormData] = useState({
@@ -110,13 +113,21 @@ function Page() {
                   Talk To Us
                 </p>
           <div className="mx-auto   w-full max-w-screen-2xl">
+<<<<<<< HEAD
           <div className="flex pr" id="contactus">
 
               <div className=" md:w-1/2  pr-10">
                 
+=======
+            <div className="flex pr" id="contactus">
+              <div className=" md:w-3/4  pr-10">
+                <p className="font-bold mb-4" style={{ fontSize: "19px" }}>
+                  Talk To Us
+                </p>
+>>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
 
                 <form action="" method="POST" onSubmit={handleSubmit}>
-                  <div >
+                  <div>
                     <input
                       type="text"
                       name="name"
@@ -248,7 +259,7 @@ function Page() {
                     <div className="text-right">
                       <input
                         type="submit"
-                        className="  bg-gray-800 text-white px-6 py-2 cursor-pointer hover:bg-black  mb-4" 
+                        className="  bg-gray-800 text-white px-6 py-2 cursor-pointer hover:bg-black  mb-4"
                         value="SUBMIT &raquo;"
                       />
                     </div>
@@ -290,9 +301,12 @@ function Page() {
                   </p>
                 </div>
               </div>
-            </div><br /><br /><br />
+            </div>
+            <br />
+            <br />
+            <br />
             <div className="grid md:grid-cols-2 gap-6">
-              <div >
+              <div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30180.839334402786!2d72.826897!3d18.993048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce8ca8317345%3A0x2633fa2866244aeb!2sWorldex%20India%20Exhibition%20%26%20Promotion%20Pvt.%20Ltd.!5e0!3m2!1sen!2sus!4v1694174819419!5m2!1sen!2sus"
                   style={{ border: 0 }}
@@ -303,7 +317,7 @@ function Page() {
                   referrerPolicy="no-referrer-when-downgrade"
                 />
               </div>
-              <div >
+              <div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28040.962025392528!2d77.25759800000002!3d28.536105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3df117f72e1%3A0x6dccd23003e2e2c6!2sWorldex%20India%20Exhibition%20%26%20Promotion%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1694174849412!5m2!1sen!2sin"
                   style={{ border: 0 }}

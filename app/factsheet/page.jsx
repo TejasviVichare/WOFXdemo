@@ -1,9 +1,10 @@
+export const metadata = {
+  title: "Factsheet",
+};
 function page() {
   return (
     <>
-
-
-      <div className='mx-auto   w-full max-w-screen-2xl mt-40 pb-20'>
+      <div className="mx-auto   w-full max-w-screen-2xl mt-40 pb-20">
         <div className="flex justify-center">
           <table align="center" className="w-[70%]  valign-top ">
             <tbody className="valign-top">
@@ -127,7 +128,7 @@ function page() {
                 </td>
                 <td className="pt-2 pb-2">
                   <ul className="list-ul">
-                    <p>• &nbsp; Hong Kong</p>
+                    <p>• &nbsp; Hong Kong,</p>
                     <p>• &nbsp; China</p>
                     <p>• &nbsp; Singapore</p>
                     <p>• &nbsp; Turkiye</p>
@@ -147,7 +148,7 @@ function page() {
                     <p>• &nbsp; Avante Garde - Hall of Fame</p>
                     <p>• &nbsp; Grand Galleria - Hall of Elegance</p>
                     <p>• &nbsp; Design Edge - Hall of Innovations</p>
-                    <p>• &nbsp; ASEAN Panorama</p>
+                    <p>• &nbsp; Asean Panorama</p>
                     <p>• &nbsp; SOI - States of India</p>
                   </ul>
                 </td>
@@ -159,6 +160,7 @@ function page() {
                 </td>
                 <td className="pt-2 pb-2" colSpan={2}>
                   <ul className="list-ul">
+                    <p>• &nbsp; WOW - Words of Wisdom</p>
                     <p>• &nbsp; Design Walk</p>
                     <p>• &nbsp; Design Talk</p>
                     <p>• &nbsp; Business Pulse</p>
@@ -175,7 +177,8 @@ function page() {
                     <p>
                       • &nbsp; Entry strictly for trade buyers on production of
                       valid business cards.
-                      <br /> &nbsp;&nbsp;&nbsp;&nbsp;(Pre-register online or onsite)
+                      <br /> &nbsp;&nbsp;&nbsp;&nbsp;(Pre-register online or
+                      onsite)
                     </p>
                     <p>• &nbsp; Rights of admission reserved.</p>
                     <p>• &nbsp; No registration Fee</p>
@@ -184,17 +187,14 @@ function page() {
                   </ul>
                 </td>
               </tr>
-              <tr className=" leading-8  ">
+              <tr className="border-b-[1px] border-gray-400 leading-8  ">
                 <td style={{ verticalAlign: "top" }}>
-                  <p style={{width:"600px"}}>
-                    Buyer Lounges -
+                  <p>
+                    Buyer Lounges <br />
                     For Business Meetings and Networking{" "}
                   </p>
                 </td>
-                
-              </tr>
-              <tr>
-              <td colSpan={3}>
+                <td colSpan={2}>
                   <table
                     width="100%"
                     border={1}
@@ -239,6 +239,7 @@ function page() {
                         </td>
                       </tr>
                       <tr>
+<<<<<<< HEAD
                         <td style={{ verticalAlign: "top"}}>
                           <page><span className="wingdings">&#x1F7C2;</span>Dealers</page>
                           <p><span className="wingdings">&#x1F7C2;</span>Distributors</p>
@@ -268,6 +269,43 @@ function page() {
                           <p><span className="wingdings">&#x1F7C2;</span>HORECA</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Corporate Sourcing Heads</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Institutional</p>
+=======
+                        <td
+                          style={{ paddingLeft: "10px", verticalAlign: "top" }}
+                        >
+                          <page>Dealers</page>
+                          <p>Distributors</p>
+                          <p>Wholesalers</p>
+                          <p>Importers</p>
+                          <p>Trading &amp; Buying Houses</p>
+                          <p style={{ textAlign: "centers" }}>Agents</p>
+                        </td>
+                        <td
+                          style={{ paddingLeft: "10px", verticalAlign: "top" }}
+                        >
+                          <p>Retailers</p>
+                          <p>E-Tailers</p>
+                          <p>Large Format Retailers</p>
+                          <p>Online Traders</p>
+                        </td>
+                        <td
+                          style={{ paddingLeft: "10px", verticalAlign: "top" }}
+                        >
+                          <p>Franchisees</p>
+                          <p>Entrepreneurs</p>
+                          <p>Agents</p>
+                          <p>Consultants</p>
+                        </td>
+                        <td
+                          style={{ paddingLeft: "10px", verticalAlign: "top" }}
+                        >
+                          <p>Architects</p>
+                          <p>Interior Designers</p>
+                          <p>Real Estate Developers</p>
+                          <p>HORECA</p>
+                          <p>Corporate Sourcing Heads</p>
+                          <p>Institutional</p>
+>>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
                         </td>
                       </tr>
                     </tbody>
@@ -337,7 +375,12 @@ function page() {
           </table>
         </div>
       </div>
+<<<<<<< HEAD
     
+=======
+      <div>&nbsp;</div>
+
+>>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
       <center>
         <a
           className="hover:bg-white hover:text-black"
