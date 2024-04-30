@@ -442,12 +442,10 @@
   position: relative;
   background-color: hsla(0, 0%, 100%, .8);
 }
-
 @media screen and (max-width:600px) {
   .col-sm-5 {
     width: 100% !important;
   }
-
   #businessLounchCard {
     width: 100% !important;
     margin-top: 20px;
@@ -459,11 +457,9 @@
   #contactus{
     flex-direction: column;
   }
-
   #atWofx div {
     width: 100% !important;
   }
-
   .pre-header {
     column-gap: 4px !important;
     padding-top: 6px !important;
@@ -473,16 +469,12 @@
     height: auto !important;
     justify-content: center !important;
   }
-
   #ShowSummery {
     display: none;
   }
-
   #ShowSummeryMobile {
     display: block;
   }
-
-
   #mainHeader {
     display: flex;
     align-items: center;
@@ -498,8 +490,6 @@
   }
 
 }
-
-/* Loader CSS starting from here */
 /* loader css starting from here */
 .loaderMain {
   width: 100vw !important;
@@ -512,8 +502,6 @@
   align-items: center;
   z-index: 100000 !important;
 }
-
-
 .loader {
   width: 48px;
   height: 48px;
@@ -525,7 +513,6 @@
   box-sizing: border-box;
   animation: rotation 1s linear infinite;
 }
-
 .loader::after,
 .loader::before {
   content: '';
@@ -545,56 +532,46 @@
   animation: rotationBack 0.5s linear infinite;
   transform-origin: center center;
 }
-
 .loader::before {
   width: 32px;
   height: 32px;
   border-color: #FFF #FFF transparent transparent;
   animation: rotation 1.5s linear infinite;
 }
-
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
-
 @keyframes rotationBack {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(-360deg);
   }
 }
-
 .wofxGallry {
   background: #f4f4f4;
   padding: 10px;
   position: relative;
 }
-
 .wofxGallry img {
   object-fit: cover !important;
 }
-
 .image-gallery-left-nav,
 .image-gallery-right-nav {
   padding: 20px !important;
   font-size: 40px;
 }
-
 #fixed-social {
   position: fixed;
   top: 40%;
   z-index: 100000 !important;
 }
-
 #fixed-social a {
   color: #fff;
   display: block;
@@ -606,13 +583,11 @@
   margin-bottom: 1px;
   z-index: 2;
 }
-
 #fixed-social a:hover>span {
   visibility: visible;
   left: 41px;
   opacity: 1;
 }
-
 #fixed-social a span {
   line-height: 40px;
   left: 60px;
@@ -624,53 +599,40 @@
   z-index: 1;
   opacity: 0;
 }
-
 .fixed-facebook {
   background-color: #1877F2;
 }
-
 .fixed-facebook span {
   background-color: #1877F2;
 }
-
 .linkedIN {
   background-color: #064e77;
 }
-
 .linkedIN span {
   background-color: #064e77;
 }
-
 .xtwitter {
   background-color: #000000;
 }
-
 .xtwitter span {
   background-color: #000000;
 }
-
 .fixed-twitter {
   background-color: #0b9b64;
 }
-
 .fixed-twitter span {
   background-color: #0b9b64;
 }
-
 .fixed-gplus {
   background-color: #D73F6E;
-
 }
-
 .fixed-gplus span {
   background-color: #D73F6E;
 }
-
 .termandcondition ol {
   margin-left: 20px;
   list-style: lower-roman;
 }
-
 .termandcondition {
   font-size: 15px;
   color: rgb(117, 117, 117);

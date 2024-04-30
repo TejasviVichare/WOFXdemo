@@ -47,7 +47,7 @@ function Buyer_lounges() {
             <div><span className="wingdings">&#x1F7C2;</span> Franchisees</div>
             <div><span className="wingdings">&#x1F7C2;</span> Entrepreneurs</div>
             <div><span className="wingdings">&#x1F7C2;</span> Agents</div>
-            <div><span className="wingdings">&#x1F7C2;</span> Consultant</div>
+            <div><span className="wingdings">&#x1F7C2;</span> Consultants</div>
            </div>
            <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=ff&source_name='>Click Here To Regsiter</Link></div>
         </div>
@@ -55,7 +55,7 @@ function Buyer_lounges() {
            <div className="blImage"><Image   src={blLogo2} width={160} height={160} alt="Dealers & Distributors" /></div>
            <div className="py-2">
             <div><span className="wingdings">&#x1F7C2;</span> Architects</div>
-            <div><span className="wingdings">&#x1F7C2;</span> Interior Designer</div>
+            <div><span className="wingdings">&#x1F7C2;</span> Interior Designers</div>
             <div><span className="wingdings">&#x1F7C2;</span> Real Estate Developers</div>
             <div><span className="wingdings">&#x1F7C2;</span> HORECA</div>
             <div><span className="wingdings">&#x1F7C2;</span> Corporate Sourcing Heads</div>

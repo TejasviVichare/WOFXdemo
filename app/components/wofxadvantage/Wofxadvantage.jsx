@@ -14,7 +14,7 @@ const wofxadvantagedata = [{
 {
     img :  b,
     haeding:"Business & Networking",
-    text:'Directly connect with leading industry buyers via networking business forums, seminars, events and awards.'
+    text:'Directly connect with leading industry buyers and network via business forums, seminars, events and awards.'
 },
 {
     img :  c,

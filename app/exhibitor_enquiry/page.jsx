@@ -190,7 +190,6 @@ const MyForm = () => {
                   <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Accessories' onChange={handleChange} />&nbsp;   Accessories</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Décor' onChange={handleChange} />&nbsp;   Décor</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Modular' onChange={handleChange} />&nbsp;   Modular</label>
-                  <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Furniture Fittings' onChange={handleChange} />&nbsp;   Furniture Fittings</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Mattresses' onChange={handleChange} />&nbsp;   Mattresses</label>
                   <label className="checkbox col-sm-12"><input type="checkbox" name="mpc[]" className='exhibit_country' value='Lighting' onChange={handleChange} />&nbsp;   Lighting</label>
                   <label className="checkbox col-sm-12">

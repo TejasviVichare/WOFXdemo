@@ -39,10 +39,7 @@ const exhibitorProfileContent = [
     img:'/assests/exhibitorProfile/10.png',
     text:"Institutional"
   },
-  {
-    img:'/assests/exhibitorProfile/furniture-fitting.png',
-    text:"Furniture Fittings"
-  },
+  
   {
     img:'/assests/exhibitorProfile/decor.png',
     text:"Décor"
