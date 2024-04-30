@@ -484,7 +484,8 @@
   #mainHeader {
     display: flex;
     align-items: center;
-    top: 71px !important;
+    position: relative !important;
+    top: 0px !important;
     backdrop-filter: blur(6px);
   }
   .logo {
