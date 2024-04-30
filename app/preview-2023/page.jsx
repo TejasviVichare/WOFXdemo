@@ -1,30 +1,16 @@
-<<<<<<< HEAD
 import Image from "next/image"
 import preImage1 from '../../public/assests/preview1.jpg'
 import preImage2 from '../../public/assests/preview2.jpg'
 import preImage3 from '../../public/assests/International-Exhibitor-Preview.png'
 import Link from "next/link"
-=======
-import Image from "next/image";
-import preImage1 from "../../public/assests/preview1.jpg";
-import preImage2 from "../../public/assests/preview2.jpg";
-import Link from "next/link";
->>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
 
 export const metadata = {
   title: "Preview 2023",
 };
 function page() {
   return (
-<<<<<<< HEAD
     <div className='mx-auto   w-full max-w-screen-2xl py-16'>
       <h1 className="text-center text-3xl font-semibold mt-12  py-10">Sneak Preview 2023</h1>
-=======
-    <div className="mx-auto   w-full max-w-screen-2xl py-16">
-      <h1 className="text-center text-3xl font-semibold mt-12  py-10">
-        Preview 2023
-      </h1>
->>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
       <div className="flex justify-center">
         <div className="w-4/5 flex justify-center gap-8 mb-8">
           {/* Assuming 'preImage1' and 'preImage2' are imported image components */}
