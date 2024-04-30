@@ -18,6 +18,8 @@
 .bgvideo {
   background: black;
   height: 100vh;
+  position: relative;
+  top: 80px;
 
 }
 
@@ -488,9 +490,6 @@
     backdrop-filter: blur(6px);
   }
   .fixedHeader{
-    display: flex;
-    justify-content: center !important;
-    align-items: center !important;
     top: 0px !important;
   }
   .logo {
