@@ -32,7 +32,7 @@ function page() {
                 beyond.
               </p>
               <p>
-                Strategic Networking: WOFX brings together the entire furniture
+                <strong>Strategic Networking:</strong> WOFX brings together the entire furniture
                 industry ecosystem under one roof. It&apos;s the ultimate
                 opportunity to forge lasting partnerships by networking with
                 industry leaders, key buyers, and decision-makers. WOFX is your
@@ -40,7 +40,7 @@ function page() {
                 your business from the national to the international stage.
               </p>
               <p>
-                Expand Your Reach: Tap into India&apos;s booming interior
+                <strong>Expand Your Reach:</strong> Tap into India&apos;s booming interior
                 design, property development, retail, and workspace sectors.
                 WOFX is your bridge to expanding your influence by networking
                 and conducting business with India&apos;s largest dealers,
@@ -48,13 +48,13 @@ function page() {
                 retail chains, e-commerce platforms, and industry professionals.
               </p>
               <p>
-                Insightful Knowledge Sharing: Participate in knowledge seminars
+                <strong>Insightful Knowledge Sharing:</strong> Participate in knowledge seminars
                 and discussions to gain insights into emerging trends, market
                 demands, and consumer preferences shaping the future of
                 furniture design.
               </p>
               <p>
-                Catalyst for Progress: Since 2018, WOFX has been a
+                <strong>Catalyst for Progress:</strong> Since 2018, WOFX has been a
                 transformative force, redefining the Indian furniture and design
                 landscape. WOFX empowers the industry through global
                 connections, cutting-edge innovations, and insightful knowledge

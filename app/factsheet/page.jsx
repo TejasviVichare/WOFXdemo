@@ -148,7 +148,7 @@ function page() {
                     <p>• &nbsp; Avante Garde - Hall of Fame</p>
                     <p>• &nbsp; Grand Galleria - Hall of Elegance</p>
                     <p>• &nbsp; Design Edge - Hall of Innovations</p>
-                    <p>• &nbsp; Asean Panorama</p>
+                    <p>• &nbsp; ASEAN Panorama</p>
                     <p>• &nbsp; SOI - States of India</p>
                   </ul>
                 </td>
