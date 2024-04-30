@@ -1,18 +1,11 @@
 import Image from "next/image";
 import venueImage from "../../public/assests/venue2023.png";
-export const metadata = {
-  title: "Venue",
-};
+
 function page() {
   return (
     <div>
-<<<<<<< HEAD
       <div className='mx-auto   w-full max-w-screen-2xl '>
         <div className=" mt-40 mb-4 pb-10 flex justify-center">
-=======
-      <div className="mx-auto   w-full max-w-screen-2xl ">
-        <div className=" mt-40 mb-4 flex justify-center">
->>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
           <div className="space">
             <center>
               <h1 className="text-3xl font-bold px-4">Venue</h1>

@@ -2,17 +2,11 @@ import Image from "next/image";
 import WORLDEXPAGE from "../../public/assests/WORLDEX PAGE 2.png";
 import WORLDEX from "../../public/assests/WORLDEX.png";
 
-<<<<<<< HEAD
 import Image from "next/image"
 import WORLDEXPAGE from '../../public/assests/WORLDEX PAGE 2.png'
 import WORLDEX from '../../public/assests/Worldex-Logo.png'
 
 
-=======
-export const metadata = {
-  title: "Organisers",
-};
->>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
 
 function page() {
   return (
