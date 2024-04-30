@@ -70,8 +70,7 @@ function Page() {
       [name]: newValue,
     });
   };
-  console.log(formData);
-
+ 
   const handleSubmit = async (e) => {
     e.preventDefault();
     const isValid = validateForm();
@@ -106,14 +105,15 @@ function Page() {
   return (
     <>
       <div className="mx-auto   w-full max-w-screen-2xl ">
-        <div className="py-4 px-4 md:px-40 md:py-12 mt-40">
+        <div className="py-4 px-4 md:px-40 md:py-8 mt-40">
+        <p className="text-3xl text-center py-6 font-semibold mb-4">
+                  Talk To Us
+                </p>
           <div className="mx-auto   w-full max-w-screen-2xl">
           <div className="flex pr" id="contactus">
 
-              <div className=" md:w-3/4  pr-10">
-                <p className="font-bold mb-4" style={{ fontSize: "19px" }}>
-                  Talk To Us
-                </p>
+              <div className=" md:w-1/2  pr-10">
+                
 
                 <form action="" method="POST" onSubmit={handleSubmit}>
                   <div >
@@ -256,17 +256,17 @@ function Page() {
                 </form>
               </div>
               <div
-                className="py-8 text-center px-2 pt-16"
+                className="py-8 text-center px-2 pt-16 md:w-1/2"
                 style={{ backgroundColor: "#f2f2f2" }}
               >
                 <div className="mb-16">
                   <p className="font-bold text-lg">Mumbai</p>
                   <p className="text-base">
-                    309, Parvati Premises, Sun Mill Complex, Lower Parel
+                    309, Parvati Premises, Sun Mill Complex, <br /> Lower Parel (W),
                   </p>
-                  <p className="text-base">(W), Mumbai 400 013, India</p>
+                  <p className="text-base"> Mumbai 400013, India.</p>
                   <p className="text-base">
-                    <a href="tel: 022 4037 6700">022 4037 6700</a>
+                    <a href="tel:+91 022 40376700">+91 022 40376700</a>
                   </p>
                   <p className="text-base">
                     <a href="mailto:contactus@worldexindia.com">
@@ -277,11 +277,11 @@ function Page() {
                 <div>
                   <p className="font-bold text-lg">Delhi</p>
                   <p className="text-base">
-                    F-10, First Floor, Kalkaji, New Delhi 110019, India.
+                    F-10, First Floor, Kalkaji, <br /> New Delhi 110019, India.
                   </p>
                   <p className="text-base">
-                    <a href="tel:+(91)-(11) 41802033">+(91)-(11) 41802033</a> |{" "}
-                    <a href="tel:+(91)-(11) 26285142">+(91)-(11) 26285142 </a>
+                    <a href="tel:+91 11 41802033">+91 11 41802033</a> |{" "}
+                    <a href="tel:+91 11 26285142">+91 11 26285142 </a>
                   </p>
                   <p className="text-base">
                     <a href="mailto:contactus@worldexindia.com">

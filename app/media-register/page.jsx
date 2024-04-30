@@ -148,7 +148,7 @@ const MyForm = () => {
       <div className="py-4 px-4 md:px-28 md:py-12">
         <div className='flex justify-center'>
           <div id='newformLayout' className='  w-full  px-6'>
-            <h1 className='text-center text-2xl font-semibold'>Media Enquiry Form</h1>
+            <h1 className='text-center text-3xl font-semibold'>Media Enquiry Form</h1>
             <form name='company' className="enquiryForm mt-5 py-3" onSubmit={handleSubmit}>
               <div>
                 <div className='flex flex-wrap md:flex-nowrap gap-2 mt-5'>

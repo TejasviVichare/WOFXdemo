@@ -43,10 +43,10 @@ function Industribody() {
                     <center>
                         <h3>Industry Partner</h3>
                     </center>
-                    <a href="#" className={style.card}>
+                    <a href="https://www.afmt.in/" className={style.card}>
                         <Image src={a} alt="Card Background" />
                         <div className={style.overlay}>
-                            <p>Association of Furniture Manufacturers & Traders</p>
+                            <p>Association of Furniture Manufacturers & Traders (AFMT)</p>
                         </div>
                     </a>
                 </div>
@@ -54,7 +54,7 @@ function Industribody() {
                     <center>
                         <h3>Industry Association Partner</h3>
                     </center>
-                    <a href="#" className={style.card}>
+                    <a href="https://rai.net.in/" className={style.card}>
                         <Image src={b} alt="Card Background" />
                         <div className={style.overlay}>
                             <p>Retailers Association of India (RAI)</p>
@@ -66,10 +66,10 @@ function Industribody() {
                         <h3 className='absolute w-56 left-2 md:left-32'>Knowledge Partners</h3>
                         <h3>&nbsp;</h3>
                     </center>
-                    <a href="#" className={style.card}>
+                    <a href="https://www.coa.gov.in/" className={style.card}>
                         <Image src={c} alt="Card Background" />
                         <div className={style.overlay}>
-                            <p>Council of Architecture India</p>
+                            <p>Council of Architecture India (COA)</p>
                         </div>
                     </a>
                 </div>
@@ -77,10 +77,10 @@ function Industribody() {
                     <center>
                         <h3 style={{visibility:"hidden"}}>Industry Partner</h3>
                     </center>
-                    <a   href="#" className={style.card}>
+                    <a   href="https://www.iiid.in/" className={style.card}>
                         <Image src={d} alt="Card Background" />
                         <div className={style.overlay}>
-                            <p>Institute of Indian Interior Designers India</p>
+                            <p>Institute of Indian Interior Designers (IIID) </p>
                         </div>
                     </a>
                 </div>

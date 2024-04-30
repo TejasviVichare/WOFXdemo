@@ -7,18 +7,25 @@ function page() {
         <div className="flex justify-center">
           <table align="center" className="w-[70%]  valign-top ">
             <tbody className="valign-top">
-              <tr className="bg-[#6cced9]">
+              <tr>
                 <td
                   colSpan={3}
-                  className="p-4  text-lg font-medium  text-white "
+                  className="p-6  text-3xl font-semibold"
                   align="center"
                   cellpadding="0"
                 >
-                  FACTSHEET
+                  Factsheet
                 </td>
               </tr>
-
-              <tr>
+              <tr className="border-b-[1px] border-gray-400  leading-8">
+                <td className="pt-2 pb-2">
+                  <p> Exhibition Title </p>
+                </td>
+                <td className="pt-2 pb-2" colSpan={2}>
+                  <p>WOFX - World Furniture Expo</p>
+                </td>
+              </tr>
+              <tr className="border-b-[1px] border-gray-400  leading-8">
                 <td className="pt-2 pb-2">
                   <p> Date </p>
                 </td>
@@ -204,63 +211,63 @@ function page() {
                       <tr className="border-b-[1px] border-gray-400 pt-2 pb-2  ">
                         <td className="text-center p-2  ">
                           <img
-                            src="/assests/factsheet/Logo-factsheet-1.png"
+                            src="/assests/blLogo1.png"
                             alt=""
                             style={{ width: 120 }}
                           />
                         </td>
                         <td className="p-2 text-center">
                           <img
-                            src="/assests/factsheet/Logo-factsheet-2.png"
+                            src="/assests/blLogo4.png"
                             alt=""
                             style={{ width: 120 }}
                           />
                         </td>
                         <td className="p-2 text-center">
                           <img
-                            src="/assests/factsheet/Logo-factsheet-3.png"
+                            src="/assests/blLogo3.png"
                             alt=""
                             style={{ width: 120 }}
                           />
                         </td>
                         <td className="p-2 text-center">
                           <img
-                            src="/assests/factsheet/Logo-factsheet-4.png"
+                            src="/assests/blLogo2.png"
                             alt=""
                             style={{ width: 120 }}
                           />
                         </td>
                       </tr>
                       <tr>
-                        <td style={{ paddingLeft:"10px", verticalAlign: "top"}}>
-                          <page>Dealers</page>
-                          <p>Distributors</p>
-                          <p>Wholesalers</p>
-                          <p>Importers</p>
-                          <p>
+                        <td style={{ verticalAlign: "top"}}>
+                          <page><span className="wingdings">&#x1F7C2;</span>Dealers</page>
+                          <p><span className="wingdings">&#x1F7C2;</span>Distributors</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Wholesalers</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Importers</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>
                             Trading &amp; Buying Houses
                           </p>
-                          <p style={{ textAlign: "centers" }}>Agents</p>
+                          <p style={{ textAlign: "centers" }}><span className="wingdings">&#x1F7C2;</span>Agents</p>
+                        </td>
+                        <td style={{  verticalAlign: "top" }}>
+                          <p><span className="wingdings">&#x1F7C2;</span>Retailers</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>E-Tailers</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Large Format Retailers</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Online Traders</p>
+                        </td>
+                        <td style={{ verticalAlign: "top" }}>
+                          <p><span className="wingdings">&#x1F7C2;</span>Franchisees</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Entrepreneurs</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Agents</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Consultants</p>
                         </td>
                         <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
-                          <p>Retailers</p>
-                          <p>E-Tailers</p>
-                          <p>Large Format Retailers</p>
-                          <p>Online Traders</p>
-                        </td>
-                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
-                          <p>Franchisees</p>
-                          <p>Entrepreneurs</p>
-                          <p>Agents</p>
-                          <p>Consultants</p>
-                        </td>
-                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
-                          <p>Architects</p>
-                          <p>Interior Designers</p>
-                          <p>Real Estate Developers</p>
-                          <p>HORECA</p>
-                          <p>Corporate Sourcing Heads</p>
-                          <p>Institutional</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Architects</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Interior Designers</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Real Estate Developers</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>HORECA</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Corporate Sourcing Heads</p>
+                          <p><span className="wingdings">&#x1F7C2;</span>Institutional</p>
                         </td>
                       </tr>
                     </tbody>
@@ -318,7 +325,7 @@ function page() {
                     <span>
                       <a
                         className="contactDetail mail"
-                        href="mailto: haider@worldexindia.com"
+                        href="mailto:haider@worldexindia.com"
                       >
                         haider@worldexindia.com
                       </a>
@@ -330,12 +337,11 @@ function page() {
           </table>
         </div>
       </div>
-      <div>&nbsp;</div>
-  
+    
       <center>
         <a
           className="hover:bg-white hover:text-black"
-          href="/assests/pdf/factsheet.pdf"
+          href="/assests/pdf/WOFX-2024-Factsheet.pdf"
           target="_blank"
         >
           <button className="bg-black text-white p-2 hover:bg-gray-500 hover:text-white ">

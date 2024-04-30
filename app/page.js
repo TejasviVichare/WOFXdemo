@@ -57,7 +57,7 @@ export default function Home() {
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <center><h1 className="text-3xl py-6">International Pavilion Organizations </h1></center>
+    <center><h1 className="text-3xl py-6">International Pavilion Organisers </h1></center>
     <InternationPavilion />
     <p>&nbsp;</p>
     </>

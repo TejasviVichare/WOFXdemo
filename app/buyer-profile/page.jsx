@@ -16,9 +16,9 @@ function Buyer_lounges() {
       <p className="text-3xl text-center py-1">For Business Meetings And Networking</p>
       </center>
       <p></p>
-      <div className="flex justify-between flex-wrap px-6 py-2 ">
-        <div id="businessLounchCard" className="relative px-3  py-5">
-           <div className="blImage"><Image   src={blLogo1} width={160} height={160} alt="Dealers & Distributors" /></div>
+      <div className="flex justify-center gap-5 flex-wrap px-6 py-2 ">
+        <div  className="relative px-3  py-5  w-64">
+           <div className="w-40  flex items-center justify-center h-44"><Image   src={blLogo1} width={160} height={160} alt="Dealers & Distributors" /></div>
            <div className="py-2">
             <div><span className="wingdings">&#x1F7C2;</span> Dealers</div>
             <div><span className="wingdings">&#x1F7C2;</span> Distributors</div>
@@ -27,10 +27,9 @@ function Buyer_lounges() {
             <div><span className="wingdings">&#x1F7C2;</span> Trading & Buying Houses</div>
             <div><span className="wingdings">&#x1F7C2;</span> Agents</div>
            </div>
-           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=dd&source_name='>Click Here To Regsiter</Link></div>
         </div>
-        <div id="businessLounchCard" className="relative px-3  py-5">
-           <div className="blImage">
+        <div  className="relative px-3  py-5  w-64">
+           <div className="w-40  flex items-center justify-center h-44">
            <Image   src={blLogo4} width={160} height={160} alt="Dealers & Distributors" />
            </div>
            <div className="py-2">
@@ -39,20 +38,18 @@ function Buyer_lounges() {
             <div><span className="wingdings">&#x1F7C2;</span> Large Format Retailers</div>
             <div><span className="wingdings">&#x1F7C2;</span> Online Traders</div>
            </div>
-           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=rc&source_name='>Click Here To Regsiter</Link></div>
         </div>
-        <div id="businessLounchCard" className="relative px-3  py-5">
-           <div className="blImage"><Image   src={blLogo3} width={160} height={160} alt="Dealers & Distributors" /></div>
+        <div  className="relative px-3  py-5  w-64">
+           <div className="w-40  flex items-center justify-center h-44"><Image   src={blLogo3} width={160} height={160} alt="Dealers & Distributors" /></div>
            <div className="py-2">
             <div><span className="wingdings">&#x1F7C2;</span> Franchisees</div>
             <div><span className="wingdings">&#x1F7C2;</span> Entrepreneurs</div>
             <div><span className="wingdings">&#x1F7C2;</span> Agents</div>
             <div><span className="wingdings">&#x1F7C2;</span> Consultants</div>
            </div>
-           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=ff&source_name='>Click Here To Regsiter</Link></div>
         </div>
-        <div id="businessLounchCard" className="relative px-3  py-5">
-           <div className="blImage"><Image   src={blLogo2} width={160} height={160} alt="Dealers & Distributors" /></div>
+        <div  className="relative px-3  py-5  w-64">
+           <div className="w-40  flex items-center justify-center h-44"><Image   src={blLogo2} width={160} height={160} alt="Dealers & Distributors" /></div>
            <div className="py-2">
             <div><span className="wingdings">&#x1F7C2;</span> Architects</div>
             <div><span className="wingdings">&#x1F7C2;</span> Interior Designers</div>
@@ -61,7 +58,6 @@ function Buyer_lounges() {
             <div><span className="wingdings">&#x1F7C2;</span> Corporate Sourcing Heads</div>
             <div><span className="wingdings">&#x1F7C2;</span> Institutional</div>
            </div>
-           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=pp&source_name='>Click Here To Regsiter</Link></div>
         </div>
       </div>
     </div>

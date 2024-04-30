@@ -4,10 +4,10 @@ function page() {
   return (
     <div>
       <div className='mx-auto   w-full max-w-screen-2xl '>
-        <div className=" mt-40 mb-4 flex justify-center">
+        <div className=" mt-40 mb-4 pb-10 flex justify-center">
           <div className="space">
             <center>
-              <h1 className="text-2xl font-bold px-4">VENUE</h1>
+              <h1 className="text-3xl font-bold px-4">Venue</h1>
             </center>
             <p className="px-4"><a style={{ border: "1px solid black" }} className="px-4 py-3 font-semibold text-black bg-gray-300  rounded" href="">LOCATION</a></p>
             <p>&nbsp;</p>

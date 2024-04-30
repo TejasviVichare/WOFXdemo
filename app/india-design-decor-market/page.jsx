@@ -10,7 +10,7 @@ function page() {
         <div className="mt-40  flex justify-center">
           <section class="hero">
             <div class="left-side-under-hero">
-              <h1 className="text-xl md:text-3xl py-2 font-medium">Indian Furniture Market</h1>
+              <h1 className="text-xl md:text-3xl py-2 font-medium">Indian Design & Décor Market</h1>
 
 
 

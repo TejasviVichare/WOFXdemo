@@ -8,13 +8,13 @@ import d from '../../../public/assests/4.png'
 
 const wofxadvantagedata = [{
     img : a,
-    haeding:"Industry Focused B2B Trade Fair",
+    haeding:"Focused B2B Trade Fair",
     text:'A focused B2B trade show dedicated to the furniture and design industry.'
 },
 {
     img :  b,
     haeding:"Business & Networking",
-    text:'Directly connect with leading industry buyers and network via business forums, seminars, events and awards.'
+    text:'Directly connect with leading industry buyers and network via business forums, seminars and awards.'
 },
 {
     img :  c,
