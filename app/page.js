@@ -8,7 +8,6 @@ import Industrypartnerslider from "./components/industrypartnerslider/Industrypa
 import InternationPavilion from "./components/Internationpavilion/InternationPavilion.jsx";
 import Buyer_lounges from "./components/buyer-lounges/Buyer_lounges.jsx";
 import Show_Summery from "./components/show-summery/Show_Summery.jsx";
- 
 
 
 export default function Home() {
@@ -23,8 +22,7 @@ export default function Home() {
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+    
     <Aboutwofx />
     <p>&nbsp;</p>
     <p>&nbsp;</p>
