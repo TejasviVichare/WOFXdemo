@@ -11,7 +11,6 @@ function page() {
         <div className="mt-40  flex justify-center">
           <section class="hero">
             <div class="left-side-under-hero">
-<<<<<<< HEAD
               <h1 className="text-xl md:text-3xl py-2 font-medium">Indian Design & Décor Market</h1>
 
 
@@ -23,11 +22,6 @@ function page() {
               <p>While the overall India d&eacute;cor market is growing at 20%, the market in South India is developing at a faster clip of 25 to 30%.</p>
               <p>The home category&apos;s three broad segments - furnishings, furniture and d&eacute;cor, have been growing positively with a minor shift of market share from furniture to d&eacute;cor in the last few years due to more spend on upgrading interiors &amp; d&eacute;cor to revamp the look of homes and offices. India is one of the fastest growing markets for home furnishings in Asia-Pacific.</p>
               <p>Rising demand for home decor products such as bed linen products, wall hangings, rugs &amp; carpets, etc., along with increasing demand for handcrafted products is boosting the country&apos;s home furnishing market.</p>
-=======
-              <h1 className="text-xl md:text-3xl py-2 font-medium">
-                Indian Furniture Market
-              </h1>
->>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
 
               <p>
                 India&apos;s Home Decor Market (Home Textile, Floor Covering,

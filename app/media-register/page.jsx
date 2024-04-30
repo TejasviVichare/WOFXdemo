@@ -5,9 +5,6 @@ import axios from "axios";
 import Swal from "sweetalert2";
 import Loader from "../components/loader/Loader";
 
-export const metadata = {
-  title: "Media Register",
-};
 const MyForm = () => {
   const [errors, setErrors] = useState({});
   const [showHideLoader, setshowHideLoader] = useState(false);
@@ -146,23 +143,10 @@ const MyForm = () => {
   return (
     <div className="mx-auto   w-full max-w-screen-2xl mt-40">
       <div className="py-4 px-4 md:px-28 md:py-12">
-<<<<<<< HEAD
         <div className='flex justify-center'>
           <div id='newformLayout' className='  w-full  px-6'>
             <h1 className='text-center text-3xl font-semibold'>Media Enquiry Form</h1>
             <form name='company' className="enquiryForm mt-5 py-3" onSubmit={handleSubmit}>
-=======
-        <div className="flex justify-center">
-          <div id="newformLayout" className="  w-full  px-6">
-            <h1 className="text-center text-2xl font-semibold">
-              Media Enquiry Form
-            </h1>
-            <form
-              name="company"
-              className="enquiryForm mt-5 py-3"
-              onSubmit={handleSubmit}
-            >
->>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
               <div>
                 <div className="flex flex-wrap md:flex-nowrap gap-2 mt-5">
                   <div className="w-full">

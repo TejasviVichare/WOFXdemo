@@ -5,9 +5,7 @@ import { faLeft, faBars } from "@fortawesome/free-solid-svg-icons";
 import galleryImage from "../contents/image";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-export const metadata = {
-  title: "Wofx Gallery",
-};
+
 
 function page() {
   function renderLeftNav(onClick, disabled) {

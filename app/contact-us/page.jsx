@@ -4,9 +4,8 @@ import axios from "axios";
 
 import Swal from "sweetalert2";
 
-export const metadata = {
-  title: "Contact us",
-};
+
+
 function Page() {
   const [errors, setErrors] = useState({});
   const [formData, setFormData] = useState({
@@ -113,18 +112,10 @@ function Page() {
                   Talk To Us
                 </p>
           <div className="mx-auto   w-full max-w-screen-2xl">
-<<<<<<< HEAD
           <div className="flex pr" id="contactus">
 
               <div className=" md:w-1/2  pr-10">
                 
-=======
-            <div className="flex pr" id="contactus">
-              <div className=" md:w-3/4  pr-10">
-                <p className="font-bold mb-4" style={{ fontSize: "19px" }}>
-                  Talk To Us
-                </p>
->>>>>>> 1b6cd870af941f71578b4ed5463ce95674028a0d
 
                 <form action="" method="POST" onSubmit={handleSubmit}>
                   <div>
