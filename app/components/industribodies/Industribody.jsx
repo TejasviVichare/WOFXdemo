@@ -45,9 +45,7 @@ function Industribody() {
                     </center>
                     <a href="https://www.afmt.in/" className={style.card}>
                         <Image src={a} alt="Card Background" />
-                        <div className={style.overlay}>
-                            <p>Association of Furniture Manufacturers & Traders (AFMT)</p>
-                        </div>
+                       
                     </a>
                 </div>
                 <div className=''>
@@ -56,9 +54,7 @@ function Industribody() {
                     </center>
                     <a href="https://rai.net.in/" className={style.card}>
                         <Image src={b} alt="Card Background" />
-                        <div className={style.overlay}>
-                            <p>Retailers Association of India (RAI)</p>
-                        </div>
+                        
                     </a>
                 </div>
                 <div className=' relative'>
@@ -68,9 +64,7 @@ function Industribody() {
                     </center>
                     <a href="https://www.coa.gov.in/" className={style.card}>
                         <Image src={c} alt="Card Background" />
-                        <div className={style.overlay}>
-                            <p>Council of Architecture India (COA)</p>
-                        </div>
+                       
                     </a>
                 </div>
                 <div className=''>
@@ -79,9 +73,7 @@ function Industribody() {
                     </center>
                     <a   href="https://www.iiid.in/" className={style.card}>
                         <Image src={d} alt="Card Background" />
-                        <div className={style.overlay}>
-                            <p>Institute of Indian Interior Designers (IIID) </p>
-                        </div>
+                      
                     </a>
                 </div>
             </div>
