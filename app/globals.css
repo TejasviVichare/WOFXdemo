@@ -484,9 +484,14 @@
   #mainHeader {
     display: flex;
     align-items: center;
-    position: relative !important;
-    top: 0px !important;
+    top: 70px !important;
     backdrop-filter: blur(6px);
+  }
+  .fixedHeader{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    top: 0px !important;
   }
   .logo {
     width: auto;

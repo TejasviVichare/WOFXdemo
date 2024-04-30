@@ -32,11 +32,11 @@ export default function Navbar() {
 
   const headerStyle = {
     position: isFixed ? 'fixed' : 'fixed',
-    top: isFixed ? '0px !important' : '40px',
+    top: isFixed ? '0px' : '40px',
     transition:"0.1s",
     width: '100%',
     color: '#fff',
-    backdropFilter: isFixed ? 'blur(12px)' : 'none',
+    background:"#000000",
     zIndex: isFixed ? 100 : 'auto', 
 
   };
@@ -50,7 +50,7 @@ export default function Navbar() {
   }
   return (
     <div className='mx-auto   w-full max-w-screen-2xl '>
-    <div id="mainHeader" style={headerStyle} className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1 py-1 text-sm header__middle">
+    <div id={isFixed ? "fixedHeader" : "mainHeader"}  style={headerStyle} className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1 py-1 text-sm header__middle">
       <section className=" items-center gap-8">
         <div>
         <Link href='/'>  <Image
