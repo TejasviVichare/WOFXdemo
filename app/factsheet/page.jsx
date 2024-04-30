@@ -1,9 +1,10 @@
+export const metadata = {
+  title: "Factsheet",
+};
 function page() {
   return (
     <>
-
-
-      <div className='mx-auto   w-full max-w-screen-2xl mt-40 pb-20'>
+      <div className="mx-auto   w-full max-w-screen-2xl mt-40 pb-20">
         <div className="flex justify-center">
           <table align="center" className="w-[70%]  valign-top ">
             <tbody className="valign-top">
@@ -169,7 +170,8 @@ function page() {
                     <p>
                       • &nbsp; Entry strictly for trade buyers on production of
                       valid business cards.
-                      <br /> &nbsp;&nbsp;&nbsp;&nbsp;(Pre-register online or onsite)
+                      <br /> &nbsp;&nbsp;&nbsp;&nbsp;(Pre-register online or
+                      onsite)
                     </p>
                     <p>• &nbsp; Rights of admission reserved.</p>
                     <p>• &nbsp; No registration Fee</p>
@@ -230,29 +232,35 @@ function page() {
                         </td>
                       </tr>
                       <tr>
-                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
+                        <td
+                          style={{ paddingLeft: "10px", verticalAlign: "top" }}
+                        >
                           <page>Dealers</page>
                           <p>Distributors</p>
                           <p>Wholesalers</p>
                           <p>Importers</p>
-                          <p>
-                            Trading &amp; Buying Houses
-                          </p>
+                          <p>Trading &amp; Buying Houses</p>
                           <p style={{ textAlign: "centers" }}>Agents</p>
                         </td>
-                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
+                        <td
+                          style={{ paddingLeft: "10px", verticalAlign: "top" }}
+                        >
                           <p>Retailers</p>
                           <p>E-Tailers</p>
                           <p>Large Format Retailers</p>
                           <p>Online Traders</p>
                         </td>
-                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
+                        <td
+                          style={{ paddingLeft: "10px", verticalAlign: "top" }}
+                        >
                           <p>Franchisees</p>
                           <p>Entrepreneurs</p>
                           <p>Agents</p>
                           <p>Consultants</p>
                         </td>
-                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
+                        <td
+                          style={{ paddingLeft: "10px", verticalAlign: "top" }}
+                        >
                           <p>Architects</p>
                           <p>Interior Designers</p>
                           <p>Real Estate Developers</p>
@@ -329,7 +337,7 @@ function page() {
         </div>
       </div>
       <div>&nbsp;</div>
-  
+
       <center>
         <a
           className="hover:bg-white hover:text-black"
