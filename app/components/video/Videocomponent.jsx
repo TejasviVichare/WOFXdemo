@@ -15,22 +15,18 @@ const Videocomponent = ( {videosrc}) => {
 
     return (
         <div className="bgvideo mx-auto  w-full max-w-screen-2xl">
-            <ReactPlayer 
-                url={videosrc}
-                playing={true}
-                muted={true}
-                controls={false}
-                loop={true}
-                light={false}
-                config={{
-                    file: {
-                        attributes: {
-                            controlsList: 'nodownload',
-                        },
-                    },
-                }}
+             <video
           
-            />
+          muted
+          autoPlay
+          playsInline
+          loop
+        >
+          <source
+            src="assests/WOFX_4_nifcf6.mp4"
+            type="video/mp4"
+          />
+        </video>
             <source src={videosrc} type="video/mp4" />
         </div>
     );
