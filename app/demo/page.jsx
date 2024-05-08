@@ -19,7 +19,7 @@ function page() {
           autoPlay
         >
           <source
-            src="assets/WOFX_4_nifcf6.mp4"
+            src="assests/WOFX_4_nifcf6.mp4"
             type="video/mp4"
           />
         </video>
