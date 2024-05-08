@@ -19,7 +19,7 @@ function page() {
           autoPlay
         >
           <source
-            src="https://res.cloudinary.com/dkcfsf9dz/video/upload/v1714632172/WOFX_4_nifcf6.mp4"
+            src="https://res.cloudinary.com/sp-site/video/upload/htlwSession10.mp4"
             type="video/mp4"
           />
         </video>
