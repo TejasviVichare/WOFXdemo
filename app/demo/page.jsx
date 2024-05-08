@@ -13,10 +13,11 @@ function page() {
     <>
       <div className="mx-auto   w-full max-w-screen-2xl ">
         <video
-          controls
+          
           muted
-          poster="https://res.cloudinary.com/sp-site/image/upload/w_auto,f_auto,q_auto/htlw10.jpg"
           autoPlay
+          playsInline
+          loop
         >
           <source
             src="assests/WOFX_4_nifcf6.mp4"
