@@ -20,7 +20,7 @@
   height: 100vh;
   position: relative;
   top: 80px;
-
+  
 }
 
 #mainHeader {
@@ -40,6 +40,7 @@
 .bgvideo video {
   height: 100vh;
   object-fit: cover;
+  width: 100%;
 }
 
 .pre-header {
