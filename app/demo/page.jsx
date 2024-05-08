@@ -16,6 +16,7 @@ function page() {
           controls
           muted
           poster="https://res.cloudinary.com/sp-site/image/upload/w_auto,f_auto,q_auto/htlw10.jpg"
+          autoPlay
         >
           <source
             src="https://res.cloudinary.com/dkcfsf9dz/video/upload/v1714632172/WOFX_4_nifcf6.mp4"
