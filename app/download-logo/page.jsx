@@ -11,7 +11,7 @@ function page() {
                 <Image src={wofxbanner} width={500} height={500} alt="wofx-logo"  className="mb-8"/>
             </center>
             <div className="w-full flex justify-center">
-                <a className="text-center py-3 px-4  md:px-16  text-white font-semibold" style={{backgroundColor:'#E73E41'}}  href="/assests/wofxbanner.jpg" download>Downlaod</a>
+                <a className="text-center py-3 px-4  md:px-16  text-white font-semibold" style={{backgroundColor:'#E73E41'}}  href="/assests/wofxbanner.png" download>Downlaod</a>
             </div>
           </div>
           
