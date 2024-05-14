@@ -1,5 +1,5 @@
 import Image from "next/image"
-import wofxbanner from '../../public/assests/wofxbanner.jpg'
+import wofxbanner from '../../public/assests/wofxbanner.png'
 
 
 function page() {
