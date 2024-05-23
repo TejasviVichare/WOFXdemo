@@ -136,18 +136,18 @@ const navItems = [
       label: "Report",
       link: "#",
       children: [
-        {
-          label: "India Growth Story",
-          link: "/india-overview",
-        },
+        // {
+        //   label: "India Growth Story",
+        //   link: "/india-overview",
+        // },
         {
           label: "India Furniture Market",
-          link: "/furniture-market",
+          link: "/assests/pdf/India-Furniture-Market-Report-2024.pdf",
         },
-        {
-          label: "India Design & Décor Market",
-          link: "/india-design-decor-market",
-        },
+        // {
+        //   label: "India Design & Décor Market",
+        //   link: "/india-design-decor-market",
+        // },
       ],
     },
     {
