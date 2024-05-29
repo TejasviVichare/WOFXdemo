@@ -12,7 +12,6 @@ import { Suspense } from "react";
 export default function Home() {
   return (
     <>
-      <Suspense fallback={<p>Loading....</p>}>
         <div className="videoContainer">
           <div className="bgvideo mx-auto  w-full max-w-screen-2xl">
             <video
@@ -20,14 +19,14 @@ export default function Home() {
               autoPlay
               playsInline
               loop
-              poster="assests/posterimage.jpeg"
+             
             >
               <source src="assests/WOFX_4_nifcf6.mp4" type="video/mp4" />
             </video>
             <source src="assests/WOFX_4_nifcf6.mp4" type="video/mp4" />
           </div>
         </div>
-      </Suspense>
+    
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
