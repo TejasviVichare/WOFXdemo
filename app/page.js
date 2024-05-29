@@ -13,7 +13,14 @@ import Show_Summery from "./components/show-summery/Show_Summery.jsx";
 export default function Home() {
   return (
     <>
-    <Suspencevideo />
+    <div className="videoContainer">
+    <div className="bgvideo mx-auto  w-full max-w-screen-2xl">
+      <video muted autoPlay playsInline loop>
+        <source src="assests/WOFX_4_nifcf6.mp4" type="video/mp4" />
+      </video>
+      <source src='assests/WOFX_4_nifcf6.mp4' type="video/mp4" />
+    </div> 
+    </div>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>

@@ -12,13 +12,12 @@ function Buyer_lounges() {
   return (
     <div className="mx-auto   w-full max-w-screen-2xl bussinesLounchMain mt-40 pb-20">
       <center>
-        <h1 style={{ color: "#20c9ee" }} className="text-5xl text-center  pl-9">
-          {" "}
-          Buyer Lounges
-        </h1>
-        <p className="text-3xl text-center py-1">
-          For Business Meetings And Networking
-        </p>
+      <h1  className="text-4xl text-center  pl-9 py-3"> Buyer Registration Form</h1>
+      <p className="text-center text-red-600 text-lg">Please register as per your nature of business and profile.</p>
+      <p className="text-center  text-lg">Based on your profile selection your entry badge will be generated and you can access the <br />
+
+respected Buyers Lounge during your visit</p>
+      <p style={{color:"#20c9ee"}} className="text-2xl text-center py-1">Buyers Lounges - For Business Meetings and Networking</p>
       </center>
       <p></p>
       <div className="flex justify-between flex-wrap px-6 py-2 ">

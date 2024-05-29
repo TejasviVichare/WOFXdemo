@@ -22,7 +22,9 @@
   top: 80px;
   
 }
-
+.videoContainer{
+  height: 100vh;
+}
 #mainHeader {
   background:#000;
   backdrop-filter: blur(1px);
