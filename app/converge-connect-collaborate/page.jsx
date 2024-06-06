@@ -1,5 +1,4 @@
-import Image from "next/image"
-import image from '../../public/assests/converge-connect-collaborate.jpg'
+
 
 
 function page() {
@@ -8,7 +7,7 @@ function page() {
         <div className="flex justify-center flex-wrap gap-20">
           <div className="relative  px-4 py-4  mb-16 m-4">
             <center >
-                <Image src={image} width={550} height={550} alt="wofx-logo"  />
+                <img src="/assests/converge-connect-collaborate.jpg" width={550} height={550} alt="wofx-logo"  />
             </center>
             {/* <div className="w-full flex justify-center">
                 <a className="text-center py-3 px-4  md:px-16  text-white font-semibold" style={{backgroundColor:'#E73E41'}}  href="/assests/wofxbanner.png" download>Downlaod</a>
