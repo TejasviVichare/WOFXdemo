@@ -13,7 +13,7 @@ function Buyer_lounges() {
     <div className="mx-auto   w-full max-w-screen-2xl bussinesLounchMain mt-40 pb-20">
       <center>
         <h1 className="text-4xl text-center  pl-9 py-3">
-          {" "}
+          
           Buyer Registration Form
         </h1>
         <p className="text-center text-red-600 text-lg">
@@ -30,7 +30,7 @@ function Buyer_lounges() {
       </center>
       <p></p>
       <div className="flex justify-between flex-wrap px-6 py-2 ">
-        <div id="businessLounchCard" className="relative px-3  py-5">
+        <Link href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=dd&source_name=" id="businessLounchCard" className="relative px-3  py-5">
           <div className="blImage">
             <Image
               src={blLogo1}
@@ -61,12 +61,14 @@ function Buyer_lounges() {
             </div>
           </div>
           <div className="BLButton">
-            <Link href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=dd&source_name=">
+            <p>
               Click Here To Regsiter
-            </Link>
+            </p>
           </div>
-        </div>
-        <div id="businessLounchCard" className="relative px-3  py-5">
+        </Link>
+
+
+        <Link href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=rc&source_name=" id="businessLounchCard" className="relative px-3  py-5">
           <div className="blImage">
             <Image
               src={blLogo4}
@@ -91,12 +93,15 @@ function Buyer_lounges() {
             </div>
           </div>
           <div className="BLButton">
-            <Link href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=rc&source_name=">
+            <p>
               Click Here To Regsiter
-            </Link>
+            </p>
           </div>
-        </div>
-        <div id="businessLounchCard" className="relative px-3  py-5">
+        </Link>
+
+
+
+        <Link href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=ff&source_name=" id="businessLounchCard" className="relative px-3  py-5">
           <div className="blImage">
             <Image
               src={blLogo3}
@@ -120,12 +125,15 @@ function Buyer_lounges() {
             </div>
           </div>
           <div className="BLButton">
-            <Link href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=ff&source_name=">
+            <p>
               Click Here To Regsiter
-            </Link>
+            </p>
           </div>
-        </div>
-        <div id="businessLounchCard" className="relative px-3  py-5">
+        </Link>
+
+
+
+        <Link href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=pp&source_name=" id="businessLounchCard" className="relative px-3  py-5">
           <div className="blImage">
             <Image
               src={blLogo2}
@@ -157,11 +165,11 @@ function Buyer_lounges() {
             </div>
           </div>
           <div className="BLButton">
-            <Link href="https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=pp&source_name=">
+            <p>
               Click Here To Regsiter
-            </Link>
+            </p>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

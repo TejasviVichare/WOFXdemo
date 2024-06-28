@@ -188,12 +188,10 @@
 .BLButton {
   display: flex;
   justify-content: center;
-
   background-image: linear-gradient(to right bottom, #34d7e3, #22d0e9, #20c9ee, #2ec1f1, #43b8f2);
   padding-top: 7px;
   padding-bottom: 7px;
   color: #f4f4f4;
-
   border-bottom: 2px solid skyblue;
   border-right: 2px solid skyblue;
   border-radius: 4px;
@@ -347,15 +345,10 @@
   .bgvideo video{
     height: 270px !important;
   }
-
-
-
-
   .India-growth-story {
     text-align: center;
     width: 70%;
   }
-
   .left-side-under-hero p {
     font-size: 16px;
     text-align: justify;
