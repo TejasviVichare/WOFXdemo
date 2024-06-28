@@ -221,6 +221,9 @@ const MyForm = () => {
                 <p className="text-lg mt-4">
                   <strong>Major Exhibit Category*</strong>
                 </p>
+                <p className="text-lg mt-4">
+                  <strong>Furniture</strong>
+                </p>
                 <div className="grid grid-cols-1 md:grid-cols-3">
                   <label className="checkbox col-sm-12">
                     <input
@@ -258,30 +261,20 @@ const MyForm = () => {
                       type="checkbox"
                       name="mpc[]"
                       className="exhibit_country"
-                      value="Plastic"
+                      value="Modular"
                       onChange={handleChange}
                     />
-                    &nbsp; Plastic
+                    &nbsp; Modular
                   </label>
                   <label className="checkbox col-sm-12">
                     <input
                       type="checkbox"
                       name="mpc[]"
                       className="exhibit_country"
-                      value="Kid"
+                      value="Kids"
                       onChange={handleChange}
                     />
                     &nbsp; Kids
-                  </label>
-                  <label className="checkbox col-sm-12">
-                    <input
-                      type="checkbox"
-                      name="mpc[]"
-                      className="exhibit_country"
-                      value="Airport"
-                      onChange={handleChange}
-                    />
-                    &nbsp; Airport
                   </label>
                   <label className="checkbox col-sm-12">
                     <input
@@ -298,20 +291,10 @@ const MyForm = () => {
                       type="checkbox"
                       name="mpc[]"
                       className="exhibit_country"
-                      value="School/College"
+                      value="Plastic"
                       onChange={handleChange}
                     />
-                    &nbsp; School/College
-                  </label>
-                  <label className="checkbox col-sm-12">
-                    <input
-                      type="checkbox"
-                      name="mpc[]"
-                      className="exhibit_country"
-                      value="Hospital"
-                      onChange={handleChange}
-                    />
-                    &nbsp; Hospital
+                    &nbsp; Plastic
                   </label>
                   <label className="checkbox col-sm-12">
                     <input
@@ -328,42 +311,21 @@ const MyForm = () => {
                       type="checkbox"
                       name="mpc[]"
                       className="exhibit_country"
-                      value="Hotel & Restaurant"
+                      value="School/College"
                       onChange={handleChange}
                     />
-                    &nbsp; Hotel & Restaurant
+                    &nbsp; School/College
                   </label>
                   <label className="checkbox col-sm-12">
                     <input
                       type="checkbox"
                       name="mpc[]"
                       className="exhibit_country"
-                      value="Accessories"
+                      value="Institutional"
                       onChange={handleChange}
                     />
-                    &nbsp; Accessories
+                    &nbsp; Institutional
                   </label>
-                  <label className="checkbox col-sm-12">
-                    <input
-                      type="checkbox"
-                      name="mpc[]"
-                      className="exhibit_country"
-                      value="Décor"
-                      onChange={handleChange}
-                    />
-                    &nbsp; Décor
-                  </label>
-                  <label className="checkbox col-sm-12">
-                    <input
-                      type="checkbox"
-                      name="mpc[]"
-                      className="exhibit_country"
-                      value="Modular"
-                      onChange={handleChange}
-                    />
-                    &nbsp; Modular
-                  </label>
-                 
                   <label className="checkbox col-sm-12">
                     <input
                       type="checkbox"
@@ -379,11 +341,12 @@ const MyForm = () => {
                       type="checkbox"
                       name="mpc[]"
                       className="exhibit_country"
-                      value="Lighting"
+                      value="Décor"
                       onChange={handleChange}
                     />
-                    &nbsp; Lighting
+                    &nbsp; Décor
                   </label>
+                 
                   <label className="checkbox col-sm-12">
                     <input
                       type="checkbox"
