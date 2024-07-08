@@ -70,9 +70,9 @@ export default function Home() {
       <p>&nbsp;</p>
       {/* <Industrypartnerslider /> */}
 
-      <center>
+      {/* <center>
         <h1 className="text-3xl py-6">International Pavilion Organisers </h1>
-      </center>
+      </center> */}
       <InternationPavilion />
       <p>&nbsp;</p>
     </>

@@ -13,7 +13,6 @@ function Buyer_lounges() {
     <div className="mx-auto   w-full max-w-screen-2xl bussinesLounchMain mt-40 pb-20">
       <center>
         <h1 className="text-4xl text-center  pl-9 py-3">
-          
           Buyer Registration Form
         </h1>
         <p className="text-center text-red-600 text-lg">

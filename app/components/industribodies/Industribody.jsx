@@ -57,7 +57,7 @@ function Industribody() {
                         
                     </a>
                 </div>
-                <div className=' relative'>
+                {/* <div className=' relative'>
                     <center>
                         <h3 className='absolute w-56 left-2 md:left-32'>Knowledge Partners</h3>
                         <h3>&nbsp;</h3>
@@ -75,7 +75,7 @@ function Industribody() {
                         <Image src={d} alt="Card Background" />
                       
                     </a>
-                </div>
+                </div> */}
             </div>
      
         </>
