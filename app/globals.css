@@ -445,9 +445,7 @@
   .videoContainer{
     height: 40vh;
   }
-  .wingdings{
-    display: none;
-  }
+ 
   #businessLounchCard {
     width: 100% !important;
     margin-top: 20px;
