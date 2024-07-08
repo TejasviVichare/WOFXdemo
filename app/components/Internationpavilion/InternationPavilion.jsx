@@ -56,7 +56,7 @@ function InternationPavilion() {
       <div className="flex  md:px-24  gap-x-2 flex-wrap justify-center">
         {logoses.map((item, index) => (
           <div key={index}>
-            <a href={item.link}>
+            <a target="_blank" href={item.link}>
               <Image src={item.logo} width={220} priority={true} height='auto' alt={index} />
             </a>
           </div>
