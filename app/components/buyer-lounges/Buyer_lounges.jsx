@@ -8,6 +8,7 @@ import Link from "next/link"
 
 function Buyer_lounges() {
   return (
+    <>
     <div className='mx-auto  w-full max-w-screen-2xl bussinesLounchMain  pt-4 pb-8 '>
       
       <h1  className="text-4xl text-center  pl-9"> Buyer Registration Form</h1>
@@ -18,7 +19,7 @@ respected Buyers Lounge during your visit</p>
       <p style={{color:"#20c9ee"}} className="text-2xl text-center py-1">Buyers Lounges - For Business Meetings and Networking</p>
       <p></p>
       <div className="flex justify-between flex-wrap px-6 py-2 ">
-        <div id="businessLounchCard" className="relative px-3  py-5">
+        <div id="businessLounchCard" className="relative px-3  py-3">
            <div className="blImage"><Image   src={blLogo1} width={160} height={160} alt="Dealers & Distributors" /></div>
            <div className="py-2">
             <div><span className="wingdings">&#x1F7C2;</span> Dealers</div>
@@ -28,9 +29,9 @@ respected Buyers Lounge during your visit</p>
             <div><span className="wingdings">&#x1F7C2;</span> Trading & Buying Houses</div>
             <div><span className="wingdings">&#x1F7C2;</span> Agents</div>
            </div>
-           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=dd&source_name='>Click Here To Regsiter</Link></div>
+          
         </div>
-        <div id="businessLounchCard" className="relative px-3  py-5">
+        <div id="businessLounchCard" className="relative px-3  py-3">
            <div className="blImage">
            <Image   src={blLogo4} width={160} height={160} alt="Dealers & Distributors" />
            </div>
@@ -40,9 +41,9 @@ respected Buyers Lounge during your visit</p>
             <div><span className="wingdings">&#x1F7C2;</span> Large Format Retailers</div>
             <div><span className="wingdings">&#x1F7C2;</span> Online Traders</div>
            </div>
-           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=rc&source_name='>Click Here To Regsiter</Link></div>
+           
         </div>
-        <div id="businessLounchCard" className="relative px-3  py-5">
+        <div id="businessLounchCard" className="relative px-3  py-3">
            <div className="blImage"><Image   src={blLogo3} width={160} height={160} alt="Dealers & Distributors" /></div>
            <div className="py-2">
             <div><span className="wingdings">&#x1F7C2;</span> Franchisees</div>
@@ -50,9 +51,9 @@ respected Buyers Lounge during your visit</p>
             <div><span className="wingdings">&#x1F7C2;</span> Agents</div>
             <div><span className="wingdings">&#x1F7C2;</span> Consultants</div>
            </div>
-           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=ff&source_name='>Click Here To Regsiter</Link></div>
+          
         </div>
-        <div id="businessLounchCard" className="relative px-3  py-5">
+        <div id="businessLounchCard" className="relative px-3  py-3">
            <div className="blImage"><Image   src={blLogo2} width={160} height={160} alt="Dealers & Distributors" /></div>
            <div className="py-2">
             <div><span className="wingdings">&#x1F7C2;</span> Architects</div>
@@ -62,10 +63,17 @@ respected Buyers Lounge during your visit</p>
             <div><span className="wingdings">&#x1F7C2;</span> Corporate Sourcing Heads</div>
             <div><span className="wingdings">&#x1F7C2;</span> Institutional</div>
            </div>
-           <div className="BLButton"><Link href='https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=pp&source_name='>Click Here To Regsiter</Link></div>
+           
         </div>
       </div>
+      <div>
+      <div className="flex justify-center w-full mt-6">
+      <Link className="BLButton w-60" href='/buyer_reg_category'><strong>Click Here To Regsiter</strong></Link>
+      </div>
+      </div>
     </div>
+    <p>&nbsp;</p>
+    </>
   )
 }
 
