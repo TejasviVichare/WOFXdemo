@@ -5,6 +5,11 @@ function Buyer_lounges() {
     const [showCategory, setShowCategory] = useState("");
     const [errorMessage, setErrorMessage] = useState("");
 
+    const handleCategoryChange = (category) => {
+        setShowCategory(category);
+        setErrorMessage(""); // Clear the error message when a category is selected
+    };
+
     const handleRegisterClick = () => {
         if (!showCategory) {
             setErrorMessage("Please select a buyer category before proceeding.");
@@ -18,7 +23,7 @@ function Buyer_lounges() {
         <>
             <div className="mx-auto w-full max-w-screen-2xl mt-40 pb-5 px-1">
                 <div className="flex justify-center ">
-                    <div className="md:w-2/4 w-full bg-neutral-50 px-2 py-4 rounded-md">
+                    <div className="w-2/4 bg-neutral-50 px-2 py-4 rounded-md">
                         <h1 className="text-3xl text-center pl-9 py-3">
                             Buyer Registration Form
                         </h1>
@@ -39,7 +44,7 @@ function Buyer_lounges() {
                         <p className="px-2 mt-3 text-lg"><strong>Select your buyer category</strong></p>
                         <div className="flex flex-col mt-2 px-2">
                             <label>
-                                <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
+                                <input type="radio" name="buyerCategory" onChange={() => handleCategoryChange("dd")} />
                                 <span className="pl-2 font-semibold">Dealer & Distributor</span>
                                 {showCategory === "dd" && (
                                     <div className="py-2">
@@ -65,7 +70,7 @@ function Buyer_lounges() {
                                 )}
                             </label>
                             <label>
-                                <input type="radio" name="buyerCategory" onChange={() => setShowCategory("rc")} />
+                                <input type="radio" name="buyerCategory" onChange={() => handleCategoryChange("rc")} />
                                 <span className="pl-2 font-semibold">Retail Connect</span>
                                 {showCategory === "rc" && (
                                     <div className="py-2">
@@ -85,7 +90,7 @@ function Buyer_lounges() {
                                 )}
                             </label>
                             <label>
-                                <input type="radio" name="buyerCategory" onChange={() => setShowCategory("ff")} />
+                                <input type="radio" name="buyerCategory" onChange={() => handleCategoryChange("ff")} />
                                 <span className="pl-2 font-semibold">Furniture Franchise</span>
                                 {showCategory === "ff" && (
                                     <div className="py-2">
@@ -105,7 +110,7 @@ function Buyer_lounges() {
                                 )}
                             </label>
                             <label>
-                                <input type="radio" name="buyerCategory" onChange={() => setShowCategory("pp")} />
+                                <input type="radio" name="buyerCategory" onChange={() => handleCategoryChange("pp")} />
                                 <span className="pl-2 font-semibold">Project Professional</span>
                                 {showCategory === "pp" && (
                                     <div className="py-2">
