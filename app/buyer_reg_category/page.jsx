@@ -7,7 +7,7 @@ function Buyer_lounges() {
 
     const handleCategoryChange = (category) => {
         setShowCategory(category);
-        setErrorMessage(""); // Clear the error message when a category is selected
+        setErrorMessage("");
     };
 
     const handleRegisterClick = () => {
