@@ -20,17 +20,17 @@ function Buyer_lounges() {
                 <h1 className="text-2xl text-center pl-9 py-3">
                     Buyer Registration Form
                 </h1>
-                <div className="flex justify-between  py-1 rounded-sm bg-gray-50">
+                <div className="flex justify-between  py-1 rounded-md shadow bg-gray-50">
                     <p>Please Read Instructions</p>
-                    <button onClick={() => setshowHideInstruction(!showHideInstruction)}>
+                    {/* <button onClick={() => setshowHideInstruction(!showHideInstruction)}>
                         {showHideInstruction ? (
                             <FontAwesomeIcon icon={faAngleUp} />
                         ) : (
                             <FontAwesomeIcon icon={faAngleDown} />
                         )}
-                    </button>
+                    </button> */}
                 </div>
-                {showHideInstruction && (
+                
                     <div className="px-1 bg-gray-50">
                         <p>  <p className=" text-red-600 text-sm">
                             Please register as per your nature of business and profile.
@@ -44,7 +44,7 @@ function Buyer_lounges() {
                                 Buyers Lounges - For Business Meetings and Networking
                             </p></p>
                     </div>
-                )}
+            
                 <p>Select your buyer category</p>
                 <div className="flex flex-col mt-2">
                     <label>
@@ -165,7 +165,7 @@ function Buyer_lounges() {
                 <h1 className="text-2xl text-center pl-9 py-3">
                     Buyer Registration Form
                 </h1>
-                <div className="flex justify-between px-1 py-1 rounded-sm bg-gray-50">
+                <div className="flex justify-between px-1 py-1 rounded-md shadow bg-gray-50">
                     <p>Below is the Buyer Category</p>
                     <button onClick={() => setshowHideInstruction(!showHideInstruction)}>
                         {showHideInstruction ? (
@@ -192,50 +192,50 @@ function Buyer_lounges() {
                 )}
                 <p className="px-1">Select your buyer category</p>
                 <div className="grid grid-cols-2 gap-1 place-items-center">
-                    <div className="border w-40 flex  flex-col items-center justify-center py-1 mt-2 rounded-sm"> <Image
+                    <div className="border w-40 flex  flex-col items-center justify-center py-1 mt-2 rounded-md shadow"> <Image
                         src={blLogo1}
                         width={100}
                         height={100}
                         alt="Dealers & Distributors"
                     />
-                     <label>
+                     <label className="flex items-center">
                         <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
                         <span className="pl-2 text-sm">Dealer & Distributor</span>
                         
                     </label></div>
-                    <div className="border w-40   flex-col items-center flex justify-center py-1 mt-2 rounded-sm">
+                    <div className="border w-40   flex-col items-center flex justify-center py-1 mt-2 rounded-md shadow">
                         <Image
                             src={blLogo4}
                             width={100}
                             height={100}
                             alt="Dealers & Distributors"
                         />
-                         <label>
+                         <label className="flex items-center">
                         <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
                         <span className="pl-2 text-sm">Retail Connect</span>
                         
                     </label>
                         
                     </div>
-                    <div className="border w-40 flex  flex-col items-center justify-center py-1 mt-2 rounded-sm"> <Image
+                    <div className="border w-40 flex  flex-col items-center justify-center py-1 mt-2 rounded-md shadow"> <Image
                         src={blLogo3}
                         width={100}
                         height={100}
                         alt="Dealers & Distributors"
                     />
-                    <label>
+                    <label className="flex items-center">
                         <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
                         <span className="pl-2 text-sm">Furniture Franchise</span>
                         
                     </label></div>
-                    <div className="border w-40 flex  flex-col items-center justify-center py-1 mt-2 rounded-sm">
+                    <div className="border w-40 flex  flex-col items-center justify-center py-1 mt-2 rounded-md shadow shadow">
                         <Image
                             src={blLogo2}
                             width={100}
                             height={100}
                             alt="Dealers & Distributors"
                         />
-                        <label>
+                        <label className=" flex  justify-center items-center">
                         <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
                         <span className="pl-2 text-sm">Project Professional</span>
                         
