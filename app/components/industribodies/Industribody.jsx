@@ -3,6 +3,8 @@ import a from '../../../public/assests/orgnization/1.webp'
 import b from '../../../public/assests/orgnization/2.webp'
 import c from '../../../public/assests/orgnization/4.webp'
 import d from '../../../public/assests/orgnization/14.webp'
+import afmt from '../../../public/assests/orgnization/AFMT.png'
+
 import Image from 'next/image'
 import style from './industribody.module.css'
 const industribody = [
@@ -44,7 +46,7 @@ function Industribody() {
                         <h3>Industry Partner</h3>
                     </center>
                     <a href="https://www.afmt.in/" className={style.card}>
-                        <Image src={a} alt="Card Background" />
+                        <Image src={afmt} alt="Card Background" />
                        
                     </a>
                 </div>
