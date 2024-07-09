@@ -75,6 +75,7 @@ export default function Home() {
       </center> */}
       <InternationPavilion />
       <p>&nbsp;</p>
+      <FixedSocial />
     </>
   );
 }

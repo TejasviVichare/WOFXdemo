@@ -49,7 +49,7 @@ function Buyer_lounges() {
                 <div className="flex flex-col mt-2">
                     <label>
                         <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
-                        <span className="pl-2">Dealer & Distributor</span>
+                        <span className="pl-2 font-semibold">Dealer & Distributor</span>
                         {showCategory === "dd" && (
                             <div className="py-2">
                                 <div>
@@ -77,7 +77,7 @@ function Buyer_lounges() {
 
                     <label>
                         <input type="radio" name="buyerCategory" onChange={() => setShowCategory("rr")} />
-                        <span className="pl-2">Retail Connect</span>
+                        <span className="pl-2 font-semibold">Retail Connect</span>
                         {showCategory === "rr" && (
                             <div className="py-2">
                                 <div>
@@ -99,7 +99,7 @@ function Buyer_lounges() {
 
                     <label>
                         <input type="radio" name="buyerCategory" onChange={() => setShowCategory("ff")} />
-                        <span className="pl-2">Furniture Franchise</span>
+                        <span className="pl-2 font-semibold">Furniture Franchise</span>
                         {showCategory === "ff" && (
                             <div className="py-2">
                                 <div>
@@ -120,7 +120,7 @@ function Buyer_lounges() {
 
                     <label>
                         <input type="radio" name="buyerCategory" onChange={() => setShowCategory("pp")} />
-                        <span className="pl-2">Project Professional</span>
+                        <span className="pl-2 font-semibold">Project Professional</span>
                         {showCategory === "pp" && (
                             <div className="py-2">
                                 <div>

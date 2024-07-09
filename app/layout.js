@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <div className={inter.className}>
-          <FixedSocial />
+          
           <PreHeader />
           <Navbar />
           {children}
