@@ -150,16 +150,114 @@ function Buyer_lounges() {
 
             </div>
             <div className="px-2">
-            <div className="BLButton">
-                <a target="_blank" href={`https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=${showCategory}&source_name=`}>
-                    Click Here To Register
-                </a>
-            </div>
+                <div className="BLButton">
+                    <a target="_blank" href={`https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=${showCategory}&source_name=`}>
+                        Click Here To Register
+                    </a>
+                </div>
 
             </div>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
+
+
+
+            <div className="mx-auto w-full max-w-screen-2xl  mt-40 pb-5 px-1">
+
+                <h1 className="text-2xl text-center pl-9 py-3">
+                    Buyer Registration Form
+                </h1>
+                <div className="flex justify-between px-1 py-1 rounded-sm bg-gray-50">
+                    <p>Below is the Buyer Category</p>
+                    <button onClick={() => setshowHideInstruction(!showHideInstruction)}>
+                        {showHideInstruction ? (
+                            <FontAwesomeIcon icon={faAngleUp} />
+                        ) : (
+                            <FontAwesomeIcon icon={faAngleDown} />
+                        )}
+                    </button>
+                </div>
+                {showHideInstruction && (
+                    <div className="px-1 bg-gray-50">
+                        <p>  <p className=" text-red-600 text-sm">
+                            Please register as per your nature of business and profile.
+                        </p>
+                            <p className="text-sm">
+                                Based on your profile selection your entry badge will be generated and
+                                you can access the <br />
+                                respected Buyers Lounge during your visit
+                            </p>
+                            <p style={{ color: "#20c9ee" }} className="text-sm  py-1">
+                                Buyers Lounges - For Business Meetings and Networking
+                            </p></p>
+                    </div>
+                )}
+                <p className="px-1">Select your buyer category</p>
+                <div className="grid grid-cols-2 gap-1 place-items-center">
+                    <div className="border w-40 flex  flex-col items-center justify-center py-1 mt-2 rounded-sm"> <Image
+                        src={blLogo1}
+                        width={100}
+                        height={100}
+                        alt="Dealers & Distributors"
+                    />
+                     <label>
+                        <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
+                        <span className="pl-2 text-sm">Dealer & Distributor</span>
+                        
+                    </label></div>
+                    <div className="border w-40   flex-col items-center flex justify-center py-1 mt-2 rounded-sm">
+                        <Image
+                            src={blLogo4}
+                            width={100}
+                            height={100}
+                            alt="Dealers & Distributors"
+                        />
+                         <label>
+                        <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
+                        <span className="pl-2 text-sm">Retail Connect</span>
+                        
+                    </label>
+                        
+                    </div>
+                    <div className="border w-40 flex  flex-col items-center justify-center py-1 mt-2 rounded-sm"> <Image
+                        src={blLogo3}
+                        width={100}
+                        height={100}
+                        alt="Dealers & Distributors"
+                    />
+                    <label>
+                        <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
+                        <span className="pl-2 text-sm">Furniture Franchise</span>
+                        
+                    </label></div>
+                    <div className="border w-40 flex  flex-col items-center justify-center py-1 mt-2 rounded-sm">
+                        <Image
+                            src={blLogo2}
+                            width={100}
+                            height={100}
+                            alt="Dealers & Distributors"
+                        />
+                        <label>
+                        <input type="radio" name="buyerCategory" onChange={() => setShowCategory("dd")} />
+                        <span className="pl-2 text-sm">Project Professional</span>
+                        
+                    </label>
+                    </div>
+                </div>
+                
+                <div className="px-2 mt-4">
+                <div className="BLButton">
+                    <a target="_blank" href={`https://portal.wofxworldexpo.com/buyer_reg_portal.php?form_name=pre-buyer-registration&country=${showCategory}&source_name=`}>
+                        Click Here To Register
+                    </a>
+                </div>
+
+            </div>
+
+
+            </div>
+
+
+
+
         </>
     );
 }

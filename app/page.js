@@ -1,13 +1,12 @@
-import Suspencevideo from "./components/video/Suspencevideo.jsx";
 import Aboutwofx from "./components/aboutwofx/Aboutwofx.jsx";
 import Wofxadvantage from "./components/wofxadvantage/Wofxadvantage.jsx";
 import CountrySlider from "./components/countryslider/CountrySlider.jsx";
 import Industribody from "./components/industribodies/Industribody.jsx";
-import Industrypartnerslider from "./components/industrypartnerslider/Industrypartnerslider.jsx";
 import InternationPavilion from "./components/Internationpavilion/InternationPavilion.jsx";
 import Buyer_lounges from "./components/buyer-lounges/Buyer_lounges.jsx";
 import Show_Summery from "./components/show-summery/Show_Summery.jsx";
-import { Suspense } from "react";
+import FixedSocial from "./components/FixedSocial/FixedSocial.jsx";
+
 
 export default function Home() {
   return (
