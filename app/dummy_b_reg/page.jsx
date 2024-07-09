@@ -165,8 +165,8 @@ function Buyer_lounges() {
                 <h1 className="text-2xl text-center pl-9 py-3">
                     Buyer Registration Form
                 </h1>
-                <div className="flex justify-between px-1 py-1 rounded-md shadow bg-gray-50">
-                    <p>Below is the Buyer Category</p>
+                <div className="flex justify-between px-1 py-2 rounded-sm  bg-gray-50">
+                    <p>Please read Instructions</p>
                     <button onClick={() => setshowHideInstruction(!showHideInstruction)}>
                         {showHideInstruction ? (
                             <FontAwesomeIcon icon={faAngleUp} />
