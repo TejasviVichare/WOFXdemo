@@ -23,7 +23,7 @@ function Buyer_lounges() {
         <>
             <div className="mx-auto w-full max-w-screen-2xl mt-40 pb-5 px-1">
                 <div className="flex justify-center ">
-                    <div className="w-2/4 bg-neutral-50 px-2 py-4 rounded-md">
+                    <div className="md:w-2/4 w-full bg-neutral-50 px-2 py-4 rounded-md">
                         <h1 className="text-3xl text-center pl-9 py-3">
                             Buyer Registration Form
                         </h1>

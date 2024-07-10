@@ -1,11 +1,5 @@
 import Image from "next/image"
-// import a from '../../../public/assests/internationalpavilion/A.png'
-// import b from '../../../public/assests/internationalpavilion/B.png'
-// import c from '../../../public/assests/internationalpavilion/C.png'
-// import d from '../../../public/assests/internationalpavilion/D.png'
-// import e from '../../../public/assests/internationalpavilion/E.png'
-// import f from '../../../public/assests/internationalpavilion/F.png'
-// import g from '../../../public/assests/internationalpavilion/G.png'
+
 import bai from '../../../public/assests/orgnization/5.webp'
 import HRAWI from '../../../public/assests/orgnization/8.webp'
 import IICCI from '../../../public/assests/orgnization/12.webp'
@@ -13,6 +7,21 @@ import AESA from '../../../public/assests/orgnization/9.webp'
 import CIE from '../../../public/assests/orgnization/11.webp'
 import MHEA from '../../../public/assests/orgnization/13.webp'
 import AFA from '../../../public/assests/orgnization/6.webp'
+import hawa from  '../../../public/assests/orgnization/hawa.png'
+import hawaexpo from  '../../../public/assests/orgnization/hawaexpo.png'
+import HIMKILogo from  '../../../public/assests/orgnization/HIMKILogo.png'
+import ifx from  '../../../public/assests/orgnization/IFEXLogo.png'
+import thti from  '../../../public/assests/internationalpavilion/F.png'
+import designobject from  '../../../public/assests/orgnization/designobjects.png'
+
+
+
+
+
+
+
+
+
 
 
 
@@ -45,6 +54,36 @@ const logoses = [{
   logo: AFA,
   link: "https://www.afa1983.com/"
 }
+,
+{
+  logo: hawa,
+  link: "https://www.hawaexpo.com/"
+}
+,
+{
+  logo: hawaexpo,
+  link: "https://hawa.vn/"
+}
+,
+{
+  logo: HIMKILogo,
+  link: "https://www.himki.id/"
+}
+,
+{
+  logo: ifx,
+  link: "https://ifexindonesia.com/"
+}
+,
+{
+  logo: thti,
+  link: "https://www.thaitextile.org/th/home/"
+},
+{
+  logo:designobject,
+  link:"https://www.designandobjects.com/"
+}
+
 ]
 
 
