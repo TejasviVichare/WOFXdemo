@@ -643,24 +643,8 @@
 .termandcondition strong {
   color: black !important;
 }
-
-
-/* Import Slick Carousel CSS */
-@import "~slick-carousel/slick/slick.css";
-@import "~slick-carousel/slick/slick-theme.css";
-
-/* Custom CSS for Arrows */
-.slick-prev:before, .slick-next:before {
-  color: black;
+.slick-slide a {
+  outline: none;
 }
 
-/* Adjust the positioning of the arrows if needed */
-.slick-prev {
-  left: -25px;
-  z-index: 1;
-}
 
-.slick-next {
-  right: -25px;
-  z-index: 1;
-}
