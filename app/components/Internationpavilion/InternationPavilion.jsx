@@ -46,40 +46,16 @@ const logoses = [{
 {
   logo: AFA,
   link: "https://www.afa1983.com/"
-},
-{
-  logo: hawa,
-  link: "https://www.hawaexpo.com/"
-},
-{
-  logo: hawaexpo,
-  link: "https://hawa.vn/"
-},
-{
-  logo: HIMKILogo,
-  link: "https://www.himki.id/"
-},
-{
-  logo: ifx,
-  link: "https://ifexindonesia.com/"
-},
-{
-  logo: thti,
-  link: "https://www.thaitextile.org/th/home/"
-},
-{
-  logo: designobject,
-  link: "https://www.designandobjects.com/"
 }];
 
 const InternationPavilion = () => {
   const settings = {
     infinite: true,
-    speed: 1000,
-    slidesToShow: 5,
+    speed: 2000, 
+    slidesToShow: 4,
     slidesToScroll: 3,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 6000, 
     responsive: [
       {
         breakpoint: 1024,
@@ -109,7 +85,7 @@ const InternationPavilion = () => {
 
   return (
     <div className="md:px-24 px-1 overflow-hidden ">
-      <center>
+      <div>
         <Slider {...settings}>
         {logoses.map((item, index) => (
           <div key={index} className="px-2">
@@ -119,7 +95,7 @@ const InternationPavilion = () => {
           </div>
         ))}
       </Slider>
-      </center>
+      </div>
     </div>
   );
 };
