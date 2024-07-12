@@ -34,10 +34,7 @@ const exhibitorProfileContent = [
     img: "/assests/exhibitorProfile/7.png",
     text: "Plastic",
   },
-  {
-    img: "/assests/exhibitorProfile/8.png",
-    text: "Public",
-  },
+  
   {
     img: "/assests/exhibitorProfile/9.png",
     text: "School/College",

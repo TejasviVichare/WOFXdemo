@@ -51,11 +51,11 @@ const logoses = [{
 const InternationPavilion = () => {
   const settings = {
     infinite: true,
-    speed: 2000, 
-    slidesToShow: 4,
-    slidesToScroll: 3,
+    speed: 1000, 
+    slidesToShow: 5,
+    slidesToScroll: 4,
     autoplay: true,
-    autoplaySpeed: 6000, 
+    autoplaySpeed: 3000, 
     responsive: [
       {
         breakpoint: 1024,
