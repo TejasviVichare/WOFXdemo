@@ -11,13 +11,13 @@ function page() {
       <div className=" flex justify-center mt-6">
       <div className="flex w-4/5  flex-wrap gap-10 justify-center">
         <div className="grid grid-cols-1  gap-8  md:grid-cols-4">
-          <a href="http://www.aipanorama.com/">
+          {/* <a href="http://www.aipanorama.com/">
             <Image
               width={220} height={85}
               src="/assests/MediaPartner/1.webp"
               alt="image1"
             />
-          </a>
+          </a> */}
           <a href="https://constructionnarchitecture.com/">
             <Image
               width={220} height={85}
@@ -67,13 +67,13 @@ function page() {
               alt="image1"
             />
           </a>
-          <a href="https://www.fabmediapublication.com/">
+          {/* <a href="https://www.fabmediapublication.com/">
             <Image
               width={220} height={85}
               src="/assests/MediaPartner/9.webp"
               alt="image1"
             />
-          </a>
+          </a> */}
           <a href="#">
             <Image
               width={220} height={85}
@@ -104,7 +104,7 @@ function page() {
               alt="image1"
             />
           </a>
-          <a href="https://www.woodandpanel.com/contact/">
+          {/* <a href="https://www.woodandpanel.com/contact/">
             <Image
               width={220} height={85}
               src="/assests/MediaPartner/16.webp"
@@ -117,7 +117,7 @@ function page() {
               src="/assests/MediaPartner/17.webp"
               alt="image1"
             />
-          </a>
+          </a> */}
           <a href="https://www.worldconstructiontoday.com/">
             <Image
               width={220} height={85}
@@ -139,13 +139,13 @@ function page() {
               alt="image1"
             />
           </a>
-          <a href="http://hospitalitytalk.in/">
+          {/* <a href="http://hospitalitytalk.in/">
             <Image
               width={220} height={85}
               src="/assests/MediaPartner/Hotel-Talk-logo_resized.webp"
               alt="image1"
             />
-          </a>
+          </a> */}
           <a href="https://www.iworldmedia21.com/">
             <Image
               width={220} height={85}
@@ -160,9 +160,17 @@ function page() {
               alt="image1"
             />
           </a>
+          <a href="https://kreatecube.com/">
+            <Image
+              width={220} height={85}
+              src="/assests/MediaPartner/CBT.png"
+              alt="image1"
+            />
+          </a>
         </div>
       </div>
     </div>
+    <p className=" h-16">&nbsp;</p>
     </div>
   );
 }
