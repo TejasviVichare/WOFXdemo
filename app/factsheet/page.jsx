@@ -102,7 +102,7 @@ function page() {
                   <ul className="list-ul">
                     <br />
                     <p>• &nbsp; Plastic</p>
-                    <p>• &nbsp; Public</p>
+                   
                     <p>• &nbsp; School/College</p>
                     <p>• &nbsp; Institutional</p>
                     <p>• &nbsp; Mattresses</p>
@@ -258,19 +258,19 @@ function page() {
                           <p><span className="wingdings">&#x1F7C2;</span>Large Format Retailers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Online Traders</p>
                         </td>
-                        <td style={{ verticalAlign: "top" }}>
+                        <td style={{ verticalAlign: "top"}}>
                           <p><span className="wingdings">&#x1F7C2;</span>Franchisees</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Entrepreneurs</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Agents</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Consultants</p>
                         </td>
-                        <td style={{ paddingLeft:"10px", verticalAlign: "top" }}>
-                          <p><span className="wingdings">&#x1F7C2;</span>Architects</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>Interior Designers</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>Real Estate Developers</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>HORECA</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>Corporate Sourcing Heads</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>Institutional</p>
+                        <td style={{ paddingLeft:"10px", position:"relative" ,marginLeft:"80px" ,verticalAlign: "top"}}>
+                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Architects</p>
+                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Interior Designers</p>
+                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Real Estate Developers</p>
+                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>HORECA</p>
+                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Corporate Sourcing Heads</p>
+                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Institutional</p>
                         </td>
                       </tr>
                     </tbody>

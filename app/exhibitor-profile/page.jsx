@@ -44,13 +44,14 @@ const exhibitorProfileContent = [
     text: "Institutional",
   },
   {
-    img: "/assests/exhibitorProfile/decor.png",
-    text: "Décor",
-  },
-  {
     img: "/assests/exhibitorProfile/mattresses.png",
     text: "Mattresses",
   },
+  {
+    img: "/assests/exhibitorProfile/decor.png",
+    text: "Décor",
+  },
+  
 ];
 
 function page() {
@@ -73,10 +74,10 @@ function page() {
                    
                     <Image src={item.img} width={140} height={140} alt={i} />
                   </center>
-                  <div className="flex justify-center">
+                  <div className="flex justify-center border">
                     <p
                       style={{ background: "#fbf9f6" }}
-                      className="absolute  w-4/5 text-center px-6 py-1 text-sm -bottom-2"
+                      className="absolute  w-4/5 text-center  py-1 text-sm -bottom-2"
                     >
                       {item.text}
                     </p>
