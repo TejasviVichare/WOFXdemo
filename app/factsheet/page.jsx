@@ -135,7 +135,7 @@ function page() {
                     <p>• &nbsp; Italy</p>
                     <p>• &nbsp; France</p>
                     <p>• &nbsp; USA</p>
-                    <p>&nbsp;&nbsp;&nbsp;&nbsp;amongst others</p>
+                    <p>amongst others</p>
                   </ul>
                 </td>
               </tr>
@@ -177,7 +177,7 @@ function page() {
                     <p>
                       • &nbsp; Entry strictly for trade buyers on production of
                       valid business cards.
-                      <br /> &nbsp;&nbsp;&nbsp;&nbsp;(Pre-register online or
+                      <br /> (Pre-register online or
                       onsite)
                     </p>
                     <p>• &nbsp; Rights of admission reserved.</p>
@@ -201,7 +201,7 @@ function page() {
                   <table
                     width="100%"
                     border={1}
-                    className=" align-top"
+                    className=" align-top border"
                     style={{
                       borderCollapse: "collapse",
                       verticalAlign: "top",
@@ -211,29 +211,29 @@ function page() {
                     }}
                   >
                     <tbody>
-                      <tr className="border-b-[1px] border-gray-400 pt-2 pb-2  ">
-                        <td className="text-center p-2  ">
+                      <tr className="border-b-[1px] border-gray-400 pt-2 pb-2">
+                        <td className="text-center p-2  w-1/4">
                           <img
                             src="/assests/blLogo1.png"
                             alt=""
                             style={{ width: 120 }}
                           />
                         </td>
-                        <td className="p-2 text-center">
+                        <td className="p-2 text-center   w-1/4">
                           <img
                             src="/assests/blLogo4.png"
                             alt=""
                             style={{ width: 120 }}
                           />
                         </td>
-                        <td className="p-2 text-center">
+                        <td className="p-2 text-center   w-1/4">
                           <img
                             src="/assests/blLogo3.png"
                             alt=""
                             style={{ width: 120 }}
                           />
                         </td>
-                        <td className="p-2 text-center">
+                        <td className="p-2 text-center   w-1/4">
                           <img
                             src="/assests/blLogo2.png"
                             alt=""
@@ -242,7 +242,7 @@ function page() {
                         </td>
                       </tr>
                       <tr>
-                        <td style={{ verticalAlign: "top"}}>
+                        <td className="w-1/4 " style={{ verticalAlign: "top"}}>
                           <page><span className="wingdings">&#x1F7C2;</span>Dealers</page>
                           <p><span className="wingdings">&#x1F7C2;</span>Distributors</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Wholesalers</p>
@@ -252,25 +252,25 @@ function page() {
                           </p>
                           <p style={{ textAlign: "centers" }}><span className="wingdings">&#x1F7C2;</span>Agents</p>
                         </td>
-                        <td style={{  verticalAlign: "top" }}>
+                        <td className="w-1/4 " style={{  verticalAlign: "top" }}>
                           <p><span className="wingdings">&#x1F7C2;</span>Retailers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>E-Tailers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Large Format Retailers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Online Traders</p>
                         </td>
-                        <td style={{ verticalAlign: "top"}}>
+                        <td className="w-1/4 " style={{ verticalAlign: "top"}}>
                           <p><span className="wingdings">&#x1F7C2;</span>Franchisees</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Entrepreneurs</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Agents</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Consultants</p>
                         </td>
-                        <td style={{ paddingLeft:"10px", position:"relative" ,marginLeft:"80px" ,verticalAlign: "top"}}>
-                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Architects</p>
-                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Interior Designers</p>
-                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Real Estate Developers</p>
-                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>HORECA</p>
-                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Corporate Sourcing Heads</p>
-                          <p><span className="wingdings">&nbsp;&nbsp;&nbsp;&nbsp; &#x1F7C2;</span>Institutional</p>
+                        <td className="w-1/4 " style={{ paddingLeft:"10px", position:"relative" ,marginLeft:"80px" ,verticalAlign: "top"}}>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Architects</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Interior Designers</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Real Estate Developers</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>HORECA</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Corporate Sourcing Heads</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Institutional</p>
                         </td>
                       </tr>
                     </tbody>
