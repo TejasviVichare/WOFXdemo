@@ -14,6 +14,7 @@ function Page() {
     company_name: "",
     email: "",
     mobile: "",
+    website: "",
     interested_in: "",
     interested_in_other: "",
   });
@@ -192,6 +193,17 @@ function Page() {
                         This field is required.
                       </span>
                     )}
+                  </div>
+
+                  <div>
+                    <input
+                      type="text"
+                      name="website"
+                      placeholder="website"
+                      className="form-control input-sm border rounded px-2 w-full py-2 mb-4"
+                      onChange={handleChange}
+                    />
+                  
                   </div>
 
                   <div className=" mb-3">
