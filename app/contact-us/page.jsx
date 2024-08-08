@@ -15,7 +15,7 @@ function Page() {
     email: "",
     mobile: "",
     website: "",
-    interested_in: "",
+    interested_in: "Others",
     interested_in_other: "",
   });
 
