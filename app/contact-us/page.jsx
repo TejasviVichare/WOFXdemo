@@ -52,6 +52,14 @@ function Page() {
       isValid = false;
     }
 
+    if(formData.interested_in == "Others"){
+      if(!formData.interested_in_other){
+        newErrors.interested_in_other = "Interested in type is required";
+        isValid = false;
+      }
+     
+    }
+
     setErrors(newErrors);
     return isValid;
   };
@@ -77,6 +85,7 @@ function Page() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const isValid = validateForm();
+    console.log(isValid, "valid true")
     if (isValid) {
       try {
         const response = await axios.post(
@@ -251,12 +260,18 @@ function Page() {
                       &nbsp; Others
                     </label>
                     <br />
-                    <input
+                   <input
                       type="text"
                       name="interested_in_other"
                       className="form-control input-sm border rounded px-2 py-1 mt-4"
                       onChange={handleChange}
+                      // required={formData.interested_in == "others"}
                     />
+                     {errors.interested_in_other && (
+                      <span className="text-red-500">
+                        This field is required.
+                      </span>
+                    )}
                     <br />
                     <br />
                     <div className="text-right">
