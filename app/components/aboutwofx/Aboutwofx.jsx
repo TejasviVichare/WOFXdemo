@@ -10,7 +10,7 @@ function Aboutwofx() {
       <div className='mx-auto   w-full max-w-screen-2xl aboutWofxMain '>
         <div className="grid grid-cols-1 border  md:grid-cols-2 py-3 md:py-6 px-4 md:px-6 gap-10">
           <div>
-            <p className="text-justify pl-8"><strong>WOFX - World Furniture Expo</strong> is India&apos;s premier international B2B trade show dedicated to the furniture + design industry wherein the entire furniture + design industry from India and across the globe can converge, connect and collaborate. WOFX is your gateway into the vast Indian furniture & design market. </p>
+            <p className="text-justify md:pl-8"><strong>WOFX - World Furniture Expo</strong> is India&apos;s premier international B2B trade show dedicated to the furniture + design industry wherein the entire furniture + design industry from India and across the globe can converge, connect and collaborate. WOFX is your gateway into the vast Indian furniture & design market. </p>
             <div id="atWofx" className=" flex flex-wrap gap-4 mt-8">
               <Image src={aboutHomePage} width='90%' height='auto' alt="something" />
               {/* <div><p><span>&#x27A4; &nbsp;</span> Accelerate <strong className="text-xl">Brand Presence</strong></p></div>
