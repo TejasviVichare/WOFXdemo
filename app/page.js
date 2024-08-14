@@ -30,7 +30,7 @@ export default function Home() {
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
+   
    
 
       <Aboutwofx />
