@@ -114,7 +114,7 @@ export default function Navbar() {
 function MobileNav({ closeSideMenu }) {
   return (
     <div id="mobileNav" className="fixed left-0 top-0 flex h-full  min-h-screen w-full border-dashed justify-end bg-black/60 md:hidden">
-      <div className="h-full w-[65%] bg-white px-4 py-4">
+      <div className="h-full w-[100%] bg-white px-4 py-4">
         <section className="flex justify-end text-black">
           <button onClick={closeSideMenu} className="cursor-pointer text-4xl">&times;</button>
         </section>
