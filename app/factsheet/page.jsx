@@ -1,11 +1,13 @@
+import FactsheetMb from "../components/factsheetMobile/factsheetMb";
+
 export const metadata = {
   title: "Factsheet",
 };
 function page() {
   return (
     <>
-      <div className="mx-auto   w-full max-w-screen-2xl mt-40 pb-20">
-        <div className="flex justify-center">
+      <div className="mx-auto   w-full max-w-screen-2xl mt-36 pb-20">
+        <div className="md:flex justify-center hidden ">
           <table align="center" className="w-[70%]  valign-top ">
             <tbody className="valign-top">
               <tr>
@@ -251,6 +253,7 @@ function page() {
                             Trading &amp; Buying Houses
                           </p>
                           <p style={{ textAlign: "centers" }}><span className="wingdings">&#x1F7C2;</span>Agents</p>
+                     
                         </td>
                         <td className="w-1/4 " style={{  verticalAlign: "top" }}>
                           <p><span className="wingdings">&#x1F7C2;</span>Retailers</p>
@@ -339,6 +342,11 @@ function page() {
             </tbody>
           </table>
         </div>
+        <div  className="flex justify-center  md:hidden">
+        
+                    <FactsheetMb />
+        </div>
+
       </div>
     
       <center>
