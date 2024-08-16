@@ -1,4 +1,4 @@
-import FactsheetMb from "../components/factsheetMobile/factsheetMb";
+import FactsheetMb from "../components/factsheetMobile/FactsheetMb";
 
 export const metadata = {
   title: "Factsheet",
@@ -217,35 +217,35 @@ function page() {
                         <td className="text-center p-2  w-1/4">
                           <img
                             src="/assests/blLogo1.png"
-                            alt=""
+                            alt="Dealers"
                             style={{ width: 120 }}
                           />
                         </td>
                         <td className="p-2 text-center   w-1/4">
                           <img
                             src="/assests/blLogo4.png"
-                            alt=""
+                            alt="Retailers"
                             style={{ width: 120 }}
                           />
                         </td>
                         <td className="p-2 text-center   w-1/4">
                           <img
                             src="/assests/blLogo3.png"
-                            alt=""
+                            alt="Franchisees"
                             style={{ width: 120 }}
                           />
                         </td>
                         <td className="p-2 text-center   w-1/4">
                           <img
                             src="/assests/blLogo2.png"
-                            alt=""
+                            alt="Architects"
                             style={{ width: 120 }}
                           />
                         </td>
                       </tr>
                       <tr>
                         <td className="w-1/4 " style={{ verticalAlign: "top"}}>
-                          <page><span className="wingdings">&#x1F7C2;</span>Dealers</page>
+                          <p><span className="wingdings">&#x1F7C2;</span>Dealers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Distributors</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Wholesalers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Importers</p>
