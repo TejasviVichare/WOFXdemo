@@ -12,9 +12,9 @@ import AESA from '../../../public/assests/orgnization/9.webp';
 import CIE from '../../../public/assests/orgnization/11.webp';
 import MHEA from '../../../public/assests/orgnization/13.webp';
 import AFA from '../../../public/assests/orgnization/6.webp';
-import hawa from '../../../public/assests/orgnization/hawa.png';
-import hawaexpo from '../../../public/assests/orgnization/hawaexpo.png';
-import HIMKILogo from '../../../public/assests/orgnization/HIMKILogo.png';
+import fhandra from '../../../public/assests/orgnization/fhandra.webp';
+import IIA from '../../../public/assests/orgnization/IIA.webp';
+import HPMF from '../../../public/assests/orgnization/HPMF.webp';
 import ifx from '../../../public/assests/orgnization/IFEXLogo.png';
 import thti from '../../../public/assests/orgnization/thti.webp';
 import designobject from '../../../public/assests/orgnization/designobjects.png';
@@ -22,30 +22,49 @@ import designobject from '../../../public/assests/orgnization/designobjects.png'
 const logoses = [{
   logo: bai,
   link: "https://www.baionline.in/"
+}
+,
+{
+  logo: fhandra,
+  link: "https://www.fhrai.com/index.aspx"
 },
+
 {
   logo: HRAWI,
   link: "https://www.hrawi.com/index.aspx"
 },
+,
 {
-  logo: IICCI,
-  link: "https://www.indianimporterschambers.com/"
+  logo: IIA,
+  link: "https://www.iiamumbai.com/"
 },
+
 {
   logo: AESA,
   link: "https://aesapune.org/"
 },
 {
-  logo: CIE,
-  link: "https://cieonline.org/"
+  logo: AFA,
+  link: "#"
 },
+
 {
   logo: MHEA,
   link: "#"
+}
+,
+{
+  logo: HPMF,
+  link: "https://hpmf.in/"
+},
+
+{
+  logo: IICCI,
+  link: "https://www.indianimporterschambers.com/"
 },
 {
-  logo: AFA,
-  link: "https://www.afa1983.com/"
+  logo: CIE,
+  link: "https://cieonline.org/"
 }];
 
 const InternationPavilion = () => {
