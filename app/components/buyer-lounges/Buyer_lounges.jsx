@@ -9,7 +9,7 @@ import Link from "next/link"
 function Buyer_lounges() {
   return (
     <>
-    <div className='mx-auto  w-full max-w-screen-2xl bussinesLounchMain  pt-4 pb-8 '>
+    <div className='mx-auto  w-full max-w-screen-2xl bussinesLounchMain  pt-4 pb-8 px-3'>
       
       <h1  className="text-4xl text-center  pl-9"> Buyer Registration Form</h1>
       <p className="text-center text-red-600 text-lg">Please register as per your nature of business and profile.</p>

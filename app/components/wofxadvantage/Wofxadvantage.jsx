@@ -32,7 +32,7 @@ export default function Wofxadvantage() {
   return (
     <>
      <div className='mx-auto   w-full max-w-screen-2xl '>
-    <center><h1 className="text-3xl py-4">WOFX Advantage - Unlock a World of Opportunities </h1></center>
+    <center><h1 className="text-3xl py-4 px-2">WOFX Advantage - Unlock a World of Opportunities </h1></center>
     <div className="grid items-center px-5 py-5  row-start-4 grid-flow-row gap-4 md:px-10" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gridAutoRows: '1fr' }}>
         {wofxadvantagedata?.map((item, index)=>(
            <div className={`border px-2   h-56  py-3 rounded-2xl ${style.wofxadvantagecard}`}
