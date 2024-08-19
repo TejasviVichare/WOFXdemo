@@ -85,7 +85,7 @@ function Page() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const isValid = validateForm();
-    console.log(isValid, "valid true")
+   
     if (isValid) {
       try {
         const response = await axios.post(
