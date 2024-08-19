@@ -18,7 +18,7 @@ function Buyer_lounges() {
       <p className="text-center text-red-600 text-lg">Please register as per your nature of business and profile.</p>
       <p className="text-center  text-lg">Based on your profile selection your entry badge will be generated and you can access the <br />
 
-respected Buyers Lounge during your visit</p>
+respective Buyers Lounge during your visit</p>
       <p style={{color:"#20c9ee"}} className="text-2xl text-center py-1">Buyers Lounges - For Business Meetings and Networking</p>
       <p></p>
       <div className="flex justify-between flex-wrap px-6 py-2 ">
