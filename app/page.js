@@ -1,6 +1,6 @@
 import Aboutwofx from "./components/aboutwofx/Aboutwofx.jsx";
 import Wofxadvantage from "./components/wofxadvantage/Wofxadvantage.jsx";
-import CountrySlider from "./components/countryslider/CountrySlider.jsx";
+// import CountrySlider from "./components/countryslider/CountrySlider.jsx";
 import Industribody from "./components/industribodies/Industribody.jsx";
 import InternationPavilion from "./components/Internationpavilion/InternationPavilion.jsx";
 import Buyer_lounges from "./components/buyer-lounges/Buyer_lounges.jsx";
@@ -46,7 +46,7 @@ export default function Home() {
 
       <Buyer_lounges />
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
+      {/* <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
@@ -54,11 +54,9 @@ export default function Home() {
         <h1 className="text-3xl">Past Featured Brands </h1>
       </center>
       <p>&nbsp;</p>
-      <CountrySlider />
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
+      <CountrySlider /> */}
+      
+ 
       <center>
         <h1 className="text-3xl">Industry Bodies Endorsing WOFX</h1>
       </center>
