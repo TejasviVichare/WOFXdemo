@@ -18,6 +18,7 @@ import HPMF from '../../../public/assests/orgnization/HPMF.webp';
 import ifx from '../../../public/assests/orgnization/IFEXLogo.png';
 import thti from '../../../public/assests/orgnization/thti.webp';
 import designobject from '../../../public/assests/orgnization/designobjects.png';
+import fumma from '../../../public/assests/orgnization/fumma.png';
 
 const logoses = [{
   logo: bai,
@@ -43,6 +44,11 @@ const logoses = [{
   logo: AESA,
   link: "https://aesapune.org/"
 },
+{
+  logo: fumma,
+  link: "https://www.fumma.in/"
+},
+
 {
   logo: AFA,
   link: "#"
