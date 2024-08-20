@@ -2,32 +2,20 @@
 // import Slider from 'react-slick';
 // import 'slick-carousel/slick/slick.css';
 // import 'slick-carousel/slick/slick-theme.css';
-import a from '../../../public/assests/orgnization/3.webp'
-import b from '../../../public/assests/orgnization/5.webp'
-import c from '../../../public/assests/orgnization/6.webp'
-import d from '../../../public/assests/orgnization/7.webp'
-import fhandra from '../../../public/assests/orgnization/fhandra.webp'
-import f from '../../../public/assests/orgnization/8.webp'
-import g from '../../../public/assests/orgnization/9.webp'
-import h from '../../../public/assests/orgnization/10.webp'
-import i from '../../../public/assests/orgnization/11.webp'
-import j from '../../../public/assests/orgnization/12.webp'
-import k from '../../../public/assests/orgnization/13.webp'
-import l from '../../../public/assests/orgnization/hawa.png'
-import m from '../../../public/assests/orgnization/hawaexpo.png'
-import n from '../../../public/assests/orgnization/HIMKI Logo.png'
-import o from '../../../public/assests/orgnization/IFEX Logo.png'
-
-
-
-
-
-
-
-
 import Image from 'next/image';
 import Slider from 'react-infinite-logo-slider'
 
+import bai from '../../../public/assests/orgnization/5.webp';
+import fhandra from '../../../public/assests/orgnization/fhandra.webp';
+import HRAWI from '../../../public/assests/orgnization/8.webp';
+import IIA from '../../../public/assests/orgnization/IIA.webp';
+import AESA from '../../../public/assests/orgnization/9.webp';
+import fumma from '../../../public/assests/orgnization/fumma.png';
+import AFA from '../../../public/assests/orgnization/6.webp';
+import MHEA from '../../../public/assests/orgnization/13.webp';
+import HPMF from '../../../public/assests/orgnization/HPMF.webp';
+import IICCI from '../../../public/assests/orgnization/12.webp';
+import CIE from '../../../public/assests/orgnization/11.webp';
 
 
 function Industrypartnerslider() {
@@ -44,57 +32,49 @@ function Industrypartnerslider() {
         <>
             <div className='mx-auto   w-full max-w-screen-2xl '>
                 <div className='px-14'>
-                    <Slider
-                        duration={40}
+                <Slider
+                        duration={20}
                         pauseOnHover={true}
                         blurBorders={false}
                     >
                         <Slider.Slide>
-                            <a href="https://www.adi.org.in/"><Image src={a} width={200} height='auto' alt='a' /></a>
+                            <a href="https://www.baionline.in/"><Image src={bai} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="https://www.baionline.in/"><Image src={b} width={200} height='auto' alt='a' /></a>
+                            <a href="https://www.fhrai.com/index.aspx"><Image src={fhandra} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="https://www.afa1983.com/"><Image src={c} width={200} height='auto' alt='a' /></a>
+                            <a href="https://www.hrawi.com/index.aspx"><Image src={HRAWI} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="https://ppfi.in/member-register.asp"><Image src={d} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
-
-                        <Slider.Slide>
-                            <a href="https://www.fhrai.com/"><Image src={fhandra} width={200} height='auto' alt='a' /></a>
+                            <a href="https://www.iiamumbai.com/"><Image src={IIA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="https://www.hrawi.com/"><Image src={f} width={200} height='auto' alt='a' /></a>
+                            <a href="https://aesapune.org/"><Image src={AESA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="https://aesapune.org/"><Image src={g} width={200} height='auto' alt='a' /></a>
+                            <a href="https://www.fumma.in/"><Image src={fumma} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="https://www.facebook.com/fummakeralaassociation/"><Image src={h} width={200} height='auto' alt='a' /></a>
+                            <a href="#"><Image src={AFA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="http://cieonline.org/"><Image src={i} width={200} height='auto' alt='a' /></a>
+                            <a href="#"><Image src={MHEA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="#"><Image src={j} width={200} height='auto' alt='a' /></a>
+                            <a href="https://hpmf.in/"><Image src={HPMF} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="#"><Image src={k} width={200} height='auto' alt='a' /></a>
+                            <a href="https://www.indianimporterschambers.com/"><Image src={IICCI} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
+                    
                         <Slider.Slide>
-                            <a href="https://hawa.vn/?lang=en"><Image src={l} width={200} height='auto' alt='a' /></a>
+                            <a href="https://cieonline.org/"><Image src={CIE} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="https://www.hawaexpo.com/"><Image src={m} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="https://www.himki.id/"><Image src={n} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="https://www.ifexindonesia.com/"><Image src={o} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
+                      
+                  
+                      
+                  
                     </Slider>
                 </div>
             </div>

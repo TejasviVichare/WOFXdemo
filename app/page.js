@@ -2,10 +2,11 @@ import Aboutwofx from "./components/aboutwofx/Aboutwofx.jsx";
 import Wofxadvantage from "./components/wofxadvantage/Wofxadvantage.jsx";
 // import CountrySlider from "./components/countryslider/CountrySlider.jsx";
 import Industribody from "./components/industribodies/Industribody.jsx";
-import InternationPavilion from "./components/Internationpavilion/InternationPavilion.jsx";
+// import InternationPavilion from "./components/Internationpavilion/InternationPavilion.jsx";
 import Buyer_lounges from "./components/buyer-lounges/Buyer_lounges.jsx";
 import Show_Summery from "./components/show-summery/Show_Summery.jsx";
 import FixedSocial from "./components/FixedSocial/FixedSocial.jsx";
+import Industrypartnerslider from "./components/industrypartnerslider/Industrypartnerslider.jsx";
 
 
 export default function Home() {
@@ -63,12 +64,12 @@ export default function Home() {
       <p>&nbsp;</p>
       <Industribody />
       <p>&nbsp;</p>
-      {/* <Industrypartnerslider /> */}
+     <Industrypartnerslider />
 
       {/* <center>
         <h1 className="text-3xl py-6">International Pavilion Organisers </h1>
       </center> */}
-      <InternationPavilion />
+      {/* <InternationPavilion /> */}
       <p>&nbsp;</p>
       <FixedSocial />
     </>
