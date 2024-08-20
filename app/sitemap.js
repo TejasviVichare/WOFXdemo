@@ -1,0 +1,155 @@
+export default function sitemap() {
+    return [
+      {
+        url: 'https://www.wofxworldexpo.com/',
+        lastModified: '2024-08-20',
+        changeFrequency: 'monthly',
+        priority: 1.0,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/about-us',
+        lastModified: '2024-08-03',
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/Business-matching',
+        lastModified: '2024-02-02',
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/buyer_reg',
+        lastModified: '2024-08-02',
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/buyer_reg_category',
+        lastModified: '2024-08-08',
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/buyer-feedback',
+        lastModified: '2024-03-08',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/buyer-profile',
+        lastModified: '2024-08-08',
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/contact-us',
+        lastModified: '2024-08-15',
+        changeFrequency: 'monthly',
+        priority: 0.7,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/exhibitor_enquiry',
+        lastModified: '2024-07-16',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/exhibitor-profile',
+        lastModified: '2024-04-16',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/exhibitor-review',
+        lastModified: '2024-06-28',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/factsheet',
+        lastModified: '2024-08-20',
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/furniture-market',
+        lastModified: '2024-07-20',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/india-design-decor-market',
+        lastModified: '2024-05-22',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/india-overview',
+        lastModified: '2024-04-29',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/media-register',
+        lastModified: '2024-01-20',
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/organisers',
+        lastModified: '2024-03-18',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/press-release',
+        lastModified: '2024-02-19',
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/supporting-media',
+        lastModified: '2024-02-19',
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/terms-conditions',
+        lastModified: '2024-05-19',
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/thematic-zones',
+        lastModified: '2024-07-19',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/venue',
+        lastModified: '2024-01-01',
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/why-exhibit',
+        lastModified: '2024-08-01',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/why-visit',
+        lastModified: '2024-08-03',
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      },
+      {
+        url: 'https://www.wofxworldexpo.com/wofx-gallery',
+        lastModified: '2024-01-03',
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+    ];
+  }
+  
