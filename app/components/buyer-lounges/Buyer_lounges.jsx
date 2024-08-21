@@ -14,7 +14,7 @@ function Buyer_lounges() {
     <>
     <div className='mx-auto  w-full max-w-screen-2xl bussinesLounchMain  pt-4 pb-8 px-3'>
       
-      <h1  className="text-4xl text-center  pl-9"> Buyer Registration Form</h1>
+      <h2  className="text-4xl text-center  pl-9"> Buyer Registration Form</h2>
       <p className="text-center text-red-600 text-lg">Please register as per your nature of business and profile.</p>
       <p className="text-center  text-lg">Based on your profile selection your entry badge will be generated and you can access the <br />
 

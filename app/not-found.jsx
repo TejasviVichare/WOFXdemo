@@ -5,7 +5,7 @@ import Link from 'next/link'
 function NotFound() {
   return (
     <>
-    <div className='h-full bg-black text-red-50 flex justify-center items-center pt-24 pb-10'>
+    <div className='h-full  text-red-50 flex justify-center items-center pt-24 pb-10'>
        <Image src={'/404.svg'} alt="Page not found" width={600} height={250} />
        
     </div>
