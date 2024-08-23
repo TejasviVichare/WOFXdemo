@@ -7,7 +7,7 @@ function DropBox() {
       <div className='dropbox'>
        <a href="/assests/pdf/Newsletter.pdf">
        <div className='flex justify-center gap-4 items-center'>
-          <div className='text-md text-white leading-tight'>Download <br /> Newsletter</div>
+          <div className='text-lg text-white leading-tight'>Download <br /> Newsletter</div>
           <FontAwesomeIcon className=' h-14 text-white' icon={faFileLines} />
         </div>
        </a>
