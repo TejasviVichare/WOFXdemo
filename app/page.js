@@ -8,6 +8,10 @@ import Industribody from "./components/industribodies/Industribody.jsx";
 import Buyer_lounges from "./components/buyer-lounges/Buyer_lounges.jsx";
 import Show_Summery from "./components/show-summery/Show_Summery.jsx";
 import FixedSocial from "./components/FixedSocial/FixedSocial.jsx";
+import DropBox from './components/utils/DropBox.jsx';
+
+
+
 // import Industrypartnerslider from "./components/industrypartnerslider/Industrypartnerslider.jsx";
 const Industrypartnerslider = dynamic(() => import('./components/industrypartnerslider/Industrypartnerslider.jsx'), {
   suspense: true,
@@ -82,6 +86,7 @@ export default function Home() {
       </center> */}
       {/* <InternationPavilion /> */}
       <p>&nbsp;</p>
+        <DropBox />
       <FixedSocial />
     </>
   );

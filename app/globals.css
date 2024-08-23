@@ -648,3 +648,23 @@
 }
 
 
+.dropbox {
+  position: fixed;
+  bottom: 30px;
+  background: #66c3d0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  right: 60px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  z-index: 100000;
+  line-height: 190%;
+}
+
+.dropbox:hover {
+  background-color: #7cedfc;
+  cursor: pointer;
+  
+}

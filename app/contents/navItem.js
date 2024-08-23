@@ -21,6 +21,10 @@ const navItems = [
           link: "/assests/pdf/WOFX-2024-Brochure.pdf",
         },
         {
+          label: "Newsletter",
+          link: "https://online.anyflip.com/qpeq/nmuk/mobile/index.html",
+        },
+        {
           label: "Venue",
           link: "/venue",
         },
