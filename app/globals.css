@@ -661,6 +661,7 @@
   padding-bottom: 14px;
   z-index: 100000;
   line-height: 210%;
+  font-size: 17px;
 }
 
 .dropbox:hover {
