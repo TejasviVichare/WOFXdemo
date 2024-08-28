@@ -651,7 +651,7 @@
 .dropbox {
   position: fixed;
   bottom: 30px;
-  background: #66c3d0;
+  background: #fceab6;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 6px;
   right: 60px;
@@ -665,8 +665,7 @@
 }
 
 .dropbox:hover {
-  background-image: linear-gradient(to right top, #66c3d0, #56a9b4, #3f757c, #2b595f, #21474d);
-  background-color: #7cedfc;
+  background-image: linear-gradient(to right top, #fceab6, #f5db8f, #e9c351, #d6a920, #a77f06);
   cursor: pointer;
-  
+  color: white;
 }

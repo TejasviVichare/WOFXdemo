@@ -10,7 +10,7 @@ function DropBox() {
        <a href="/assests/pdf/Newsletter.pdf">
        <div className='flex justify-center gap-4 items-center'>
            <img src='assests/F+D.png'/>
-          <div className=' text-white leading-tight text-center'>Download <br /> F+D Newsletter</div>
+          <div className='leading-tight text-center'>Download <br /> F+D Newsletter</div>
     
         </div>
        </a>
