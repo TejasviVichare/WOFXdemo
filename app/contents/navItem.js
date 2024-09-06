@@ -9,7 +9,7 @@ const navItems = [
       link: "#",
       children: [
         {
-          label: "About Wofx",
+          label: "About WOFX",
           link: "/about-us",
         },
         {
