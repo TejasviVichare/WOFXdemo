@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer.jsx'
 import PreHeader from "./components/navbar/Preheader";
 import Script from 'next/script'
 import { GoogleTagManager } from '@next/third-parties/google'
+import NextTopLoader from "nextjs-toploader";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -34,6 +35,17 @@ export default function RootLayout({ children }) {
         <div className={inter.className}>
           <PreHeader />
           <Navbar />
+          <NextTopLoader
+            color="#34d7e3"
+            initialPosition={0.08}
+            crawlSpeed={200}
+            height={3}
+            crawl={true}
+            showSpinner={true}
+            easing="ease"
+            speed={200}
+            shadow="0 0 10px #EF7F1A,0 0 5px #EF7F1A"
+          />
           {children}
           <Footer />
         </div>
