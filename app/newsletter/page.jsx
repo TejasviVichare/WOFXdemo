@@ -28,7 +28,7 @@ function page() {
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
                   href="https://www.wofxworldexpo.com/assests/pdf/F+D-Newsletter.pdf"
                 >
-                  Volum 1
+                  Volume 1
                 </p>
               </div>
             </div>
@@ -47,7 +47,7 @@ function page() {
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
                   href="https://online.anyflip.com/qpeq/bkwl/mobile/index.html"
                 >
-                  Volum 2
+                  Volume 2
                 </p>
               </div>
             </div>
