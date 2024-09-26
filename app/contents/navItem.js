@@ -22,7 +22,7 @@ const navItems = [
         },
         {
           label: "Newsletter",
-          link: "https://online.anyflip.com/qpeq/nmuk/mobile/index.html",
+          link: "/newsletter",
         },
         {
           label: "Venue",
