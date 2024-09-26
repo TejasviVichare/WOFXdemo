@@ -48,8 +48,8 @@ function Buyer_lounges() {
         <div  className="relative px-3  py-5  w-64">
            <div className="w-40  flex items-center justify-center h-44"><Image   src={blLogo2} width={160} height={160} alt="Dealers & Distributors" /></div>
            <div className="py-2">
-            <div><span className="wingdings">&#x1F7C2;</span> Architects</div>
-            <div><span className="wingdings">&#x1F7C2;</span> Interior Designers</div>
+            <div><span className="wingdings">&#x1F7C2;</span> Project Management Consultant</div>
+            <div><span className="wingdings">&#x1F7C2;</span> Architects & Interior Designers</div>
             <div><span className="wingdings">&#x1F7C2;</span> Real Estate Developers</div>
             <div><span className="wingdings">&#x1F7C2;</span> HORECA</div>
             <div><span className="wingdings">&#x1F7C2;</span> Corporate Sourcing Heads</div>
