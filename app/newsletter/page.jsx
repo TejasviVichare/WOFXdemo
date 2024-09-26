@@ -14,7 +14,7 @@ function page() {
       <div className="flex justify-center">
         <div className="w-4/5 flex justify-center gap-8 mb-8">
           {/* Assuming 'preImage1' and 'preImage2' are imported image components */}
-          <a href="https://www.wofxworldexpo.com/assests/pdf/F+D-Newsletter.pdf">
+          <a href="https://online.anyflip.com/qpeq/nmuk/mobile/index.html">
             <div className="border py-4 hover:bg-slate-900">
               <Image
                 className="post-show-img"
@@ -26,9 +26,9 @@ function page() {
               <div className="flex justify-center my-6">
                 <p
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
-                  href="https://www.wofxworldexpo.com/assests/pdf/F+D-Newsletter.pdf"
+                  href="https://online.anyflip.com/qpeq/nmuk/mobile/index.html"
                 >
-                  Volume 1
+                  Download Vol 1
                 </p>
               </div>
             </div>
@@ -47,7 +47,7 @@ function page() {
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
                   href="https://online.anyflip.com/qpeq/bkwl/mobile/index.html"
                 >
-                  Volume 2
+                  Download Vol 2
                 </p>
               </div>
             </div>
