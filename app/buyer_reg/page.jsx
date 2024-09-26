@@ -7,7 +7,7 @@ function page() {
  
  <Buyer_lounges  />
 
-    </div>
+    </div>  
   )
 }
 
