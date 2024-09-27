@@ -44,7 +44,7 @@ export default function RootLayout({ children }) {
             showSpinner={true}
             easing="ease"
             speed={200}
-            shadow="0 0 10px #EF7F1A,0 0 5px #EF7F1A"
+            shadow="0 0 10px #f2f2f3,0 0 5px #f4f4f4"
           />
           {children}
           <Footer />
