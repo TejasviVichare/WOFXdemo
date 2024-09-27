@@ -21,7 +21,7 @@ const navItems = [
           link: "/assests/pdf/WOFX-2024-Brochure.pdf",
         },
         {
-          label: "Newsletter",
+          label: "F + D Insights",
           link: "/newsletter",
         },
         {

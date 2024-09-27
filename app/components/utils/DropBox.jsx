@@ -7,7 +7,7 @@
 function DropBox() {
     return (
       <div className='dropbox'>
-       <a href="https://online.anyflip.com/qpeq/bkwl/mobile/index.html">
+       <a href="assests/pdf/F+D-Newsletter-Vol-2.pdf">
        <div className='flex justify-center gap-4 items-center'>
            <img src='assests/F+D.png'/>
           <div className='leading-tight text-center'>Download <br /> F+D Newsletter</div>
