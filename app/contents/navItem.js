@@ -17,11 +17,11 @@ const navItems = [
           link: "/factsheet",
         },
         {
-          label: "Brochure",
+          label: "Exhibitor Brochure",
           link: "/assests/pdf/WOFX-2024-Brochure.pdf",
         },
         {
-          label: "F + D Insights",
+          label: "Newsletter",
           link: "/newsletter",
         },
         {
@@ -95,6 +95,13 @@ const navItems = [
           label: "Buyers Profile",
           link: "/buyer-profile",
         },
+        ,
+        {
+          label: "Buyer Brochure",
+          link: "/assests/pdf/Buyer Brochure - WOFX 2024.pdf",
+        },
+
+        
         {
           label: "Registration Form",
           link: "/buyer_reg",
