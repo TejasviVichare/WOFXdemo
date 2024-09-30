@@ -7,7 +7,7 @@
 function DropBox() {
     return (
       <div className='dropbox'>
-       <a href="assests/pdf/F+D-Newsletter-Vol-2.pdf">
+       <a href="assests/pdf/F+D-Newsletter-Issue-2.pdf">
        <div className='flex justify-center gap-4 items-center'>
            <img src='assests/F+D.png'/>
           <div className='leading-tight text-center'>Download <br /> F+D Newsletter</div>

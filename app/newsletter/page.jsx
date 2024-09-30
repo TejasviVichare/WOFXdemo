@@ -26,11 +26,11 @@ function page() {
               />
               </a>
               <div className="flex justify-center my-6">
-                <a href="assests/pdf/F+D-Newsletter.pdf">
+                <a href="assests/pdf/F+D-Newsletter-Issue-1.pdf">
                 <p
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
                 >
-                  Download Vol 1
+                  Download Issue 1
                 </p>
                 </a>
               </div>
@@ -48,12 +48,12 @@ function page() {
               />
               </a>
               <div className="flex justify-center my-6">
-               <a  href="assests/pdf/F+D-Newsletter-Vol-2.pdf">
+               <a  href="assests/pdf/F+D-Newsletter-Issue-2.pdf">
                <p
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
                  
                 >
-                  Download Vol 2
+                  Download Issue 2
                 </p>
                </a>
               </div>
