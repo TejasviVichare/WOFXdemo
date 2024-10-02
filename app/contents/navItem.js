@@ -70,7 +70,7 @@ const navItems = [
      
         {
           label: "Enquiry Form",
-          link: "/exhibitor_enquiry",
+          link: "https://www.bee2bee.asia/wofx/exhibitor-enquiry",
         },
         {
           label: "Testimonials",
