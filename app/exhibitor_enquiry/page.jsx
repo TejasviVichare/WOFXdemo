@@ -1,8 +1,9 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useReducer } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 import Loader from "../components/loader/Loader";
+import { useRouter } from "next/navigation";
 
 
 const MyForm = () => {
@@ -22,12 +23,18 @@ const MyForm = () => {
     email: "",
   });
 
+  const { push } = useRouter();
+  useEffect(()=>{
+     push('https://www.bee2bee.asia/wofx/exhibitor-enquiry')
+  },[])
+
   const handleMPCChange = (event) => {
     setisMPCOthersChecked(event.target.checked);
   };
   const handleNOBChange = (event) => {
     setNOBOthersChecked(event.target.checked);
   };
+
 
   const validateForm = () => {
     let isValid = true;
