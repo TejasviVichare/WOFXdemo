@@ -16,7 +16,7 @@ import MHEA from '../../../public/assests/orgnization/13.webp';
 import HPMF from '../../../public/assests/orgnization/HPMF.webp';
 import IICCI from '../../../public/assests/orgnization/12.webp';
 import CIE from '../../../public/assests/orgnization/11.webp';
-import IIID from '../../../public/assests/orgnization/IIID.png';
+// import IIID from '../../../public/assests/orgnization/IIID.png';
 
 
 function Industrypartnerslider() {
@@ -50,9 +50,7 @@ function Industrypartnerslider() {
                         <Slider.Slide>
                             <a href="https://www.iiamumbai.com/"><Image src={IIA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="https://www.iiid.in/"><Image src={IIID} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
+                       
                         <Slider.Slide>
                             <a href="https://aesapune.org/"><Image src={AESA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
