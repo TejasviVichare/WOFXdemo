@@ -9,7 +9,7 @@ import Buyer_lounges from "./components/buyer-lounges/Buyer_lounges.jsx";
 import Show_Summery from "./components/show-summery/Show_Summery.jsx";
 import FixedSocial from "./components/FixedSocial/FixedSocial.jsx";
 import DropBox from './components/utils/DropBox.jsx';
-
+import RegsiterButton from './components/utils/RegsiterButton.jsx';
 
 
 // import Industrypartnerslider from "./components/industrypartnerslider/Industrypartnerslider.jsx";
@@ -87,6 +87,7 @@ export default function Home() {
       {/* <InternationPavilion /> */}
       <p>&nbsp;</p>
         <DropBox />
+        <RegsiterButton />
       <FixedSocial />
     </>
   );

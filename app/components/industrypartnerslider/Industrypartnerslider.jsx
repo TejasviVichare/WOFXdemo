@@ -26,7 +26,7 @@ function Industrypartnerslider() {
         speed: 500,
         slidesToShow: 5,
         slidesToScroll: 1,
-        autoplay: true, // Add this property for auto sliding
+        autoplay: true, 
         autoplaySpeed: 3000,
     };
     return (
