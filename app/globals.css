@@ -673,71 +673,7 @@
 }
 
 
- /* .button {
-            position: fixed;
-            padding: 10px 20px;
-            font-size: 20px;
-            font-weight: bold;
-            color: #000;
-            background-color: #fceab6;
-            border: none;
-            border-radius: 2px;
-            cursor: pointer;
-            overflow: hidden;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            top: 60%;
-            right: 0px;
-        }
-        .button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-        }
-        .button::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: conic-gradient(
-                #fceab6,
-                #f5db8f,
-                #66c3d0,
-                #66c3d0,
-                #66c3d0,
-                #fceab6
-            );
-            animation: rotate 3s linear infinite;
-        }
-        .button::after {
-            content: '';
-            position: absolute;
-            inset: 3px;
-            background-image: linear-gradient(to right top, #fceab6, #fceab6, #fceab6, #fceab6, #fceab6);
-            border-radius: 4px;
-            transition: all 0.3s ease;
-        }
-        .button span {
-            position: relative;
-            z-index: 1;
-            font-weight: 600 !important;
-            font-size: 16px !important;
-            letter-spacing: 2px;
-            
-        }
-        @keyframes rotate {
-            100% {
-                transform: rotate(1turn);
-            }
-        }
-        .button:hover::before {
-            animation-duration: 1.5s;
-        }
-        .button:hover::after {
-            filter: brightness(1.1);
-        } */
-
+ 
         .button-container {
           position: fixed;
           top: 40%;

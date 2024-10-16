@@ -15,12 +15,9 @@ function Buyer_lounges() {
     <div className='mx-auto  w-full max-w-screen-2xl bussinesLounchMain  pt-4 pb-8 px-3'>
       
       <h2  className="text-4xl text-center  pl-9"> Buyer Registration Form</h2>
-      <p className="text-center text-red-600 text-lg">Please register as per your nature of business and profile.</p>
-      <p className="text-center  text-lg">Based on your profile selection your entry badge will be generated and you can access the <br />
-
-respective Buyers Lounge during your visit</p>
-      <p style={{color:"#20c9ee"}} className="text-2xl text-center py-1">Buyers Lounges - For Business Meetings and Networking</p>
-      <p></p>
+      <div className="flex justify-center w-full mt-6 mb-6">
+      <Link className="BLButton w-60" href='https://www.bee2bee.asia/wofx/buyer-registration'><strong>Click Here To Regsiter</strong></Link>
+      </div>
       <div className="flex justify-between flex-wrap px-6 py-2 ">
         <div id="businessLounchCard" className="relative px-3  py-3">
            <div className="blImage"><Image   src={blLogo1} width={160} height={160} alt="Dealers & Distributors" /></div>
@@ -72,9 +69,7 @@ respective Buyers Lounge during your visit</p>
         </div>
       </div>
       <div>
-      <div className="flex justify-center w-full mt-6">
-      <Link className="BLButton w-60" href='https://www.bee2bee.asia/wofx/buyer-registration'><strong>Click Here To Regsiter</strong></Link>
-      </div>
+      
       </div>
     </div>
     <p>&nbsp;</p>
