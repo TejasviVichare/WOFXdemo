@@ -2,7 +2,7 @@
   margin: 10px;
   cursor: pointer;
   position: relative;
-  width: 300px;
+ 
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -18,9 +18,15 @@
 }
 
 .card img {
-  width: 230px !important;
+  
   height: auto;
   object-fit: cover;
+}
+.industry_body_img1{
+  width: 300px !important;
+}
+.industry_body_img2{
+  width: 230px;
 }
 
 .overlay {
