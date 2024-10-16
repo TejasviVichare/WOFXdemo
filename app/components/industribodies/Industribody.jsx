@@ -46,7 +46,7 @@ function Industribody() {
                         <h3>Industry Partner</h3>
                     </center>
                     <a href="https://www.afmt.in/" className={style.card}>
-                        <Image width="315" className='industry_body_img1' src={afmt} alt="Card Background" />
+                        <Image width="250" className='industry_body_img1 ' src={afmt} alt="Card Background" />
                        
                     </a>
                 </div>
@@ -55,7 +55,7 @@ function Industribody() {
                         <h3>Industry Association Partner</h3>
                     </center>
                     <a href="https://rai.net.in/" className={style.card}>
-                        <Image width="250" className='industry_body_img2' src={b} alt="Card Background" />
+                        <Image width="200" className='industry_body_img2 ' src={b} alt="Card Background" />
                         
                     </a>
                 </div>
