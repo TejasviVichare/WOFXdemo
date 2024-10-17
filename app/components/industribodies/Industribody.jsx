@@ -52,10 +52,10 @@ function Industribody() {
                 </div>
                 <div className=''>
                     <center>
-                        <h3>Industry Association Partner</h3>
+                        <h3 className='relative left-0 md:-left-10'>Industry Association Partner</h3>
                     </center>
                     <a href="https://rai.net.in/" className={style.card}>
-                        <Image width="200" className='industry_body_img2 ' src={b} alt="Card Background" />
+                        <Image width="200" className='industry_body_img2 relative left-0 md:-left-10' src={b} alt="Card Background" />
                         
                     </a>
                 </div>
