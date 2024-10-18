@@ -77,6 +77,7 @@ export default function Home() {
       <p>&nbsp;</p>
       <Industribody />
       <p>&nbsp;</p>
+      <h3 className='text-center mb-6'>Supporting Organsiations</h3>
       <Suspense fallback={<div>Loading...</div>}>
         <Industrypartnerslider />
       </Suspense>

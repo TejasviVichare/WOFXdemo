@@ -4,6 +4,9 @@ import b from '../../../public/assests/orgnization/2.webp'
 import c from '../../../public/assests/orgnization/4.webp'
 import d from '../../../public/assests/orgnization/14.webp'
 import afmt from '../../../public/assests/orgnization/AFMT.png'
+import FFSC from '../../../public/assests/orgnization/FFSC.png'
+
+
 
 import Image from 'next/image'
 import style from './industribody.module.css'
@@ -52,32 +55,23 @@ function Industribody() {
                 </div>
                 <div className=''>
                     <center>
-                        <h3 className='relative left-0 md:-left-10'>Industry Association Partner</h3>
+                        <h3 className='relative'>Industry Association Partner</h3>
                     </center>
                     <a href="https://rai.net.in/" className={style.card}>
-                        <Image width="180" className='industry_body_img2 relative left-0 md:-left-10' src={b} alt="Card Background" />
+                        <Image width="180" className='industry_body_img2' src={b} alt="Card Background" />
                         
                     </a>
                 </div>
-                {/* <div className=' relative'>
+                  <div className=''>
                     <center>
-                        <h3 className='absolute w-56 left-2 md:left-32'>Knowledge Partners</h3>
-                        <h3>&nbsp;</h3>
+                        <h3 className='relative'>Skilling Partner</h3>
                     </center>
-                    <a href="https://www.coa.gov.in/" className={style.card}>
-                        <Image src={c} alt="Card Background" />
-                       
+                    <a href="https://ffsc.in/" className={style.card}>
+                        <Image width="160" className='industry_body_img2' src={FFSC} alt="Card Background" />
+                        
                     </a>
                 </div>
-                <div className=''>
-                    <center>
-                        <h3 style={{visibility:"hidden"}}>Industry Partner</h3>
-                    </center>
-                    <a   href="https://www.iiid.in/" className={style.card}>
-                        <Image src={d} alt="Card Background" />
-                      
-                    </a>
-                </div> */}
+                
             </div>
      
         </>
