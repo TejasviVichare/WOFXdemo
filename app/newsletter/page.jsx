@@ -13,9 +13,9 @@ function page() {
       <h1 className="text-center text-3xl font-semibold mt-12  py-10">F + D Furniture Insights & Analysis</h1>
       <div className="flex justify-center">
         <div className="w-4/5 flex justify-center gap-8 mb-8">
-         
-          
-            <div className="border py-4 hover:bg-slate-900">
+
+
+          <div className="border py-4 hover:bg-slate-900">
             <a href="https://online.anyflip.com/qpeq/nmuk/mobile/index.html">
               <Image
                 className="post-show-img"
@@ -24,20 +24,20 @@ function page() {
                 height="auto"
                 alt="Preview 1"
               />
-              </a>
-              <div className="flex justify-center my-6">
-                <a href="assests/pdf/F+D-Newsletter-Issue-1.pdf">
+            </a>
+            <div className="flex justify-center my-6">
+              <a href="assests/pdf/F+D-Newsletter-Issue-1.pdf">
                 <p
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
                 >
                   Download Issue 1
                 </p>
-                </a>
-              </div>
+              </a>
             </div>
-          
-          
-            <div className="border py-4 hover:bg-slate-900">
+          </div>
+
+
+          <div className="border py-4 hover:bg-slate-900">
             <a href="https://online.anyflip.com/qpeq/bkwl/mobile/index.html">
               <Image
                 className="post-show-img"
@@ -46,22 +46,22 @@ function page() {
                 height="auto"
                 alt="Preview 2"
               />
-              </a>
-              <div className="flex justify-center my-6">
-               <a  href="assests/pdf/F+D-Newsletter-Issue-2.pdf">
-               <p
+            </a>
+            <div className="flex justify-center my-6">
+              <a href="assests/pdf/F+D-Newsletter-Issue-2.pdf">
+                <p
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
-                 
+
                 >
                   Download Issue 2
                 </p>
-               </a>
-              </div>
+              </a>
             </div>
-          
+          </div>
 
 
-            <div className="border py-4 hover:bg-slate-900">
+
+          {/* <div className="border py-4 hover:bg-slate-900">
             <a href="https://online.anyflip.com/qpeq/qiah/mobile/index.html">
               <Image
                 className="post-show-img"
@@ -70,20 +70,20 @@ function page() {
                 height="auto"
                 alt="Preview 2"
               />
-              </a>
-              <div className="flex justify-center my-6">
-               <a  href="assests/pdf/F+D-Newsletter-Issue-3.pdf">
-               <p
+            </a>
+            <div className="flex justify-center my-6">
+              <a href="assests/pdf/F+D-Newsletter-Issue-3.pdf">
+                <p
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
-                 
+
                 >
                   Download Issue 3
                 </p>
-               </a>
-              </div>
+              </a>
             </div>
-          
-      
+          </div> */}
+
+
         </div>
       </div>
     </div>
