@@ -1,7 +1,7 @@
 import Image from "next/image"
 import preImage1 from '../../public/assests/newsletter-2.png'
 import preImage2 from '../../public/assests/newsletter-1.png'
-import preImage3 from '../../public/assests/International-Exhibitor-Preview.png'
+import preImage3 from '../../public/assests/newsletter-3.jpg'
 import Link from "next/link"
 
 export const metadata = {
@@ -54,6 +54,30 @@ function page() {
                  
                 >
                   Download Issue 2
+                </p>
+               </a>
+              </div>
+            </div>
+          
+
+
+            <div className="border py-4 hover:bg-slate-900">
+            <a href="https://online.anyflip.com/qpeq/qiah/mobile/index.html">
+              <Image
+                className="post-show-img"
+                src={preImage3}
+                width={400}
+                height="auto"
+                alt="Preview 2"
+              />
+              </a>
+              <div className="flex justify-center my-6">
+               <a  href="assests/pdf/F+D-Newsletter-Issue-3.pdf">
+               <p
+                  className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
+                 
+                >
+                  Download Issue 3
                 </p>
                </a>
               </div>
