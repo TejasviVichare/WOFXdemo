@@ -61,7 +61,7 @@ function page() {
 
 
 
-          {/* <div className="border py-4 hover:bg-slate-900">
+          <div className="border py-4 hover:bg-slate-900">
             <a href="https://online.anyflip.com/qpeq/qiah/mobile/index.html">
               <Image
                 className="post-show-img"
@@ -81,7 +81,7 @@ function page() {
                 </p>
               </a>
             </div>
-          </div> */}
+          </div>
 
 
         </div>
