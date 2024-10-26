@@ -8,7 +8,7 @@ import Link from "next/link"
 function DropBox() {
     return (
       <div className='dropbox'>
-       <Link href="/newsletter">
+       <Link href="assests/pdf/F+D-Newsletter-Issue-3.pdf">
        <div className='flex justify-center gap-4 items-center'>
            <img src='assests/F+D.png'/>
           <div className='leading-tight text-center'>Download  F+D Newsletter</div>
