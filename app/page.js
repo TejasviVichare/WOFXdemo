@@ -65,7 +65,7 @@ export default function Home() {
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <center>
-        <h1 className="text-3xl">Past Featured Brands </h1>
+        <h1 className="text-3xl">Featured Brands </h1>
       </center>
       <p>&nbsp;</p>
       <CountrySlider />
