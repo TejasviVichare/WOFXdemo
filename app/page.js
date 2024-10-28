@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic';
 import { Suspense } from 'react';
 // import Aboutwofx from "./components/aboutwofx/Aboutwofx.jsx";
 import Wofxadvantage from "./components/wofxadvantage/Wofxadvantage.jsx";
-// import CountrySlider from "./components/countryslider/CountrySlider.jsx";
+ import CountrySlider from "./components/countryslider/CountrySlider.jsx";
 import Industribody from "./components/industribodies/Industribody.jsx";
 // import InternationPavilion from "./components/Internationpavilion/InternationPavilion.jsx";
 import Buyer_lounges from "./components/buyer-lounges/Buyer_lounges.jsx";
@@ -60,7 +60,7 @@ export default function Home() {
 
       <Buyer_lounges />
       <p>&nbsp;</p>
-      {/* <p>&nbsp;</p>
+      <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
@@ -68,7 +68,7 @@ export default function Home() {
         <h1 className="text-3xl">Past Featured Brands </h1>
       </center>
       <p>&nbsp;</p>
-      <CountrySlider /> */}
+      <CountrySlider />
       
  
       <center>
@@ -78,9 +78,9 @@ export default function Home() {
       <Industribody />
       <p>&nbsp;</p>
       <h3 className='text-center mb-6'>Supporting Organsiations</h3>
-      <Suspense fallback={<div>Loading...</div>}>
+      {/* <Suspense fallback={<div>Loading...</div>}>
         <Industrypartnerslider />
-      </Suspense>
+      </Suspense> */}
 
       {/* <center>
         <h1 className="text-3xl py-6">International Pavilion Organisers </h1>
