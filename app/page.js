@@ -69,7 +69,8 @@ export default function Home() {
       </center>
       <p>&nbsp;</p>
       <CountrySlider />
-      
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
  
       <center>
         <h3 className="text-3xl">Industry Bodies Endorsing WOFX</h3>
