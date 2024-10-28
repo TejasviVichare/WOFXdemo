@@ -78,13 +78,13 @@ export default function Home() {
       <p>&nbsp;</p>
       <Industribody />
       <p>&nbsp;</p>
-      <h3 className='text-center mb-6'>Supporting Organsiations</h3>
+      {/* <h3 className='text-center mb-6'>Supporting Organsiations</h3>
       <Suspense fallback={<div>Loading...</div>}>
         <Industrypartnerslider />
-      </Suspense>
+      </Suspense> */}
 
       <center>
-        <h1 className="text-3xl py-6">International Pavilion Organisers </h1>
+      <h3 className='text-center mb-6'>Supporting Organsiations</h3>
       </center>
       <InternationPavilion />
       <p>&nbsp;</p>
