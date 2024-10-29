@@ -5,6 +5,7 @@ import c from '../../../public/assests/orgnization/4.webp'
 import d from '../../../public/assests/orgnization/14.webp'
 import afmt from '../../../public/assests/orgnization/AFMT.png'
 import FFSC from '../../../public/assests/orgnization/FFSC.png'
+import houseOfBrand from '../../../public/assests/countyLogo/2.png'
 
 
 
@@ -68,6 +69,16 @@ function Industribody() {
                     </center>
                     <a href="https://ffsc.in/" className={style.card}>
                         <Image width="160" className='industry_body_img2' src={FFSC} alt="Card Background" />
+                        
+                    </a>
+                </div>
+
+                <div className=''>
+                    <center>
+                        <h3 className='relative'>House of Brand Partner</h3>
+                    </center>
+                    <a href="https://ffsc.in/" className={style.card}>
+                        <Image width="120" className='industry_body_img2' src={houseOfBrand} alt="Card Background" />
                         
                     </a>
                 </div>
