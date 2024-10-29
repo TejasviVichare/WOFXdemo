@@ -61,9 +61,9 @@ export default function Home() {
       <Buyer_lounges />
       <p>&nbsp;</p>
       <p>&nbsp;</p>
+      {/* <p>&nbsp;</p>
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
+      <p>&nbsp;</p> */}
       {/* <center>
         <h1 className="text-3xl">Featured Brands </h1>
       </center> */}
