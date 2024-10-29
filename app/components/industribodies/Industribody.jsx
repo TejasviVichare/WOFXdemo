@@ -58,7 +58,7 @@ function Industribody() {
                     <center>
                         <h3 className='relative'>Industry Association Partner</h3>
                     </center>
-                    <a href="https://rai.net.in/" className={style.card}>
+                    <a href="#" className={style.card}>
                         <Image width="180" className='industry_body_img2' src={b} alt="Card Background" />
                         
                     </a>
