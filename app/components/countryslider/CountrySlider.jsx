@@ -104,6 +104,12 @@ function CountrySlider() {
                 <Slider.Slide>
                     <Image src='/assests/countyLogo/27.png' width={160} height={120} alt='a' />
                 </Slider.Slide>
+                <Slider.Slide>
+                    <Image src='/assests/countyLogo/28.png' width={160} height={120} alt='a' />
+                </Slider.Slide>
+                <Slider.Slide>
+                    <Image src='/assests/countyLogo/29.png' width={160} height={120} alt='a' />
+                </Slider.Slide>
                 
                 <Slider.Slide>
                     <Image src='/assests/countyLogo/30.png' width={160} height={120} alt='a' />
