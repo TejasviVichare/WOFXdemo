@@ -64,11 +64,11 @@ export default function Home() {
       {/* <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p> */}
-      {/* <center>
-        <h1 className="text-3xl">Featured Brands </h1>
-      </center> */}
+      <center>
+        <h1 className="text-3xl">Brand Connect @WOFX 2024 </h1>
+      </center>
       <p>&nbsp;</p>
-      {/* <CountrySlider /> */}
+      <CountrySlider />
       <p>&nbsp;</p>
       <p>&nbsp;</p>
  
@@ -78,15 +78,15 @@ export default function Home() {
       <p>&nbsp;</p>
       <Industribody />
       <p>&nbsp;</p>
-      <h3 className='text-center mb-6'>Supporting Organsiations</h3>
+      {/* <h3 className='text-center mb-6'>Supporting Organsiations</h3>
       <Suspense fallback={<div>Loading...</div>}>
         <Industrypartnerslider />
-      </Suspense>
+      </Suspense> */}
 
-      {/* <center>
+      <center>
       <h3 className='text-center mb-6'>Supporting Organsiations</h3>
       </center>
-      <InternationPavilion /> */}
+      <InternationPavilion />
       <p>&nbsp;</p>
         <DropBox />
         <RegsiterButton />
