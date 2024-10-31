@@ -268,8 +268,8 @@ function page() {
                           <p><span className="wingdings">&#x1F7C2;</span>Consultants</p>
                         </td>
                         <td className="w-1/4 " style={{ paddingLeft:"10px", position:"relative" ,marginLeft:"80px" ,verticalAlign: "top"}}>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Architects</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Interior Designers</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Project Management Consultant</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Architects & Interior Designers</p>
                           <p><span className="wingdings"> &#x1F7C2;</span>Real Estate Developers</p>
                           <p><span className="wingdings"> &#x1F7C2;</span>HORECA</p>
                           <p><span className="wingdings"> &#x1F7C2;</span>Corporate Sourcing Heads</p>
