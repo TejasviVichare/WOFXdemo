@@ -49,26 +49,32 @@ export default function Home() {
       </Suspense>
       {/* <Aboutwofx /> */}
       <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <Show_Summery />
+      
+      {/* <Show_Summery /> */}
       <p>&nbsp;</p>
       <p>&nbsp;</p>
 
       <Wofxadvantage />
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-
+      <p>&nbsp;</p>
+      <center>
+        <h1 className="text-3xl">Brand Connect @WOFX 2024 </h1>
+      </center>
+      <p>&nbsp;</p>
+      
+      <CountrySlider />
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
       <Buyer_lounges />
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       {/* <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p> */}
-      <center>
-        <h1 className="text-3xl">Brand Connect @WOFX 2024 </h1>
-      </center>
-      <p>&nbsp;</p>
-      <CountrySlider />
+      
       <p>&nbsp;</p>
       <p>&nbsp;</p>
  
