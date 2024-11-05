@@ -64,8 +64,8 @@ const navItems = [
           link: "https://online.anyflip.com/qpeq/yhff/mobile/index.html",
         },
         {
-          label: "Sneak Preview 2023",
-          link: "/preview-2023",
+          label: "Xclusive Preview 2024",
+          link: "/preview-2024",
         },
      
         {

@@ -1,8 +1,7 @@
 
-import a from '../../../public/assests/orgnization/1.webp'
+
 import b from '../../../public/assests/orgnization/2.webp'
-import c from '../../../public/assests/orgnization/4.webp'
-import d from '../../../public/assests/orgnization/14.webp'
+
 import afmt from '../../../public/assests/orgnization/AFMT.png'
 import FFSC from '../../../public/assests/orgnization/FFSC.png'
 import houseOfBrand from '../../../public/assests/countyLogo/2.png'
@@ -11,34 +10,7 @@ import houseOfBrand from '../../../public/assests/countyLogo/2.png'
 
 import Image from 'next/image'
 import style from './industribody.module.css'
-const industribody = [
-    {
-        img: a,
-        text: 'Association of Furniture Manufacturers & Traders',
-        a: 'https://www.afmt.in/',
-        heading: 'Industry Partner',
-        class: "a"
-    },
-    {
-        img: b,
-        text: 'Retailers Association of India (RAI)',
-        a: 'https://www.afmt.in/',
-        heading: "Industry Association Partner",
-        class: "b"
-    }, {
-        img: c,
-        text: 'Council of Architecture India',
-        a: 'https://www.afmt.in/',
-        heading: 'Knowledge Partners',
-        class: "c"
-    },
-    {
-        img: d,
-        text: 'Institute of Indian Interior Designers India',
-        a: 'https://www.afmt.in/',
-        heading: '',
-        class: "d"
-    }]
+
 
 
 function Industribody() {
