@@ -29,7 +29,7 @@ export default function PreviewPopup() {
                             <FontAwesomeIcon icon={faTimes} />
                         </button>
 
-                        <Link href="/preview-2024" className='bg-black text-white mt-2 px-8 py-2 tracking-wider rounded-sm'>
+                        <Link href="/preview-2024" className='bg-black text-white mt-2 px-6 py-2 tracking-wider rounded-sm'>
                             Click Here
                         </Link>
 
