@@ -24,6 +24,7 @@ export default function PreviewPopup() {
                             height="auto"
                             alt="Preview 1"
                         />
+                        <span className='text-md  py-6  text-black'>View leading Indian & International Furniture Brands @ WOFX</span>
                         <button onClick={handleClose} className="close-button">
                             <FontAwesomeIcon icon={faTimes} />
                         </button>
@@ -32,7 +33,7 @@ export default function PreviewPopup() {
                             Click Here
                         </Link>
 
-                        <span className='text-sm py-6 text-black'>View leading Indian & International Furniture Brands @ WOFX</span>
+                        
                     </div>
                 </div>
             )}
@@ -56,7 +57,7 @@ export default function PreviewPopup() {
 
    .popup-content {
     background-color: #fff;
-    padding: 8px;
+    padding: 20px;
     border-radius: 8px; /* Adjusted for more noticeable rounding */
     text-align: center;
     position: relative;
