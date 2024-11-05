@@ -10,6 +10,7 @@ import Show_Summery from "./components/show-summery/Show_Summery.jsx";
 import FixedSocial from "./components/FixedSocial/FixedSocial.jsx";
 import DropBox from './components/utils/DropBox.jsx';
 import RegsiterButton from './components/utils/RegsiterButton.jsx';
+import PreviewPopup from './components/utils/PreviewPopup.jsx';
 
 
 // import Industrypartnerslider from "./components/industrypartnerslider/Industrypartnerslider.jsx";
@@ -97,6 +98,7 @@ export default function Home() {
         <DropBox />
         <RegsiterButton />
       <FixedSocial />
+      <PreviewPopup />
     </>
   );
 }
