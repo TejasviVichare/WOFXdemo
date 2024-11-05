@@ -20,19 +20,19 @@ export default function PreviewPopup() {
                         <Image
                             className="post-show-img"
                             src={preImage1}
-                            width='auto'
-                            height='auto'
+                            width="auto"
+                            height="auto"
                             alt="Preview 1"
                         />
                         <button onClick={handleClose} className="close-button">
                             <FontAwesomeIcon icon={faTimes} />
                         </button>
 
-                        <Link href="/preview-2024" className='bg-white text-black mt-4 px-8 py-2 tracking-wider rounded-sm'>
+                        <Link href="/preview-2024" className='bg-black text-white mt-2 px-8 py-2 tracking-wider rounded-sm'>
                             Click Here
                         </Link>
 
-                        <span className='text-sm py-3 text-white'>View leading Indian & International Furniture Brands @ WOFX</span>
+                        <span className='text-sm py-6 text-black'>View leading Indian & International Furniture Brands @ WOFX</span>
                     </div>
                 </div>
             )}
@@ -55,7 +55,7 @@ export default function PreviewPopup() {
          
 
    .popup-content {
-    background-color: rgba(0,0,0, 0.2);
+    background-color: #fff;
     padding: 8px;
     border-radius: 8px; /* Adjusted for more noticeable rounding */
     text-align: center;
@@ -90,7 +90,7 @@ export default function PreviewPopup() {
 
         @keyframes slide-in {
           from {
-            transform: translateY(-50px);
+            transform: translateY(-300px);
             opacity: 0; /* Start hidden */
           }
           to {
