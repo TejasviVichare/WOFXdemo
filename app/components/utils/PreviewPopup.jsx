@@ -44,7 +44,7 @@ export default function PreviewPopup() {
           left: 0;
           right: 0;
           bottom: 0;
-          background-color: rgba(0, 0, 0, 0.2);
+        
           display: flex;
           justify-content: center;
           align-items: center;
@@ -55,7 +55,7 @@ export default function PreviewPopup() {
          
 
    .popup-content {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0,0,0, 0.2);
     padding: 8px;
     border-radius: 8px; /* Adjusted for more noticeable rounding */
     text-align: center;
@@ -100,7 +100,7 @@ export default function PreviewPopup() {
         }
 
         .fade-in {
-          opacity: 2; /* Fully visible */
+          opacity: 1; /* Fully visible */
         }
 
         .fade-out {
