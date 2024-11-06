@@ -51,7 +51,7 @@ export default function PreviewPopup() {
           align-items: center;
           opacity: 0;
           transition: opacity 0.5s ease-in-out;
-          z-index: 9999; /* Corrected zIndex */
+   
         }
          
 
