@@ -24,6 +24,7 @@ const logoses = [
   { logo: fhandra, link: "https://www.fhrai.com/index.aspx" },
   { logo: HRAWI, link: "https://www.hrawi.com/index.aspx" },
   { logo: IIA, link: "https://www.iiamumbai.com/" },
+  { logo: IIID, link: "https://www.iiid.in/" },
   { logo: AESA, link: "https://aesapune.org/" },
   { logo: fumma, link: "https://www.fumma.in/" },
   { logo: AFA, link: "#" },
