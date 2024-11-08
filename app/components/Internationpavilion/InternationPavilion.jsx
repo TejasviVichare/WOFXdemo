@@ -15,9 +15,9 @@ import fumma from '../../../public/assests/orgnization/fumma.png';
 import AFA from '../../../public/assests/orgnization/6.webp';
 import MHEA from '../../../public/assests/orgnization/13.webp';
 import HPMF from '../../../public/assests/orgnization/HPMF.webp';
-import IICCI from '../../../public/assests/orgnization/12.webp';
 import CIE from '../../../public/assests/orgnization/11.webp';
 import IIID from '../../../public/assests/orgnization/IIID.png';
+import SMEChamber from '../../../public/assests/orgnization/SME-Chamber.png';
 
 const logoses = [
   { logo: bai, link: "https://www.baionline.in/" },
@@ -30,6 +30,7 @@ const logoses = [
   { logo: AFA, link: "#" },
   { logo: MHEA, link: "#" },
   { logo: HPMF, link: "https://hpmf.in/" },
+  { logo: SMEChamber, link: "https://www.smechamberofindia.com/" },
   { logo: CIE, link: "https://cieonline.org/" },
 ];
 
