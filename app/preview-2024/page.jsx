@@ -5,7 +5,7 @@ import preImage3 from '../../public/assests/International-Exhibitor-Preview.png'
 import Link from "next/link"
 
 export const metadata = {
-  title: "Preview 2023",
+  title: "Xclusive Preview 2024",
 };
 function page() {
   return (
