@@ -1,10 +1,13 @@
 
 
 import b from '../../../public/assests/orgnization/2.webp'
+import wgsn from '../../../public/assests/orgnization/WGSN.png'
+
 
 import afmt from '../../../public/assests/orgnization/AFMT.png'
 import FFSC from '../../../public/assests/orgnization/FFSC.png'
 import houseOfBrand from '../../../public/assests/countyLogo/2.png'
+
 
 
 
@@ -51,6 +54,16 @@ function Industribody() {
                     </center>
                     <a href="#" className={style.card}>
                         <Image width="120" className='industry_body_img2' src={houseOfBrand} alt="Card Background" />
+                        
+                    </a>
+                </div>
+
+                <div className=''>
+                    <center>
+                        <h3 className='relative'>Trends Partner</h3>
+                    </center>
+                    <a href="https://www.wgsn.com/en" className={style.card}>
+                        <Image width="120" className='industry_body_img2' src={wgsn} alt="Card Background" />
                         
                     </a>
                 </div>

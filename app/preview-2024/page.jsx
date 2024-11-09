@@ -16,7 +16,7 @@ function page() {
           {/* Assuming 'preImage1' and 'preImage2' are imported image components */}
           <div>
             <div className="border py-4 hover:bg-slate-900">
-              <a href="https://online.anyflip.com/qpeq/ypmm/mobile/index.html">
+              <a href="https://online.anyflip.com/qpeq/hpmw/mobile/index.html">
               <Image
                 className="post-show-img"
                 src={preImage1}
