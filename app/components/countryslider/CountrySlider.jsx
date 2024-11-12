@@ -27,6 +27,15 @@ function CountrySlider() {
                     <Image src='/assests/countyLogo/3.png' width={150} height={110} alt='a' />
                 </Slider.Slide>
                 <Slider.Slide>
+                    <Image src='/assests/countyLogo/3A.png' width={150} height={110} alt='a' />
+                </Slider.Slide>
+                <Slider.Slide>
+                    <Image src='/assests/countyLogo/3B.png' width={150} height={110} alt='a' />
+                </Slider.Slide>
+                <Slider.Slide>
+                    <Image src='/assests/countyLogo/3C.png' width={150} height={110} alt='a' />
+                </Slider.Slide>
+                <Slider.Slide>
                     <Image src='/assests/countyLogo/4.png' width={150} height={110} alt='a' />
                 </Slider.Slide>
                 <Slider.Slide>
@@ -170,6 +179,9 @@ function CountrySlider() {
                 </Slider.Slide>
                 <Slider.Slide>
                     <Image src='/assests/countyLogo/49.png' width={150} height={110} alt='a' />
+                </Slider.Slide>
+                <Slider.Slide>
+                    <Image src='/assests/countyLogo/50.png' width={150} height={110} alt='a' />
                 </Slider.Slide>
                
 
