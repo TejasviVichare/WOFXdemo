@@ -11,7 +11,7 @@ import FixedSocial from "./components/FixedSocial/FixedSocial.jsx";
 import DropBox from './components/utils/DropBox.jsx';
 import RegsiterButton from './components/utils/RegsiterButton.jsx';
 import PreviewPopup from './components/utils/PreviewPopup.jsx';
-import LogoSlider from './components/reactInfinitSlick/ReactInfinitSlick.jsx';
+
 import Margue from './components/marque/Margue.jsx';
 
 
@@ -64,19 +64,18 @@ export default function Home() {
       <center>
         <h1 className="text-3xl">Brand Connect @WOFX 2024 </h1>
       </center>
-      <p>&nbsp;</p>
-      
-      <CountrySlider />
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <LogoSlider />
-      <p>&nbsp;</p>
+   
+{/*       
+      <CountrySlider /> */}
+    
+
+   
       <p>&nbsp;</p>
 
 <Margue />
 <p>&nbsp;</p>
       <p>&nbsp;</p>
-
+      <p>&nbsp;</p>
       <Buyer_lounges />
       <p>&nbsp;</p>
       <p>&nbsp;</p>
@@ -93,15 +92,12 @@ export default function Home() {
       <p>&nbsp;</p>
       <Industribody />
       <p>&nbsp;</p>
-      {/* <h3 className='text-center mb-6'>Supporting Organsiations</h3>
+      <h3 className='text-center mb-6'>Supporting Organsiations</h3>
       <Suspense fallback={<div>Loading...</div>}>
         <Industrypartnerslider />
-      </Suspense> */}
+      </Suspense>
 
-      <center>
-      <h3 className='text-center mb-6'>Supporting Organsiations</h3>
-      </center>
-      <InternationPavilion />
+   
       <p>&nbsp;</p>
         <DropBox />
         <RegsiterButton />
