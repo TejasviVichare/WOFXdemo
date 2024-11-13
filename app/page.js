@@ -11,6 +11,8 @@ import FixedSocial from "./components/FixedSocial/FixedSocial.jsx";
 import DropBox from './components/utils/DropBox.jsx';
 import RegsiterButton from './components/utils/RegsiterButton.jsx';
 import PreviewPopup from './components/utils/PreviewPopup.jsx';
+import LogoSlider from './components/reactInfinitSlick/ReactInfinitSlick.jsx';
+import Margue from './components/marque/Margue.jsx';
 
 
 // import Industrypartnerslider from "./components/industrypartnerslider/Industrypartnerslider.jsx";
@@ -67,8 +69,14 @@ export default function Home() {
       <CountrySlider />
       <p>&nbsp;</p>
       <p>&nbsp;</p>
+      <LogoSlider />
       <p>&nbsp;</p>
       <p>&nbsp;</p>
+
+<Margue />
+<p>&nbsp;</p>
+      <p>&nbsp;</p>
+
       <Buyer_lounges />
       <p>&nbsp;</p>
       <p>&nbsp;</p>

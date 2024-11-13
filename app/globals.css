@@ -729,3 +729,83 @@
           }
         }
         
+
+
+
+
+       /* Keyframes for slide animation */
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-1000%);
+  }
+}
+
+/* Main logos container */
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+  border: 1px solid red;
+}
+
+/* Left and right gradient overlay */
+.logos::before,
+.logos::after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos::before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos::after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+/* Pause animation on hover */
+.logos:hover .logosSlide {
+  animation-play-state: paused;
+}
+
+/* Slide animation */
+.logosSlide {
+  display: flex;
+  animation: 80s slide infinite linear; /* Adjust speed as needed */
+}
+
+/* Individual logo styling */
+.logosSlide img {
+  width: 150px;
+  height: 110px;
+  margin: 0 40px;
+  object-fit: contain;
+}
+
+
+/* Morque css start from here */
+.image_wrapper img{
+  width: 170px;
+  height: 120px;
+  object-fit: contain;
+  
+
+}
+.image_wrapper{
+  margin-left: 40px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
