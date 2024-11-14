@@ -7,7 +7,7 @@ import Slider from 'react-infinite-logo-slider'
 
 import bai from '../../../public/assests/orgnization/5.webp';
 import fhandra from '../../../public/assests/orgnization/fhandra.webp';
-import HRAWI from '../../../public/assests/orgnization/8.webp';
+import HRAWI from '../../../public/assests/orgnization/fhranewlogo.png';
 import IIA from '../../../public/assests/orgnization/IIA.webp';
 import AESA from '../../../public/assests/orgnization/9.webp';
 import fumma from '../../../public/assests/orgnization/fumma.png';
