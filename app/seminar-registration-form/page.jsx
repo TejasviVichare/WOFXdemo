@@ -7,7 +7,7 @@ export default function page() {
         <h1 className="text-xl md:text-3xl py-2 font-semibold text-center">
           Seminar Registration Form
         </h1>
-       
+        <p className="text-center">Coming Soon</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
