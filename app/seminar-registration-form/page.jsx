@@ -62,7 +62,7 @@ const MyForm = () => {
       Swal.fire({
         text: "Thank you for showing interest. We shall contact you soon with more details.",
         icon: "success",
-      }).then(() => window.location.reload());
+      }).then((res) => console.log(res, "from backend"));
     } catch (error) {
       setShowHideLoader(false);
       Swal.fire({
