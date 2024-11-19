@@ -105,7 +105,7 @@ const MyForm = () => {
       setshowHideLoader(true);
       try {
         const response = await axios.post(
-          "https://api.worldexindia.com/wofx/seminar-registration-next.php",
+          "https://api.worldexindia.com/wofx/media-registration-next.php",
           new URLSearchParams(formData),
           {
             headers: {
