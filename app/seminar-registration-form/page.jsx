@@ -5,6 +5,7 @@ import * as Yup from "yup";
 import Select from "react-select";  
 import axios from "axios";
 import Swal from "sweetalert2";
+import Loader from "../components/loader/Loader";
 
 // Define the validation schema using Yup
 const validationSchema = Yup.object({
@@ -22,13 +23,15 @@ const validationSchema = Yup.object({
   media_cat: Yup.array().min(1, "Please select at least one media category"), // Media category validation
   media_cat_other: Yup.string().when("media_cat", {
     is: (media_cat) => media_cat && media_cat.includes("Others"), // Only required if "Others" is selected
-    then: Yup.string().required("Please specify other media category"),
+    then: ()=> Yup.string().required("Please specify other media category"),
   }),
   industry_products: Yup.array().min(1, "Please select at least one industry/product category"), // Industry/products validation
   industry_products_other: Yup.string().when("industry_products", {
     is: (industry_products) => industry_products && industry_products.includes("Others"), // Only required if "Others" is selected
-    then: Yup.string().required("Please specify other industry/product category"),
+    then: ()=> Yup.string().required("Please specify other industry/product category"),
   }),
+  terms_and_conditions: Yup.boolean()
+    .oneOf([true], "You must agree to the terms and conditions"),
 });
 
 const MyForm = () => {
@@ -73,6 +76,10 @@ const MyForm = () => {
     }
   };
 
+  if(showHideLoader){
+     return <Loader />
+  }
+
   return (
     <div className="mx-auto w-full max-w-screen-2xl mt-40">
       <div className="py-4 px-4 md:px-28 md:py-12">
@@ -90,6 +97,7 @@ const MyForm = () => {
             media_cat_other: "", // Other media category
             industry_products: [], // Industry/product categories
             industry_products_other: "", // Other industry/product category
+            terms_and_conditions: false,
           }}
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
@@ -100,23 +108,23 @@ const MyForm = () => {
               <div className="flex mt-3 gap-8">
                 <div className="w-full">
                   <Field className="border w-full h-11 px-2 rounded" type="text" id="name" name="name" placeholder="Name*" />
-                  <ErrorMessage name="name" component="div" />
+                  <ErrorMessage className="text-red-600" name="name" component="div" />
                 </div>
                 <div className="w-full">
                   <Field className="border w-full h-11 px-2 rounded" type="text" id="organisation" name="organisation" placeholder="Organisation*" />
-                  <ErrorMessage name="organisation" component="div" />
+                  <ErrorMessage className="text-red-600" name="organisation" component="div" />
                 </div>
               </div>
 
               <div className="flex mt-3 gap-8">
                 <div className="w-full">
                   <Field className="border w-full h-11 px-2 rounded" type="text" id="designation" name="designation" placeholder="Designation*" />
-                  <ErrorMessage name="designation" component="div" />
+                  <ErrorMessage className="text-red-600" name="designation" component="div" />
                 </div>
 
                 <div className="w-full">
                   <Field className="border w-full h-11 px-2 rounded" type="text" id="city" name="city" placeholder="City*" />
-                  <ErrorMessage name="city" component="div" />
+                  <ErrorMessage className="text-red-600" name="city" component="div" />
                 </div>
               </div>
 
@@ -320,11 +328,11 @@ const MyForm = () => {
                     <option value="Zimbabwe">Zimbabwe</option>
 
                   </Field>
-                  <ErrorMessage name="country" component="div" />
+                  <ErrorMessage className="text-red-600" name="country" component="div" />
                 </div>
                 <div className="w-full">
                   <Field className="border w-full h-11 px-2 rounded" type="text" id="mobile" name="mobile" placeholder="Mobile*" />
-                  <ErrorMessage name="mobile" component="div" />
+                  <ErrorMessage className="text-red-600" name="mobile" component="div" />
                 </div>
               </div>
 
@@ -332,7 +340,7 @@ const MyForm = () => {
               <div className="flex mt-6 gap-8">
                 <div className="w-full">
                   <Field className="border w-full h-11 px-2 rounded" type="email" id="primary_email" name="primary_email" placeholder="Email*" />
-                  <ErrorMessage name="primary_email" component="div" />
+                  <ErrorMessage className="text-red-600" name="primary_email" component="div" />
                 </div>
                 <div className="w-full">
                   <Field className="border w-full h-11 px-2 rounded" type="text" id="website" name="website" placeholder="Website" />
@@ -381,7 +389,7 @@ const MyForm = () => {
                     }}
                     value={values.media_cat.map((value) => ({ value, label: value }))}
                   />
-                  <ErrorMessage name="media_cat" component="div" />
+                  <ErrorMessage className="text-red-600" name="media_cat" component="div" />
                 </div>
               </div>
 
@@ -389,7 +397,7 @@ const MyForm = () => {
                 <div className="flex mt-3 gap-8">
                   <div className="w-full">
                     <Field className="border w-full h-11 px-2 rounded" type="text" id="media_cat_other" name="media_cat_other" placeholder="Please specify other media category" />
-                    <ErrorMessage name="media_cat_other" component="div" />
+                    <ErrorMessage className="text-red-600" name="media_cat_other" component="div" />
                   </div>
                 </div>
               )}
@@ -424,7 +432,7 @@ const MyForm = () => {
                     }}
                     value={values.industry_products.map((value) => ({ value, label: value }))}
                   />
-                  <ErrorMessage name="industry_products" component="div" />
+                  <ErrorMessage className="text-red-600" name="industry_products" component="div" />
                 </div>
               </div>
 
@@ -432,13 +440,30 @@ const MyForm = () => {
                 <div className="flex mt-3 gap-8">
                   <div className="w-full">
                     <Field className="border w-full h-11 px-2 rounded" type="text" id="industry_products_other" name="industry_products_other" placeholder="Please specify other industry/product category" />
-                    <ErrorMessage name="industry_products_other" component="div" />
+                    <ErrorMessage className="text-red-600" name="industry_products_other" component="div" />
                   </div>
                 </div>
               )}
-
+              <div className="mt-6">
+                <label className="flex items-center text-sm">
+                  <Field
+                    type="checkbox"
+                    name="terms_and_conditions"
+                    className="mr-2 "
+                  />
+                  * I agree that the above information may be used by Worldex
+                  India Exhibition & Promotion Pvt. Ltd. for incorporation in
+                  all of their databases for trade promotional activities and
+                  for any other purposes.
+                </label>
+                <ErrorMessage
+                  className="text-red-600"
+                  name="terms_and_conditions"
+                  component="div"
+                />
+              </div>
               <div className=" mt-6">
-                <button className="  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black " style={{ border: "1px solid black", letterSpacing: "2px" }}>Submit  </button>
+                <button className="  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black  " style={{ border: "1px solid black", letterSpacing: "2px" }}>Submit &raquo; </button>
               </div>
             </Form>
           )}
