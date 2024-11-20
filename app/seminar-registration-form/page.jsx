@@ -438,7 +438,7 @@ const MyForm = () => {
               )}
 
               <div className=" mt-6">
-                <button className="  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black " style={{ border: "1px solid black", letterSpacing: "2px" }}>Submit &nbsp; &raquo;</button>
+                <button className="  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black " style={{ border: "1px solid black", letterSpacing: "2px" }}>Submit  &raquo;</button>
               </div>
             </Form>
           )}
