@@ -37,7 +37,7 @@ const MyForm = () => {
   const handleSubmit = async (values) => {
     setShowHideLoader(true);
     try {
-      // Collect form data and submit it to the API
+     
       const submissionData = {
         ...values,
         media_cat: values.media_cat.concat(
@@ -50,7 +50,7 @@ const MyForm = () => {
 
       console.log(submissionData, "form Data for submit");
       const response = await axios.post(
-        "https://api.worldexindia.com/wofx/media-registration-nextsdg.php",
+        "https://api.worldexindia.com/wofx/seminar-registration-next.php.php",
         new URLSearchParams(submissionData),
         {
           headers: {
