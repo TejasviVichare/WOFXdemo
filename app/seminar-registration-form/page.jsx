@@ -1,13 +1,12 @@
-'use client';
-
+'use client'
 import React, { useState } from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import Select from "react-select";
+import Select from "react-select";  // You can use a library like 'react-select' for multiple select
 import axios from "axios";
 import Swal from "sweetalert2";
 
-// Validation schema
+// Define the validation schema using Yup
 const validationSchema = Yup.object({
   name: Yup.string().required("Name is required"),
   designation: Yup.string().required("Designation is required"),
@@ -20,20 +19,15 @@ const validationSchema = Yup.object({
   primary_email: Yup.string()
     .email("Invalid email address")
     .required("Email is required"),
-  media_cat: Yup.array().min(1, "Please select at least one nature of business"),
+  media_cat: Yup.array().min(1, "Please select at least one media category"), // Media category validation
   media_cat_other: Yup.string().when("media_cat", {
-    is: (media_cat) => media_cat.includes("Others"),
-    then: Yup.string().required("Please specify other nature of business"),
+    is: (media_cat) => media_cat && media_cat.includes("Others"), // Only required if "Others" is selected
+    then: Yup.string().required("Please specify other media category"),
   }),
-  industry_products: Yup.array().min(
-    1,
-    "Please select at least one industry/product category"
-  ),
+  industry_products: Yup.array().min(1, "Please select at least one industry/product category"), // Industry/products validation
   industry_products_other: Yup.string().when("industry_products", {
-    is: (industry_products) => industry_products.includes("Others"),
-    then: Yup.string().required(
-      "Please specify other industry/product category"
-    ),
+    is: (industry_products) => industry_products && industry_products.includes("Others"), // Only required if "Others" is selected
+    then: Yup.string().required("Please specify other industry/product category"),
   }),
 });
 
@@ -43,6 +37,7 @@ const MyForm = () => {
   const handleSubmit = async (values) => {
     setShowHideLoader(true);
     try {
+      // Collect form data and submit it to the API
       const submissionData = {
         ...values,
         media_cat: values.media_cat.concat(
@@ -55,7 +50,7 @@ const MyForm = () => {
 
       console.log(submissionData, "form Data for submit");
       const response = await axios.post(
-        "https://api.worldexindia.com/wofx/seminar-registration-next.php",
+        "https://api.worldexindia.com/wofx/media-registration-nextsdg.php",
         new URLSearchParams(submissionData),
         {
           headers: {
@@ -67,7 +62,7 @@ const MyForm = () => {
       Swal.fire({
         text: "Thank you for showing interest. We shall contact you soon with more details.",
         icon: "success",
-      });
+      }).then(() => window.location.reload());
     } catch (error) {
       setShowHideLoader(false);
       Swal.fire({
@@ -91,10 +86,10 @@ const MyForm = () => {
             country: "",
             mobile: "",
             primary_email: "",
-            media_cat: [],
-            media_cat_other: "",
-            industry_products: [],
-            industry_products_other: "",
+            media_cat: [], // Array for multiple select values
+            media_cat_other: "", // Other media category
+            industry_products: [], // Industry/product categories
+            industry_products_other: "", // Other industry/product category
           }}
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
@@ -104,201 +99,347 @@ const MyForm = () => {
               {/* Personal Details */}
               <div className="flex mt-3 gap-8">
                 <div className="w-full">
-                  <Field
-                    className="border w-full h-11 px-2 rounded"
-                    type="text"
-                    name="name"
-                    placeholder="Name*"
-                  />
-                  <ErrorMessage
-                    className="text-red-600"
-                    name="name"
-                    component="div"
-                  />
+                  <Field className="border w-full h-11 px-2 rounded" type="text" id="name" name="name" placeholder="Name*" />
+                  <ErrorMessage name="name" component="div" />
                 </div>
                 <div className="w-full">
-                  <Field
-                    className="border w-full h-11 px-2 rounded"
-                    type="text"
-                    name="designation"
-                    placeholder="Designation*"
-                  />
-                  <ErrorMessage
-                    className="text-red-600"
-                    name="designation"
-                    component="div"
-                  />
+                  <Field className="border w-full h-11 px-2 rounded" type="text" id="organisation" name="organisation" placeholder="Organisation*" />
+                  <ErrorMessage name="organisation" component="div" />
                 </div>
               </div>
 
               <div className="flex mt-3 gap-8">
                 <div className="w-full">
-                  <Field
-                    className="border w-full h-11 px-2 rounded"
-                    type="text"
-                    name="organisation"
-                    placeholder="Organisation*"
-                  />
-                  <ErrorMessage
-                    className="text-red-600"
-                    name="organisation"
-                    component="div"
-                  />
+                  <Field className="border w-full h-11 px-2 rounded" type="text" id="designation" name="designation" placeholder="Designation*" />
+                  <ErrorMessage name="designation" component="div" />
                 </div>
+
                 <div className="w-full">
-                  <Field
-                    className="border w-full h-11 px-2 rounded"
-                    type="text"
-                    name="city"
-                    placeholder="City*"
-                  />
-                  <ErrorMessage
-                    className="text-red-600"
-                    name="city"
-                    component="div"
-                  />
+                  <Field className="border w-full h-11 px-2 rounded" type="text" id="city" name="city" placeholder="City*" />
+                  <ErrorMessage name="city" component="div" />
                 </div>
               </div>
 
+              {/* Location Details */}
               <div className="flex mt-3 gap-8">
                 <div className="w-full">
-                  <Field
-                    className="border w-full h-11 px-2 rounded"
-                    type="text"
-                    name="country"
-                    placeholder="Country*"
-                  />
-                  <ErrorMessage
-                    className="text-red-600"
-                    name="country"
-                    component="div"
-                  />
+                  <Field className="border w-full h-11 px-2 rounded" as="select" id="country" name="country">
+                    <option value="">Select Country</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Albania">Albania</option>
+                    <option value="Algeria">Algeria</option>
+                    <option value="Andorra">Andorra</option>
+                    <option value="Angola">Angola</option>
+                    <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Armenia">Armenia</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Austria">Austria</option>
+                    <option value="Azerbaijan">Azerbaijan</option>
+                    <option value="Bahamas">Bahamas</option>
+                    <option value="Bahrain">Bahrain</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Barbados">Barbados</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Belize">Belize</option>
+                    <option value="Benin">Benin</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Brunei">Brunei</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Burkina Faso">Burkina Faso</option>
+                    <option value="Burundi">Burundi</option>
+                    <option value="Cabo Verde">Cabo Verde</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Cameroon">Cameroon</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Central African Republic">Central African Republic</option>
+                    <option value="Chad">Chad</option>
+                    <option value="Chile">Chile</option>
+                    <option value="China">China</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Comoros">Comoros</option>
+                    <option value="Congo (Congo-Brazzaville)">Congo (Congo-Brazzaville)</option>
+                    <option value="Costa Rica">Costa Rica</option>
+                    <option value="Croatia">Croatia</option>
+                    <option value="Cuba">Cuba</option>
+                    <option value="Cyprus">Cyprus</option>
+                    <option value="Czechia (Czech Republic)">Czechia (Czech Republic)</option>
+                    <option value="Denmark">Denmark</option>
+                    <option value="Djibouti">Djibouti</option>
+                    <option value="Dominica">Dominica</option>
+                    <option value="Dominican Republic">Dominican Republic</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="El Salvador">El Salvador</option>
+                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                    <option value="Eritrea">Eritrea</option>
+                    <option value="Estonia">Estonia</option>
+                    <option value="Eswatini (fmr. 'Swaziland')">Eswatini (fmr. 'Swaziland')</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                    <option value="Fiji">Fiji</option>
+                    <option value="Finland">Finland</option>
+                    <option value="France">France</option>
+                    <option value="Gabon">Gabon</option>
+                    <option value="Gambia">Gambia</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Greece">Greece</option>
+                    <option value="Grenada">Grenada</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="Guinea">Guinea</option>
+                    <option value="Guinea-Bissau">Guinea-Bissau</option>
+                    <option value="Guyana">Guyana</option>
+                    <option value="Haiti">Haiti</option>
+                    <option value="Holy See">Holy See</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="Iceland">Iceland</option>
+                    <option value="India">India</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Iran">Iran</option>
+                    <option value="Iraq">Iraq</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Israel">Israel</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Jamaica">Jamaica</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Jordan">Jordan</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Kiribati">Kiribati</option>
+                    <option value="Korea (North)">Korea (North)</option>
+                    <option value="Korea (South)">Korea (South)</option>
+                    <option value="Kuwait">Kuwait</option>
+                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                    <option value="Laos">Laos</option>
+                    <option value="Latvia">Latvia</option>
+                    <option value="Lebanon">Lebanon</option>
+                    <option value="Lesotho">Lesotho</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="Libya">Libya</option>
+                    <option value="Liechtenstein">Liechtenstein</option>
+                    <option value="Lithuania">Lithuania</option>
+                    <option value="Luxembourg">Luxembourg</option>
+                    <option value="Madagascar">Madagascar</option>
+                    <option value="Malawi">Malawi</option>
+                    <option value="Malaysia">Malaysia</option>
+                    <option value="Maldives">Maldives</option>
+                    <option value="Mali">Mali</option>
+                    <option value="Malta">Malta</option>
+                    <option value="Marshall Islands">Marshall Islands</option>
+                    <option value="Mauritania">Mauritania</option>
+                    <option value="Mauritius">Mauritius</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Micronesia">Micronesia</option>
+                    <option value="Moldova">Moldova</option>
+                    <option value="Monaco">Monaco</option>
+                    <option value="Mongolia">Mongolia</option>
+                    <option value="Montenegro">Montenegro</option>
+                    <option value="Morocco">Morocco</option>
+                    <option value="Mozambique">Mozambique</option>
+                    <option value="Myanmar (Burma)">Myanmar (Burma)</option>
+                    <option value="Namibia">Namibia</option>
+                    <option value="Nauru">Nauru</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="New Zealand">New Zealand</option>
+                    <option value="Nicaragua">Nicaragua</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="North Macedonia">North Macedonia</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Oman">Oman</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Palau">Palau</option>
+                    <option value="Palestine State">Palestine State</option>
+                    <option value="Panama">Panama</option>
+                    <option value="Papua New Guinea">Papua New Guinea</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Philippines">Philippines</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Qatar">Qatar</option>
+                    <option value="Romania">Romania</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                    <option value="Saint Lucia">Saint Lucia</option>
+                    <option value="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+                    <option value="Samoa">Samoa</option>
+                    <option value="San Marino">San Marino</option>
+                    <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                    <option value="Saudi Arabia">Saudi Arabia</option>
+                    <option value="Senegal">Senegal</option>
+                    <option value="Serbia">Serbia</option>
+                    <option value="Seychelles">Seychelles</option>
+                    <option value="Sierra Leone">Sierra Leone</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="Slovakia">Slovakia</option>
+                    <option value="Slovenia">Slovenia</option>
+                    <option value="Solomon Islands">Solomon Islands</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="South Sudan">South Sudan</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Sudan">Sudan</option>
+                    <option value="Suriname">Suriname</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Syria">Syria</option>
+                    <option value="Tajikistan">Tajikistan</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Thailand">Thailand</option>
+                    <option value="Timor-Leste">Timor-Leste</option>
+                    <option value="Togo">Togo</option>
+                    <option value="Tonga">Tonga</option>
+                    <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                    <option value="Tunisia">Tunisia</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Turkmenistan">Turkmenistan</option>
+                    <option value="Tuvalu">Tuvalu</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="United Arab Emirates">United Arab Emirates</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="United States of America">United States of America</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Vanuatu">Vanuatu</option>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Yemen">Yemen</option>
+                    <option value="Zambia">Zambia</option>
+                    <option value="Zimbabwe">Zimbabwe</option>
+
+                  </Field>
+                  <ErrorMessage name="country" component="div" />
                 </div>
                 <div className="w-full">
-                  <Field
-                    className="border w-full h-11 px-2 rounded"
-                    type="text"
-                    name="mobile"
-                    placeholder="Mobile*"
-                  />
-                  <ErrorMessage
-                    className="text-red-600"
-                    name="mobile"
-                    component="div"
-                  />
+                  <Field className="border w-full h-11 px-2 rounded" type="text" id="mobile" name="mobile" placeholder="Mobile*" />
+                  <ErrorMessage name="mobile" component="div" />
                 </div>
               </div>
 
-              <div className="flex mt-3 gap-8">
+              {/* Email and Website */}
+              <div className="flex mt-6 gap-8">
                 <div className="w-full">
-                  <Field
-                    className="border w-full h-11 px-2 rounded"
-                    type="email"
-                    name="primary_email"
-                    placeholder="Email*"
-                  />
-                  <ErrorMessage
-                    className="text-red-600"
-                    name="primary_email"
-                    component="div"
-                  />
+                  <Field className="border w-full h-11 px-2 rounded" type="email" id="primary_email" name="primary_email" placeholder="Email*" />
+                  <ErrorMessage name="primary_email" component="div" />
+                </div>
+                <div className="w-full">
+                  <Field className="border w-full h-11 px-2 rounded" type="text" id="website" name="website" placeholder="Website" />
                 </div>
               </div>
 
               {/* Media Category */}
-              <div className="mt-6">
-                <label htmlFor="media_cat">Nature of Business*</label>
-                <Select
-                  id="media_cat"
-                  options={[
-                    { value: "Dealers", label: "Dealers" },
-                    { value: "Others", label: "Others" },
-                  ]}
-                  isMulti
-                  onChange={(options) => {
-                    setFieldValue(
-                      "media_cat",
-                      options.map((option) => option.value)
-                    );
-                  }}
-                  value={values.media_cat.map((value) => ({
-                    value,
-                    label: value,
-                  }))}
-                />
-                <ErrorMessage
-                  className="text-red-600"
-                  name="media_cat"
-                  component="div"
-                />
+              <div className="flex mt-3 gap-8">
+                <div className="w-full">
+                  <label htmlFor="media_cat">Nature of Business*</label>
+                  <Select
+                    id="media_cat"
+                    name="media_cat"
+                    options={[
+                      { value: "Dealers", label: "Dealers" },
+                      { value: "Distributors", label: "Distributors" },
+                      { value: "Wholesalers", label: "Wholesalers" },
+                      { value: "Importers", label: "Importers" },
+                      { value: "Trading & Buying Houses", label: "Trading & Buying Houses" },
+                      { value: "Agents", label: "Agents" },
+                      { value: "Retailers", label: "Retailers" },
+                      { value: "E-Tailers", label: "E-Tailers" },
+                      { value: "Large Format Retailers", label: "Large Format Retailers" },
+                      { value: "Online Traders", label: "Online Traders" },
+                      { value: "Franchisees", label: "Franchisees" },
+                      { value: "Entrepreneurs", label: "Entrepreneurs" },
+                      { value: "Consultant", label: "Consultant" },
+                      { value: "Architects & Interior Designers", label: "Architects & Interior Designers" },
+                      { value: "Interior Designers", label: "Interior Designers" },
+                      { value: "Real Estate Developers", label: "Real Estate Developers" },
+                      { value: "HORECA", label: "HORECA" },
+                      { value: "Corporate Sourcing Heads", label: "Corporate Sourcing Heads" },
+                      { value: "Institutional", label: "Institutional" },
+                      { value: "Project Management Consultant", label: "Project Management Consultant" },
+                      { value: "Others", label: "Others" },
+                    ]}
+                    isMulti
+                    onChange={(selectedOptions) => {
+                      setFieldValue(
+                        "media_cat",
+                        selectedOptions ? selectedOptions.map((option) => option.value) : []
+                      );
+                      if (!selectedOptions.some((option) => option.value === "Others")) {
+                        setFieldValue("media_cat_other", ""); // Clear 'Other' input if not selected
+                      }
+                    }}
+                    value={values.media_cat.map((value) => ({ value, label: value }))}
+                  />
+                  <ErrorMessage name="media_cat" component="div" />
+                </div>
               </div>
+
               {values.media_cat.includes("Others") && (
-                <div className="mt-3">
-                  <Field
-                    className="border w-full h-11 px-2 rounded"
-                    type="text"
-                    name="media_cat_other"
-                    placeholder="Please specify other nature of business*"
-                  />
-                  <ErrorMessage
-                    className="text-red-600"
-                    name="media_cat_other"
-                    component="div"
-                  />
+                <div className="flex mt-3 gap-8">
+                  <div className="w-full">
+                    <Field className="border w-full h-11 px-2 rounded" type="text" id="media_cat_other" name="media_cat_other" placeholder="Please specify other media category" />
+                    <ErrorMessage name="media_cat_other" component="div" />
+                  </div>
                 </div>
               )}
 
-              {/* Industry Products */}
-              <div className="mt-6">
-                <label htmlFor="industry_products">Industry/Products*</label>
-                <Select
-                  id="industry_products"
-                  options={[
-                    { value: "Building", label: "Building" },
-                    { value: "Others", label: "Others" },
-                  ]}
-                  isMulti
-                  onChange={(options) => {
-                    setFieldValue(
-                      "industry_products",
-                      options.map((option) => option.value)
-                    );
-                  }}
-                  value={values.industry_products.map((value) => ({
-                    value,
-                    label: value,
-                  }))}
-                />
-                <ErrorMessage
-                  className="text-red-600"
-                  name="industry_products"
-                  component="div"
-                />
+              {/* Industry and Products */}
+              <div className="flex mt-6 gap-8">
+                <div className="w-full">
+                  <label htmlFor="industry_products">Industry/Products*</label>
+                  <Select
+                    id="industry_products"
+                    name="industry_products"
+                    options={[
+                      { value: "Building & Construction", label: "Building & Construction" },
+                      { value: "Designing", label: "Designing" },
+                      { value: "Furniture", label: "Furniture" },
+                      { value: "Interior & Decor", label: "Interior & Decor" },
+                      { value: "Fittings & Fixtures", label: "Fittings & Fixtures" },
+                      { value: "Fabrication & Joinery", label: "Fabrication & Joinery" },
+                      { value: "Infrastructure", label: "Infrastructure" },
+                      { value: "Smart Cities", label: "Smart Cities" },
+                      { value: "Others", label: "Others" },
+                    ]}
+                    isMulti
+                    onChange={(selectedOptions) => {
+                      setFieldValue(
+                        "industry_products",
+                        selectedOptions ? selectedOptions.map((option) => option.value) : []
+                      );
+                      if (!selectedOptions.some((option) => option.value === "Others")) {
+                        setFieldValue("industry_products_other", ""); // Clear 'Other' input if not selected
+                      }
+                    }}
+                    value={values.industry_products.map((value) => ({ value, label: value }))}
+                  />
+                  <ErrorMessage name="industry_products" component="div" />
+                </div>
               </div>
+
               {values.industry_products.includes("Others") && (
-                <div className="mt-3">
-                  <Field
-                    className="border w-full h-11 px-2 rounded"
-                    type="text"
-                    name="industry_products_other"
-                    placeholder="Please specify other industry/product category*"
-                  />
-                  <ErrorMessage
-                    className="text-red-600"
-                    name="industry_products_other"
-                    component="div"
-                  />
+                <div className="flex mt-3 gap-8">
+                  <div className="w-full">
+                    <Field className="border w-full h-11 px-2 rounded" type="text" id="industry_products_other" name="industry_products_other" placeholder="Please specify other industry/product category" />
+                    <ErrorMessage name="industry_products_other" component="div" />
+                  </div>
                 </div>
               )}
 
-              {/* Submit Button */}
-              <button
-                type="submit"
-                className="mt-8 bg-black text-white px-6 py-3 cursor-pointer hover:bg-white hover:text-black"
-                style={{ letterSpacing: "2px", border: "1px solid black" }}
-              >
-                Submit &raquo;
-              </button>
+              <div className=" mt-6">
+                <button className="  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black " style={{ border: "1px solid black", letterSpacing: "2px" }}>Submit &nbsp; &raquo;</button>
+              </div>
             </Form>
           )}
         </Formik>
