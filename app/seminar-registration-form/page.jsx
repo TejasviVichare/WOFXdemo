@@ -1,8 +1,8 @@
-'use client'
+"use client"
 import React, { useState } from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import Select from "react-select";  // You can use a library like 'react-select' for multiple select
+import Select from "react-select";  
 import axios from "axios";
 import Swal from "sweetalert2";
 
@@ -179,7 +179,7 @@ const MyForm = () => {
                     <option value="Equatorial Guinea">Equatorial Guinea</option>
                     <option value="Eritrea">Eritrea</option>
                     <option value="Estonia">Estonia</option>
-                    <option value="Eswatini (fmr. 'Swaziland')">Eswatini (fmr. 'Swaziland')</option>
+                    <option value="Eswatini ">Eswatini</option>
                     <option value="Ethiopia">Ethiopia</option>
                     <option value="Fiji">Fiji</option>
                     <option value="Finland">Finland</option>
@@ -376,7 +376,7 @@ const MyForm = () => {
                         selectedOptions ? selectedOptions.map((option) => option.value) : []
                       );
                       if (!selectedOptions.some((option) => option.value === "Others")) {
-                        setFieldValue("media_cat_other", ""); // Clear 'Other' input if not selected
+                        setFieldValue("media_cat_other", ""); 
                       }
                     }}
                     value={values.media_cat.map((value) => ({ value, label: value }))}
@@ -419,7 +419,7 @@ const MyForm = () => {
                         selectedOptions ? selectedOptions.map((option) => option.value) : []
                       );
                       if (!selectedOptions.some((option) => option.value === "Others")) {
-                        setFieldValue("industry_products_other", ""); // Clear 'Other' input if not selected
+                        setFieldValue("industry_products_other", ""); 
                       }
                     }}
                     value={values.industry_products.map((value) => ({ value, label: value }))}
@@ -438,7 +438,7 @@ const MyForm = () => {
               )}
 
               <div className=" mt-6">
-                <button className="  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black " style={{ border: "1px solid black", letterSpacing: "2px" }}>Submit  &raquo;</button>
+                <button className="  bg-black text-white px-6 py-3 font-bold cursor-pointer hover:bg-white hover:text-black " style={{ border: "1px solid black", letterSpacing: "2px" }}>Submit  "&raquo;"</button>
               </div>
             </Form>
           )}
