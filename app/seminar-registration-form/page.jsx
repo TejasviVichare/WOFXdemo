@@ -54,7 +54,7 @@ const MyForm = () => {
 
       console.log(submissionData, "form Data for submit");
       const response = await axios.post(
-        "https://api.worldexindia.com/wofx/seminar-registration-next.php.php",
+        "https://api.worldexindia.com/wofx/seminar-registration-next.php",
         new URLSearchParams(submissionData),
         {
           headers: {
