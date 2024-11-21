@@ -811,14 +811,14 @@
 }
 
 .speakerBox:hover {
- 
+  background: rgba(255, 255, 255, 0.8);
   border: 2px solid rgba(255, 255, 255, 0.8); /* Border styling */
   transform: scale(1.1); /* Scale up on hover */
   
 }
 .speakerBox{
-  background: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0,0,0, 0.05);
+  
+  border: 1px solid rgba(0,0,0, 0.1);
   transition: transform 0.4s ease, border 0.4s ease; /* Smooth transition for transform and border */
 }
 .panelMainBox {

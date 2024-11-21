@@ -56,7 +56,7 @@ export default function PanelDiscussion() {
                         </div>
 
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
-                            <Image className="rounded-t-lg mb-2" src="/assests/speaker (2).png" width="100" height="250" alt="Speaker Image" />
+                            <Image className="rounded-t-lg mb-2" src="/assests/speaker (2).png" width="90" height="230" alt="Speaker Image" />
                             <div class="text-center">
                                 <strong>Mr. Huzefa Samplewala</strong>
                                 <br />
@@ -64,7 +64,7 @@ export default function PanelDiscussion() {
                             </div>
                         </div>
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
-                            <Image className="rounded-t-lg mb-2" src="/assests/speaker (3).png" width="100" height="250" alt="Speaker Image" />
+                            <Image className="rounded-t-lg mb-2" src="/assests/speaker (3).png" width="120" height="250" alt="Speaker Image" />
                             <div class="text-center">
                                 <strong>Dr. Mahesh M.</strong>
                                 <br />
@@ -72,7 +72,7 @@ export default function PanelDiscussion() {
                             </div>
                         </div>
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
-                            <Image className="rounded-t-lg mb-2" src="/assests/speaker (4).png" width="100" height="250" alt="Speaker Image" />
+                            <Image className="rounded-t-lg mb-2" src="/assests/speaker (4).png" width="90" height="250" alt="Speaker Image" />
                             <div class="text-center">
                                 <strong>Mr. Puneet Dudeja</strong>
                                 <br />
