@@ -10,8 +10,8 @@ export default function Margue() {
         "21.png", "21A.png", "21B.png", "22.png", "23.png", "24.png", "25.png", "26.png", "27.png",
         "28.png", "29.png", "30.png", "31.png", "32.png", "33.png", "34.png",
         "35.png","35A.png", "36.png", "37.png", "38.png","38A.png", "39.png", "40.png", "41.png",
-        "42.png", "43.png", "44.png", "45.png", "46.png", "47.png", "48.png",
-        "49.png", "50.png", "51.png"
+        "42.png", "42A.png", "42B.png", "42C.png", "43.png", "44.png", "45.png", "46.png", "47.png", "48.png",
+        "49.png", "49A.png", "50.png", "51.png"
     ];
 
     return (

@@ -422,15 +422,18 @@ const MyForm = () => {
                     <Select
                       id="industry_products"
                       name="industry_products"
-                      options={[
-                        { value: "Building & Construction", label: "Building & Construction" },
-                        { value: "Designing", label: "Designing" },
-                        { value: "Furniture", label: "Furniture" },
-                        { value: "Interior & Decor", label: "Interior & Decor" },
-                        { value: "Fittings & Fixtures", label: "Fittings & Fixtures" },
-                        { value: "Fabrication & Joinery", label: "Fabrication & Joinery" },
-                        { value: "Infrastructure", label: "Infrastructure" },
-                        { value: "Smart Cities", label: "Smart Cities" },
+                      const options = {[
+                        { value: "Home", label: "Home" },
+                        { value: "Office", label: "Office" },
+                        { value: "Outdoor", label: "Outdoor" },
+                        { value: "Modular", label: "Modular" },
+                        { value: "Kids", label: "Kids" },
+                        { value: "Handcrafted", label: "Handcrafted" },
+                        { value: "Plastic", label: "Plastic" },
+                        { value: "School/College", label: "School/College" },
+                        { value: "Institutional", label: "Institutional" },
+                        { value: "Mattresses", label: "Mattresses" },
+                        { value: "Décor", label: "Décor" },
                         { value: "Others", label: "Others" },
                       ]}
                       isMulti

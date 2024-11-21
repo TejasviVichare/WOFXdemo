@@ -1,18 +1,12 @@
+import React from 'react'
+import PanelDiscussion from '../components/panelDiscussion/PanelDiscussion'
 
-'use client';
-import { useEffect } from 'react';
+export default function page() {
+  return (
+    <div>
 
+    <PanelDiscussion />
 
- const Page= () => {
-  useEffect(() => {
-     window.location.href  = 'https://www.bee2bee.asia/wofx/buyer-registration?ref=HPMF';
-  }, []);
-  return(  
-  <>
-   {/* <div className='h-full text-center py-4'>
-       <p className="text-red-600">Registration is now closed</p>
-   </div> */}
-   </>)
-
-};
-export default Page
+    </div>
+  )
+}
