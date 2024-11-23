@@ -1035,3 +1035,13 @@
 // };
 
 // export default SkillGapForm;
+
+
+import React from 'react'
+
+export default function page() {
+  return (
+    <div>Skill Gap Study Page Design</div>
+  )
+}
+
