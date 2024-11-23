@@ -15,8 +15,13 @@ const ButtonComponent = () => {
         </center>
       </div>
       <div>
-        <center className="a">
+        <center style={{borderBottom:"2px solid rgba(0,0,0,0.2)"}}  className="a">
           <a href="https://www.bee2bee.asia/wofx/buyer-registration">VISIT</a>
+        </center>
+      </div>
+      <div>
+        <center className="a">
+          <a href="https://www.wofxworldexpo.com/smartTalk">Smart Talk</a>
         </center>
       </div>
     </div>

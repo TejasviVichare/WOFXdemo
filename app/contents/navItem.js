@@ -25,6 +25,10 @@ const navItems = [
           link: "/newsletter",
         },
         {
+          label: "Smart Talk",
+          link: "/smartTalk",
+        },
+        {
           label: "Venue",
           link: "/venue",
         },

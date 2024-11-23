@@ -51,7 +51,7 @@ export default function PanelDiscussion() {
                             <div class="text-center">
                                 <strong>Mr. Hussaine Kesury</strong>
                                 <br />
-                                <span class="text-sm"><em>CEO, <br /> Pepperfry.com</em></span>
+                                <span class="text-sm"><em>Chief Business Officer, <br /> Pepperfry</em></span>
                             </div>
                         </div>
 
@@ -60,7 +60,7 @@ export default function PanelDiscussion() {
                             <div class="text-center">
                                 <strong>Mr. Huzefa Samplewala</strong>
                                 <br />
-                                <span class="text-sm"><em>President, Association of Furniture <br /> Manufacturers and Traders</em></span>
+                                <span class="text-sm"><em>President, Association of <br /> Furniture Manufacturers and Traders</em></span>
                             </div>
                         </div>
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
@@ -80,7 +80,7 @@ export default function PanelDiscussion() {
                             </div>
                         </div>
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
-                            <Image className="rounded-t-lg mb-2" src="/assests/speaker (5).png" width="100" height="250" alt="Speaker Image" />
+                            <Image className="rounded-t-lg mb-2" src="/assests/speaker (5).png" width="88" height="250" alt="Speaker Image" />
                             <div class="text-center">
                                 <strong>Mr. Rahul Mehta</strong>
                                 <br />
@@ -88,11 +88,11 @@ export default function PanelDiscussion() {
                             </div>
                         </div>
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
-                            <Image className="rounded-t-lg mb-2 hidden" src="/assests/speaker (5).png" width="40" height="130" alt="Speaker Image" />
-                            <div class="text-center hidden">
-                                <strong>Mr. Rahul Mehta</strong>
+                            <Image className="rounded-t-lg mb-2" src="/assests/speaker (6).png" width="88" height="250" alt="Speaker Image" />
+                            <div class="text-center">
+                                <strong>Mr. Serkan Sen</strong>
                                 <br />
-                                <span class="text-sm"><em>CEO, Furniture & Fittings <br />Skill Council</em></span>
+                                <span class="text-sm"><em>Director, International Markets <br />Konfor</em></span>
                             </div>
                         </div>
                     </div>
