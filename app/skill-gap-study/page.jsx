@@ -120,11 +120,12 @@ const SkillForm = () => {
                     },
                 }
             );
+            console.log(response, "res form backend one")
             setShowHideLoader(false);
             Swal.fire({
                 text: "Thank you for showing interest. We shall contact you soon with more details.",
                 icon: "success",
-            }).then(() => window.location.reload());
+            }).then((res) => console.log(res, "res form backend"));
         } catch (error) {
             console.log(error, "error from backend")
             setShowHideLoader(false);
