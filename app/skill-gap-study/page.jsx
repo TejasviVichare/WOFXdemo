@@ -107,12 +107,6 @@ const page = () => {
 
             const submissionData = {
                 ...values,
-                media_cat: values.media_cat.concat(
-                    values.media_cat_other ? [values.media_cat_other] : []
-                ),
-                industry_products: values.industry_products.concat(
-                    values.industry_products_other ? [values.industry_products_other] : []
-                ),
             };
 
             console.log(submissionData, "form Data for submit");
@@ -186,7 +180,7 @@ const page = () => {
                             demandOthers: "",
                             CRPOthers: "",
                             skillCertifiedOthers: "",
-                            FFSCSerevices: "",
+                            
                             multipleLocations: "No",
                             cityNames: [""],
                             FFSCSerevicesOther: "",
@@ -231,16 +225,9 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>2. Do you have Multiple Office or Factory Locations? *</strong><br />
                                         <span className="text-green-600 text-sm mt-2"><strong>(If Yes, Please Enter City Names)</strong></span></p>
-
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
                                         <label>
                                             <Field type="radio" name="multipleLocations" value="Yes" />
@@ -293,17 +280,6 @@ const page = () => {
                                         )}
                                     />
                                 </div>
-
-
-
-
-
-
-
-
-
-
-
                                 <div className=" bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>3. Contact Person Details *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -331,13 +307,6 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>4. Do you have in-house HR Department or HR Professional?*</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -362,17 +331,8 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
                                 <div className=" bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>5. What is the number of employees in your company? *</strong></p>
-
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
                                         <div className="w-full">
                                             <label>Permanent Employees</label><br />
@@ -386,8 +346,6 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
                                 <div className=" bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>6. How many Female employees on the production floor in your company?*</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -397,8 +355,6 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>7. Do you have a defined Organization Structure? *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -423,16 +379,6 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
-
-
                                 <div className=" bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>8. According to you, which occupation / job positions are high in demand in the industry. *</strong><br /><span className=" text-green-600 text-sm py-2 font-bold">(You can select the multiple options)</span></p>
 
@@ -466,14 +412,8 @@ const page = () => {
                                         <Field name="demandOthers" className="border h-10 w-2/4 px-2 bg-gray-100" placeholder="Other" />
                                     </div>
                                 </div>
-
-
-
-
-
                                 <div className=" bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>9. According to you, which category/jobs are high in demand in the company. *</strong><br /><span className=" text-green-600 text-sm py-2 font-bold">(You can select the multiple options)</span></p>
-
                                     <div className="flex gap-2 flex-col px-6 mt-6 mb-6">
                                         {categoryJobOptions.map((option, index) => (
                                             <label key={index} className="flex items-center gap-2">
@@ -499,13 +439,6 @@ const page = () => {
                                     </div>
                                     <ErrorMessage name="categoryjob" component="div" className="text-red-600" />
                                 </div>
-
-
-
-
-
-
-
                                 <div className=" bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>10. Please share job vacancies expected in your company in the next three months. *</strong></p>
                                     <FieldArray
@@ -550,17 +483,6 @@ const page = () => {
                                         )}
                                     />
                                 </div>
-
-
-
-
-
-
-
-
-
-
-
                                 <div className=" bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>11. What is your company"s current recruitment process? *</strong><br /><span className=" text-green-600  text-sm py-2 font-bold">(You can select multiple options)</span></p>
 
@@ -591,18 +513,10 @@ const page = () => {
                                         ))}
                                     </div>
                                     <ErrorMessage name="CrProcessv" component="div" className="text-red-600" />
-
                                     <div className="w-full px-6 mt-6 mb-6">
-
                                         <Field name="CRPOthers" className="border h-10 w-2/4 px-4 bg-gray-100" placeholder="Other" />
-
                                     </div>
-
-
                                 </div>
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>12. Do you recruit only skilled workforce? *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -627,11 +541,6 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>13. Do you test candidate’s skills before hiring? *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -656,10 +565,6 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>14. Is your current workforce skill certified? *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -680,20 +585,13 @@ const page = () => {
                                                 />
                                                 <strong>Would like to skill certify existing workforce</strong>
                                             </label>
-
                                             <ErrorMessage name="skillCertified" component="div" className="text-red-600" />
-
                                             <div className="w-full">
-
-                                                <Field name="skillCertifiedOthers" className="border h-10 w-2/4 px-4 bg-gray-100 mt-6" placeholder="Other" />
-
+                                               <Field name="skillCertifiedOthers" className="border h-10 w-2/4 px-4 bg-gray-100 mt-6" placeholder="Other" />
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>15. Do you invest in Reskilling, Upskilling, or Learning Development programs? *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -714,7 +612,6 @@ const page = () => {
                                                 />
                                                 <strong>No</strong>
                                             </label>
-
                                             <label className="flex items-center gap-2">
                                                 <Field
                                                     type="radio"
@@ -723,18 +620,10 @@ const page = () => {
                                                 />
                                                 <strong>We plan to implement in the future</strong>
                                             </label>
-
                                             <ErrorMessage name="ReskillingUpskilling" component="div" className="text-red-600" />
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>16. Do you know about the FFSC"s training programs? *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -755,7 +644,6 @@ const page = () => {
                                                 />
                                                 <strong>No</strong>
                                             </label>
-
                                             <label className="flex items-center gap-2">
                                                 <Field
                                                     type="radio"
@@ -764,15 +652,10 @@ const page = () => {
                                                 />
                                                 <strong>Would like to know more</strong>
                                             </label>
-
                                             <ErrorMessage name="FFSCTraining" component="div" className="text-red-600" />
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>17. Are you aware of the Placement Drives conducted by FFSC? *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -797,8 +680,6 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>18. Would like to know more and participate in the Placement drives. *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -823,14 +704,6 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>19. Are you familiar with the Apprenticeship Act 1961? *</strong><br />
                                         <span className="text-green-700 text-sm font-bold">"The Apprenticeship Act, 1961 was enacted with the objective of regulating the program of training of apprentices in the industry by utilising the facilities available therein for imparting on-the-job training. Ministry of Skill Development and Entrepreneurship is the administrative ministry responsible for the implementation of the Act.”
@@ -858,21 +731,6 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>20. Are you looking for a cost-effective way to train and develop skilled workers for your company? *</strong><br /><span className="text-green-700 text-sm font-bold">National Apprenticeship Promotion Scheme (NAPS), where you can avail financial benefits up to Rs. 9000 per apprentice in 6 Months.</span></p>
 
@@ -906,24 +764,14 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1  pl-6"><strong>21. Would you like to create an apprenticeship academy in your company? *</strong></p>
                                     <p className="text-green-700 text-sm font-bold px-6">Eligibility criteria for engaging apprentices in company:</p>
                                     <ul className="border-b pb-6 px-6">
-                                        <li>0 to 3 Employees - 0% of total workforce (Including Contractual) - <strong>Not eligible to engage apprentices</strong></li>
-                                        <li>4 to 29 Employees - 2.5 % to 10% of total workforce (Including Contractual) - <strong>Engaging apprentices is optional</strong></li>
-                                        <li>Above 29 Employees 2.5 % 10% of total workforce (Including Contractual) - <strong>Engaging apprentices is compulsory</strong></li>
+                                        <li key={"1"}>0 to 3 Employees - 0% of total workforce (Including Contractual) - <strong>Not eligible to engage apprentices</strong></li>
+                                        <li key={"2"}>4 to 29 Employees - 2.5 % to 10% of total workforce (Including Contractual) - <strong>Engaging apprentices is optional</strong></li>
+                                        <li key={"3"}>Above 29 Employees 2.5 % 10% of total workforce (Including Contractual) - <strong>Engaging apprentices is compulsory</strong></li>
                                     </ul>
-
-
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
                                         <div className="w-full">
                                             <label className="flex items-center gap-2">
@@ -942,21 +790,12 @@ const page = () => {
                                                 />
                                                 <strong>No</strong>
                                             </label>
-
                                             <ErrorMessage name="apprenticeshipAcademy" component="div" className="text-red-600" />
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
-
-
-
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>22. Do you encourage the recruitment of female employees for production floor jobs?*</strong></p>
-
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
                                         <div className="w-full">
                                             <label className="flex items-center gap-2">
@@ -975,18 +814,12 @@ const page = () => {
                                                 />
                                                 <strong>No</strong>
                                             </label>
-
                                             <ErrorMessage name="femaleEmployees22" component="div" className="text-red-600" />
                                         </div>
                                     </div>
                                 </div>
-
-
-
-
                                 <div className=" bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>23. FFSC offers the following services, please select the ones which you are interested in and would like to know more about. * </strong> <br /><span className=" text-green-600 text-sm py-2 font-bold">(You can select the multiple options)</span></p>
-
                                     <div className="flex gap-2 flex-col px-6 mt-6 mb-6">
                                         {FFSCSerevicesOption.map((option, index) => (
                                             <div className="flex flex-col">
@@ -1017,13 +850,6 @@ const page = () => {
                                         <Field name="FFSCSerevicesOther" className="border h-10 w-2/4 px-4 bg-gray-100" placeholder="Other" />
                                     </div>
                                 </div>
-
-
-
-
-
-
-
                                 <button type="submit" className="btn btn-success mt-3 bg-orange-600 py-3 border hover:bg-white hover:text-black rounded text-white text-center w-full">
                                     Submit
                                 </button>
