@@ -1023,7 +1023,7 @@ const SkillGapForm = () => {
 
 
                             <button type="submit" className="btn btn-success mt-3 bg-orange-600 py-3 border hover:bg-white hover:text-black rounded text-white text-center w-full">
-                                Submit &raquo;
+                                Submit 
                             </button>
                         </Form>
                     )}
