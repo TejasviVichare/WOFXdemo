@@ -39,7 +39,7 @@ export default function PanelDiscussion() {
                     />
 
                     <Image
-                        className="rounded-t-lg relative z-50 "
+                        className="rounded-t-lg relative "
                         src="/assests/business-talk.png"
                         width="1000"
                         height="250"
