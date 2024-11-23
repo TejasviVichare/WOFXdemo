@@ -95,7 +95,7 @@ const validationSchema = Yup.object().shape({
     }),
 });
 
-const page = () => {
+const SkillForm = () => {
 
 
 
@@ -180,7 +180,6 @@ const page = () => {
                             demandOthers: "",
                             CRPOthers: "",
                             skillCertifiedOthers: "",
-                            
                             multipleLocations: "No",
                             cityNames: [""],
                             FFSCSerevicesOther: "",
@@ -208,6 +207,10 @@ const page = () => {
                                             <ErrorMessage name="category" component="div" className="text-red-600" />
                                         </div>
                                     </div>
+
+
+
+
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
                                         <div className="w-full">
                                             <label>State/UT</label>
@@ -355,6 +358,39 @@ const page = () => {
                                         </div>
                                     </div>
                                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 <div className="bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>7. Do you have a defined Organization Structure? *</strong></p>
                                     <div className="flex gap-6 px-6 mt-6 mb-6">
@@ -439,6 +475,39 @@ const page = () => {
                                     </div>
                                     <ErrorMessage name="categoryjob" component="div" className="text-red-600" />
                                 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                 <div className=" bg-white shadow-md hover:bg-orange-50  py-4 mt-8" style={{ border: "1px solid #EF7F1A" }}>
                                     <p className=" text-blue-950 text-xl pb-4 pt-1 border-b pl-6"><strong>10. Please share job vacancies expected in your company in the next three months. *</strong></p>
                                     <FieldArray
@@ -587,7 +656,7 @@ const page = () => {
                                             </label>
                                             <ErrorMessage name="skillCertified" component="div" className="text-red-600" />
                                             <div className="w-full">
-                                               <Field name="skillCertifiedOthers" className="border h-10 w-2/4 px-4 bg-gray-100 mt-6" placeholder="Other" />
+                                                <Field name="skillCertifiedOthers" className="border h-10 w-2/4 px-4 bg-gray-100 mt-6" placeholder="Other" />
                                             </div>
                                         </div>
                                     </div>
@@ -845,7 +914,7 @@ const page = () => {
                                             </div>
                                         ))}
                                     </div>
-                                    <ErrorMessage name="demand" component="div" className="text-red-600" />
+                                    <ErrorMessage name="FFSCSerevices" component="div" className="text-red-600" />
                                     <div className="w-full px-6 mt-6 mb-6">
                                         <Field name="FFSCSerevicesOther" className="border h-10 w-2/4 px-4 bg-gray-100" placeholder="Other" />
                                     </div>
@@ -862,4 +931,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default SkillForm;
