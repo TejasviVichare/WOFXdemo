@@ -88,7 +88,7 @@ export default function PanelDiscussion() {
                             </div>
                         </div>
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
-                            <Image className="rounded-t-lg mb-2 hidden" src="/assests/speaker (5).png" width="100" height="250" alt="Speaker Image" />
+                            <Image className="rounded-t-lg mb-2 hidden" src="/assests/speaker (5).png" width="40" height="130" alt="Speaker Image" />
                             <div class="text-center hidden">
                                 <strong>Mr. Rahul Mehta</strong>
                                 <br />
@@ -98,7 +98,7 @@ export default function PanelDiscussion() {
                     </div>
                     <p>&nbsp;</p>
                     <div className="flex justify-center">
-                        <Link className="rounded  bg-black text-white px-6 py-3  cursor-pointer hover:bg-white hover:text-black  " style={{ border: "1px solid black", letterSpacing: "2px" }} href="/">Click Here to Register  &raquo;</Link>
+                        <Link className="rounded  bg-black text-white px-6 py-3  cursor-pointer hover:bg-white hover:text-black  " style={{ border: "1px solid black", letterSpacing: "2px" }} href="/seminar-registration-form">Click Here to Register  &raquo;</Link>
                     </div>
                     <p>&nbsp;</p>
                 </div>
