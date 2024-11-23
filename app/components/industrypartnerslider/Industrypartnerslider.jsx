@@ -17,6 +17,7 @@ import HPMF from '../../../public/assests/orgnization/HPMF.webp';
 import IICCI from '../../../public/assests/orgnization/12.webp';
 import CIE from '../../../public/assests/orgnization/11.webp';
  import IIID from '../../../public/assests/orgnization/IIID.png';
+ import AIN from '../../../public/assests/orgnization/AIN.jpg';
 
 
 function Industrypartnerslider() {
@@ -67,6 +68,9 @@ function Industrypartnerslider() {
                         </Slider.Slide>
                         <Slider.Slide>
                             <a href="https://hpmf.in/"><Image src={HPMF} width={200} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                        <Slider.Slide>
+                            <a href="https://aiaiindia.com/"><Image src={AIN} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
                             <a href="https://www.indianimporterschambers.com/"><Image src={IICCI} width={200} height='auto' alt='a' /></a>
