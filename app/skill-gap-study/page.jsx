@@ -126,6 +126,7 @@ const SkillForm = () => {
                 icon: "success",
             }).then(() => window.location.reload());
         } catch (error) {
+            console.log(error, "error from backend")
             setShowHideLoader(false);
             Swal.fire({
                 text: "You have already registered",
