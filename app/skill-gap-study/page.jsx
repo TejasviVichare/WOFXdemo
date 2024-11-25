@@ -111,11 +111,10 @@ const SkillForm = () => {
                 category: values.category ? values.category.value : '',
                 state: values.state ? values.state.value : '',
                 positions: values.positions.map(pos => ({
-                    name: pos.name,
-                    number: pos.number,
+                    name: pos.positionName,
+                    number: pos.positionNumber,
                 })), 
             };
-            
 
             console.log(submissionData, "form Data for submit");
             const response = await axios.post(
