@@ -103,7 +103,7 @@ const SkillForm = () => {
     const [showHideLoader, setShowHideLoader] = useState(false);
 
     const handleSubmit = async (values) => {
-        setShowHideLoader(true);
+        // setShowHideLoader(true);
         try {
 
             const submissionData = {
@@ -121,14 +121,14 @@ const SkillForm = () => {
                 }
             );
             console.log(response, "res form backend one")
-            setShowHideLoader(false);
+            // setShowHideLoader(false);
             Swal.fire({
                 text: "Thank you for showing interest. We shall contact you soon with more details.",
                 icon: "success",
             }).then((res) => console.log(res, "res form backend"));
         } catch (error) {
             console.log(error, "error from backend")
-            setShowHideLoader(false);
+            // setShowHideLoader(false);
             Swal.fire({
                 text: "You have already registered",
                 icon: "warning",
@@ -137,9 +137,9 @@ const SkillForm = () => {
         }
     };
 
-    if (showHideLoader) {
-        return <Loader />
-    }
+    // if (showHideLoader) {
+    //     return <Loader />
+    // }
 
 
     console.log("checking the form Re-render")
