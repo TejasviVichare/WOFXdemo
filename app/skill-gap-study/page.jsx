@@ -281,7 +281,7 @@ const SkillForm = () => {
                                                         ))}
                                                         <button
                                                             type="button"
-                                                            className="bg-green-700 text-white py-2 px-3 mt-2"
+                                                            className="bg-green-700 text-white py-2 px-3 mt-2 ml-6"
                                                             onClick={() => push("")}
                                                         >
                                                             Add More City +
