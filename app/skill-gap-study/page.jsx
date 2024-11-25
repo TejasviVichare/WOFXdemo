@@ -108,8 +108,8 @@ const SkillForm = () => {
 
             const submissionData = {
                 ...values,
-                // category: values.category ? values.category.name : '',
-                // state: values.state ? values.state.name : '',
+                category: values.category ? values.category.value : '',
+                state: values.state ? values.state.value : '',
                 positions: values.positions.map(pos => pos.positionName).join(', '), // Adjust based on your actual object structure
             };
 
