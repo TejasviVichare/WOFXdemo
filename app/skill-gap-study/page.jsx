@@ -108,6 +108,9 @@ const SkillForm = () => {
 
             const submissionData = {
                 ...values,
+                category: values.category ? values.category.name : '',
+                state: values.state ? values.state.name : '',
+                positions: values.positions.map(pos => pos.positionName).join(', '), // Adjust based on your actual object structure
             };
 
             console.log(submissionData, "form Data for submit");
