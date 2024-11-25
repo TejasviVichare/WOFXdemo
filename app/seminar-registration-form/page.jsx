@@ -62,12 +62,14 @@ const MyForm = () => {
           },
         }
       );
+      console.log(response, "response from API")
       setShowHideLoader(false);
       Swal.fire({
         text: "Thank You for Registration.",
         icon: "success",
       }).then(() => window.location.reload());
     } catch (error) {
+      console.log(error, "error from backend")
       setShowHideLoader(false);
       Swal.fire({
         text: "You have already registered",
