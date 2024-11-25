@@ -110,10 +110,9 @@ const SkillForm = () => {
                 ...values,
                 category: values.category ? values.category.value : '',
                 state: values.state ? values.state.value : '',
-                positions: values.positions.map(pos => ({
-                    name: pos.positionName,
-                    number: pos.positionNumber,
-                })), 
+                positions: values.positions
+                .map(pos => `${pos.positionName}:${pos.positionNumber}`)
+                .join(', '),
             };
 
             console.log(submissionData, "form Data for submit");
