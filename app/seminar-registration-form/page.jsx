@@ -41,35 +41,43 @@ const MyForm = () => {
   const handleSubmit = async (values) => {
     setShowHideLoader(true);
     try {
-
+     
       const submissionData = {
-        ...values,
-        media_cat: values.media_cat.concat(
-          values.media_cat_other ? [values.media_cat_other] : []
-        ),
-        industry_products: values.industry_products.concat(
-          values.industry_products_other ? [values.industry_products_other] : []
-        ),
+        person_name: values.name,
+        company_name: values.organisation,
+        designation: values.designation,
+        city: values.city,
+        country: values.country,
+        mobile: values.mobile,
+        email: values.primary_email,
+        website: values.website || "", // Optional field
+        nob: values.media_cat.join(", "), // Nature of Business as a comma-separated string
+        nob_other: values.media_cat_other || "", // If "Others" is specified
+        product_category: values.industry_products.join(", "), // Product category as a comma-separated string
+        product_category_other: values.industry_products_other || "", // If "Others" is specified
       };
-
+  
       console.log(submissionData, "form Data for submit");
+  
+      // Send the form data as JSON instead of URL-encoded
       const response = await axios.post(
         "https://bee2bee.asia/api/public/wofx/seminar-registration",
-        new URLSearchParams(submissionData),
+        submissionData, // Direct JSON payload
         {
           headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
+            "Content-Type": "application/json",
           },
         }
       );
-      console.log(response, "response from API")
+  
+      console.log(response, "response from API");
       setShowHideLoader(false);
       Swal.fire({
         text: "Thank You for Registration.",
         icon: "success",
       }).then(() => window.location.reload());
     } catch (error) {
-      console.log(error, "error from backend")
+      console.log(error, "error from");
       setShowHideLoader(false);
       Swal.fire({
         text: "You have already registered",
@@ -78,7 +86,7 @@ const MyForm = () => {
       });
     }
   };
-
+  
   if (showHideLoader) {
     return <Loader />
   }
@@ -108,10 +116,10 @@ const MyForm = () => {
               country: "",
               mobile: "",
               primary_email: "",
-              media_cat: [], // Array for multiple select values
-              media_cat_other: "", // Other media category
-              industry_products: [], // Industry/product categories
-              industry_products_other: "", // Other industry/product category
+              media_cat: [], 
+              media_cat_other: "", 
+              industry_products: [], 
+              industry_products_other: "", 
               terms_and_conditions: false,
             }}
             validationSchema={validationSchema}
