@@ -39,75 +39,68 @@ const MyForm = () => {
   const [showHideLoader, setShowHideLoader] = useState(false);
 
   const handleSubmit = async (values) => {
-    // Optionally show a loader here
-    // setShowHideLoader(true);
-    
+    setShowHideLoader(true);
+  
     const submissionData = {
-        person_name: values.name,
-        company_name: values.organisation,
-        designation: values.designation,
-        city: values.city,
-        country: values.country,
-        mobile: values.mobile,
-        email: values.primary_email,
-        website: values.website || "",
-        nob: values.media_cat.join(", "),
-        nob_other: values.media_cat_other || "",
-        product_category: values.industry_products.join(", "),
-        product_category_other: values.industry_products_other || "",
+      person_name: values.name,
+      company_name: values.organisation,
+      designation: values.designation,
+      city: values.city,
+      country: values.country,
+      mobile: values.mobile,
+      email: values.primary_email,
+      website: values.website || "",
+      nob: values.media_cat.join(", "),
+      nob_other: values.media_cat_other || "",
+      product_category: values.industry_products.join(", "),
+      product_category_other: values.industry_products_other || "",
     };
-
+  
     console.log(submissionData, "form Data for submit");
-
+  
     try {
-        const response = await axios.post(
-            "https://api.worldexindia.com/wofx/seminar-registration-next.php",
-            new URLSearchParams(submissionData),
-            {
-                headers: {
-                    "Content-Type": "application/x-www-form-urlencoded",
-                },
-            }
-        );
-
-        console.log(response, "response from API");
-
-        // Parse the response data
-        const data = response.data.split('Response: ')[1];
-        
-        // Split into individual responses
-        const responses = data.match(/({.*?})/g).map(JSON.parse);
-
-        // Check for messages and display accordingly
-        responses.forEach(item => {
-            if (item.status === "success") {
-                Swal.fire({
-                    text: item.message || "Thank You for Registration.",
-                    icon: "success",
-                });
-            } else if (item.status === "F") {
-                Swal.fire({
-                    text: item.message || "You have already registered.",
-                    icon: "warning",
-                    confirmButtonText: "Close",
-                });
-            }
-        });
-
+      // First API call
+      const response = await axios.post(
+        "https://api.worldexindia.com/wofx/seminar-registration-next.php",
+        new URLSearchParams(submissionData),
+        {
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+        }
+      );
+  
+      console.log(response, "response from API");
+      Swal.fire({
+        text: "Thank You for Registration.",
+        icon: "success",
+      }).then(() => window.location.reload());
     } catch (error) {
-        console.error(error, "error from first API");
-        
-        Swal.fire({
-            text: "An error occurred while processing your request.",
-            icon: "error",
-            confirmButtonText: "Close",
-        });
+      console.log(error, "error from first API");
+      Swal.fire({
+        text: "You have already registered",
+        icon: "warning",
+        confirmButtonText: "Close",
+      });
     } finally {
-        // Optionally hide the loader here
-        // setShowHideLoader(false);
+      setShowHideLoader(false);
     }
-};
-
+  
+    // Second API call without error handling
+    // axios
+    //   .post("https://bee2bee.asia/api/public/wofx/seminar-registration", submissionData, {
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //   })
+    //   .then(() => {
+    //     console.log("Second API call was successful.");
+    //   })
+    //   .catch((error) => {
+    //     console.log("Error in second API call:", error);
+    //   });
+  };
+  
 
   if (showHideLoader) {
     return <Loader />
