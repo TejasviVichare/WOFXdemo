@@ -31,7 +31,7 @@ export default function PanelDiscussion() {
                             backgroundImage: 'radial-gradient(circle, #a6ccfb, #afd0fa, #b8d5f9, #c0d9f8, #c9ddf7, #d1e1f7, #d9e5f8, #e1e9f8, #eaeefa, #f2f3fb, #f9f9fd, #ffffff)',
                             filter: 'blur(30px)',
                             position: 'absolute',
-                            zIndex:"-3",
+                            zIndex: "-3",
                             top: position.y + 250, // Offset for centering the gradient
                             left: position.x - 400, // Offset for centering the gradient
                             pointerEvents: 'none', // Ensures it doesn't block mouse interaction
@@ -66,7 +66,7 @@ export default function PanelDiscussion() {
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
                             <Image className="rounded-t-lg mb-2" src="/assests/speaker (3).png" width="120" height="250" alt="Speaker Image" />
                             <div class="text-center">
-                                <strong>Dr. Mahesh M.</strong>
+                                <strong>Mahesh M.</strong>
                                 <br />
                                 <span class="text-sm"><em>CEO,  <br /> Creaticity</em></span>
                             </div>
@@ -97,8 +97,13 @@ export default function PanelDiscussion() {
                         </div>
                     </div>
                     <p>&nbsp;</p>
-                    <div className="flex justify-center">
-                        <Link className="rounded  bg-black text-white px-6 py-3  cursor-pointer hover:bg-white hover:text-black  " style={{ border: "1px solid black", letterSpacing: "2px" }} href="/seminar-registration-form">Click Here to Register  &raquo;</Link>
+                    <div className="flex flex-col sm:flex-row justify-center gap-9 px-2">
+                        <Link className="rounded text-center bg-black text-white px-6 py-3 cursor-pointer hover:bg-white hover:text-black" style={{ border: "1px solid black", letterSpacing: "2px" }} href="/seminar-registration-form">
+                            Click Here to Register &raquo;
+                        </Link>
+                        <Link className="rounded text-center bg-black text-white px-6 py-3 cursor-pointer hover:bg-white hover:text-black" style={{ border: "1px solid black", letterSpacing: "2px" }} href="/assests/pdf/SMART-TALK.pdf">
+                            Seminar Rundown &raquo;
+                        </Link>
                     </div>
                     <p>&nbsp;</p>
                 </div>
