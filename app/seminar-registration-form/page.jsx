@@ -39,7 +39,7 @@ const MyForm = () => {
   const [showHideLoader, setShowHideLoader] = useState(false);
 
   const handleSubmit = async (values) => {
-    setShowHideLoader(true);
+    // setShowHideLoader(true);
     const submissionData = {
       person_name: values.name,
       company_name: values.organisation,
@@ -54,9 +54,9 @@ const MyForm = () => {
       product_category: values.industry_products.join(", "),
       product_category_other: values.industry_products_other || "",
     };
-  
+
     console.log(submissionData, "form Data for submit");
-  
+
     try {
       const response = await axios.post(
         "https://api.worldexindia.com/wofx/seminar-registration-next.php",
@@ -67,45 +67,24 @@ const MyForm = () => {
           },
         }
       );
-  
+
       console.log(response, "response from API");
-  
-      // Parse the response data
-      const responseData = response?.data?.data || "";
-      const parsedData = JSON.parse(
-        responseData.replace(/Response: /, "")
-      );
-  
-      if (parsedData.status === "success") {
-        Swal.fire({
-          text: parsedData.message,
-          icon: "success",
-        }).then(() => window.location.reload());
-      } else if (parsedData.status === "F") {
-        Swal.fire({
-          text: parsedData.message,
-          icon: "warning",
-          confirmButtonText: "Close",
-        });
-      } else {
-        Swal.fire({
-          text: "Unexpected response from the server.",
-          icon: "error",
-          confirmButtonText: "Close",
-        });
-      }
+      Swal.fire({
+        text: "Thank You for Registration.",
+        icon: "success",
+      }).then((re) => console.log(res));
     } catch (error) {
       console.log(error, "error from first API");
       Swal.fire({
-        text: "An error occurred. Please try again later.",
-        icon: "error",
+        text: "You have already registered",
+        icon: "warning",
         confirmButtonText: "Close",
       });
     } finally {
-      setShowHideLoader(false);
+      // setShowHideLoader(false);
     }
+
   };
-  
 
 
   if (showHideLoader) {
