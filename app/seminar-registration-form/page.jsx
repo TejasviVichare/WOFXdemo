@@ -40,7 +40,6 @@ const MyForm = () => {
 
   const handleSubmit = async (values) => {
     setShowHideLoader(true);
-  
     const submissionData = {
       person_name: values.name,
       company_name: values.organisation,
@@ -59,7 +58,6 @@ const MyForm = () => {
     console.log(submissionData, "form Data for submit");
   
     try {
-      // First API call
       const response = await axios.post(
         "https://api.worldexindia.com/wofx/seminar-registration-next.php",
         new URLSearchParams(submissionData),
@@ -71,36 +69,44 @@ const MyForm = () => {
       );
   
       console.log(response, "response from API");
-      Swal.fire({
-        text: "Thank You for Registration.",
-        icon: "success",
-      }).then(() => window.location.reload());
+  
+      // Parse the response data
+      const responseData = response?.data?.data || "";
+      const parsedData = JSON.parse(
+        responseData.replace(/Response: /, "")
+      );
+  
+      if (parsedData.status === "success") {
+        Swal.fire({
+          text: parsedData.message,
+          icon: "success",
+        }).then(() => window.location.reload());
+      } else if (parsedData.status === "F") {
+        Swal.fire({
+          text: parsedData.message,
+          icon: "warning",
+          confirmButtonText: "Close",
+        });
+      } else {
+        Swal.fire({
+          text: "Unexpected response from the server.",
+          icon: "error",
+          confirmButtonText: "Close",
+        });
+      }
     } catch (error) {
       console.log(error, "error from first API");
       Swal.fire({
-        text: "You have already registered",
-        icon: "warning",
+        text: "An error occurred. Please try again later.",
+        icon: "error",
         confirmButtonText: "Close",
       });
     } finally {
       setShowHideLoader(false);
     }
-  
-    // Second API call without error handling
-    // axios
-    //   .post("https://bee2bee.asia/api/public/wofx/seminar-registration", submissionData, {
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //   })
-    //   .then(() => {
-    //     console.log("Second API call was successful.");
-    //   })
-    //   .catch((error) => {
-    //     console.log("Error in second API call:", error);
-    //   });
   };
   
+
 
   if (showHideLoader) {
     return <Loader />
