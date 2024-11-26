@@ -49,7 +49,7 @@ export default function PanelDiscussion() {
                         <div class=" speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
                             <Image className="rounded-t-lg mb-2" src="/assests/speaker (1).png" width="100" height="250" alt="Speaker Image" />
                             <div class="text-center">
-                                <strong>Mr. Hussaine Kesury</strong>
+                                <strong> Hussaine Kesury</strong>
                                 <br />
                                 <span class="text-sm"><em>Chief Business Officer, <br /> Pepperfry</em></span>
                             </div>
@@ -58,7 +58,7 @@ export default function PanelDiscussion() {
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
                             <Image className="rounded-t-lg mb-2" src="/assests/speaker (2).png" width="90" height="230" alt="Speaker Image" />
                             <div class="text-center">
-                                <strong>Mr. Huzefa Samplewala</strong>
+                                <strong> Huzefa Samplewala</strong>
                                 <br />
                                 <span class="text-sm"><em>President, Association of <br /> Furniture Manufacturers and Traders</em></span>
                             </div>
@@ -74,7 +74,7 @@ export default function PanelDiscussion() {
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
                             <Image className="rounded-t-lg mb-2" src="/assests/speaker (4).png" width="90" height="250" alt="Speaker Image" />
                             <div class="text-center">
-                                <strong>Mr. Puneet Dudeja</strong>
+                                <strong> Puneet Dudeja</strong>
                                 <br />
                                 <span class="text-sm"><em>Director, Business Development, <br /> South Asia, WGSN</em></span>
                             </div>
@@ -82,7 +82,7 @@ export default function PanelDiscussion() {
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
                             <Image className="rounded-t-lg mb-2" src="/assests/speaker (5).png" width="88" height="250" alt="Speaker Image" />
                             <div class="text-center">
-                                <strong>Mr. Rahul Mehta</strong>
+                                <strong> Rahul Mehta</strong>
                                 <br />
                                 <span class="text-sm"><em>CEO, Furniture & Fittings <br />Skill Council</em></span>
                             </div>
@@ -90,7 +90,7 @@ export default function PanelDiscussion() {
                         <div class="speakerBox  rounded-lg flex flex-col justify-center items-center p-4 w-full h-60">
                             <Image className="rounded-t-lg mb-2" src="/assests/speaker (6).png" width="88" height="250" alt="Speaker Image" />
                             <div class="text-center">
-                                <strong>Mr. Serkan Sen</strong>
+                                <strong> Serkan Sen</strong>
                                 <br />
                                 <span class="text-sm"><em>Director, International Markets <br />Konfor</em></span>
                             </div>
