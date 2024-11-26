@@ -87,18 +87,18 @@ const MyForm = () => {
     }
   
     // Second API call without error handling
-    // axios
-    //   .post("https://bee2bee.asia/api/public/wofx/seminar-registration", submissionData, {
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //   })
-    //   .then(() => {
-    //     console.log("Second API call was successful.");
-    //   })
-    //   .catch((error) => {
-    //     console.log("Error in second API call:", error);
-    //   });
+    axios
+      .post("https://bee2bee.asia/api/public/wofx/seminar-registration", submissionData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+      .then(() => {
+        console.log("Second API call was successful.");
+      })
+      .catch((error) => {
+        console.log("Error in second API call:", error);
+      });
   };
   
 
