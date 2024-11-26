@@ -101,9 +101,9 @@ export default function PanelDiscussion() {
                         <Link className="rounded text-center bg-black text-white px-6 py-3 cursor-pointer hover:bg-white hover:text-black" style={{ border: "1px solid black", letterSpacing: "2px" }} href="/seminar-registration-form">
                             Click Here to Register &raquo;
                         </Link>
-                        <Link className="rounded text-center bg-black text-white px-6 py-3 cursor-pointer hover:bg-white hover:text-black" style={{ border: "1px solid black", letterSpacing: "2px" }} href="/assests/pdf/SMART-TALK.pdf">
+                        {/* <Link className="rounded text-center bg-black text-white px-6 py-3 cursor-pointer hover:bg-white hover:text-black" style={{ border: "1px solid black", letterSpacing: "2px" }} href="/assests/pdf/SMART-TALK.pdf">
                             Seminar Rundown &raquo;
-                        </Link>
+                        </Link> */}
                     </div>
                     <p>&nbsp;</p>
                 </div>
