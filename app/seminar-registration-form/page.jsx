@@ -39,52 +39,74 @@ const MyForm = () => {
   const [showHideLoader, setShowHideLoader] = useState(false);
 
   const handleSubmit = async (values) => {
+    // Optionally show a loader here
     // setShowHideLoader(true);
+    
     const submissionData = {
-      person_name: values.name,
-      company_name: values.organisation,
-      designation: values.designation,
-      city: values.city,
-      country: values.country,
-      mobile: values.mobile,
-      email: values.primary_email,
-      website: values.website || "",
-      nob: values.media_cat.join(", "),
-      nob_other: values.media_cat_other || "",
-      product_category: values.industry_products.join(", "),
-      product_category_other: values.industry_products_other || "",
+        person_name: values.name,
+        company_name: values.organisation,
+        designation: values.designation,
+        city: values.city,
+        country: values.country,
+        mobile: values.mobile,
+        email: values.primary_email,
+        website: values.website || "",
+        nob: values.media_cat.join(", "),
+        nob_other: values.media_cat_other || "",
+        product_category: values.industry_products.join(", "),
+        product_category_other: values.industry_products_other || "",
     };
 
     console.log(submissionData, "form Data for submit");
 
     try {
-      const response = await axios.post(
-        "https://api.worldexindia.com/wofx/seminar-registration-next.php",
-        new URLSearchParams(submissionData),
-        {
-          headers: {
-            "Content-Type": "application/x-www-form-urlencoded",
-          },
-        }
-      );
+        const response = await axios.post(
+            "https://api.worldexindia.com/wofx/seminar-registration-next.php",
+            new URLSearchParams(submissionData),
+            {
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                },
+            }
+        );
 
-      console.log(response, "response from API");
-      Swal.fire({
-        text: "Thank You for Registration.",
-        icon: "success",
-      }).then((re) => console.log(res));
+        console.log(response, "response from API");
+
+        // Parse the response data
+        const data = response.data.split('Response: ')[1];
+        
+        // Split into individual responses
+        const responses = data.match(/({.*?})/g).map(JSON.parse);
+
+        // Check for messages and display accordingly
+        responses.forEach(item => {
+            if (item.status === "success") {
+                Swal.fire({
+                    text: item.message || "Thank You for Registration.",
+                    icon: "success",
+                });
+            } else if (item.status === "F") {
+                Swal.fire({
+                    text: item.message || "You have already registered.",
+                    icon: "warning",
+                    confirmButtonText: "Close",
+                });
+            }
+        });
+
     } catch (error) {
-      console.log(error, "error from first API");
-      Swal.fire({
-        text: "You have already registered",
-        icon: "warning",
-        confirmButtonText: "Close",
-      });
+        console.error(error, "error from first API");
+        
+        Swal.fire({
+            text: "An error occurred while processing your request.",
+            icon: "error",
+            confirmButtonText: "Close",
+        });
     } finally {
-      // setShowHideLoader(false);
+        // Optionally hide the loader here
+        // setShowHideLoader(false);
     }
-
-  };
+};
 
 
   if (showHideLoader) {
