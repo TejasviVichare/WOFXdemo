@@ -15,7 +15,7 @@ function page() {
     <div className='mx-auto   w-full max-w-screen-2xl py-16'>
       <h1 className="text-center text-3xl font-semibold mt-12  py-10">F + D Furniture Insights & Analysis</h1>
       <div className="flex justify-center">
-        <div className=" w-4/5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 place-items-center">
+        <div className="w-4/5 flex justify-center items-center gap-8 mb-8">
 
 
           <div className="border py-4 hover:bg-slate-900">
@@ -88,7 +88,7 @@ function page() {
 
 
 
-<div></div>
+
 
 
 
@@ -114,7 +114,6 @@ function page() {
             </div>
           </div>
 
-          <div></div>
 
         </div>
       </div>
