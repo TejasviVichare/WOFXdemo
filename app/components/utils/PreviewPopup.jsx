@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Image from "next/image";
-import preImage1 from '../../../public/assests/previewPopup.png';
+import preImage1 from '../../../public/assests/POP-UP.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons'; // Importing the close icon
 import Link from 'next/link';
