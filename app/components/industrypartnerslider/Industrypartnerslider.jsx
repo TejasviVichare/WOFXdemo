@@ -1,7 +1,4 @@
 'use client'
-// import Slider from 'react-slick';
-// import 'slick-carousel/slick/slick.css';
-// import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 import Slider from 'react-infinite-logo-slider'
 
@@ -16,8 +13,9 @@ import MHEA from '../../../public/assests/orgnization/13.webp';
 import HPMF from '../../../public/assests/orgnization/HPMF.webp';
 import IICCI from '../../../public/assests/orgnization/12.webp';
 import CIE from '../../../public/assests/orgnization/11.webp';
- import IIID from '../../../public/assests/orgnization/IIID.png';
- import AIN from '../../../public/assests/orgnization/AIN.jpg';
+import IIID from '../../../public/assests/orgnization/IIID.png';
+import AIN from '../../../public/assests/orgnization/AIN.jpg';
+import SMEChamber from '../../../public/assests/orgnization/SME-Chamber.png';
 
 
 function Industrypartnerslider() {
@@ -68,6 +66,9 @@ function Industrypartnerslider() {
                         </Slider.Slide>
                         <Slider.Slide>
                             <a href="https://hpmf.in/"><Image src={HPMF} width={200} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                        <Slider.Slide>
+                            <a href="https://www.smechamberofindia.com/"><Image src={SMEChamber} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
                             <a href="https://aiaiindia.com/"><Image src={AIN} width={200} height='auto' alt='a' /></a>
