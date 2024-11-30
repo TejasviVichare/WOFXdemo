@@ -18,6 +18,7 @@ import AIN from '../../../public/assests/orgnization/AIN.jpg';
 import SMEChamber from '../../../public/assests/orgnization/SME-Chamber.png';
 import eib from '../../../public/assests/orgnization/eib.png';
 import rtmt from '../../../public/assests/orgnization/rtmt.png';
+import mchi_thane from '../../../public/assests/orgnization/mchi-thane.png';
 
 
 
@@ -41,7 +42,28 @@ function Industrypartnerslider() {
                         blurBorders={false}
                     >
                         <Slider.Slide>
+                            <a href="https://mchithane.org/web/"><Image src={mchi_thane} width={200} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                         <Slider.Slide>
+                            <a href="https://aiaiindia.com/"><Image src={AIN} width={200} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                        <Slider.Slide>
+                            <a href="https://www.smechamberofindia.com/"><Image src={SMEChamber} width={200} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                        <Slider.Slide>
+                            <a href="https://www.iiid.in/"><Image src={IIID} width={200} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                        <Slider.Slide>
+                            <a href="https://www.iiamumbai.com/"><Image src={IIA} width={200} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                        <Slider.Slide>
+                            <a href="https://www.fumma.in/"><Image src={fumma} width={200} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                        <Slider.Slide>
                             <a href="https://www.baionline.in/"><Image src={bai} width={200} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                        <Slider.Slide>
+                            <a href="https://aesapune.org/"><Image src={AESA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
                             <a href="https://www.fhrai.com/index.aspx"><Image src={fhandra} width={200} height='auto' alt='a' /></a>
@@ -50,36 +72,30 @@ function Industrypartnerslider() {
                             <a href="https://www.hrawi.com/index.aspx"><Image src={HRAWI} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="https://www.iiamumbai.com/"><Image src={IIA} width={200} height='auto' alt='a' /></a>
+                            <a href="https://hpmf.in/"><Image src={HPMF} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="#"><Image src={rtmt} width={120} height='auto' alt='a' /></a>
-                        </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="#"><Image src={eib} width={180} height='auto' alt='a' /></a>
-                        </Slider.Slide>
+
+
+
+
+
+
+
+
+                   
                        
-                        <Slider.Slide>
-                            <a href="https://aesapune.org/"><Image src={AESA} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="https://www.fumma.in/"><Image src={fumma} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
+                       
+                      
+                     
                         <Slider.Slide>
                             <a href="#"><Image src={AFA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
                             <a href="#"><Image src={MHEA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="https://hpmf.in/"><Image src={HPMF} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="https://www.smechamberofindia.com/"><Image src={SMEChamber} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
-                        <Slider.Slide>
-                            <a href="https://aiaiindia.com/"><Image src={AIN} width={200} height='auto' alt='a' /></a>
-                        </Slider.Slide>
+                      
+                     
+                       
                         <Slider.Slide>
                             <a href="https://www.indianimporterschambers.com/"><Image src={IICCI} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
@@ -88,7 +104,12 @@ function Industrypartnerslider() {
                             <a href="https://cieonline.org/"><Image src={CIE} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                       
-                  
+                        <Slider.Slide>
+                            <a href="#"><Image src={rtmt} width={120} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                        <Slider.Slide>
+                            <a href="#"><Image src={eib} width={180} height='auto' alt='a' /></a>
+                        </Slider.Slide>
                       
                   
                     </Slider>
