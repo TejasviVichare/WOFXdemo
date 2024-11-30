@@ -16,6 +16,9 @@ import CIE from '../../../public/assests/orgnization/11.webp';
 import IIID from '../../../public/assests/orgnization/IIID.png';
 import AIN from '../../../public/assests/orgnization/AIN.jpg';
 import SMEChamber from '../../../public/assests/orgnization/SME-Chamber.png';
+import eib from '../../../public/assests/orgnization/eib.png';
+import rtmt from '../../../public/assests/orgnization/rtmt.png';
+
 
 
 function Industrypartnerslider() {
@@ -50,8 +53,12 @@ function Industrypartnerslider() {
                             <a href="https://www.iiamumbai.com/"><Image src={IIA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
                         <Slider.Slide>
-                            <a href="https://www.iiid.in/"><Image src={IIID} width={200} height='auto' alt='a' /></a>
+                            <a href="#"><Image src={rtmt} width={120} height='auto' alt='a' /></a>
                         </Slider.Slide>
+                        <Slider.Slide>
+                            <a href="#"><Image src={eib} width={180} height='auto' alt='a' /></a>
+                        </Slider.Slide>
+                       
                         <Slider.Slide>
                             <a href="https://aesapune.org/"><Image src={AESA} width={200} height='auto' alt='a' /></a>
                         </Slider.Slide>
