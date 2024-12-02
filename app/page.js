@@ -62,7 +62,7 @@ export default function Home() {
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <center>
-        <h1 className="text-3xl">Brand Connect @WOFX 2024 </h1>
+        <h1 className="text-3xl">Brands Connect @WOFX 2024 </h1>
       </center>
    
 {/*       

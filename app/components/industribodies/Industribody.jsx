@@ -52,7 +52,7 @@ function Industribody() {
                     <center>
                         <h3 className='relative'>House of Brands Partner</h3>
                     </center>
-                    <a href="#" className={style.card}>
+                    <a href="https://creaticityonline.com/" className={style.card}>
                         <Image width="120" className='industry_body_img2' src={houseOfBrand} alt="Card Background" />
                         
                     </a>
