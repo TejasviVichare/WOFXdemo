@@ -65,7 +65,7 @@ const navItems = [
         },
         {
           label: "Show Directory",
-          link: "https://online.anyflip.com/qpeq/yhff/mobile/index.html",
+          link: "https://online.anyflip.com/qpeq/hkix/mobile/index.html",
         },
         {
           label: "Xclusive Preview 2024",
