@@ -60,7 +60,7 @@ export default function PreviewPopup() {
          
 
    .popup-content {
-
+    background:rgba(255,255,255,0.7);
     padding: 10px;
     border-radius: 8px; /* Adjusted for more noticeable rounding */
     text-align: center;
