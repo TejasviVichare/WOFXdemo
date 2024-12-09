@@ -17,21 +17,22 @@ export default function PreviewPopup() {
             {isOpen && (
                 <div className={`popup-overlay ${isOpen ? 'fade-in' : 'fade-out'}`}>
                     <div className='popup-content'>
-                        <Image
+                        {/* <Image
                             className="post-show-img"
                             src={preImage1}
                             width="auto"
                             height="auto"
                             alt="Preview 1"
-                        />
-                        <span className='text-md  py-6  text-black'>View leading Indian & International Furniture Brands @ WOFX</span>
+                        /> */}
+                        <span className='text-2xl  py-6  font-semibold text-black'>Thank you for making WOFX 2024 a Great Success!</span>
+                        <span className='text-xl'>See you in 2025...</span>
                         <button onClick={handleClose} className="close-button">
                             <FontAwesomeIcon icon={faTimes} />
                         </button>
 
-                        <Link href="/preview-2024" className='bg-black text-white mt-2 px-6 py-2 tracking-wider rounded-sm'>
+                        {/* <Link href="/preview-2024" className='bg-black text-white mt-2 px-6 py-2 tracking-wider rounded-sm'>
                             Click Here
-                        </Link>
+                        </Link> */}
 
                         
                     </div>
