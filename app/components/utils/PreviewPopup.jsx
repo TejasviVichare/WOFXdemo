@@ -23,7 +23,7 @@ export default function PreviewPopup() {
                         <Image
                             className="post-show-img rounded"
                             src={thankou}
-                            width="300"
+                            width="360"
                             height="auto"
                             alt="Preview 1"
                         />
