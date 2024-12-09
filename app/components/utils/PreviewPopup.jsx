@@ -4,6 +4,10 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons'; // Importing the close icon
 import Link from 'next/link';
+import Image from 'next/image';
+
+import thankou from '../../../public/assests/Thank-You.jpg';
+
 
 
 export default function PreviewPopup() {
@@ -16,15 +20,15 @@ export default function PreviewPopup() {
             {isOpen && (
                 <div className={`popup-overlay ${isOpen ? 'fade-in' : 'fade-out'}`}>
                     <div className='popup-content'>
-                        {/* <Image
-                            className="post-show-img"
-                            src={preImage1}
-                            width="auto"
+                        <Image
+                            className="post-show-img rounded"
+                            src={thankou}
+                            width="300"
                             height="auto"
                             alt="Preview 1"
-                        /> */}
-                        <span className='text-2xl  py-6   text-black'>Thank you for making WOFX 2024 a Great Success!</span>
-                        <span className='text-xl'>See you again in 2025...</span>
+                        />
+                        {/* <span className='text-2xl  py-6   text-black'>Thank you for making WOFX 2024 a Great Success!</span>
+                        <span className='text-xl'>See you again in 2025...</span> */}
                         <button onClick={handleClose} className="close-button">
                             <FontAwesomeIcon icon={faTimes} />
                         </button>
@@ -56,13 +60,13 @@ export default function PreviewPopup() {
          
 
    .popup-content {
-background-image: linear-gradient(to right top, #fceab6, #fbe7af, #fae5a8, #f8e2a0, #f7df99, #f0d68b, #e8cc7e, #e1c370, #d2b259, #c4a142, #b69029, #a77f06);
-    padding: 20px;
+
+    padding: 10px;
     border-radius: 8px; /* Adjusted for more noticeable rounding */
     text-align: center;
     position: relative;
     animation: slide-in 0.5s forwards; /* Animation for popup */
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     border: 1px solid rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
