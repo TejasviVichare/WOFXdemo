@@ -73,12 +73,10 @@ export default function PanelDiscussion() {
                     </div>
                     <p>&nbsp;</p>
                     <div className="flex flex-col sm:flex-row justify-center gap-9 px-2">
-                        <Link className="rounded text-center bg-black text-white px-6 py-3 cursor-pointer hover:bg-white hover:text-black" style={{ border: "1px solid black", letterSpacing: "2px" }} href="/seminar-registration-form">
+                        <Link className="rounded text-center bg-black text-white px-6 py-3 cursor-pointer hover:bg-white hover:text-black" style={{ border: "1px solid black", letterSpacing: "2px" }} href="/">
                             Click Here to Register &raquo;
                         </Link>
-                        {/* <Link className="rounded text-center bg-black text-white px-6 py-3 cursor-pointer hover:bg-white hover:text-black" style={{ border: "1px solid black", letterSpacing: "2px" }} href="/assests/pdf/SMART-TALK.pdf">
-                            Seminar Rundown &raquo;
-                        </Link> */}
+                       
                     </div>
                     <p>&nbsp;</p>
                 </div>

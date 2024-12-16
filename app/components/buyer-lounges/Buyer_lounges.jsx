@@ -16,7 +16,8 @@ function Buyer_lounges() {
       
       <h2  className="text-4xl text-center  pl-9"> Buyer Registration Form</h2>
       <div className="flex justify-center w-full mt-6 mb-6">
-      <Link className="BLButton w-60" href='https://www.bee2bee.asia/wofx/buyer-registration'><strong>Click Here To Regsiter</strong></Link>
+      {/* <Link className="BLButton w-60" href='https://www.bee2bee.asia/wofx/buyer-registration'><strong>Click Here To Regsiter</strong></Link> */}
+      <Link className="BLButton w-60" href='#'><strong>Regsitration Closed</strong></Link>
       </div>
       <div className="flex justify-between flex-wrap px-6 py-2 ">
         <div id="businessLounchCard" className="relative px-3  py-3">

@@ -14,16 +14,17 @@ const ButtonComponent = () => {
           <a href="https://www.bee2bee.asia/wofx/exhibitor-enquiry">EXHIBIT</a>
         </center>
       </div>
-      <div>
-        <center style={{borderBottom:"2px solid rgba(0,0,0,0.2)"}}  className="a">
+      {/* <div>
+        <center   className="a">
           <a href="https://www.bee2bee.asia/wofx/buyer-registration">VISIT</a>
         </center>
-      </div>
+      </div> */}
       <div>
-        <center className="a">
-          <a href="https://www.wofxworldexpo.com/smartTalk">Smart Talk</a>
+        <center   className="a">
+          <a href="#">VISIT</a>
         </center>
       </div>
+    
     </div>
   );
 };
