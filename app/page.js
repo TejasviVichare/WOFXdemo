@@ -100,7 +100,7 @@ export default function Home() {
    
       <p>&nbsp;</p>
         <DropBox />
-        <RegsiterButton />
+        {/* <RegsiterButton /> */}
       <FixedSocial />
       <PreviewPopup />
     </>
