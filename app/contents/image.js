@@ -236,56 +236,56 @@ export const galleryImage =  [
 
  export  const galleryImage2024 =  [
     {
-      original: "/assests/gallery-2024/gallery-2024/001.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/001.jpg"
+      original: "/assests/gallery-2024/gallery-2024/001.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/001.JPG"
     },
     {
-      original: "/assests/gallery-2024/gallery-2024/002.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/002.jpg"
+      original: "/assests/gallery-2024/gallery-2024/002.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/002.JPG"
     },
     {
-      original: "/assests/gallery-2024/gallery-2024/003.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/003.jpg"
+      original: "/assests/gallery-2024/gallery-2024/003.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/003.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/004.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/004.jpg"
+      original: "/assests/gallery-2024/gallery-2024/004.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/004.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/005.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/005.jpg"
+      original: "/assests/gallery-2024/gallery-2024/005.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/005.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/006.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/006.jpg"
+      original: "/assests/gallery-2024/gallery-2024/006.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/006.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/007 (B).jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/007 (B).jpg"
+      original: "/assests/gallery-2024/gallery-2024/007 (B).JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/007 (B).JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/007.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/007.jpg"
+      original: "/assests/gallery-2024/gallery-2024/007.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/007.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/008.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/008.jpg"
+      original: "/assests/gallery-2024/gallery-2024/008.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/008.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/009.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/009.jpg"
+      original: "/assests/gallery-2024/gallery-2024/009.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/009.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/010.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/010.jpg"
+      original: "/assests/gallery-2024/gallery-2024/010.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/010.JPG"
     }
     ,
     {
@@ -439,43 +439,43 @@ export const galleryImage =  [
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/041.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/041.jpg"
+      original: "/assests/gallery-2024/gallery-2024/041.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/041.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/042.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/042.jpg"
+      original: "/assests/gallery-2024/gallery-2024/042.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/042.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/043.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/043.jpg"
+      original: "/assests/gallery-2024/gallery-2024/043.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/043.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/044.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/044.jpg"
+      original: "/assests/gallery-2024/gallery-2024/044.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/044.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/045.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/045.jpg"
+      original: "/assests/gallery-2024/gallery-2024/045.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/045.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/046.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/046.jpg"
+      original: "/assests/gallery-2024/gallery-2024/046.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/046.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/047.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/047.jpg"
+      original: "/assests/gallery-2024/gallery-2024/047.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/047.JPG"
     }
     ,
     {
-      original: "/assests/gallery-2024/gallery-2024/048.jpg",
-      thumbnail: "/assests/gallery-2024/gallery-2024/048.jpg"
+      original: "/assests/gallery-2024/gallery-2024/048.JPG",
+      thumbnail: "/assests/gallery-2024/gallery-2024/048.JPG"
     }
   ];
 
