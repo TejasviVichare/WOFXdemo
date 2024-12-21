@@ -33,9 +33,9 @@ export default function PreviewPopup() {
                             <FontAwesomeIcon icon={faTimes} />
                         </button>
 
-                        {/* <Link href="/preview-2024" className='bg-black text-white mt-2 px-6 py-2 tracking-wider rounded-sm'>
-                            Click Here
-                        </Link> */}
+                        <Link href="/show-highlight" className='bg-black text-white mt-6 mb-3 px-6 py-2 tracking-wider font-light rounded-sm'>
+                            Click Here for show Highlight
+                        </Link>
 
                         
                     </div>
@@ -60,13 +60,13 @@ export default function PreviewPopup() {
          
 
    .popup-content {
-    background:rgba(255,255,255,0.7);
+    background:rgba(255,255,255,0.2);
     padding: 10px;
     border-radius: 8px; /* Adjusted for more noticeable rounding */
     text-align: center;
     position: relative;
     animation: slide-in 0.5s forwards; /* Animation for popup */
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(2px);
     border: 1px solid rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;

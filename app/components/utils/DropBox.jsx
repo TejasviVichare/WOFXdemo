@@ -1,6 +1,4 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFileLines } from '@fortawesome/free-solid-svg-icons';
-// import Image from '@/app/opengraph-image';
+
 import Link from "next/link"
 
 
@@ -8,10 +6,10 @@ import Link from "next/link"
 function DropBox() {
     return (
       <div className='dropbox'>
-       <Link href="assests/pdf/F+D-Newsletter-Issue-3.pdf">
-       <div className='flex justify-center gap-4 items-center'>
-           <img src='assests/F+D.png'/>
-          <div className='leading-tight text-center'>Download  F+D Newsletter</div>
+       <Link href="/show-highlight">
+       <div className='flex justify-center gap-2 items-center'>
+       <img  style={{width:"50px", height:"50px"}} src='assests/showHighlightImage.png'/>
+          <div className='leading-relaxed text-center'> Show Highlight <br /> Click Here </div>
     
         </div>
        </Link>

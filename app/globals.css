@@ -557,8 +557,13 @@
 }
 .wofxGallry {
   background: #f4f4f4;
-  padding: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  margin-bottom: 40px;
+  border-radius: 4px;
 }
 .wofxGallry img {
   object-fit: cover !important;
@@ -652,9 +657,10 @@
   position: fixed;
   bottom: 30px;
   
-  background: #fceab6;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 1px;
+  background-image: linear-gradient(to right top, #ffffff, #feedfc, #ffd9e5, #ffc8bb, #fbc18b);
+  border: 1px solid rgba(0,0,0,0.02);
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
   right: 0px;
   padding-left: 17px;
   padding-right: 17px;
@@ -667,7 +673,7 @@
 }
 
 .dropbox:hover {
-  background-image: linear-gradient(to right top, #fceab6, #f5db8f, #e9c351, #d6a920, #a77f06);
+background-image: linear-gradient(to right top, #ffffff, #fffdfe, #fffcfd, #fffafa, #fff9f6, #fff0e6, #fde7d5, #f9dfc3, #f4cca2, #efb983, #e9a565, #e39147);background-image: linear-gradient(to right top, #ffffff, #fbf4fb, #fee7f0, #ffdadd, #ffd0c3, #fdc8b0, #f7c19b, #edbc87, #ebb276, #e8a766, #e69c57, #e39147);
   cursor: pointer;
   color: white;
 }
@@ -837,4 +843,14 @@
   background-position: center; /* Centers the image within the element */
   background-attachment: fixed; /* Makes the background fixed when scrolling (optional) */
   width: 100%; /* Sets the panel width */
+}
+.highlighttext {
+  font-size: 30px; 
+  font-weight: bold;
+  background-image: linear-gradient(to right, #f24452, #ef559a, #cc79d3, #9399f1, #5fb0f2, #11bded, #00c6db, #2dcdc0, #4cd099, #80cf69, #b8c835, #f2b705);
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent; 
+  display: inline-block;
+  letter-spacing: 2px;
 }
