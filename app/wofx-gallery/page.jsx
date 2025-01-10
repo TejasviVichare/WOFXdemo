@@ -39,8 +39,8 @@ function page() {
   return (
     <div className="mx-auto   w-full max-w-screen-2xl mt-36 ">
       <div className="flex  justify-center items-center gap-4 pb-8">
-      {/* <img  style={{width:"55px", height:"55px"}} src='assests/showHighlightImage.png'/> */}
-      <h1 className="text-center text-3xl font-semibold ">
+      
+      <h1 className="text-center leading-relaxed  text-3xl font-semibold ">
         Photo Gallery
       </h1>
       </div>
