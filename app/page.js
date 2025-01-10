@@ -76,7 +76,7 @@ export default function Home() {
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <div className='relative'>
-        <div className='fixed bottom-[125px] right-5'>
+        <div className='fixed bottom-[95px] right-5'>
           <DropBoxPSR />
         </div>
       </div>

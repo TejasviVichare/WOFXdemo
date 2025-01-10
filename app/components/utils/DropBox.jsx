@@ -7,9 +7,9 @@ function DropBox() {
     return (
       <div className='dropbox'>
        <Link href="/assests/pdf/Highlights-WOFX-2024.pdf">
-       <div className='flex justify-center  items-center'>
-       <img  style={{width:"50px", height:"50px"}} src='assests/showHighlightImage.png'/>
-          <div className='leading-relaxed text-center'> Show Highlights <br /> Click Here </div>
+       <div className='flex justify-center gap-1 items-center'>
+       <img  style={{width:"38px", height:"38px"}} src='assests/showHighlightImage.png'/>
+          <div className='leading-relaxed text-center text-sm'> Show Highlights <br /> Click Here </div>
         </div>
        </Link>
   

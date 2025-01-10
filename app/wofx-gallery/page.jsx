@@ -1,7 +1,9 @@
 "use client";
 import ImageGallery from "react-image-gallery";
-import {galleryImage} from "../contents/image";
+import { galleryImage2024 } from "../contents/image";
 import "react-image-gallery/styles/css/image-gallery.css";
+import Image from "next/image";
+
 
 
 
@@ -36,13 +38,16 @@ function page() {
 
   return (
     <div className="mx-auto   w-full max-w-screen-2xl mt-36 ">
-      <h1 className="text-center text-3xl font-semibold mt-4  py-10">
+      <div className="flex  justify-center items-center gap-4 pb-8">
+      {/* <img  style={{width:"55px", height:"55px"}} src='assests/showHighlightImage.png'/> */}
+      <h1 className="text-center text-3xl font-semibold ">
         Photo Gallery
       </h1>
+      </div>
       <div className="flex justify-center">
         <div className="w-4/5 wofxGallry">
           <ImageGallery
-            items={galleryImage}
+            items={galleryImage2024}
             renderLeftNav={renderLeftNav}
             renderRightNav={renderRightNav}
           />

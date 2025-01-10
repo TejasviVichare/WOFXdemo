@@ -38,8 +38,8 @@ const navItems = [
           link: "/wofx-gallery",
         },
         {
-          label: "WOFX 2024 Highlights",
-          link: "/show-highlight",
+          label: "Show Highlights",
+          link: "/assests/pdf/Highlights-WOFX-2024.pdf",
         },
         {
           label: "Post Show Report",
