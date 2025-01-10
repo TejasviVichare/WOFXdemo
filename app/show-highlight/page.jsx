@@ -41,7 +41,7 @@ function page() {
       <div className="flex  justify-center items-center gap-4 pb-8">
       <img  style={{width:"55px", height:"55px"}} src='assests/showHighlightImage.png'/>
       <h1 className="highlighttext">
-        Show Highlight 2024
+        Show Highlights 2024
       </h1>
       </div>
       <div className="flex justify-center">

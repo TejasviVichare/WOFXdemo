@@ -38,8 +38,12 @@ const navItems = [
           link: "/wofx-gallery",
         },
         {
+          label: "WOFX 2024 Highlights",
+          link: "/show-highlight",
+        },
+        {
           label: "Post Show Report",
-          link: "/assests/pdf/WOFX-2023-Post-Show-Report.pdf",
+          link: "/assests/pdf/Post-Show-Report-WOFX-2024.pdf",
         },
       ],
     },
@@ -147,18 +151,10 @@ const navItems = [
       label: "Report",
       link: "#",
       children: [
-        // {
-        //   label: "India Growth Story",
-        //   link: "/india-overview",
-        // },
         {
           label: "India Furniture Market",
           link: "/assests/pdf/India-Furniture-Market-Report-2024.pdf",
         },
-        // {
-        //   label: "India Design & Décor Market",
-        //   link: "/india-design-decor-market",
-        // },
       ],
     },
     {

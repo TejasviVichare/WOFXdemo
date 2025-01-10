@@ -654,9 +654,8 @@
 
 
 .dropbox {
-  position: fixed;
+  position: relative;
   bottom: 30px;
-  
   background-image: linear-gradient(to right top, #ffffff, #feedfc, #ffd9e5, #ffc8bb, #fbc18b);
   border: 1px solid rgba(0,0,0,0.02);
   border-bottom-left-radius: 3px;
@@ -669,7 +668,7 @@
   z-index: 100000;
   line-height: 210%;
   font-size: 17px;
-  width: 220px;
+  width: 230px;
 }
 
 .dropbox:hover {

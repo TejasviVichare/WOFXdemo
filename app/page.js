@@ -13,6 +13,7 @@ import RegsiterButton from './components/utils/RegsiterButton.jsx';
 import PreviewPopup from './components/utils/PreviewPopup.jsx';
 
 import Margue from './components/marque/Margue.jsx';
+import DropBoxPSR from './components/utils/DropBoxPSR.jsx';
 
 
 // import Industrypartnerslider from "./components/industrypartnerslider/Industrypartnerslider.jsx";
@@ -99,10 +100,20 @@ export default function Home() {
 
    
       <p>&nbsp;</p>
+        
+        <p>&nbsp;</p>
+        <div className='relative'>
+        <div className='fixed bottom-[125px] right-5'>
+        <DropBoxPSR />
+        </div>
+        </div>
+        <div className='relative'>
+        <div className='fixed bottom-5 right-5'>
         <DropBox />
-        {/* <RegsiterButton /> */}
+        </div>
+        </div>
       <FixedSocial />
-      <PreviewPopup />
+      
     </>
   );
 }
