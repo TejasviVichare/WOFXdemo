@@ -37,7 +37,7 @@ function page() {
   }
 
   return (
-    <div className="mx-auto   w-full max-w-screen-2xl mt-36 ">
+    <div className="mx-auto   w-full max-w-screen-2xl mt-24 ">
       <div className="flex  justify-center items-center gap-4">
       
       <p className="text-center leading-relaxed  text-3xl font-semibold ">
