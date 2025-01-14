@@ -2,7 +2,7 @@
 import ImageGallery from "react-image-gallery";
 import { galleryImage2024 } from "../contents/image";
 import "react-image-gallery/styles/css/image-gallery.css";
-import Image from "next/image";
+
 
 
 
