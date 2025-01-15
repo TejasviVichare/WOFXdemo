@@ -16,8 +16,6 @@ function page() {
       <h1 className="text-center text-3xl font-semibold mt-12  py-10">F + D Furniture Insights & Analysis</h1>
       <div className="flex justify-center">
         <div className="w-4/5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8 place-items-center">
-
-
           <div className="border py-4 hover:bg-slate-900">
             <a href="https://online.anyflip.com/qpeq/nmuk/mobile/index.html">
               <Image
@@ -38,8 +36,6 @@ function page() {
               </a>
             </div>
           </div>
-
-
           <div className="border py-4 hover:bg-slate-900">
             <a href="https://online.anyflip.com/qpeq/bkwl/mobile/index.html">
               <Image
@@ -54,16 +50,12 @@ function page() {
               <a href="assests/pdf/F+D-Newsletter-Issue-2.pdf">
                 <p
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
-
                 >
                   Download Issue 2
                 </p>
               </a>
             </div>
           </div>
-
-
-
           <div className="border py-4 hover:bg-slate-900">
             <a href="https://online.anyflip.com/qpeq/qiah/mobile/index.html">
               <Image
@@ -78,20 +70,12 @@ function page() {
               <a href="assests/pdf/F+D-Newsletter-Issue-3.pdf">
                 <p
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
-
                 >
                   Download Issue 3
                 </p>
               </a>
             </div>
           </div>
-
-
-
-
-
-
-
           <div className="border py-4 hover:bg-slate-900">
             <a href="https://online.anyflip.com/qpeq/dcoq/mobile/index.html">
               <Image
@@ -106,15 +90,12 @@ function page() {
               <a href="assests/pdf/F+D-Newsletter-Issue-4.pdf">
                 <p
                   className="text-center w-40 py-3 rounded px-0 md:px-2 bg-orange-500 text-white font-semibold"
-
                 >
                   Download Issue 4
                 </p>
               </a>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
