@@ -3,6 +3,7 @@ import ImageGallery from "react-image-gallery";
 import { galleryImage2024 } from "../contents/image";
 import "react-image-gallery/styles/css/image-gallery.css";
 
+import "./gallery.css"
 
 
 
@@ -30,6 +31,7 @@ function page() {
         aria-label="Next Slide"
         disabled={disabled}
         onClick={onClick}
+      
       >
         &#x2192;
       </button>
@@ -46,7 +48,7 @@ function page() {
       </div>
       <div className="flex justify-center">
         <div className="w-4/5 wofxGallry">
-          <ImageGallery
+          <ImageGallery 
             items={galleryImage2024}
             renderLeftNav={renderLeftNav}
             renderRightNav={renderRightNav}
