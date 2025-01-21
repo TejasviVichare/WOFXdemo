@@ -939,12 +939,12 @@
 //     );
 // };
 
-const SkillGapStudy = () => {
-  return (
-    <div className="flex justify-center items-center min-h-screen">
-      <h1 className="text-4xl font-bold text-gray-800">Coming Soon</h1>
-    </div>
-  );
-};
+// const SkillGapStudy = () => {
+//   return (
+//     <div className="flex justify-center items-center min-h-screen">
+//       <h1 className="text-4xl font-bold text-gray-800">Coming Soon</h1>
+//     </div>
+//   );
+// };
 
-export default SkillGapStudy;
+// export default SkillGapStudy;
