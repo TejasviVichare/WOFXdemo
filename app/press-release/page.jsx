@@ -9,38 +9,67 @@ function page() {
 
       <p>&nbsp;</p>
 
-      <h1 className="text-xl md:text-3xl py-2 font-semibold text-center">Press Release</h1>
-      <p className="text-center">Coming Soon</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
+    
       <p>&nbsp;</p>
 
 
-      <div className="px-2 md:px-32 hidden">
-        <h1 className="text-3xl py-2  font-bold">WOFX &ndash; World Furniture Expo 2023</h1>
-        <p className="py-2"><strong>&bull;&nbsp; Global &amp; Pan-India Networking Opportunities at WOFX - World Furniture Expo</strong></p>
-        <p className="py-2"><strong>&bull;&nbsp; 200+ Brands and Exhibitors from 13+ Countries Participated at WOFX 2023</strong></p>
-        <p className="py-2"><strong>&bull;&nbsp; 12,052+ Buyers from 20 Countries &amp; 22 States of India visited the Expo</strong></p>
-        <p className="py-2 text-justify">Over 3 days of vibrant networking, cutting-edge innovations, and deals forged from across borders, WOFX &ndash; World Furniture Expo 2023 solidified its position as the ultimate catalyst for the Indian furniture and design industry.</p>
-        <p className="py-2 text-justify">Organised from 28-30 November at Bombay Exhibition Center, Mumbai, WOFX 2023 was inaugurated in the presence of Shri Gopal Shetty, Member of Parliament; Shri Vinod Shelar, General Secretary, Bharatiya Janata Party, Mumbai; Ar. Sarosh Wadia, President IIID; Ar. Arzan Khambatta; Mr. Kumar Rajagopalan, CEO, Retailers Association of India (RAI), Mr. Huzefa Samplewala, President, Association of Furniture Manufacturers and Traders, Ar. Abhay Purohit, President, Council of Architecture (COA) and Mr. Ketan Ramesh Sheth, Chairperson, Institute of Indian Interior Designers (IIID).</p>
-        <p className="py-2 text-justify">Present were representatives from Embassies and international trade bodies including the Sri Lanka Consulate General in Mumbai, Consul General of the Republic of Indonesia, High Commission for the People&rsquo;s Republic of Bangladesh, Vietnam Trade office, New Delhi, the Turkish Consulate and the Malaysia External Trade Development Corporation (MATRADE).</p>
-        <p className="py-2 text-justify">Beyond just an expo, WOFX established itself as a dynamic platform connecting Indian professionals with industry leaders and global innovators. Attracted by the 200+ brands and exhibitors from 13+ countries over 12,052 buyers from 20 countries and from 22 states of India visited WOFX 2023.</p>
-        <p className="py-2 text-justify">Domestic and international buyers were presented the latest international trends, technologies, and design inspirations, while suppliers from 13+ nations &ndash; Thailand, Malaysia, Indonesia, Singapore, Vietnam, Philippines, Hong Kong, China, Bangladesh, France, Italy and India &ndash; connected with industry professionals, furniture businesses, sourcing professionals and realtors to capitalize on India&apos;s booming market.</p>
-        <p className="py-2 text-justify">Both exhibitors and buyers were pleased with the business possibilities at WOFX. Louis Gossart, Director of Voila Paris, France said, &ldquo;This is our first time exhibiting in India. The response has exceeded our expectations with excellent buyer footfall at our booth comprising industry professionals. We have already received quite a few onsite orders and are looking forward to coming back to WOFX next year with a bigger booth.&rdquo;</p>
-        <p className="py-2 text-justify">While Chris Lim, AGM of AH Hai Industries, Malaysia said, &ldquo;We have received hot leads from Developers, Architects, Engineers, Interior Designers, and Import and Export Traders. Our buyer footfall was really good and we received on-site orders during the exhibition as well.&rdquo;</p>
-        <p className="py-2 text-justify">Industry professionals like Puneet Sethi, Principal Architect, Planner &amp; Valuer, IAD Studio said, &ldquo;I&rsquo;m quite happy with the products I&rsquo;ve seen over the last 3 days from India and from across the world. WOFX is very good for industry professionals, keeping us informed of new developments, innovations and technologies from across the world.&rdquo;</p>
-        <p className="py-2 text-justify">While overseas visitors like Asad Tarifi, General Manager, Zahrat Amman Industries, Sharjah, UAE said, &ldquo;This is the 1st time I have come to Mumbai. I&rsquo;m pleased to visit WOFX as I found what I was looking for over here. WOFX is excellent not only for bringing manufacturers and suppliers from across the world but for presenting a range of furniture from these countries. I was pleased to connect with many companies whom I am interested to trade with and to make deals with them.&rdquo;</p>
-        <p className="py-2 text-justify">India&apos;s furniture market is projected to reach US$ 26.85 billion by 2028, fueled by a thriving real estate sector and a burgeoning hospitality industry. In this scenario, WOFX is the sole networking and business platform focused on growing opportunities for the furniture and d&eacute;cor industries.</p>
-        <p className="py-2 text-justify">Dewan Atif Rashid, MD of Bangladesh Furniture Industries said &ldquo;We made a good decision for participating at WOFX because the demand from the market here for our products is enormous. We could not believe that there is such a demand for products which we already make. We have received good enquiries not only from Mumbai but other cities across India and have good leads to work for the coming year.&rdquo;</p>
-        <p className="py-2 text-justify">WOFX wasn&apos;t just about deals; it was about shaping the future of furniture and design. Insightful seminars like &quot;Business Pulse&quot; offered strategic guidance, while &quot;Design Talk&quot; delved into cutting-edge innovations like AI-driven design and paperless design with BIM. The Seminar on &lsquo;BIS Certifications&rsquo; discussed latest regulations for manufacturing and importing. These sessions equipped attendees with the knowledge and inspiration to push the boundaries of the industry.</p>
-        <p className="py-2 text-justify">Rajesh Bhagat, Chairman &amp; Managing Director of Worldex India, the organizer of WOFX said, &ldquo;The Indian furniture and design industry is booming. But what is actually required is focused support through increased interactions with international suppliers to take the industry forward in terms of global designs, products, materials and quality. Through its unique platform, WOFX facilitates industry growth via international networking and showcasing brands empowering our exhibitors to establish a strong presence in the global furniture industry and for those seeking to build strong local and global partnerships.&rdquo;</p>
-        <p className="py-2 text-justify">The prestigious WOFX Awards acknowledged outstanding booth design, innovative products, and exceptional design across Indian and international participants. This recognition, judged by renowned architects and designers, further cemented WOFX&apos;s role as a platform for design excellence and a catalyst for future innovation.</p>
-        <p className="py-2 text-justify">WOFX has been supported by key industry trade bodies including the Association of Furniture Manufacturers &amp; Traders (AFMT), Retailers Association of India (RAI), Council of Architecture (COA), Institute of Indian Interior Designers (IIID) and Purchasing Professional Forum of India (PPFI).</p>
-        <p className="py-2 text-justify">With its dynamic networking opportunities, insightful knowledge sharing, and commitment to innovation, WOFX has ignited a global buzz and proven itself as the bridge between the present and the future of furniture and design.</p>
-        <p className="py-2 text-justify">This momentum will be carried forward by WOFX in 2024 where it will act as a transformative force where it will redefine the Indian furniture landscape. WOFX will empower the Indian industry through global connections, innovations, and knowledge sharing to propel businesses from regional to international.</p>
-        <p class="press-more-info">For more information visit&nbsp;<a class="press-info-link font-semibold" href="https://wofxworldexpo.com/">wofxworldexpo.com</a></p>
-        <p class="press-more-info">For media enquiries call on 022 40376700 or email&nbsp;<a class="press-info-link font-semibold" href="mailto:communications@worldexindia.com">communications@worldexindia.com</a></p>
-        <p>&nbsp;</p>
+      <div className="px-2 md:px-32">
+      <h3 className="text-2xl">
+  <strong>Press Release</strong>
+</h3>
+<p className="mt-3">
+  <strong>WOFX - World Furniture Expo 2024</strong>
+  <br />
+  <em>
+    Shaping the Future of Indian Furniture and Design Industry with Pan-Indian &amp; Global Collaborations and Innovations
+  </em>
+</p>
+<p className="mt-3">
+  <strong>Mumbai, India:</strong> The recently concluded <em>WOFX – World Furniture Expo 2024</em> has once again redefined the benchmarks for furniture and design expos. Over three days (December 5–7), the Bombay Exhibition Center in Mumbai transformed into a vibrant hub of innovation, business opportunities, and cross-border collaborations. WOFX brought together industry leaders, Indian &amp; international exhibitors, and buyers, solidifying its position as a transformative force in India's burgeoning furniture sector.
+</p>
+<p className="mt-3">
+  WOFX 2024 saw record-breaking participation hosting 100+ brands and exhibitors from 11 countries and 13,247+ B2B buyers from 21 countries and 26 Indian states.
+</p>
+<p className="mt-3">
+  International exhibitors hailed from the USA, Germany, Italy, Turkiye, the UAE, China, Japan, Taiwan, Sri Lanka, and India. Visitors experienced cutting-edge furniture trends, technologies, and design inspirations from across the globe.
+</p>
+<p className="mt-3">
+  Rajesh Bhagat, Chairman &amp; Managing Director of <em>Worldex India</em>, shared: "India's furniture and design industry is witnessing unprecedented growth, but true progress comes through collaboration. WOFX connects stakeholders with global designs, materials, and expertise, empowering exhibitors to build a pan-India presence while fostering international partnerships."
+</p>
+<p className="mt-3">
+  The event witnessed a grand opening ceremony as WOFX 2024 was inaugurated by Shri Suresh Prabhu, Former Union Minister; Mr. Huzefa Samplewala, President of the Association of Furniture Manufacturers &amp; Traders (AFMT); Mr. Kumar Rajagopalan, CEO of Retailers Association of India (RAI); Mr. Rahul Mehta, CEO of Furniture &amp; Fittings Skill Council (FFSC); Mr. Ketan Sheth, Chairperson of the Institute of Indian Interior Designers (IIID), Mumbai Chapter; among other industry trade bodies.
+</p>
+<p className="mt-3">
+  The Expo generated enthusiastic feedback from exhibitors and buyers alike. Nikhil Redkar, Country Head of Kuka Home, said: “WOFX proved to be an outstanding B2B platform for us. We had many dealers from the West and South of India visiting us as well as a few dealers from the North, providing us with valuable regional and national exposure. What truly set this expo apart was the quality of attendees—a well-curated and targeted audience that enabled us to conduct business efficiently and productively. It was a seamless experience that exceeded our expectations.”
+</p>
+<p className="mt-3">
+  Pratik Thakkar, Director of Trezure Casa stated: “We connected with numerous dealers from across the country especially from the West and Southern regions as well as some from the North and a few from Eastern India as well, providing us with a significant opportunity to accelerate our pan-India expansion. Additionally, the strong presence of architects and designers at our booth enhanced our brand visibility and credibility within the industry, positioning us effectively among key decision-makers and professionals.”
+</p>
+<p className="mt-3">
+  Visitors echoed this sentiment stating that the products showcased at WOFX from India and abroad are game-changing and that the show keeps us ahead of trends, technologies, and innovations.
+</p>
+<p className="mt-3">
+  Ashish Bhutda, CEO of Praxis Home Retail stated: “Glad to see a large assortment of products with diverse designs and quality with all kinds of comfort and the opportunity to meet manufacturers from across India and the globe.”
+</p>
+<p className="mt-3">
+  A strategic knowledge-sharing and thought leadership hub, WOFX served as a knowledge hub with seminars such as ‘Smart Talks' which featured insights from industry veterans highlighting sourcing and market strategies as well as upcoming consumer trends in furniture designs and colors. These sessions equipped attendees to navigate emerging opportunities and challenges with confidence.
+</p>
+<p className="mt-3">
+  Renowned for its awards and industry accolades, the prestigious WOFX Awards celebrated excellence in booth design, product innovation, and exceptional creativity. Judged by top architects and designers, the awards underscored WOFX's commitment to recognizing talent and fostering innovation.
+</p>
+<p className="mt-3">
+  WOFX is a robust platform for future growth. India's furniture market is projected to reach $26.85 billion by 2028 driven by real estate and hospitality growth. As the industry evolves, WOFX stands out as the only dedicated platform uniting furniture manufacturers, suppliers, and design professionals to shape a global future.
+</p>
+<p className="mt-3">
+  Supported by industry leaders like AFMT, RAI, and FFSC, WOFX has become the transformative force bridging India's dynamic furniture industry with global opportunities.
+</p>
+<p className="mt-3">
+  WOFX 2024's success sets the stage for its next edition in 2025. The event will continue to champion innovation, pan-India &amp; global networking, skilling, and sustainability empowering India's furniture sector to scale new heights.
+</p>
+<p className="mt-3">
+  Stay tuned as WOFX redefines the Indian furniture landscape propelling businesses from regional &amp; national to international success.
+</p>
+   <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
       </div>
