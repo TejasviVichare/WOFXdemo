@@ -63,7 +63,7 @@ function Footer() {
             </div>
             </div>
           </div>
-          <center style={{background:"#000000",}} className='text-slate-300 py-4'>© WOFX 2024 | All Rights Reserved.</center>
+          <center style={{background:"#000000",}} className='text-slate-300 py-4'>© WOFX 2025 | All Rights Reserved.</center>
           
         </div>
       </footer>
