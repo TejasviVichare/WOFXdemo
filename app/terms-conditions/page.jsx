@@ -211,8 +211,8 @@ function page() {
             <strong>Opening Hours</strong>
           </p>
           <p>
-            The Exhibition is open to visitors daily for the period 5-6-7 
-            December, 2024 and during the opening hours of 10 a.m. to 6.00 pm as
+            The Exhibition is open to visitors daily for the period 4-5-6 
+            December, 2025 and during the opening hours of 10 a.m. to 6.00 pm as
             stated in the Exhibitor Manual.
           </p>
           <p className="py-2">
