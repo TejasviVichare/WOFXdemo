@@ -33,7 +33,7 @@ function page() {
                   <p> Date </p>
                 </td>
                 <td className="pt-2 pb-2" colSpan={2}>
-                  <p>5-6-7 December 2024</p>
+                  <p>4-5-6 December 2025</p>
                 </td>
               </tr>
 
@@ -43,9 +43,9 @@ function page() {
                 </td>
                 <td>
                   <p>Fair Date</p>
-                  <p>5 Dec (Thu.)</p>
-                  <p>6 Dec (Fri.)</p>
-                  <p>7 Dec (Sat.)</p>
+                  <p>4 Dec (Thu.)</p>
+                  <p>5 Dec (Fri.)</p>
+                  <p>6 Dec (Sat.)</p>
                 </td>
                 <td>
                   <p>Opening Hours</p>
