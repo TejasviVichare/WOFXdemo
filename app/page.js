@@ -32,7 +32,6 @@ export default function Home() {
           <source src="assests/WOFX_4_nifcf6.mp4" type="video/mp4" />
         </div>
       </div>
-
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
