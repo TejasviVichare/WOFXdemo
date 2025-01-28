@@ -108,6 +108,7 @@ function page() {
                     <p>• &nbsp; School/College</p>
                     <p>• &nbsp; Institutional</p>
                     <p>• &nbsp; Mattresses</p>
+                    <p>• &nbsp; Carpets</p>
                     <p>• &nbsp; Décor</p>
                   </ul>
                 </td>
@@ -162,7 +163,7 @@ function page() {
                 </td>
                 <td className="pt-2 pb-2" colSpan={2}>
                   <ul className="list-ul">
-                    
+                     <p>• &nbsp; Smart Talk</p>
                     <p>• &nbsp; Design Walk</p>
                     <p>• &nbsp; Design Talk</p>
                     <p>• &nbsp; Business Pulse</p>
