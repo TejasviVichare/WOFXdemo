@@ -215,37 +215,44 @@ function page() {
                   >
                     <tbody>
                       <tr className="border-b-[1px] border-gray-400 pt-2 pb-2">
-                        <td className="text-center p-2  w-1/4">
+                        <td className="text-center p-2  w-1/5">
                           <img
                             src="/assests/blLogo1.png"
                             alt="Dealers"
                             style={{ width: 120 }}
                           />
                         </td>
-                        <td className="p-2 text-center   w-1/4">
+                        <td className="p-2 text-center   w-1/5">
                           <img
                             src="/assests/blLogo4.png"
                             alt="Retailers"
                             style={{ width: 120 }}
                           />
                         </td>
-                        <td className="p-2 text-center   w-1/4">
+                        <td className="p-2 text-center   w-1/5">
                           <img
                             src="/assests/blLogo3.png"
                             alt="Franchisees"
                             style={{ width: 120 }}
                           />
                         </td>
-                        <td className="p-2 text-center   w-1/4">
+                        <td className="p-2 text-center   w-1/6">
                           <img
                             src="/assests/blLogo2.png"
                             alt="Architects"
                             style={{ width: 120 }}
                           />
                         </td>
+                        <td className="p-2 text-center   w-1/5">
+                          <img
+                            src="/assests/Investor-link.png"
+                            alt="Architects"
+                            style={{ width: 120 }}
+                          />
+                        </td>
                       </tr>
                       <tr>
-                        <td className="w-1/4 " style={{ verticalAlign: "top"}}>
+                        <td className="w-1/5 " style={{ verticalAlign: "top"}}>
                           <p><span className="wingdings">&#x1F7C2;</span>Dealers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Distributors</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Wholesalers</p>
@@ -256,25 +263,34 @@ function page() {
                           <p style={{ textAlign: "centers" }}><span className="wingdings">&#x1F7C2;</span>Agents</p>
                      
                         </td>
-                        <td className="w-1/4 " style={{  verticalAlign: "top" }}>
+                        <td className="w-1/5 " style={{  verticalAlign: "top" }}>
                           <p><span className="wingdings">&#x1F7C2;</span>Retailers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>E-Tailers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Large Format Retailers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Online Traders</p>
                         </td>
-                        <td className="w-1/4 " style={{ verticalAlign: "top"}}>
+                        <td className="w-1/5 " style={{ verticalAlign: "top"}}>
                           <p><span className="wingdings">&#x1F7C2;</span>Franchisees</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Entrepreneurs</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Agents</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Consultants</p>
                         </td>
-                        <td className="w-1/4 " style={{ paddingLeft:"10px", position:"relative" ,marginLeft:"80px" ,verticalAlign: "top"}}>
+                        <td className="w-1/5 " style={{ paddingLeft:"10px", position:"relative" ,marginLeft:"80px" ,verticalAlign: "top"}}>
                           <p><span className="wingdings"> &#x1F7C2;</span>Project Management Consultant</p>
                           <p><span className="wingdings"> &#x1F7C2;</span>Architects & Interior Designers</p>
                           <p><span className="wingdings"> &#x1F7C2;</span>Real Estate Developers</p>
                           <p><span className="wingdings"> &#x1F7C2;</span>HORECA</p>
                           <p><span className="wingdings"> &#x1F7C2;</span>Corporate Sourcing Heads</p>
                           <p><span className="wingdings"> &#x1F7C2;</span>Institutional</p>
+                        </td>
+                        <td className="w-1/5 " style={{ paddingLeft:"10px", position:"relative" ,marginLeft:"80px" ,verticalAlign: "top"}}>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Private Equity</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Family Offices</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Venture Capital</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Investment Consultants</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>International Companies</p>
+                          <p><span className="wingdings"> &#x1F7C2;</span>Corporates</p>
+
                         </td>
                       </tr>
                     </tbody>

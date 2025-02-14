@@ -256,6 +256,30 @@ function FactsheetMb() {
               <span className="wingdings"> &#x1F7C2;</span>Institutional
             </p>
           </div>
+          <div>
+      
+      <img src="/assests/Investor-link.png" alt="" style={{ width: 120 }} />
+    
+      <br />
+      <p>
+        <span className="wingdings"> &#x1F7C2;</span>Private Equity
+      </p>
+      <p>
+        <span className="wingdings"> &#x1F7C2;</span>Family Offices
+      </p>
+      <p>
+        <span className="wingdings"> &#x1F7C2;</span>Venture Capital
+      </p>
+      <p>
+        <span className="wingdings"> &#x1F7C2;</span>Investment Consultants
+      </p>
+      <p>
+        <span className="wingdings"> &#x1F7C2;</span>International Companies   
+      </p>
+      <p>
+        <span className="wingdings"> &#x1F7C2;</span>Corporates
+      </p>
+    </div>
         </div>
       </div>
 
