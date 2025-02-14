@@ -17,8 +17,8 @@ const navItems = [
           link: "/factsheet",
         },
         {
-          label: "Exhibitor Brochure",
-          link: "/assests/pdf/WOFX-2024-Brochure.pdf",
+          label: "Brochure",
+          link: "/assests/pdf/WOFX-Brochure-2025.pdf",
         },
         {
           label: "Newsletter",
