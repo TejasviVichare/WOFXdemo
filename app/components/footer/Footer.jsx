@@ -21,6 +21,7 @@ function Footer() {
               <a className='text-slate-300' href="tel:(+91) 022-4037-6700"> <FontAwesomeIcon icon={faPhone} /> (+91) 022-4037-6700</a><br />
               <a className='text-slate-300' href="mailto:contactus@worldexindia.com"> <FontAwesomeIcon icon={faEnvelope} /> contactus@worldexindia.com</a>
             </div>
+            
             <div className={style.nesteddiv}>
               <h3 className='text-xl text-slate-200 font-bold'>QUICK LINKS</h3>
               <p className='text-slate-300'>
