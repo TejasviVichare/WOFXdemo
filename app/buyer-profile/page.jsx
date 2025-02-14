@@ -3,6 +3,8 @@ import blLogo1 from "../../public/assests/blLogo1.png";
 import blLogo2 from "../../public/assests/blLogo2.png";
 import blLogo3 from "../../public/assests/blLogo3.png";
 import blLogo4 from "../../public/assests/blLogo4.png";
+import blLogo5 from "../../public/assests/blLogo5.png";
+
 import Link from "next/link";
 import icon from '../../public/assests/Icon.png'
 
@@ -15,7 +17,7 @@ function Buyer_lounges() {
     <div className="mx-auto  w-full max-w-screen-2xl   mt-32 pt-4 pb-8 ">
     
       <p></p>
-      <div className="flex justify-center gap-5 flex-wrap px-6 py-2  ">
+      <div className="flex justify-center gap-3 flex-wrap px-5 py-2  lg:flex-nowrap">
         <div  className="relative   py-5  w-72 ">
            <div className="w-40  flex items-center justify-center h-44"><Image   src={blLogo1} width={160} height={160} alt="Dealers & Distributors" /></div>
            <div className="py-2">
@@ -63,6 +65,17 @@ function Buyer_lounges() {
             <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Corporate Sourcing Heads</div>
             <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Institutional</div>
           </div>
+        </div>
+        <div  className="relative   py-5  w-72">
+           <div className="w-40  flex items-center justify-center h-44"><Image   src={blLogo5} width={160} height={160} alt="Dealers & Distributors" /></div>
+            <div className="py-2">
+             <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Private Equity </div>
+              <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Family Offices </div>
+              <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Venture Capital </div>
+               <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Investment Consultants</div>
+               <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> International Companies</div>
+             <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Corporates</div>
+             </div>
         </div>
       </div>
     </div>
