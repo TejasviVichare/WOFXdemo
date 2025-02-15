@@ -74,7 +74,6 @@ function FactsheetMb() {
         <div>
           <div>FURNITURE</div>
           <div>
-           
               <p>&bull; &nbsp; Home</p>
               <p>&bull; &nbsp; Office</p>
               <p>&bull; &nbsp; Outdoor</p>
