@@ -57,7 +57,8 @@ export default function Home() {
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
-      <Buyer_lounges />
+      <Buyer_lounges title="Buyer Registration Form"
+  registrationLink="https://www.bee2bee.asia/wofx/buyer-registration"/>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
