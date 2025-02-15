@@ -7,7 +7,6 @@ function FactsheetMb() {
         <center>
           <p className="font-bold text-2xl ">Factsheet</p>
           </center>
-    
       <br />
       <div className="flex flex-col px-2 mb-4 border-b-2  pb-2 mx-2 ">
         <div>
