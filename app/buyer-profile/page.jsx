@@ -10,7 +10,6 @@ function BuyerProfile() {
   return(
     <>
      <div className="py-28">
-   
        <Buyer_lounges />;
      </div>
     </>
