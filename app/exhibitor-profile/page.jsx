@@ -19,7 +19,7 @@ const exhibitorProfileContent = [
   },
   {
     img: "/assests/exhibitorProfile/4.png",
-    text: "Modular",
+    text: "Kitchen & Wardrobes",
   },
   {
     img: "/assests/exhibitorProfile/5.png",
@@ -30,10 +30,10 @@ const exhibitorProfileContent = [
     text: "Handcrafted",
   },
 
-  {
-    img: "/assests/exhibitorProfile/7.png",
-    text: "Plastic",
-  },
+  // {
+  //   img: "/assests/exhibitorProfile/7.png",
+  //   text: "Plastic",
+  // },
   
   {
     img: "/assests/exhibitorProfile/9.png",
@@ -45,12 +45,12 @@ const exhibitorProfileContent = [
   },
   {
     img: "/assests/exhibitorProfile/mattresses.png",
-    text: "Mattresses",
+    text: "Sleep Essentials",
   },
-  {
-    img: "/assests/exhibitorProfile/decor.png",
-    text: "Décor",
-  },
+  // {
+  //   img: "/assests/exhibitorProfile/decor.png",
+  //   text: "Décor",
+  // },
   
 ];
 

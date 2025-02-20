@@ -95,21 +95,21 @@ function page() {
                     <p>• &nbsp; Home</p>
                     <p>• &nbsp; Office</p>
                     <p>• &nbsp; Outdoor</p>
-                    <p>• &nbsp; Modular</p>
+                    <p>• &nbsp; Kitchen & Wardrobes</p>
                     <p>• &nbsp; Kids</p>
-                    <p>• &nbsp; Handcrafted</p>
                   </ul>
                 </td>
                 <td className="pt-2 pb-2">
                   <ul className="list-ul">
                     <br />
-                    <p>• &nbsp; Plastic</p>
-                   
+                  
+                    <p>• &nbsp; Handcrafted</p>
+
                     <p>• &nbsp; School/College</p>
                     <p>• &nbsp; Institutional</p>
-                    <p>• &nbsp; Mattresses</p>
+                    <p>• &nbsp; Sleep Essentials</p>
                     <p>• &nbsp; Carpets</p>
-                    <p>• &nbsp; Décor</p>
+                  
                   </ul>
                 </td>
               </tr>
@@ -164,9 +164,9 @@ function page() {
                 <td className="pt-2 pb-2" colSpan={2}>
                   <ul className="list-ul">
                      <p>• &nbsp; Smart Talk</p>
-                    <p>• &nbsp; Design Walk</p>
-                    <p>• &nbsp; Design Talk</p>
                     <p>• &nbsp; Business Pulse</p>
+                    <p>• &nbsp; F+D Awards</p>
+                    <p>• &nbsp; FIRM</p>
                   </ul>
                 </td>
                 <td />
