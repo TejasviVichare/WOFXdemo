@@ -380,7 +380,6 @@ function page() {
           </button>
         </a>
       </center>
-
       <div>&nbsp;</div>
       <div>&nbsp;</div>
     </>
