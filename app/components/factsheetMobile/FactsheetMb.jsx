@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image"
+import icon from '../../../public/assests/Icon.png'
 
 function FactsheetMb() {
   return (
@@ -151,7 +153,7 @@ function FactsheetMb() {
             &bull; &nbsp; Entry strictly for trade buyers on production of valid
             business cards.
             <br />
-            (Pre-register online or onsite)
+            &nbsp; &nbsp; (Pre-register online or onsite)
           </p>
           <p>&bull; &nbsp; Rights of admission reserved.</p>
           <p>&bull; &nbsp; No registration Fee</p>
@@ -169,25 +171,19 @@ function FactsheetMb() {
               <img src="/assests/blLogo1.png" alt="" style={{ width: 120 }} />
             
               <br />
-              <p>
-                <span className="wingdings">&#x1F7C2;</span>Dealers
-              </p>
-              <p>
-                <span className="wingdings">&#x1F7C2;</span>Distributors
-              </p>
-              <p>
-                <span className="wingdings">&#x1F7C2;</span>Wholesalers
-              </p>
-              <p>
-                <span className="wingdings">&#x1F7C2;</span>Importers
-              </p>
-              <p>
-                <span className="wingdings">&#x1F7C2;</span>
+              <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Dealers
+              </div>
+              <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Distributors
+              </div>
+              <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Wholesalers
+              </div>
+              <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Importers
+              </div>
+              <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>
                 Trading &amp; Buying Houses
-              </p>
-              <p style={{ textAlign: "centers" }}>
-                <span className="wingdings">&#x1F7C2;</span>Agents
-              </p>
+              </div>
+              <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Agents
+              </div>
          
           </div>
           <div>
@@ -195,18 +191,14 @@ function FactsheetMb() {
             <img src="/assests/blLogo4.png" alt="" style={{ width: 120 }} />
        
             <br />
-            <p>
-              <span className="wingdings">&#x1F7C2;</span>Retailers
-            </p>
-            <p>
-              <span className="wingdings">&#x1F7C2;</span>E-Tailers
-            </p>
-            <p>
-              <span className="wingdings">&#x1F7C2;</span>Large Format Retailers
-            </p>
-            <p>
-              <span className="wingdings">&#x1F7C2;</span>Online Traders
-            </p>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Retailers
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>E-Tailers
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Large Format Retailers
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Online Traders
+            </div>
           
           </div>
           <div>
@@ -214,18 +206,14 @@ function FactsheetMb() {
             <img src="/assests/blLogo3.png" alt="" style={{ width: 120 }} />{" "}
             
             <br />
-            <p>
-              <span className="wingdings">&#x1F7C2;</span>Franchisees
-            </p>
-            <p>
-              <span className="wingdings">&#x1F7C2;</span>Entrepreneurs
-            </p>
-            <p>
-              <span className="wingdings">&#x1F7C2;</span>Agents
-            </p>
-            <p>
-              <span className="wingdings">&#x1F7C2;</span>Consultants
-            </p>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Franchisees
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Entrepreneurs
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Agents
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Consultants
+            </div>
            
           </div>
           <div>
@@ -233,50 +221,38 @@ function FactsheetMb() {
             <img src="/assests/blLogo2.png" alt="" style={{ width: 120 }} />
           
             <br />
-            <p>
-              <span className="wingdings"> &#x1F7C2;</span>Architects
-            </p>
-            <p>
-              <span className="wingdings"> &#x1F7C2;</span>Interior Designers
-            </p>
-            <p>
-              <span className="wingdings"> &#x1F7C2;</span>Real Estate
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Architects
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Interior Designers
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Real Estate
               Developers
-            </p>
-            <p>
-              <span className="wingdings"> &#x1F7C2;</span>HORECA
-            </p>
-            <p>
-              <span className="wingdings"> &#x1F7C2;</span>Corporate Sourcing
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>HORECA
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Corporate Sourcing
               Heads
-            </p>
-            <p>
-              <span className="wingdings"> &#x1F7C2;</span>Institutional
-            </p>
+            </div>
+            <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Institutional
+            </div>
           </div>
           <div>
       
       <img src="/assests/Investor-link.png" alt="" style={{ width: 120 }} />
     
       <br />
-      <p>
-        <span className="wingdings"> &#x1F7C2;</span>Private Equity
-      </p>
-      <p>
-        <span className="wingdings"> &#x1F7C2;</span>Family Offices
-      </p>
-      <p>
-        <span className="wingdings"> &#x1F7C2;</span>Venture Capital
-      </p>
-      <p>
-        <span className="wingdings"> &#x1F7C2;</span>Investment Consultants
-      </p>
-      <p>
-        <span className="wingdings"> &#x1F7C2;</span>International Companies   
-      </p>
-      <p>
-        <span className="wingdings"> &#x1F7C2;</span>Corporates
-      </p>
+      <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Private Equity
+      </div>
+      <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Family Offices
+      </div>
+      <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Venture Capital
+      </div>
+      <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Investment Consultants
+      </div>
+      <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>International Companies   
+      </div>
+      <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Corporates
+      </div>
     </div>
         </div>
       </div>
