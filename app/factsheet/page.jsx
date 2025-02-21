@@ -108,7 +108,7 @@ function page() {
                     <p>• &nbsp; School/College</p>
                     <p>• &nbsp; Institutional</p>
                     <p>• &nbsp; Sleep Essentials</p>
-                    <p>• &nbsp; Carpets</p>
+              
                   
                   </ul>
                 </td>
