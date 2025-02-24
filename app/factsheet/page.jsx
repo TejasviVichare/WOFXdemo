@@ -258,7 +258,7 @@ function page() {
                           <p><span className="wingdings">&#x1F7C2;</span>Wholesalers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Importers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>
-                            Trading &amp; Buying Houses
+                            Trading &amp; Buying <br />&nbsp;&nbsp;&nbsp; Houses
                           </p>
                           <p style={{ textAlign: "centers" }}><span className="wingdings">&#x1F7C2;</span>Agents</p>
                      
