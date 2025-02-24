@@ -1,4 +1,7 @@
 import FactsheetMb from "../components/factsheetMobile/FactsheetMb";
+import Image from "next/image"
+import icon from '../../public/assests/Icon.png'
+
 
 export const metadata = {
   title: "Factsheet",
@@ -8,7 +11,7 @@ function page() {
     <>
       <div className="mx-auto   w-full max-w-screen-2xl mt-36 pb-20">
         <div className="md:flex justify-center hidden ">
-          <table align="center" className="w-[70%]  valign-top ">
+          <table align="center" className="w-[75%]  valign-top ">
             <tbody className="valign-top">
               <tr>
                 <td
@@ -180,7 +183,7 @@ function page() {
                     <p>
                       • &nbsp; Entry strictly for trade buyers on production of
                       valid business cards.
-                      <br /> (Pre-register online or
+                      <br /> &nbsp; &nbsp; (Pre-register online or
                       onsite)
                     </p>
                     <p>• &nbsp; Rights of admission reserved.</p>
@@ -229,14 +232,14 @@ function page() {
                             style={{ width: 120 }}
                           />
                         </td>
-                        <td className="p-2 text-center   w-1/5">
+                        <td className="p-2 text-center   w-1/6">
                           <img
                             src="/assests/blLogo3.png"
                             alt="Franchisees"
                             style={{ width: 120 }}
                           />
                         </td>
-                        <td className="p-2 text-center   w-1/6">
+                        <td className="p-2 text-center   w-1/4">
                           <img
                             src="/assests/blLogo2.png"
                             alt="Architects"
@@ -258,38 +261,38 @@ function page() {
                           <p><span className="wingdings">&#x1F7C2;</span>Wholesalers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>Importers</p>
                           <p><span className="wingdings">&#x1F7C2;</span>
-                            Trading &amp; Buying <br />&nbsp;&nbsp;&nbsp; Houses
+                            Trading &amp; Buying Houses
                           </p>
                           <p style={{ textAlign: "centers" }}><span className="wingdings">&#x1F7C2;</span>Agents</p>
                      
                         </td>
                         <td className="w-1/5 " style={{  verticalAlign: "top" }}>
-                          <p><span className="wingdings">&#x1F7C2;</span>Retailers</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>E-Tailers</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>Large Format Retailers</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>Online Traders</p>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Retailers</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>E-Tailers</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Large Format Retailers</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Online Traders</div>
                         </td>
-                        <td className="w-1/5 " style={{ verticalAlign: "top"}}>
-                          <p><span className="wingdings">&#x1F7C2;</span>Franchisees</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>Entrepreneurs</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>Agents</p>
-                          <p><span className="wingdings">&#x1F7C2;</span>Consultants</p>
+                        <td className="w-1/6 " style={{ verticalAlign: "top"}}>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Franchisees</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Entrepreneurs</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Agents</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Consultants</div>
                         </td>
-                        <td className="w-1/5 " style={{ paddingLeft:"10px", position:"relative" ,marginLeft:"80px" ,verticalAlign: "top"}}>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Project Management Consultant</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Architects & Interior Designers</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Real Estate Developers</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>HORECA</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Corporate Sourcing Heads</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Institutional</p>
+                        <td className="w-1/4 " style={{ verticalAlign: "top"}}>
+                          <div className="flex items-center gap-1 "><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Project Management Consultant</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Architects & Interior Designers</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Real Estate Developers</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>HORECA</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Corporate Sourcing Heads</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Institutional</div>
                         </td>
-                        <td className="w-1/5 " style={{ paddingLeft:"10px", position:"relative" ,marginLeft:"80px" ,verticalAlign: "top"}}>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Private Equity</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Family Offices</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Venture Capital</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Investment Consultants</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>International Companies</p>
-                          <p><span className="wingdings"> &#x1F7C2;</span>Corporates</p>
+                        <td className="w-1/5 " style={{verticalAlign: "top"}}>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Private Equity</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Family Offices</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Venture Capital</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Investment Consultants</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>International Companies</div>
+                          <div className="flex items-center gap-1"><span className="wingdings self-start pt-1"><Image src={icon} width={15} height={15} alt="icons" /></span>Corporates</div>
 
                         </td>
                       </tr>
@@ -377,7 +380,6 @@ function page() {
           </button>
         </a>
       </center>
-
       <div>&nbsp;</div>
       <div>&nbsp;</div>
     </>
