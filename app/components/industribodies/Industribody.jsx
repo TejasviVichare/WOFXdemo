@@ -22,10 +22,10 @@ function Industribody() {
             <div className='flex justify-center  flex-wrap '>
                 <div className=''>
                     <center>
-                        <h3>Industry Partner</h3>
+                        <h3>Alliance Partner</h3>
                     </center>
                     <a href="https://www.afmt.in/" className={style.card}>
-                        <Image width="250" className='industry_body_img1 ' src={afmt} alt="Card Background" />
+                        <Image width="320" className='industry_body_img1 ' src={afmt} alt="Card Background" />
                        
                     </a>
                 </div>
