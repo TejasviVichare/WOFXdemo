@@ -25,7 +25,7 @@ const MyForm = () => {
 
   const { push } = useRouter();
   useEffect(()=>{
-     push('https://www.bee2bee.asia/wofx/exhibitor-enquiry')
+     push('https://www.bee2bee.asia/wofx-2025/exhibitor-enquiry')
   },[])
 
   const handleMPCChange = (event) => {
