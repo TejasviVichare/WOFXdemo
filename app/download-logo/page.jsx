@@ -14,9 +14,7 @@ function page() {
                 <a className="text-center py-3 px-4  md:px-16  text-white font-semibold" style={{backgroundColor:'#E73E41'}}  href="/assests/wofxbanner.png" download>Downlaod</a>
             </div>
           </div>
-          
         </div>
-      
       </div>
   )
 }
