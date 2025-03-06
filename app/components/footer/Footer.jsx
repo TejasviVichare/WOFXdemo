@@ -25,8 +25,8 @@ function Footer() {
             <div className={style.nesteddiv}>
               <h3 className='text-xl text-slate-200 font-bold'>QUICK LINKS</h3>
               <p className='text-slate-300'>
-              <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="/exhibitor_enquiry" >Exhibitor Enquiry Form</Link><br />
-              <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="/buyer_reg"
+              <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="https://www.bee2bee.asia/wofx-2025/exhibitor-enquiry" >Exhibitor Enquiry Form</Link><br />
+              <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="https://www.bee2bee.asia/wofx-2025/buyer-registration"
                   target="_blank">Buyer Registration Form</Link><br />
                <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="/exhibitor-profile" >Exhibitor Profile</Link><br />
                <FontAwesomeIcon icon={faRightFromBracket} /> <Link href="buyer-profile" >Buyer Profile</Link><br />
