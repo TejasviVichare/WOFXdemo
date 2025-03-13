@@ -14,8 +14,8 @@ function PreHeader() {
            LOGIN
             &nbsp;
             <span>
-              <a className="px-2 py-2 rounded-sm" style={{ background: "#e73e42", color: "white" }} href="https://www.bee2bee.asia/wofx-2025/exhibitor-enquiry">Exhibitor</a>
-              &nbsp;&nbsp;&nbsp;&nbsp;<a className="px-2 py-2 rounded-sm" style={{ background: "#66c3d0", color: "white" }} href="https://www.bee2bee.asia/wofx-2025/buyer-registration">Buyer</a>
+              <a className="px-2 py-2 rounded-sm" style={{ background: "#e73e42", color: "white" }} href="https://www.bee2bee.asia/wofx/login">Exhibitor</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;<a className="px-2 py-2 rounded-sm" style={{ background: "#66c3d0", color: "white" }} href="https://www.bee2bee.asia/wofx/login">Buyer</a>
             </span>
           </p>
         </div>

@@ -5,7 +5,8 @@ function page() {
   return (
     <div className=" mt-24">
  
- <Buyer_lounges  />
+ <Buyer_lounges title="Buyer Registration Form"
+     registrationLink="https://www.bee2bee.asia/wofx-2025/buyer-registration"/>
 
     </div>  
   )

@@ -53,7 +53,9 @@ export default function Home() {
         <h1 className="text-3xl">Brands Connect @WOFX 2024 </h1>
       </center>
       <p>&nbsp;</p>
-      <Margue />
+       <div className='relative -z-40'>
+       <Margue />
+       </div>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
