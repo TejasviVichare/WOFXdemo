@@ -33,8 +33,8 @@ export default function RootLayout({ children }) {
       <body>
         <GoogleTagManager gtmId="GTM-59M74NMS" />
         <div className={inter.className}>
-          <PreHeader />
-          <Navbar />
+          {/* <PreHeader />
+          <Navbar /> */}
           <NextTopLoader
             color="#34d7e3"
             initialPosition={0.08}
@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
             shadow="0 0 10px #f2f2f3,0 0 5px #f4f4f4"
           />
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>

@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faBars } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../../public/assests/logo-23.png'
 import navItems from '../../contents/navItem.js'
+import newlogo from '../../../public/assests/wofx-logo-black.png'
+import styles from './style.module.css';
 
 export default function Navbar() {
   const [isSideMenuOpen, setSideMenu] = useState(false);
@@ -35,8 +37,8 @@ export default function Navbar() {
     top: isFixed ? '0px' : '40px',
     transition:"0.1s",
     width: '100%',
-    color: '#fff',
-    background:"#000000",
+    color: '#000',
+    background:"#fff",
     zIndex: isFixed ? 100 : 'auto', 
 
   };
@@ -49,17 +51,17 @@ export default function Navbar() {
     setSideMenu(false);
   }
   return (
-    <div className='mx-auto   w-full max-w-screen-2xl ' >
+    <div className='mx-auto   w-full max-w-screen-2xl' >
     <div id={isFixed ? "fixedHeader" : "mainHeader"}  style={headerStyle} className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1 py-1 text-sm header__middle">
       <section className=" items-center gap-8">
         <div>
         <Link href='/'>  <Image
-            src={logo}
+            src={newlogo}
             alt="logo"
             width={300}
             height={80}
             priority={true}
-            className="logo"
+            className={styles.logo}
           /></Link>
         </div>
       </section>
@@ -74,7 +76,7 @@ export default function Navbar() {
             onMouseLeave={() => setHoveredItem(null)}
           >
             <Link href={d.link}>
-            <p className="flex cursor-pointer tracking-wider font-semibold text-sm items-center gap-2 text-slate-300 group-hover:text-white">
+            <p className="flex cursor-pointer tracking-wider font-semibold text-sm items-center gap-2 text-black ">
               <span>{d.label}</span>
               {d.children && (
                 <span className="rotate-180  items-center  justify-center text-xs hidden">
@@ -84,12 +86,13 @@ export default function Navbar() {
             </p>
             </Link>
             {d.children && hoveredItem === i && (
-              <div id="navItem" className="absolute right-0 bg-slate font-semibold top-10 w-auto flex-col gap-1 py-3 transition-all">
+              <div id="navItem" className="absolute right-0 bg-slate font-semibold top-10 w-auto flex-col gap-1 py-3 transition-all bg-white">
                 {d.children.map((ch, j) => (
                   <Link
                     key={j}
                     href={ch.link ?? "#"}
-                    className="flex cursor-pointer font-semibold text-sm items-center py-3 pl-4 pr-8 text-neutral-300 hover:text-white"
+                    style={{backgroundColor:'white', borderBottom:'solid 1px #d9d9d9'}}
+                    className="flex cursor-pointer font-semibold text-sm items-center py-3 pl-4 pr-8 text-black"
                   >
                     <span className="whitespace-nowrap pl-3">{ch.label}</span>
                   </Link>
@@ -101,7 +104,10 @@ export default function Navbar() {
       </div>
     </section>
 
-      <span onClick={openSideMenu} className="cursor-pointer flex justify-center items-center text-white text-4xl md:hidden"><FontAwesomeIcon icon={faBars} /></span>
+    <span onClick={openSideMenu} className="cursor-pointer flex justify-center items-center text-black text-4xl md:hidden">
+  <FontAwesomeIcon icon={faBars} />
+</span>
+
     </div>
     </div>
   );

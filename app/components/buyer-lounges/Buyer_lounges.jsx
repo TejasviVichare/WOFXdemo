@@ -59,6 +59,7 @@ function Buyer_lounges({ title, registrationLink }) {
             <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Entrepreneurs</div>
             <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Agents</div>
             <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Consultants</div>
+        
            </div>
           
         </div>
@@ -72,7 +73,6 @@ function Buyer_lounges({ title, registrationLink }) {
             <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Corporate Sourcing Heads</div>
             <div className="flex items-center gap-1"><span className="wingdings"><Image   src={icon} width={15} height={15} alt="icons" /></span> Institutional</div>
            </div>
-           
         </div>
         <div id="businessLounchCard" className="relative px-3  py-3">
            <div className="blImage"><Image   src={blLogo5} width={160} height={160} alt="Dealers & Distributors" /></div>
