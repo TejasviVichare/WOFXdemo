@@ -46,11 +46,11 @@ const SliderHighlights = () => {
   };
 
   return (
-    <div className='py-20 flex justify-center' style={{backgroundColor:'#D9B471'}}>
-        <Slider {...settings} className="w-3/4 mx-auto">
+    <div className='md:py-20 py-8 flex justify-center' style={{backgroundColor:'#D9B471'}}>
+        <Slider {...settings} className="md:w-3/4 w-full mx-auto">
         {images.map((img, index) => (
           <div key={index} className="px-2">
-          <Image src={img} width={980} height={980} priority={true} alt={`Slide ${index + 1}`} />      
+          <Image src={img} className="w-full" width={980} height={980} priority={true} alt={`Slide ${index + 1}`} />      
            </div>
         ))}
       </Slider>

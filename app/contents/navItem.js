@@ -162,6 +162,22 @@ const navItems = [
       label: "Contact",
       link: "/contact-us",
     },
+    {
+      label: "Login",
+      link: "#",
+      children: [
+        {
+          label: "Exhibitor",
+          link: "https://www.bee2bee.asia/wofx/login",
+        },
+        {
+          label: "Buyer",
+          link: "https://www.bee2bee.asia/wofx/login",
+        }
+      
+
+      ],
+    },
   ];
 
   export default navItems

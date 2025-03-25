@@ -17,7 +17,7 @@ const BuyerLounges = () => {
          {/* First Row */}
         <div className='flex md:flex-row flex-col justify-center md:gap-20'>
             <div className='flex md:flex-row flex-col'>
-                <div className={styles.imgdiv} >
+                <div className={styles.imgdiv}  >
                     <Image src={dealerdist} className='w-44'/>
                 </div>
                 <div className={`${styles.content} bg-white px-4  py-6 sm:w-72`} >

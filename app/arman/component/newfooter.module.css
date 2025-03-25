@@ -6,14 +6,14 @@
     gap: 10px;
     color: #fff;
     background: #592556;
-    padding-top: 35px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 7px;
     max-width: 2000px;
   }
 
   
   .maincontainer a {
-    line-height: 35px;
+    line-height: 25px;
   }
   .social-footer {
     display: flex;

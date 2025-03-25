@@ -8,6 +8,7 @@ import logo from '../../../public/assests/logo-23.png'
 import navItems from '../../contents/navItem.js'
 import newlogo from '../../../public/assests/wofx-logo-black.png'
 import styles from './style.module.css';
+import icon from '../../../public/assests/demoimg/icon.png'
 
 export default function Navbar() {
   const [isSideMenuOpen, setSideMenu] = useState(false);
@@ -34,7 +35,7 @@ export default function Navbar() {
 
   const headerStyle = {
     position: isFixed ? 'fixed' : 'fixed',
-    top: isFixed ? '0px' : '40px',
+    top: isFixed ? '0px' : '10px',
     transition:"0.1s",
     width: '100%',
     color: '#000',
@@ -52,8 +53,8 @@ export default function Navbar() {
   }
   return (
     <div className='mx-auto   w-full max-w-screen-2xl' >
-    <div id={isFixed ? "fixedHeader" : "mainHeader"}  style={headerStyle} className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1 py-1 text-sm header__middle">
-      <section className=" items-center gap-8">
+    <div id={isFixed ? "fixedHeader" : "mainHeader"}  style={headerStyle} className="mx-auto  flex w-full max-w-screen-2xl justify-around px-1  text-sm header__middle">
+      <section className=" items-center gap-8 pb-2">
         <div>
         <Link href='/'>  <Image
             src={newlogo}
@@ -64,8 +65,9 @@ export default function Navbar() {
             className={styles.logo}
           /></Link>
         </div>
+        <Image className="absolute md:top-0 -top-8 right-1 hidden md:block" src={icon} width={160}/>
       </section>
-      <section className="flex items-center gap-10">
+      <section className="flex items-end gap-10" >
       {isSideMenuOpen && <MobileNav closeSideMenu={closeSideMenu} />}
       <div id="mainNav" className="flex items-center gap-4 transition-all">
         {navItems.map((d, i) => (
@@ -76,29 +78,31 @@ export default function Navbar() {
             onMouseLeave={() => setHoveredItem(null)}
           >
             <Link href={d.link}>
-            <p className="flex cursor-pointer tracking-wider font-semibold text-sm items-center gap-2 text-black ">
+            <p className="flex cursor-pointer tracking-wider  text-sm items-center gap-2 text-black ">
               <span>{d.label}</span>
               {d.children && (
-                <span className="rotate-180  items-center  justify-center text-xs hidden">
-                  <FontAwesomeIcon icon={faAngleDown} />
+                <span className="rotate-180  items-center   justify-center text-xs  hidden">
+                  <FontAwesomeIcon icon={faAngleDown} className="text-black" />
                 </span>
+
               )}
             </p>
             </Link>
             {d.children && hoveredItem === i && (
-              <div id="navItem" className="absolute right-0 bg-slate font-semibold top-10 w-auto flex-col gap-1 py-3 transition-all bg-white">
+              <div id="navItem" className="absolute right-0 bg-slate  top-10 w-auto flex-col gap-1  transition-all bg-white ">
                 {d.children.map((ch, j) => (
                   <Link
                     key={j}
                     href={ch.link ?? "#"}
-                    style={{backgroundColor:'white', borderBottom:'solid 1px #d9d9d9'}}
-                    className="flex cursor-pointer font-semibold text-sm items-center py-3 pl-4 pr-8 text-black"
+                    style={{borderBottom:'solid 1px #d9d9d9'}}
+                    className="flex cursor-pointer  text-sm items-center py-3 pl-4 pr-8 text-black bg-white hover:bg-gray-300"
                   >
-                    <span className="whitespace-nowrap pl-3">{ch.label}</span>
+                    <span className="whitespace-nowrap pl-3 ">{ch.label}</span>
                   </Link>
                 ))}
               </div>
             )}
+         
           </div>
         ))}
       </div>
@@ -120,7 +124,7 @@ export default function Navbar() {
 function MobileNav({ closeSideMenu }) {
   return (
     <div id="mobileNav" className="fixed left-0 top-0 flex h-full  min-h-screen w-full border-dashed justify-end bg-black/60 md:hidden">
-      <div className="h-full w-[100%] bg-white px-4 py-4">
+      <div className="h-full w-[100%] bg-white px-4 ">
         <section className="flex justify-end text-black">
           <button onClick={closeSideMenu} className="cursor-pointer text-4xl">&times;</button>
         </section>
