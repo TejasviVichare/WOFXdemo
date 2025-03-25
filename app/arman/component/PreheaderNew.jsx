@@ -1,12 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import GoogletTranslate from "@/app/components/navbar/GoogletTranslate";
 
 function PreHeader() {
   return (
     <div className='mx-auto border-y-rose-500   w-full max-w-screen-2xl'  style={{backgroundColor:'white',color:'black'}}>
-      <div className=" flex-wrap" style={{ display: "flex", alignItems:"center", flexDirection: "row-reverse", columnGap: "20px", paddingTop: "2px", paddingBottom:"2px", paddingLeft: "70px", paddingRight: "70px", height: "40px" }}>
+      <div className="flex flex-wrap justify-start md:pr-28 pr-10" style={{ display: "flex", alignItems:"center", flexDirection: "row-reverse", columnGap: "20px", paddingTop: "2px", paddingBottom:"2px", paddingLeft: "70px",  height: "40px" }}>
         <div className="translate">
-          {/* <GoogletTranslate /> */}
+          <GoogletTranslate />
         </div>
         <div className="mt-3 md:mt-0">
           <p className="pre-header-button" style={{ color: "#A6B4BC",  fontSize: "14px", height: "100%", fontWeight: "500", textTransform: "uppercase" }}>
